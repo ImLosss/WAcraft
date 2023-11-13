@@ -3,7 +3,7 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
-const { chatPublic } = require('./feature/function');
+const { chatPublic, disconnect } = require('./feature/function');
 
 
 const client = new Client({
@@ -86,6 +86,7 @@ client.on('message', async msg => {
                 msg.reply('Anda sedang Online, kirim /dc untuk disconnect');
             } else joinServer(msg, sender, isAdmin, client);
         } else if (prefix.some(pre => text.startsWith(`${pre}chatpublic`))) chatPublic(msg, sender);
+        else if (prefix.some(pre => text.startsWith(`${pre}dc`))) disconnect(msg, sender);
         
     } catch(err) {
         console.log(err)

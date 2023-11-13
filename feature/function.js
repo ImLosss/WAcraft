@@ -22,6 +22,18 @@ async function chatPublic(msg, sender) {
     return msg.reply('Pengaturan berhasil diubah');
 }
 
+async function disconnect(msg, sender) {
+    console.log('tess');
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    dataUser[0].status = 'offline';
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+
+    return msg.reply('Pengaturan berhasil diubah');
+}
+
 module.exports = {
-    chatPrivate, chatPublic
+    chatPrivate, chatPublic, disconnect
 }
