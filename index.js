@@ -84,8 +84,8 @@ client.on('message', async msg => {
         
             if (dataUser[0].status == 'online') { 
                 msg.reply('Anda sedang Online, kirim /dc untuk disconnect');
-            } else joinServer(msg, msg.from, isAdmin, client);
-        } else if (prefix.some(pre => text.startsWith(`${pre}chatpublic`))) chatPublic(msg, msg.from);
+            } else joinServer(msg, sender, isAdmin, client);
+        } else if (prefix.some(pre => text.startsWith(`${pre}chatpublic`))) chatPublic(msg, sender);
         
     } catch(err) {
         console.log(err)

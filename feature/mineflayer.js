@@ -3,6 +3,7 @@ const fs = require('fs');
 
 async function joinServer(msg, sender, isAdmin, client) {
     const chat = await msg.getChat();
+    if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
     let message = msg.body;
     message = message.split(' ');
 
@@ -75,13 +76,15 @@ async function joinServer(msg, sender, isAdmin, client) {
 function sendMsg(client, bot, msg5, sender) {
     return new Promise((resolve) => {
         const list2 = async (msg2) => {
-            const pesan = msg2.body;
-            console.log(pesan);
-            if (pesan == '/dc') { 
-                bot.quit();
-                client.removeListener('message', list2);
-            } else {
-                bot.chat(msg2.body);
+            if(msg2.from = sender) {
+                const pesan = msg2.body;
+                console.log(pesan);
+                if (pesan == '/dc') { 
+                    bot.quit();
+                    client.removeListener('message', list2);
+                } else {
+                    bot.chat(msg2.body);
+                }
             }
         }
 
@@ -104,7 +107,7 @@ function sendMsg(client, bot, msg5, sender) {
 
             msg5.reply('Disconnect');
             resolve('disconnect');
-        })
+        });
     });
 }
 
