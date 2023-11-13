@@ -76,7 +76,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 function sendMsg(client, bot, msg5, sender) {
     return new Promise((resolve) => {
         const list2 = async (msg2) => {
-            if(msg2.from = sender) {
+            if(msg2.from == sender) {
                 const pesan = msg2.body;
                 console.log(pesan);
                 if (pesan == '/dc') { 
