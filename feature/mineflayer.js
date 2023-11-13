@@ -25,6 +25,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         let data = pesan.with;
         if (Array.isArray(data) && data.length > 0) {
             if(!dataUser[0].chatPublic) return;
+            if(pesan.text == '') return;
             let chat2 = data[0].extra;
             const chtArr = chat2.map(item => item.text);
             const chtStr = chtArr.join('');
