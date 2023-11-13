@@ -67,7 +67,6 @@ client.on('message', async msg => {
         }
 
         if(chat.isGroup) {
-            sender = msg.author;
             for(let participant of chat.participants) {
                 if(participant.id._serialized === authorId && participant.isAdmin) {
                     isAdmin = true;
