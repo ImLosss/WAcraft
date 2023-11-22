@@ -5,7 +5,6 @@ async function chatPrivate(msg) {
 }
 
 async function chatPublic(msg, sender) {
-    console.log('tess');
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
 
@@ -22,8 +21,37 @@ async function chatPublic(msg, sender) {
     return msg.reply('Pengaturan berhasil diubah');
 }
 
+async function setIp(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setIp [ip]*')
+    dataUser[0].ip = pesan[1]; 
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+
+    return msg.reply(`IP berhasil diatur ke ${ pesan[1] }`);
+}
+
+async function setUser(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser [username]*')
+    dataUser[0].username = pesan[1]; 
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+
+    return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
+}
+
 async function disconnect(msg, sender) {
-    console.log('tess');
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
 
@@ -35,5 +63,5 @@ async function disconnect(msg, sender) {
 }
 
 module.exports = {
-    chatPrivate, chatPublic, disconnect
+    chatPrivate, chatPublic, disconnect, setIp, setUser
 }
