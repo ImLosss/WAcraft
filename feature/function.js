@@ -59,12 +59,13 @@ async function setAutoMsg(msg, sender) {
     pesan = pesan.split(' ');
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setautomsg [message]*')
-    let message = pesan.slice(2, pesan.length);
+    let message = pesan.slice(1, pesan.length);
+    message = message.join(" ");
     dataUser[0].automsg.message = message;
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-    return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
+    return msg.reply(`automsg berhasil ditur ke ${ message }`);
 }
 
 async function disconnect(msg, sender) {
