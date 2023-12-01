@@ -97,18 +97,18 @@ function sendMsg(client, bot, msg5, sender) {
     });
 }
 
-function automsg(bot, msg, pesan, sender) {
+async function automsg(bot, msg, pesan, sender) {
     try {
-        pesan.split(' ');
+        pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
-        time = time * 6000;
+        time = time * 60000;
         console.log(time)
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
-        dataUser[0].automsg.status = true;
-        if(dataUser[0].automsg.message == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
+
+        if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
         dataUser[0].automsg.status = true;
         const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
