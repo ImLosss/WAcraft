@@ -2,7 +2,6 @@ const mineflayer = require('mineflayer');
 const fs = require('fs');
 
 async function joinServer(msg, sender, isAdmin, client) {
-    let ses = 1;
     const chat = await msg.getChat();
     if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
@@ -31,12 +30,10 @@ async function joinServer(msg, sender, isAdmin, client) {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
 
-        dataUser[0].status = 'online';
-        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
-
-        if(ses == 1) {
+        if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender);
-            ses = ses + 1;
+            dataUser[0].status = 'online';
+            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
         }
     })
 
@@ -74,12 +71,6 @@ function sendMsg(client, bot, msg5, sender) {
         }
 
         client.addListener('message', list2);
-        const listeners = client.listeners('message');
-        console.log(listeners);
-        if (listeners.length > 2) {
-            client.removeListener('message', listeners[2]);
-            console.log(listeners.length);
-        }
 
         bot.on('end', (msg) => {
             console.log(msg);
@@ -99,6 +90,7 @@ function sendMsg(client, bot, msg5, sender) {
 
 async function automsg(bot, msg, pesan, sender) {
     try {
+        const chat = await msg.getChat();
         pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
@@ -117,6 +109,7 @@ async function automsg(bot, msg, pesan, sender) {
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].automsg.status) {
                 bot.chat(auto);
+                chat.sendMessage('*Berhasil mengirim automsg*')
             } else clearInterval(intval);
         }, time);
     } catch(e) {
