@@ -65,7 +65,7 @@ function sendMsg(client, bot, msg5, sender) {
                     bot.on('windowOpen', (items) => {
                         bot.clickWindow(11, 0, 0);
                     })
-                } else if (pesan.startswith('/automsg')) {
+                } else if (pesan.startsWith('/automsg')) {
                     automsg(bot, msg5, pesan);
                 } else {
                     bot.chat(msg2.body);
