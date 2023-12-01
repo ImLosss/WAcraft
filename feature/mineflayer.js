@@ -106,8 +106,7 @@ function automsg(bot, msg, pesan, sender) {
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
-        if(dataUser[0].automsg.status == undefined) dataUser[0].automsg.status = false;
-        if(dataUser[0].automsg.status) return msg.reply('Terdapat automsg yg masih aktif, kirim */automsg of* untuk matikan');
+        dataUser[0].automsg.status = true;
         if(dataUser[0].automsg.message == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
         dataUser[0].automsg.status = true;
         const auto = dataUser[0].automsg.message;

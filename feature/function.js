@@ -58,8 +58,9 @@ async function setAutoMsg(msg, sender) {
     let pesan = msg.body;
     pesan = pesan.split(' ');
 
-    if(pesan.length < 3) return msg.reply('Format kamu salah, kirim kembali dengan format */autmsg set [message]*')
-    dataUser[0].automsg.message = pesan.slice(2, pesan.length);
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setautomsg [message]*')
+    let message = pesan.slice(2, pesan.length);
+    dataUser[0].automsg.message = message;
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
