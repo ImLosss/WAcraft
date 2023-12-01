@@ -57,7 +57,7 @@ async function setAutoMsg(msg, sender) {
 
     let pesan = msg.body;
     pesan = pesan.split(' ');
-
+    if(dataUser[0].automsg == undefined) dataUser[0].automsg = {};
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setautomsg [message]*')
     let message = pesan.slice(1, pesan.length);
     message = message.join(" ");
