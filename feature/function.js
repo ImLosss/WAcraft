@@ -51,6 +51,21 @@ async function setUser(msg, sender) {
     return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
 }
 
+async function setAutoMsg(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 3) return msg.reply('Format kamu salah, kirim kembali dengan format */autmsg set [message]*')
+    dataUser[0].automsg.message = pesan.slice(2, pesan.length);
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+
+    return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
+}
+
 async function disconnect(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
@@ -62,6 +77,17 @@ async function disconnect(msg, sender) {
     return msg.reply('Pengaturan berhasil diubah');
 }
 
+async function automsgof(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    dataUser[0].automsg.status = false;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+
+    return msg.reply('Pengaturan berhasil diubah');
+}
+
 module.exports = {
-    chatPrivate, chatPublic, disconnect, setIp, setUser
+    chatPrivate, chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof
 }

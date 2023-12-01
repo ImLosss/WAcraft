@@ -2,6 +2,7 @@ const mineflayer = require('mineflayer');
 const fs = require('fs');
 
 async function joinServer(msg, sender, isAdmin, client) {
+    let ses = 1;
     const chat = await msg.getChat();
     if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
@@ -33,7 +34,10 @@ async function joinServer(msg, sender, isAdmin, client) {
         dataUser[0].status = 'online';
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-        sendMsg(client, bot, msg, sender);
+        if(ses == 1) {
+            sendMsg(client, bot, msg, sender);
+            ses = ses + 1;
+        }
     })
 
     bot.on('error', (e) => {
@@ -61,6 +65,8 @@ function sendMsg(client, bot, msg5, sender) {
                     bot.on('windowOpen', (items) => {
                         bot.clickWindow(11, 0, 0);
                     })
+                } else if (pesan.startswith('/automsg')) {
+                    automsg(bot, msg5, pesan);
                 } else {
                     bot.chat(msg2.body);
                 }
@@ -89,6 +95,32 @@ function sendMsg(client, bot, msg5, sender) {
             resolve('disconnect');
         });
     });
+}
+
+function automsg(bot, msg, pesan) {
+    try {
+        pesan.split(' ');
+        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
+        let time = pesan[1];
+        time = time * 60;
+
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
+        if(dataUser[0].automsg.status) return msg.reply('Terdapat automsg yg masih aktif, kirim */automsg of* untuk matikan');
+        if(!dataUser[0].automsg.message) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
+        dataUser[0].automsg.status = true;
+        const auto = dataUser[0].automsg.message;
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+        const intval = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(dataUser[0].automsg.status) {
+                bot.chat(auto);
+            } else clearInterval(intval);
+        }, time);
+    } catch(e) {
+        console.log(e);
+    }
 }
 
 module.exports = {
