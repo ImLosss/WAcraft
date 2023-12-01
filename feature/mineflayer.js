@@ -90,12 +90,14 @@ function sendMsg(client, bot, msg5, sender) {
 
 async function automsg(bot, msg, pesan, sender) {
     try {
+        if(pesan == '/automsg of' || pesan == '/automsg off') return;
         const chat = await msg.getChat();
         pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
+        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         time = time * 60000;
-        console.log(time)
+        console.log(time);
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
@@ -104,6 +106,7 @@ async function automsg(bot, msg, pesan, sender) {
         dataUser[0].automsg.status = true;
         const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+        chat.sendMessage('*Berhasil mengaktifkan automsg*');
         const intval = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
