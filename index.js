@@ -3,7 +3,7 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
-const { chatPublic, disconnect, setIp, setUser, setAutoMsg } = require('./feature/function');
+const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof } = require('./feature/function');
 
 
 const client = new Client({
@@ -87,7 +87,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}setip`))) setIp(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}setuser`))) setUser(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}setautomsg`))) setAutoMsg(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}automsg of`))) setAutoMsg(msg, sender);
+        else if (prefix.some(pre => text.startsWith(`${pre}automsg of`))) automsgof(msg, sender);
         
     } catch(err) {
         console.log(err)
