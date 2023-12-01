@@ -102,7 +102,7 @@ function automsg(bot, msg, pesan, sender) {
         pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
-        time = time * 60;
+        time = time * 6000;
         console.log(time)
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
