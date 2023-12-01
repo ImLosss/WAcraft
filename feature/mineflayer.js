@@ -66,7 +66,7 @@ function sendMsg(client, bot, msg5, sender) {
                         bot.clickWindow(11, 0, 0);
                     })
                 } else if (pesan.startsWith('/automsg')) {
-                    automsg(bot, msg5, pesan);
+                    automsg(bot, msg5, pesan, sender);
                 } else {
                     bot.chat(msg2.body);
                 }
@@ -97,7 +97,7 @@ function sendMsg(client, bot, msg5, sender) {
     });
 }
 
-function automsg(bot, msg, pesan) {
+function automsg(bot, msg, pesan, sender) {
     try {
         pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
