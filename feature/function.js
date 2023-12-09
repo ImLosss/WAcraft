@@ -36,6 +36,30 @@ async function setIp(msg, sender) {
     return msg.reply(`IP berhasil diatur ke ${ pesan[1] }`);
 }
 
+async function tellme(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    let except = [];
+    if(dataUser[0].except != undefined) except = dataUser[0].except;
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */tellme [message]*')
+    pesan = pesan.slice(1, pesan.length);
+    pesan = pesan.join(" ");
+
+    except.push(pesan);
+
+    dataUser[0].except = except;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+
+    return msg.reply(`Pesan ${ pesan } berhasil ditambahkan pada whitelist msg`);
+}
+
+
 async function setUser(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);

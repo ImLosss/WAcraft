@@ -20,8 +20,11 @@ async function joinServer(msg, sender, isAdmin, client) {
     bot.on('messagestr', (msgstr) => {
         if(msgstr == "") return;
         console.log(msgstr);
+        let except = [];
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
+        if(dataUser[0].except != undefined) except = dataUser[0].except;
+        if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
         if(!dataUser[0].chatPublic) return;
         chat.sendMessage(msgstr);
     })
@@ -95,7 +98,7 @@ async function automsg(bot, msg, pesan, sender) {
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
         if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
-        time = time * 60000;
+        time = time * 60000 + 1000;
         console.log(time);
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
