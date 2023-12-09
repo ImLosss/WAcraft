@@ -62,6 +62,7 @@ client.on('message', async msg => {
             let data_user = [{
                 chatPublic: true,
                 chatPrivate: true,
+                status: "offline"
             }]
             fs.writeFileSync(dir_data_user, JSON.stringify(data_user));
         }
