@@ -115,5 +115,5 @@ async function automsgof(msg, sender) {
 }
 
 module.exports = {
-    chatPrivate, chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof
+    chatPrivate, chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme
 }
