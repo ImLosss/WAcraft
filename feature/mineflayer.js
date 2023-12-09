@@ -81,7 +81,6 @@ function sendMsg(client, bot, msg5, sender) {
 
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-            client.removeListener('message', list2);
             msg5.reply('Disconnect');
             resolve('disconnect');
         });
