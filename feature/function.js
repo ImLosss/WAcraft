@@ -146,8 +146,8 @@ async function cektellme(msg, sender) {
     if(dataUser[0].except != undefined) except = dataUser[0].except;
     except = except.join(', ');
 
-    if(except.length < 1) return msg.reply(`tellme: *${ except }*`);
-    else return msg.reply('data kosong');
+    if(except.length < 1) return  msg.reply('data kosong');
+    else return msg.reply(`tellme: *${ except }*`);
 }
 
 // Fungsi untuk menghapus nilai tertentu dari array
