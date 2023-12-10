@@ -57,14 +57,14 @@ function sendMsg(client, bot, msg5, sender) {
                 console.log(pesan);
                 if (pesan == '/dc') { 
                     bot.quit();
-                    client.removeListener('message', list2);
                 } else if (pesan == '/survival') {
                     bot.setQuickBarSlot(0);
                     bot.activateItem(false);
-
-                    bot.on('windowOpen', (items) => {
+                    const window = async (items) => {
                         bot.clickWindow(11, 0, 0);
-                    })
+                        bot.removeListener('windowOpen', window);
+                    }
+                    bot.addListener('windowOpen', window);
                 } else if (pesan.startsWith('/automsg')) {
                     automsg(bot, msg5, pesan, sender);
                 } else {
@@ -72,13 +72,12 @@ function sendMsg(client, bot, msg5, sender) {
                 }
             }
         }
-
         client.addListener('message', list2);
 
         bot.on('end', (msg) => {
             console.log(msg);
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-
+            client.removeListener('message', list2);
             dataUser = JSON.parse(dataUser);
             dataUser[0].status = 'offline';
 
@@ -114,7 +113,6 @@ async function automsg(bot, msg, pesan, sender) {
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].automsg.status) {
                 bot.chat(auto);
-                chat.sendMessage('*Berhasil mengirim automsg*')
             } else clearInterval(intval);
         }, time);
     } catch(e) {

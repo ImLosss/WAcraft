@@ -114,6 +114,53 @@ async function automsgof(msg, sender) {
     return msg.reply('Pengaturan berhasil diubah');
 }
 
+async function delltellme(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    let except = [];
+    if(dataUser[0].except != undefined) except = dataUser[0].except;
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */delltellme [message]*')
+    pesan = pesan.slice(1, pesan.length);
+    pesan = pesan.join(" ");
+
+    msg.reply(removeFromArray(except, pesan));
+
+    dataUser[0].except = except;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+}
+
+async function cektellme(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    let except = [];
+    if(dataUser[0].except != undefined) except = dataUser[0].except;
+    except = except.join(', ');
+
+    if(except.length < 1) return msg.reply(`tellme: *${ except }*`);
+    else return msg.reply('data kosong');
+}
+
+// Fungsi untuk menghapus nilai tertentu dari array
+function removeFromArray(arr, value) {
+    const index = arr.indexOf(value);
+    if (index !== -1) {
+        arr.splice(index, 1);
+        return `Berhasil menghapus *${ value }*`;
+    } else {
+        return 'Data tidak ditemukan';
+    }
+}
+
 module.exports = {
-    chatPrivate, chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme
+    chatPrivate, chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme
 }
