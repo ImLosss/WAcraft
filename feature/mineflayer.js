@@ -34,7 +34,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         dataUser = JSON.parse(dataUser);
 
         if(dataUser[0].status == 'offline') {
-            sendMsg(client, bot, msg, sender);
+            sendMsg(client, bot, msg, sender, chat);
             dataUser[0].status = 'online';
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
         }
@@ -42,14 +42,14 @@ async function joinServer(msg, sender, isAdmin, client) {
 
     bot.on('error', (e) => {
         console.log(e.code);
-        if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...');
-        if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...');
-        else msg.reply('Disconnect, Coba kembali...');
+        if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
+        if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+        else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
         return;
     })
 }
 
-function sendMsg(client, bot, msg5, sender) {
+function sendMsg(client, bot, msg5, sender, chat) {
     return new Promise((resolve) => {
         const list2 = async (msg2) => {
             if(msg2.from == sender) {
@@ -77,7 +77,7 @@ function sendMsg(client, bot, msg5, sender) {
         bot.on('kicked', (msg) => {
             msg = JSON.parse(msg);
             console.log(`Kicked : ${ msg.text }`);
-            msg5.reply(`Kicked : ${ msg.text }`);
+            msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
         })
         bot.on('end', (msg) => {
             console.log(msg);
@@ -92,7 +92,7 @@ function sendMsg(client, bot, msg5, sender) {
 
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-            msg5.reply('Disconnect');
+            msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
             resolve('disconnect');
         });
     });
