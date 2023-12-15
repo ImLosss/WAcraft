@@ -1,8 +1,8 @@
 const fs = require('fs');
+const archiver = require('archiver');
+const path = require('path');
+const { MessageMedia } = require('whatsapp-web.js');
 
-async function chatPrivate(msg) {
-    
-}
 
 async function chatPublic(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
@@ -161,6 +161,41 @@ function removeFromArray(arr, value) {
     }
 }
 
+async function backup_database(sourceFolderPath, outputFilePath, msg) {
+    const output = fs.createWriteStream(outputFilePath);
+    const archive = archiver('zip', { zlib: { level: 9 } });
+    const chat = await msg.getChat();
+
+    output.on('close', () => {
+        console.log('Compression completed.');
+        const media = MessageMedia.fromFilePath(outputFilePath);
+        chat.sendMessage(media, { caption: 'Berhasil' });
+    });
+
+    archive.on('error', (error) => {
+        console.error('An error occurred:', error);
+    });
+
+    archive.pipe(output);
+
+    async function addFilesToArchive(folderPath, parentFolderName) {
+        const items = fs.readdirSync(folderPath);
+        for (const item of items) {
+            const itemPath = path.join(folderPath, item);
+            const relativePath = path.join(parentFolderName, item);
+
+            if (fs.statSync(itemPath).isDirectory()) {
+                addFilesToArchive(itemPath, relativePath);
+            } else {
+                archive.append(fs.createReadStream(itemPath), { name: relativePath });
+            }
+        }
+    }
+
+    await addFilesToArchive(sourceFolderPath, path.basename(sourceFolderPath))
+    archive.finalize();
+}
+
 module.exports = {
-    chatPrivate, chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database
 }

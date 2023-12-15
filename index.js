@@ -3,7 +3,7 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
-const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme } = require('./feature/function');
+const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database } = require('./feature/function');
 
 
 const client = new Client({
@@ -83,7 +83,7 @@ client.on('message', async msg => {
             if (dataUser[0].status == 'online') { 
                 msg.reply('Anda sedang Online, kirim /dc untuk disconnect');
             } else joinServer(msg, sender, isAdmin, client);
-        } else if (prefix.some(pre => text.startsWith(`${pre}chatpublic`))) chatPublic(msg, sender);
+        } else if (prefix.some(pre => text.startsWith(`${pre}chatpublic`) || text.startsWith(`${pre}chat`))) chatPublic(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}dc`))) disconnect(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}setip`))) setIp(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}setuser`))) setUser(msg, sender);
@@ -92,6 +92,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}tellme`))) tellme(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}deltellme`))) delltellme(msg, sender);
         else if (prefix.some(pre => text == `${pre}cektellme`)) cektellme(msg, sender);
+        else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
         
     } catch(err) {
         console.log(err)

@@ -74,12 +74,21 @@ function sendMsg(client, bot, msg5, sender) {
         }
         client.addListener('message', list2);
 
+        bot.on('kicked', (msg) => {
+            msg = JSON.parse(msg);
+            console.log(`Disconnect : ${ msg.text }`);
+            msg5.reply(`Disconnect : ${ msg.text }`);
+        })
         bot.on('end', (msg) => {
             console.log(msg);
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             client.removeListener('message', list2);
             dataUser = JSON.parse(dataUser);
             dataUser[0].status = 'offline';
+            dataUser[0].chatPublic = true;
+            if(dataUser[0].automsg != undefined) {
+                dataUser[0].automsg.status = false;
+            }
 
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
