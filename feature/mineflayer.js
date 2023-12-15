@@ -76,8 +76,8 @@ function sendMsg(client, bot, msg5, sender) {
 
         bot.on('kicked', (msg) => {
             msg = JSON.parse(msg);
-            console.log(`Disconnect : ${ msg.text }`);
-            msg5.reply(`Disconnect : ${ msg.text }`);
+            console.log(`Kicked : ${ msg.text }`);
+            msg5.reply(`Kicked : ${ msg.text }`);
         })
         bot.on('end', (msg) => {
             console.log(msg);
