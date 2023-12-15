@@ -1,6 +1,8 @@
 const mineflayer = require('mineflayer');
 const fs = require('fs');
 
+let Lmessagestr, Lspawn, Lerror;
+
 async function joinServer(msg, sender, isAdmin, client) {
     const chat = await msg.getChat();
     if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -17,7 +19,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     })
 
 
-    bot.on('messagestr', (msgstr) => {
+    Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
         console.log(msgstr);
         let except = [];
@@ -27,9 +29,9 @@ async function joinServer(msg, sender, isAdmin, client) {
         if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
         if(!dataUser[0].chatPublic) return;
         chat.sendMessage(msgstr);
-    })
+    }
 
-    bot.on('spawn', () => {
+    Lspawn = async () => {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
 
@@ -38,15 +40,19 @@ async function joinServer(msg, sender, isAdmin, client) {
             dataUser[0].status = 'online';
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
         }
-    })
+    }
 
-    bot.on('error', (e) => {
+    Lerror = async (e) => {
         console.log(e.code);
         if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
         if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
         else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
         return;
-    })
+    }
+
+    bot.addListener('messagestr', Lmessagestr);
+    bot.addListener('spawn', Lspawn);
+    bot.addListener('error', Lerror);
 }
 
 function sendMsg(client, bot, msg5, sender, chat) {
@@ -81,8 +87,12 @@ function sendMsg(client, bot, msg5, sender, chat) {
         })
         bot.on('end', (msg) => {
             console.log(msg);
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             client.removeListener('message', list2);
+            bot.removeListener('messagestr', Lmessagestr);
+            bot.removeListener('spawn', Lspawn);
+            bot.removeListener('error', Lerror);
+
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             dataUser[0].status = 'offline';
             dataUser[0].chatPublic = true;
@@ -122,6 +132,7 @@ async function automsg(bot, msg, pesan, sender) {
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].automsg.status) {
                 bot.chat(auto);
+                if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
             } else clearInterval(intval);
         }, time);
     } catch(e) {
