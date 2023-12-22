@@ -112,6 +112,7 @@ async function automsg(bot, msg, pesan, sender) {
     try {
         const chat = await msg.getChat();
         pesan = pesan.split(' ');
+        if(pesan == '/automsg off' || pesan == '/automsg of') return;
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
 
@@ -142,6 +143,7 @@ async function automsg(bot, msg, pesan, sender) {
             if(!dataUser[0].chatPublic) { 
                 clearInterval(cekautomsg);
                 clearInterval(intval);
+                console.log('menonaktifkan automsg');
             }
         }, 2000);
     } catch(e) {
