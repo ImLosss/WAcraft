@@ -110,7 +110,6 @@ function sendMsg(client, bot, msg5, sender, chat) {
 
 async function automsg(bot, msg, pesan, sender) {
     try {
-        let intval;
         const chat = await msg.getChat();
         pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
@@ -121,10 +120,6 @@ async function automsg(bot, msg, pesan, sender) {
 
         if(dataUser[0].automsg.status) return msg.reply('automsg masih aktif, kirim */automsg of* untuk menonaktifkannya');
         if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
-        if((time == 'of'|| time == 'off') && dataUser[0].automsg.status == false) { 
-            clearInterval(intval); 
-            return console.log('automsg off');
-        }
 
         if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         time = time * 60000 + 1000;
@@ -133,13 +128,21 @@ async function automsg(bot, msg, pesan, sender) {
         const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
         chat.sendMessage('*Berhasil mengaktifkan automsg*');
-        intval = setInterval(() => {
+        const intval = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].automsg.status) {
                 bot.chat(auto);
                 if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
             } else clearInterval(intval);
+            let cekautomsg = setInterval(() => {
+                let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+                dataUser = JSON.parse(dataUser);
+                if(!dataUser[0].chatPublic) { 
+                    clearInterval(cekautomsg);
+                    clearInterval(intval);
+                }
+            }, 2000);
         }, time);
     } catch(e) {
         console.log(e);
