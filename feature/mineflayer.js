@@ -110,6 +110,7 @@ function sendMsg(client, bot, msg5, sender, chat) {
 
 async function automsg(bot, msg, pesan, sender) {
     try {
+        let intval;
         if(pesan == '/automsg of' || pesan == '/automsg off') return;
         const chat = await msg.getChat();
         pesan = pesan.split(' ');
@@ -129,7 +130,7 @@ async function automsg(bot, msg, pesan, sender) {
         const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
         chat.sendMessage('*Berhasil mengaktifkan automsg*');
-        const intval = setInterval(() => {
+        intval = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].automsg.status) {
