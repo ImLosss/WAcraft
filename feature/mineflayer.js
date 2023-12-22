@@ -111,7 +111,6 @@ function sendMsg(client, bot, msg5, sender, chat) {
 async function automsg(bot, msg, pesan, sender) {
     try {
         let intval;
-        if(pesan == '/automsg of' || pesan == '/automsg off') return;
         const chat = await msg.getChat();
         pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
