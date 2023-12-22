@@ -135,15 +135,15 @@ async function automsg(bot, msg, pesan, sender) {
                 bot.chat(auto);
                 if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
             } else clearInterval(intval);
-            let cekautomsg = setInterval(() => {
-                let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-                dataUser = JSON.parse(dataUser);
-                if(!dataUser[0].chatPublic) { 
-                    clearInterval(cekautomsg);
-                    clearInterval(intval);
-                }
-            }, 2000);
         }, time);
+        let cekautomsg = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(!dataUser[0].chatPublic) { 
+                clearInterval(cekautomsg);
+                clearInterval(intval);
+            }
+        }, 2000);
     } catch(e) {
         console.log(e);
     }
