@@ -140,7 +140,7 @@ async function automsg(bot, msg, pesan, sender) {
         let cekautomsg = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
-            if(!dataUser[0].chatPublic) { 
+            if(!dataUser[0].automsg.status) { 
                 clearInterval(cekautomsg);
                 clearInterval(intval);
                 console.log('menonaktifkan automsg');
