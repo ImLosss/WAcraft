@@ -1,1 +1,1 @@
-[{"chatPublic":false,"chatPrivate":true,"ip":"play.claritynetwork.net","username":"Ned","status":"online"}]
+[{"chatPublic":false,"chatPrivate":true,"ip":"play.claritynetwork.net","username":"Ned","status":"online","automsg":{"message":"/feed","status":true},"except":["[me ->","me]->","Ned"]}]

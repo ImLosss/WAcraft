@@ -115,15 +115,16 @@ async function automsg(bot, msg, pesan, sender) {
         pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
-        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
-        time = time * 60000 + 1000;
-        console.log(time);
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
-        if((time == 'of'|| time == 'off') && dataUser[0].automsg.status == false) return clearInterval(intval); 
 
         if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
+        if((time == 'of'|| time == 'off') && dataUser[0].automsg.status == false) return clearInterval(intval); 
+        
+        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
+        time = time * 60000 + 1000;
+        console.log(time);
         dataUser[0].automsg.status = true;
         const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
