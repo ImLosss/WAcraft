@@ -119,9 +119,13 @@ async function automsg(bot, msg, pesan, sender) {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
 
+        if(dataUser[0].automsg.status) return msg.reply('automsg masih aktif, kirim */automsg of* untuk menonaktifkannya');
         if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
-        if((time == 'of'|| time == 'off') && dataUser[0].automsg.status == false) return clearInterval(intval); 
-        
+        if((time == 'of'|| time == 'off') && dataUser[0].automsg.status == false) { 
+            clearInterval(intval); 
+            return console.log('automsg off');
+        }
+
         if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         time = time * 60000 + 1000;
         console.log(time);
