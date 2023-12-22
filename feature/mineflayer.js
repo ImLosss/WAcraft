@@ -43,7 +43,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     }
 
     Lerror = async (e) => {
-        console.log(e.code);
+        console.log(`Lerror ${ e.code }`);
         if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
         if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
         else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
@@ -86,7 +86,7 @@ function sendMsg(client, bot, msg5, sender, chat) {
             msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
         })
         bot.on('end', (msg) => {
-            console.log(msg);
+            console.log(`End: ${ msg }`);
             client.removeListener('message', list2);
             bot.removeListener('messagestr', Lmessagestr);
             bot.removeListener('spawn', Lspawn);
@@ -121,6 +121,7 @@ async function automsg(bot, msg, pesan, sender) {
 
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
+        if((time == 'of'|| time == 'off') && dataUser[0].automsg.status == false) return clearInterval(intval); 
 
         if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
         dataUser[0].automsg.status = true;
