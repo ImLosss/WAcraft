@@ -1,5 +1,6 @@
 const mineflayer = require('mineflayer');
 const fs = require('fs');
+const { autoRightClickOff } = require('./function');
 
 let Lmessagestr, Lspawn, Lerror;
 
@@ -21,7 +22,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 
     Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
-        console.log(msgstr);
+        // console.log(msgstr);
         let except = [];
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
@@ -43,7 +44,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     }
 
     Lerror = async (e) => {
-        console.log(`Lerror ${ e.code }`);
+        console.log(`Lerror: ${ e }`);
         if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
         if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
         else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
@@ -73,6 +74,10 @@ function sendMsg(client, bot, msg5, sender, chat) {
                     bot.addListener('windowOpen', window);
                 } else if (pesan.startsWith('/automsg')) {
                     automsg(bot, msg5, pesan, sender);
+                } else if(pesan == '/playerlist') {
+                    playerOnline(bot, msg5);
+                } else if(pesan.startsWith('/autorightclick')) {
+                    autoRightClick(bot, msg5, pesan, sender);
                 } else {
                     bot.chat(msg2.body);
                 }
@@ -123,12 +128,12 @@ async function automsg(bot, msg, pesan, sender) {
         if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
 
         if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
-        time = time * 60000 + 1000;
-        console.log(time);
+        let time2 = time * 60000 + 1000;
+        console.log(time2);
         dataUser[0].automsg.status = true;
         const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
-        chat.sendMessage('*Berhasil mengaktifkan automsg*');
+        chat.sendMessage(`*Berhasil mengaktifkan automsg tiap ${ time } Menit*`);
         const intval = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
@@ -136,7 +141,7 @@ async function automsg(bot, msg, pesan, sender) {
                 bot.chat(auto);
                 if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
             } else clearInterval(intval);
-        }, time);
+        }, time2);
         let cekautomsg = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
@@ -146,6 +151,57 @@ async function automsg(bot, msg, pesan, sender) {
                 console.log('menonaktifkan automsg');
             }
         }, 2000);
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+async function playerOnline(bot, msg) {
+    try {
+        const chat = await msg.getChat();
+        let player = [];
+        for (const playerName in bot.players) {
+        player.push(playerName);
+        }
+        player = player.join(', ');
+
+        return msg.reply(`*Players Online:*\n\n${ player }`).catch(() => { chat.sendMessage(`*Players Online:*\n\n${ player }`) });
+    } catch(e) {
+        const chat = await msg.getChat();
+        console.log(e);
+        msg.reply('terjadi kesalahan').catch(() => { chat.sendMessage('terjadi kesalahan') });
+    }
+}
+
+async function autoRightClick(bot, msg, pesan, sender) {
+    try {
+        const chat = await msg.getChat();
+        if(pesan == '/autorightclick of' || pesan == '/autorightclick of') {
+            autoRightClickOff(msg, sender);
+            return;
+        };
+        pesan = pesan.split(' ');
+        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */autorightclick [time_in_sec]*');
+        let time = pesan[1];
+
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
+
+        if(dataUser[0].autorightclick) return msg.reply('autorightclick masih aktif, kirim */autorightclick of* untuk menonaktifkannya');
+
+        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */autorightclick [time_in_sec]*');
+        let time2 = time * 1000;
+        console.log(time2);
+        dataUser[0].autorightclick = true;
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+        chat.sendMessage(`*Berhasil mengaktifkan autorightclick tiap ${ time } Detik*`);
+        const intval2 = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(dataUser[0].autorightclick) {
+                bot.activateItem(false);
+            } else clearInterval(intval2);
+        }, time2);
     } catch(e) {
         console.log(e);
     }

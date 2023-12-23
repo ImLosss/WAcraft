@@ -10,6 +10,30 @@ const client = new Client({
     authStrategy: new LocalAuth()
 });
 
+const menu = `╓──▷「 *Menu Command* 」
+║ Author : Losss
+║ Bot_desc : AFK bot for your farm
+╟────「 *List Command* 」
+║ ▹/menu
+║ ▹/join
+╟───「 *Command inGame* 」
+║ ▹/automsg [time_in_min]
+║ ▹/autorightclick [time_in_sec]
+║ ▹/chat [on/off]
+║ ▹/playerlist
+║ ▹/dc
+╟─────「 *example* 」
+║ ▹/chat off
+║ ▹/automsg 1
+╟─────「 *Note* 」
+║ ▹ tanda [ ] pada command *wajib* di
+║   isi
+║ ▹ tanda ( ) pada command bisa
+║   diabaikan
+║ ▹ Harap gunakan perintah dengan 
+║   bijak
+╙───────────────▷`
+
 client.on('qr', qrdata => {
     qrcode.generate(qrdata, {
         small: true
@@ -92,6 +116,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}tellme`))) tellme(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}deltellme`))) delltellme(msg, sender);
         else if (prefix.some(pre => text == `${pre}cektellme`)) cektellme(msg, sender);
+        else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
         else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
         
     } catch(err) {
