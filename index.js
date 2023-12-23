@@ -21,10 +21,14 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/autorightclick [time_in_sec]
 ║ ▹/chat [on/off]
 ║ ▹/playerlist
+║ ▹/tellme [msg]
+║ ▹/cektellme
+║ ▹/deltellme [msg]
 ║ ▹/dc
 ╟─────「 *example* 」
 ║ ▹/chat off
 ║ ▹/automsg 1
+║ ▹/tellme Losss
 ╟─────「 *Note* 」
 ║ ▹ tanda [ ] pada command *wajib* di
 ║   isi
