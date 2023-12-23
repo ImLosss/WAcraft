@@ -29,6 +29,7 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/chat off
 ║ ▹/automsg 1
 ║ ▹/tellme Losss
+║ ▹/cektellme
 ╟─────「 *Note* 」
 ║ ▹ tanda [ ] pada command *wajib* di
 ║   isi
