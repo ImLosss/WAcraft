@@ -149,7 +149,7 @@ async function automsg(bot, msg, pesan, sender) {
             if(!dataUser[0].automsg.status) { 
                 clearInterval(cekautomsg);
                 clearInterval(intval);
-                console.log('menonaktifkan automsg');
+                msg.reply('*Berhasil menonaktifkan automsg*').catch(() => { chat.sendMessage('Berhasil menonaktifkan automsg*') });
             }
         }, 2000);
     } catch(e) {
@@ -211,7 +211,7 @@ async function autoRightClick(bot, msg, pesan, sender) {
             if(!dataUser[0].autorightclick) { 
                 clearInterval(cekautorightclick);
                 clearInterval(intval2);
-                console.log('*Berhasil menonaktifkan autoRightClick*');
+                msg.reply('*Berhasil menonaktifkan autoRightClick*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan autoRightClick*') });
             }
         }, 2000);
     } catch(e) {
