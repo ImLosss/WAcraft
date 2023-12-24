@@ -87,8 +87,9 @@ function sendMsg(client, bot, msg5, sender, chat) {
 
         bot.on('kicked', (msg) => {
             msg = JSON.parse(msg);
-            console.log(msg);
+            console.log(`Kicked: ${ msg }`);
             if (msg.text != undefined) msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
+            if (msg.translate != undefined) msg5.reply(`Kicked : ${ msg.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.translate }`) });
         })
         bot.on('end', (msg) => {
             console.log(`End: ${ msg }`);

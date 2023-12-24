@@ -89,7 +89,7 @@ async function setAutoMsg(msg, sender) {
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-    return msg.reply(`automsg berhasil ditur ke ${ message }`);
+    return msg.reply(`automsg berhasil diatur ke ${ message }`);
 }
 
 async function disconnect(msg, sender) {
