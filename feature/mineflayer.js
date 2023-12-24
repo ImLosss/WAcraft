@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 const fs = require('fs');
 const { autoRightClickOff } = require('./function');
 
-let Lmessagestr, Lspawn, Lerror;
+let Lmessagestr, Lerror;
 
 async function joinServer(msg, sender, isAdmin, client) {
     const chat = await msg.getChat();
@@ -94,7 +94,6 @@ function sendMsg(client, bot, msg5, sender, chat) {
             console.log(`End: ${ msg }`);
             client.removeListener('message', list2);
             bot.removeListener('messagestr', Lmessagestr);
-            bot.removeListener('spawn', Lspawn);
             bot.removeListener('error', Lerror);
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
