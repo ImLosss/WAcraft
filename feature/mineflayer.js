@@ -164,7 +164,7 @@ async function playerOnline(bot, msg) {
         for (const playerName in bot.players) {
             player.push(playerName);
         }
-        let jml = player.length();
+        let jml = player.length;
         player = player.join(', ');
 
         return msg.reply(`*Players Online(${ jml }):*\n\n${ player }`).catch(() => { chat.sendMessage(`*Players Online:*\n\n${ player }`) });
