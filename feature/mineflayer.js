@@ -16,8 +16,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     const bot = mineflayer.createBot({
         host: dataUser[0].ip, 
         username: dataUser[0].username, 
-        auth: 'offline',   
-        connectTimeout: 60000
+        auth: 'offline'
     })
 
 
