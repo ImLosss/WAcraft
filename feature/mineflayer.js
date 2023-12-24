@@ -16,7 +16,8 @@ async function joinServer(msg, sender, isAdmin, client) {
     const bot = mineflayer.createBot({
         host: dataUser[0].ip, 
         username: dataUser[0].username, 
-        auth: 'offline'   
+        auth: 'offline',   
+        connectTimeout: 60000
     })
 
 
@@ -32,16 +33,16 @@ async function joinServer(msg, sender, isAdmin, client) {
         chat.sendMessage(msgstr);
     }
 
-    Lspawn = async () => {
+    bot.once('spawn', () => {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
 
-        if(dataUser[0].status == 'offline') {
+        // if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender, chat);
             dataUser[0].status = 'online';
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
-        }
-    }
+        // }
+    });
 
     Lerror = async (e) => {
         console.log(`Lerror: ${ e }`);
@@ -87,8 +88,8 @@ function sendMsg(client, bot, msg5, sender, chat) {
 
         bot.on('kicked', (msg) => {
             msg = JSON.parse(msg);
-            console.log(`Kicked : ${ msg.text }`);
-            msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
+            console.log(msg);
+            if (msg.text != undefined) msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
         })
         bot.on('end', (msg) => {
             console.log(`End: ${ msg }`);
@@ -124,8 +125,8 @@ async function automsg(bot, msg, pesan, sender) {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
 
+        if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan automsg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
         if(dataUser[0].automsg.status) return msg.reply('automsg masih aktif, kirim */automsg of* untuk menonaktifkannya');
-        if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan auto msg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
 
         if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time2 = time * 60000 + 1000;
@@ -161,11 +162,12 @@ async function playerOnline(bot, msg) {
         const chat = await msg.getChat();
         let player = [];
         for (const playerName in bot.players) {
-        player.push(playerName);
+            player.push(playerName);
         }
+        let jml = player.length();
         player = player.join(', ');
 
-        return msg.reply(`*Players Online:*\n\n${ player }`).catch(() => { chat.sendMessage(`*Players Online:*\n\n${ player }`) });
+        return msg.reply(`*Players Online(${ jml }):*\n\n${ player }`).catch(() => { chat.sendMessage(`*Players Online:*\n\n${ player }`) });
     } catch(e) {
         const chat = await msg.getChat();
         console.log(e);
@@ -202,6 +204,16 @@ async function autoRightClick(bot, msg, pesan, sender) {
                 bot.activateItem(false);
             } else clearInterval(intval2);
         }, time2);
+
+        let cekautorightclick = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(!dataUser[0].autorightclick) { 
+                clearInterval(cekautorightclick);
+                clearInterval(intval2);
+                console.log('*Berhasil menonaktifkan autoRightClick*');
+            }
+        }, 2000);
     } catch(e) {
         console.log(e);
     }

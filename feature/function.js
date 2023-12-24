@@ -111,7 +111,6 @@ async function automsgof(msg, sender) {
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-    return msg.reply('Pengaturan berhasil diubah');
 }
 
 async function autoRightClickOff(msg, sender) {
@@ -122,7 +121,6 @@ async function autoRightClickOff(msg, sender) {
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
 
-    return msg.reply('Pengaturan berhasil diubah');
 }
 
 async function delltellme(msg, sender) {

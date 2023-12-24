@@ -15,6 +15,8 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ Bot_desc : AFK bot for your farm
 ╟────「 *List Command* 」
 ║ ▹/menu
+║ ▹/setip [ip_server]
+║ ▹/setuser [username_mc]
 ║ ▹/join
 ╟───「 *Command inGame* 」
 ║ ▹/automsg [time_in_min]
@@ -28,8 +30,9 @@ const menu = `╓──▷「 *Menu Command* 」
 ╟─────「 *example* 」
 ║ ▹/chat off
 ║ ▹/automsg 1
-║ ▹/tellme Losss
-║ ▹/cektellme
+║ ▹/setip play.claritynetwork.net
+║ ▹/tellme Only 10 more votes
+║ ▹/playerlist
 ╟─────「 *Note* 」
 ║ ▹ tanda [ ] pada command *wajib* di
 ║   isi
