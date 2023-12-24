@@ -102,6 +102,7 @@ function sendMsg(client, bot, msg5, sender, chat) {
             dataUser = JSON.parse(dataUser);
             dataUser[0].status = 'offline';
             dataUser[0].chatPublic = true;
+            dataUser[0].autorightclick = false;
             if(dataUser[0].automsg != undefined) {
                 dataUser[0].automsg.status = false;
             }
