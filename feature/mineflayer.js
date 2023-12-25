@@ -40,7 +40,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         // if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender, chat);
             dataUser[0].status = 'online';
-            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         // }
     });
 
@@ -78,6 +78,8 @@ function sendMsg(client, bot, msg5, sender, chat) {
                     playerOnline(bot, msg5);
                 } else if(pesan.startsWith('/autorightclick')) {
                     autoRightClick(bot, msg5, pesan, sender);
+                } else if(pesan == '/ping') {
+                    chat.sendMessage(`*Ping:* ${ bot.player.ping }`);
                 } else {
                     bot.chat(msg2.body);
                 }
@@ -106,7 +108,7 @@ function sendMsg(client, bot, msg5, sender, chat) {
                 dataUser[0].automsg.status = false;
             }
 
-            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
             msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
             resolve('disconnect');
@@ -133,7 +135,7 @@ async function automsg(bot, msg, pesan, sender) {
         console.log(time2);
         dataUser[0].automsg.status = true;
         const auto = dataUser[0].automsg.message;
-        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         chat.sendMessage(`*Berhasil mengaktifkan automsg tiap ${ time } Menit*`);
         const intval = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
@@ -195,7 +197,7 @@ async function autoRightClick(bot, msg, pesan, sender) {
         let time2 = time * 1000;
         console.log(time2);
         dataUser[0].autorightclick = true;
-        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         chat.sendMessage(`*Berhasil mengaktifkan autorightclick tiap ${ time } Detik*`);
         const intval2 = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');

@@ -4,6 +4,43 @@ const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
 
 
+async function resetDataUser() {
+    const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
+
+    fs.readdir(folderPath, (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+
+        files.forEach(file => {
+            const filePath = path.join(folderPath, file);
+            
+            // Baca file JSON
+            fs.readFile(filePath, 'utf8', (err, data) => {
+                if (err) {
+                    console.error(`Error reading file ${file}:`, err);
+                    return;
+                }
+
+                // Ubah data dalam file JSON
+                try {
+                    const jsonData = JSON.parse(data);
+                    jsonData[0].status = 'offline'; 
+                    jsonData[0].chatPublic = true;
+                    jsonData[0].autorightclick = false;
+                    if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
+
+                    // Tulis kembali file JSON yang telah diubah
+                    fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2));
+                } catch (parseErr) {
+                    console.error(`Error parsing JSON in file ${file}:`, parseErr);
+                }
+            });
+        });
+    });
+}
+
 async function chatPublic(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
@@ -16,7 +53,7 @@ async function chatPublic(msg, sender) {
     else if(pesan[1] == 'on') dataUser[0].chatPublic = true; 
     else return msg.reply('Format kamu salah, kirim kembali dengan format */chatPublic [on/off]*')
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
     return msg.reply('Pengaturan berhasil diubah');
 }
@@ -31,7 +68,7 @@ async function setIp(msg, sender) {
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setIp [ip]*')
     dataUser[0].ip = pesan[1]; 
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
     return msg.reply(`IP berhasil diatur ke ${ pesan[1] }`);
 }
@@ -54,7 +91,7 @@ async function tellme(msg, sender) {
 
     dataUser[0].except = except;
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
     return msg.reply(`Pesan ${ pesan } berhasil ditambahkan pada whitelist msg`);
 }
@@ -70,7 +107,7 @@ async function setUser(msg, sender) {
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser [username]*')
     dataUser[0].username = pesan[1]; 
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
     return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
 }
@@ -87,7 +124,7 @@ async function setAutoMsg(msg, sender) {
     message = message.join(" ");
     dataUser[0].automsg.message = message;
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
     return msg.reply(`automsg berhasil diatur ke ${ message }`);
 }
@@ -98,7 +135,7 @@ async function disconnect(msg, sender) {
 
     dataUser[0].status = 'offline';
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
     return msg.reply('Pengaturan berhasil diubah');
 }
@@ -109,7 +146,7 @@ async function automsgof(msg, sender) {
 
     dataUser[0].automsg.status = false;
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
 }
 
@@ -119,7 +156,7 @@ async function autoRightClickOff(msg, sender) {
 
     dataUser[0].autorightclick = false;
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
 }
 
@@ -141,7 +178,7 @@ async function delltellme(msg, sender) {
 
     dataUser[0].except = except;
 
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser));
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 }
 
 async function cektellme(msg, sender) {
@@ -206,5 +243,5 @@ async function backup_database(sourceFolderPath, outputFilePath, msg) {
 }
 
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, resetDataUser
 }

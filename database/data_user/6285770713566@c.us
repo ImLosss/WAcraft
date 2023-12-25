@@ -1,1 +1,1 @@
-[{"chatPublic":true,"chatPrivate":true,"status":"online","ip":"claritynetwork.net","username":"nowezki","except":["[me ->","me]->"],"automsg":{"message":"/feed","status":true}}]
+[{"chatPublic":true,"chatPrivate":true,"status":"offline","ip":"proxy2.claritynetwork.net","username":"nowezki","except":["[me ->","me]->"],"automsg":{"message":"/ptime day","status":false},"autorightclick":false}]
