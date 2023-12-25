@@ -27,6 +27,7 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/tellme [msg]
 ║ ▹/cektellme
 ║ ▹/deltellme [msg]
+║ ▹/ping
 ║ ▹/dc
 ╟─────「 *example* 」
 ║ ▹/chat off
