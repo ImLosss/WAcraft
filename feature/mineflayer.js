@@ -203,7 +203,7 @@ async function autoRightClick(bot, msg, pesan, sender) {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].autorightclick) {
-                bot.activateItem(false);
+                bot.activateItem();
             } else clearInterval(intval2);
         }, time2);
 

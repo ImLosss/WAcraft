@@ -1,1 +1,19 @@
-[{"chatPublic":false,"chatPrivate":true,"ip":"proxy2.claritynetwork.net","username":"Ned","status":"online","automsg":{"message":"/feed","status":true},"except":["[me ->","me]->","Ned"],"autorightclick":false}]
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "ip": "proxy2.claritynetwork.net",
+    "username": "Ned",
+    "status": "online",
+    "automsg": {
+      "message": "/feed",
+      "status": true
+    },
+    "except": [
+      "[me ->",
+      "me]->",
+      "Ned"
+    ],
+    "autorightclick": false
+  }
+]

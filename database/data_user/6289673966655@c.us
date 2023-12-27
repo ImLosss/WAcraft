@@ -1,1 +1,10 @@
-[{"chatPublic":true,"chatPrivate":true,"status":"offline","ip":"VIP.claritynetwork.net","username":"nowezki"}]
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "VIP.claritynetwork.net",
+    "username": "nowezki",
+    "autorightclick": false
+  }
+]

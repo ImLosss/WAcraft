@@ -1,1 +1,14 @@
-[{"chatPublic":false,"chatPrivate":true,"status":"online","ip":"claritynetwork.net","username":"Railynx","autorightclick":false,"automsg":{"message":"WTB>>> Chrismas Box jual di [/pwarp konmatket] harga mulai dari  2/50","status":false}}]
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "proxy1.claritynetwork.net",
+    "username": "Railynx",
+    "autorightclick": false,
+    "automsg": {
+      "message": "WTB>>> Chrismas Box jual di [/pwarp konmatket] harga mulai dari  2/50",
+      "status": false
+    }
+  }
+]

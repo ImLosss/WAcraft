@@ -1,1 +1,8 @@
-[{"chatPublic":true,"chatPrivate":true}]
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "autorightclick": false
+  }
+]
