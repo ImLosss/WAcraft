@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "proxy2.claritynetwork.net",
     "username": "nowezki",
     "except": [
@@ -11,7 +11,7 @@
     ],
     "automsg": {
       "message": "/feed",
-      "status": true
+      "status": false
     },
     "autorightclick": false
   }

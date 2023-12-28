@@ -106,6 +106,7 @@ function sendMsg(client, bot, msg5, sender, chat) {
             dataUser[0].status = 'offline';
             dataUser[0].chatPublic = true;
             dataUser[0].autorightclick = false;
+            dataUser[0].afkfarm = false;
             if(dataUser[0].automsg != undefined) {
                 dataUser[0].automsg.status = false;
             }

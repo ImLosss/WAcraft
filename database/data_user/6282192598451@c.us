@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "proxy2.claritynetwork.net",
     "username": "Losss",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &c&lDungeon &r&lkamu di [/pwarp Losss]",
-      "status": true
+      "status": false
     },
     "except": [
       "Losss",
