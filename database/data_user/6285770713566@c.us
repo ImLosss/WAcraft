@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "proxy2.claritynetwork.net",
+    "ip": "claritynetwork.net",
     "username": "nowezki",
     "except": [
       "[me ->",
@@ -13,6 +13,7 @@
       "message": "/feed",
       "status": false
     },
-    "autorightclick": false
+    "autorightclick": false,
+    "afkfarm": false
   }
 ]

@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "ip": "proxy2.claritynetwork.net",
+    "ip": "claritynetwork.net",
     "username": "Ned",
     "status": "offline",
     "automsg": {
@@ -14,6 +14,7 @@
       "me]->",
       "Ned"
     ],
-    "autorightclick": false
+    "autorightclick": false,
+    "afkfarm": false
   }
 ]

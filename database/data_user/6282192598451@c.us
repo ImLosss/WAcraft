@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "proxy2.claritynetwork.net",
+    "ip": "claritynetwork.net",
     "username": "Losss",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &c&lDungeon &r&lkamu di [/pwarp Losss]",
@@ -23,6 +23,7 @@
       "Clan locked",
       "KON >"
     ],
-    "autorightclick": false
+    "autorightclick": false,
+    "afkfarm": false
   }
 ]

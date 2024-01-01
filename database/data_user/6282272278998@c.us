@@ -3,6 +3,13 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "autorightclick": false
+    "autorightclick": false,
+    "ip": "claritynetwork.net",
+    "username": "Ego",
+    "automsg": {
+      "message": "/ec",
+      "status": false
+    },
+    "afkfarm": false
   }
 ]
