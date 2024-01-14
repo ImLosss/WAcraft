@@ -1,6 +1,7 @@
 const mineflayer = require('mineflayer');
 const fs = require('fs');
-const { autoRightClickOff, afkFarmOf } = require('./function');
+const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
+const fish = require('./fishing');
 
 let Lmessagestr, Lerror;
 
@@ -81,6 +82,10 @@ function sendMsg(client, bot, msg5, sender, chat) {
                     afkfarm(bot, msg5, pesan, sender);
                 } else if(pesan == '/ping') {
                     chat.sendMessage(`*Ping:* ${ bot.player.ping }`);
+                } else if(pesan == '/afkfish on') {
+                    fish.fishing(bot, msg5, sender);
+                } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
+                    afkFishOf(msg5, sender);
                 } else {
                     bot.chat(msg2.body);
                 }
@@ -106,6 +111,7 @@ function sendMsg(client, bot, msg5, sender, chat) {
             dataUser[0].chatPublic = true;
             dataUser[0].autorightclick = false;
             dataUser[0].afkfarm = false;
+            dataUser[0].afkfish = false;
             if(dataUser[0].automsg != undefined) {
                 dataUser[0].automsg.status = false;
             }
