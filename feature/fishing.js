@@ -20,8 +20,8 @@ exports.fishing = async function(bot, msg, sender) {
         // console.log('Sound heard:', soundName, 'at', position, 'with volume', volume, 'and pitch', pitch);
         if (soundName == 459) {
             status = false;
-            console.log('dapat ikan');
-            setTimeout(bot.activateItem, 1000);
+            console.log('dapat ikan')
+            setTimeout(bot.activateItem, 500);
             setTimeout(() => {
                 let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
                 dataUser = JSON.parse(dataUser);
@@ -30,7 +30,7 @@ exports.fishing = async function(bot, msg, sender) {
                     bot.removeListener('hardcodedSoundEffectHeard', Lsound);
                     chat.sendMessage('*afkfish berhasil dimatikan*');
                 }
-            }, 3000);
+            }, 4000);
         }
     }
     bot.addListener('hardcodedSoundEffectHeard', Lsound);
