@@ -20,7 +20,8 @@ exports.fishing = async function(bot, msg, sender) {
         // console.log('Sound heard:', soundName, 'at', position, 'with volume', volume, 'and pitch', pitch);
         if (soundName == 459) {
             status = false;
-            setTimeout(bot.activateItem, 500);
+            console.log('dapat ikan');
+            setTimeout(bot.activateItem, 1000);
             setTimeout(() => {
                 let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
                 dataUser = JSON.parse(dataUser);
