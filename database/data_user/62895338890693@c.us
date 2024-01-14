@@ -1,10 +1,10 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "ip": "claritynetwork.net",
+    "ip": "proxy2.claritynetwork.net",
     "username": "Ned",
-    "status": "offline",
+    "status": "online",
     "automsg": {
       "message": "/feed",
       "status": false

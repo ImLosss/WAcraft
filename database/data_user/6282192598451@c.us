@@ -3,10 +3,10 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
+    "ip": "proxy1.claritynetwork.net",
     "username": "Losss",
     "automsg": {
-      "message": "/promosi &e&lButuh Duid??? &r&lJual item &c&lDungeon &r&lkamu di [/pwarp Losss]",
+      "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
       "status": false
     },
     "except": [
@@ -21,7 +21,9 @@
       "Only 10 more votes",
       "has been received",
       "Clan locked",
-      "KON >"
+      "KON >",
+      "has been sent",
+      "has been received"
     ],
     "autorightclick": false,
     "afkfarm": false
