@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 exports.fishing = async function(bot, msg, sender) {
     const chat = await msg.getChat();
     let status = false;
