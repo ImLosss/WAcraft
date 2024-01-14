@@ -29,7 +29,7 @@ exports.fishing = async function(bot, msg, sender) {
                     bot.removeListener('hardcodedSoundEffectHeard', Lsound);
                     chat.sendMessage('*afkfish berhasil dimatikan*');
                 }
-            }, 2000);
+            }, 3000);
         }
     }
     bot.addListener('hardcodedSoundEffectHeard', Lsound);
