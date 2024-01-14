@@ -16,7 +16,7 @@ exports.fishing = async function(bot, msg, sender) {
     
     fishing();
 
-    bot.on('hardcodedSoundEffectHeard', (soundName, position, volume, pitch) => {
+    const Lsound = async (soundName, position, volume, pitch) => {
         // console.log('Sound heard:', soundName, 'at', position, 'with volume', volume, 'and pitch', pitch);
         if (soundName == 459) {
             status = false;
@@ -25,10 +25,14 @@ exports.fishing = async function(bot, msg, sender) {
                 let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
                 dataUser = JSON.parse(dataUser);
                 if(dataUser[0].afkfish) fishing();
-                else chat.sendMessage('*afkfish berhasil dimatikan*');
+                else {
+                    bot.removeListener('hardcodedSoundEffectHeard', Lsound);
+                    chat.sendMessage('*afkfish berhasil dimatikan*');
+                }
             }, 2000);
         }
-    })
+    }
+    bot.addListener('hardcodedSoundEffectHeard', Lsound);
 
     async function fishing() {
         status = true;
