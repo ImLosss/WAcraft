@@ -5,7 +5,7 @@ exports.fishing = async function(bot, msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
 
-    if(dataUser[0].afkfish) return msg.reply('afkfish masih aktif, kirim */afkfarm of* untuk menonaktifkannya');
+    if(dataUser[0].afkfish) return msg.reply('afkfish masih aktif, kirim */afkfish of* untuk menonaktifkannya');
     dataUser[0].afkfish = true;
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
