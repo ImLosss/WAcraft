@@ -3,6 +3,7 @@ const fs = require('fs');
 exports.fishing = async function(bot, msg, sender) {
     const chat = await msg.getChat();
     let status = false;
+    let timer;
 
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
@@ -19,6 +20,7 @@ exports.fishing = async function(bot, msg, sender) {
     const Lsound = async (soundName, position, volume, pitch) => {
         // console.log('Sound heard:', soundName, 'at', position, 'with volume', volume, 'and pitch', pitch);
         if (soundName == 459) {
+            clearTimeout(timer);
             status = false;
             console.log('dapat ikan')
             setTimeout(bot.activateItem, 500);
@@ -47,6 +49,7 @@ exports.fishing = async function(bot, msg, sender) {
                 clearInterval(time);
             }
         }, 500);
+        timer = setTimeout(fishing, 10000);
     }
 
     async function equipRod() {
