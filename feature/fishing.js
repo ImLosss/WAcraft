@@ -22,7 +22,7 @@ exports.fishing = async function(bot, msg, sender) {
         if (soundName == 459) {
             clearTimeout(timer);
             status = false;
-            console.log('dapat ikan')
+            chat.sendMessage('catch fish');
             setTimeout(bot.activateItem, 500);
             setTimeout(() => {
                 let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
