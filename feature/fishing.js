@@ -49,7 +49,10 @@ exports.fishing = async function(bot, msg, sender) {
                 clearInterval(time);
             }
         }, 500);
-        timer = setTimeout(fishing, 10000);
+        timer = setTimeout(() => {
+            status = false;
+            setTimeout(fishing, 2000);
+        }, 10000);
     }
 
     async function equipRod() {
