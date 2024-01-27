@@ -29,6 +29,8 @@ async function resetDataUser() {
                     jsonData[0].status = 'offline'; 
                     jsonData[0].chatPublic = true;
                     jsonData[0].autorightclick = false;
+                    jsonData[0].afkfarm = false;
+                    jsonData[0].afkfish = false;
                     if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
 
                     // Tulis kembali file JSON yang telah diubah
