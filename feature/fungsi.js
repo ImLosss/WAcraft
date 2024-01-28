@@ -62,7 +62,7 @@ exports.delautocmd = async function delautocmd(msg, sender) {
     pesan = pesan.split(' ');
 
     let autocmd = [];
-    if(dataUser[0].autocmd != undefined) except = dataUser[0].autocmd;
+    if(dataUser[0].autocmd != undefined) autocmd = dataUser[0].autocmd;
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */delautocmd [message]*')
     pesan = pesan.slice(1, pesan.length);
