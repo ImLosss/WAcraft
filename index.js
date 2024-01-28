@@ -3,7 +3,7 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
-const fungsi = require('./feature/function');
+const fungsi = require('./feature/fungsi');
 const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser } = require('./feature/function');
 
 resetDataUser();
@@ -130,6 +130,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}autocmd`))) fungsi.autocmd(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}delautocmd`))) fungsi.delautocmd(msg, sender);
         else if (prefix.some(pre => text == `${pre}cekautocmd`)) fungsi.cekautocmd(msg, sender);
+        else if (prefix.some(pre => text == `${pre}autoreconnect`)) fungsi.setAutoReconnect(msg, sender);
         else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
         else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
         

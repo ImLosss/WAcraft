@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 const fs = require('fs');
 const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
 const fish = require('./fishing');
-const fungsi = require('./function');
+const fungsi = require('./fungsi');
 
 let Lmessagestr, Lerror;
 
