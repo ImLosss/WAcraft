@@ -21,6 +21,24 @@ async function joinServer(msg, sender, isAdmin, client) {
         auth: 'offline'
     })
 
+    if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) {
+        let array = dataUser[0].autocmd;
+        repeatCmd = 0;
+
+        const repeatInterval = setInterval(() => {
+            chat.sendMessage(`mengirim pesan ${ array[repeatCmd] }`);
+            if (array[repeatCmd] == '/survival') {
+                bot.setQuickBarSlot(0);
+                bot.activateItem(false);
+                bot.once('windowOpen', (items) => {
+                    bot.clickWindow(11, 0, 0);
+                });
+            } else bot.chat(array[repeatCmd]);
+            repeatCmd +=1;
+            if (repeatCmd == array.length) clearInterval(repeatInterval);
+        }, 2000);
+    }
+
 
     Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
@@ -68,11 +86,9 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
                 } else if (pesan == '/survival') {
                     bot.setQuickBarSlot(0);
                     bot.activateItem(false);
-                    const window = async (items) => {
+                    bot.once('windowOpen', (items) => {
                         bot.clickWindow(11, 0, 0);
-                        bot.removeListener('windowOpen', window);
-                    }
-                    bot.addListener('windowOpen', window);
+                    });
                 } else if (pesan.startsWith('/automsg')) {
                     automsg(bot, msg5, pesan, sender);
                 } else if(pesan == '/playerlist') {
