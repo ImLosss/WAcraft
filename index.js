@@ -130,7 +130,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}autocmd`))) fungsi.autocmd(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}delautocmd`))) fungsi.delautocmd(msg, sender);
         else if (prefix.some(pre => text == `${pre}cekautocmd`)) fungsi.cekautocmd(msg, sender);
-        else if (prefix.some(pre => text == `${pre}autoreconnect`)) fungsi.setAutoReconnect(msg, sender);
+        else if (prefix.some(pre => text.startsWith(`${pre}autoreconnect`))) fungsi.setAutoReconnect(msg, sender);
         else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
         else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
         
