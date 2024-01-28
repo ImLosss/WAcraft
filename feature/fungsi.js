@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-exports.setAutoReconnect = async function (msg, sender) { 
+exports.setAutoReconnect = async function setAutoReconnect(msg, sender) { 
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
 
@@ -9,11 +9,11 @@ exports.setAutoReconnect = async function (msg, sender) {
 
     if(pesan.length < 2 || (pesan[1] != 'of' && pesan[1] != 'on')) return msg.reply('Format kamu salah, kirim kembali dengan format */autoReconnect [on/off]*')
     if(pesan[1] == 'on') dataUser[0].autoReconnect = true; 
-    if(pesan[1] == 'of') dataUser[0].autoReconnect = false; 
+    else if(pesan[1] == 'of') dataUser[0].autoReconnect = false; 
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
-    return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
+    return msg.reply(`autoreconnect diatur ke ${ pesan[1] }`);
 }
 
 exports.autocmd = async function autocmd(msg, sender) {
