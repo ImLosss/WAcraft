@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { removeFromArray } = require('./function');
 
 exports.setAutoReconnect = async function setAutoReconnect(msg, sender) { 
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
