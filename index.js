@@ -22,12 +22,16 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/join
 ╟───「 *Command inGame* 」
 ║ ▹/automsg [time_in_min]
-║ ▹/autorightclick [time_in_sec]
+║ ▹/autoRightClick [time_in_sec]
 ║ ▹/chat [on/off]
 ║ ▹/playerlist
 ║ ▹/tellme [msg]
-║ ▹/cektellme
-║ ▹/deltellme [msg]
+║ ▹/cekTellme
+║ ▹/delTellme [msg]
+║ ▹/autoReconnect [on/of]
+║ ▹/autocmd [msg]
+║ ▹/delAutocmd [msg]
+║ ▹/cekAutocmd [msg]
 ║ ▹/ping
 ║ ▹/dc
 ╟─────「 *example* 」
