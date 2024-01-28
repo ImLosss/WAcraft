@@ -31,9 +31,14 @@ exports.autocmd = async function autocmd(msg, sender) {
     pesan = pesan.slice(1, pesan.length);
     pesan = pesan.join(" ");
 
+    let duplicate = false;
     autocmd.forEach(item => {
-        if (item == pesan) return msg.reply(`cmd *${ pesan }* telah ada dalam list cmd`);
+        if (item == pesan) { 
+            duplicate = true;
+            return;
+        }
     });
+    if (duplicate) return msg.reply(`cmd *${ pesan }* telah ada dalam list cmd`);
     autocmd.push(pesan);
 
     dataUser[0].autocmd = autocmd;
