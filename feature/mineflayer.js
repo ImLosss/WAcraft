@@ -2,6 +2,7 @@ const mineflayer = require('mineflayer');
 const fs = require('fs');
 const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
 const fish = require('./fishing');
+const fungsi = require('./function');
 
 let Lmessagestr, Lerror;
 
@@ -38,7 +39,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         dataUser = JSON.parse(dataUser);
 
         // if(dataUser[0].status == 'offline') {
-            sendMsg(client, bot, msg, sender, chat);
+            sendMsg(client, bot, msg, sender, chat, isAdmin);
             dataUser[0].status = 'online';
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         // }
@@ -56,7 +57,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     bot.addListener('error', Lerror);
 }
 
-function sendMsg(client, bot, msg5, sender, chat) {
+function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
     return new Promise((resolve) => {
         const list2 = async (msg2) => {
             if(msg2.from == sender) {
@@ -86,6 +87,8 @@ function sendMsg(client, bot, msg5, sender, chat) {
                     fish.fishing(bot, msg5, sender);
                 } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
                     afkFishOf(msg5, sender);
+                } else if(pesan.startsWith('/autoreconnect')) {
+                    fungsi.setAutoReconnect(msg5, sender);
                 } else {
                     bot.chat(msg2.body);
                 }
@@ -116,10 +119,17 @@ function sendMsg(client, bot, msg5, sender, chat) {
                 dataUser[0].automsg.status = false;
             }
 
-            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-
-            msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
-            resolve('disconnect');
+            if(dataUser[0].autoReconnect) {
+                msg5.reply('*Reconnect after 15 seconds...*');
+                setTimeout(() => {
+                    joinServer(msg5, sender, isAdmin, client);
+                    resolve('reconnect');
+                }, 15000);
+            } else {
+                msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
+                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+                resolve('disconnect');
+            }
         });
     });
 }
