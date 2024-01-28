@@ -264,5 +264,5 @@ async function backup_database(sourceFolderPath, outputFilePath, msg) {
 }
 
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, resetDataUser, afkFarmOf, afkFishOf
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray
 }
