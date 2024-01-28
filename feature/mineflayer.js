@@ -26,7 +26,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         repeatCmd = 0;
 
         const repeatInterval = setInterval(() => {
-            chat.sendMessage(`mengirim pesan ${ array[repeatCmd] }`);
+            chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
             if (array[repeatCmd] == '/survival') {
                 bot.setQuickBarSlot(0);
                 bot.activateItem(false);
@@ -126,8 +126,6 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
-            dataUser[0].status = 'offline';
-            dataUser[0].chatPublic = true;
             dataUser[0].autorightclick = false;
             dataUser[0].afkfarm = false;
             dataUser[0].afkfish = false;
@@ -136,12 +134,15 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
             }
 
             if(dataUser[0].autoReconnect) {
+                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
                 msg5.reply('*Reconnect after 15 seconds...*');
                 setTimeout(() => {
                     joinServer(msg5, sender, isAdmin, client);
                     resolve('reconnect');
                 }, 15000);
             } else {
+                dataUser[0].status = 'offline';
+                dataUser[0].chatPublic = true;
                 msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
                 fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
                 resolve('disconnect');
