@@ -89,6 +89,9 @@ async function tellme(msg, sender) {
     pesan = pesan.slice(1, pesan.length);
     pesan = pesan.join(" ");
 
+    except.forEach(item => {
+        if (item == pesan) return msg.reply(`chat *${ pesan }* telah ada dalam whitelist msg`);
+    });
     except.push(pesan);
 
     dataUser[0].except = except;

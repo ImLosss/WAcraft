@@ -31,13 +31,16 @@ exports.autocmd = async function autocmd(msg, sender) {
     pesan = pesan.slice(1, pesan.length);
     pesan = pesan.join(" ");
 
+    autocmd.forEach(item => {
+        if (item == pesan) return msg.reply(`cmd *${ pesan }* telah ada dalam list cmd`);
+    });
     autocmd.push(pesan);
 
     dataUser[0].autocmd = autocmd;
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
-    return msg.reply(`Pesan ${ pesan } berhasil ditambahkan pada autocmd`);
+    return msg.reply(`Pesan *${ pesan }* berhasil ditambahkan pada autocmd`);
 }
 
 exports.cekautocmd = async function cekautocmd(msg, sender) {
