@@ -56,7 +56,11 @@ async function joinServer(msg, sender, isAdmin, client) {
                     bot.once('windowOpen', (items) => {
                         bot.clickWindow(11, 0, 0);
                     });
-                } else bot.chat(array[repeatCmd]);
+                } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
+                else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
+                else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
+                else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
+                else bot.chat(array[repeatCmd]);
                 repeatCmd +=1;
                 if (repeatCmd == array.length) clearInterval(repeatInterval);
             }, 5000);
