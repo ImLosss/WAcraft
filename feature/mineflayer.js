@@ -46,7 +46,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 
         if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) {
             let array = dataUser[0].autocmd;
-            repeatCmd = 0;
+            let repeatCmd = 0;
     
             const repeatInterval = setInterval(() => {
                 chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
