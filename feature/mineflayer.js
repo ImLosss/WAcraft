@@ -36,7 +36,7 @@ async function joinServer(msg, sender, isAdmin, client) {
             } else bot.chat(array[repeatCmd]);
             repeatCmd +=1;
             if (repeatCmd == array.length) clearInterval(repeatInterval);
-        }, 2000);
+        }, 5000);
     }
 
 
