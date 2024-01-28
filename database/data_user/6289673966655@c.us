@@ -3,8 +3,10 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "VIP.claritynetwork.net",
-    "username": "nowezki",
-    "autorightclick": false
+    "ip": "claritynetwork.net",
+    "username": "Xnzz_",
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false
   }
 ]

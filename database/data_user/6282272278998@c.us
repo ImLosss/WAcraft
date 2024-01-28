@@ -10,6 +10,7 @@
       "message": "/ec",
       "status": false
     },
-    "afkfarm": false
+    "afkfarm": false,
+    "afkfish": false
   }
 ]

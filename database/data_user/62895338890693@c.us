@@ -1,10 +1,10 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "ip": "proxy2.claritynetwork.net",
+    "ip": "proxy1.claritynetwork.net",
     "username": "Ned",
-    "status": "online",
+    "status": "offline",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -12,9 +12,12 @@
     "except": [
       "[me ->",
       "me]->",
-      "Ned"
+      "Ned",
+      "[island]",
+      "[team]"
     ],
     "autorightclick": false,
-    "afkfarm": false
+    "afkfarm": false,
+    "afkfish": false
   }
 ]

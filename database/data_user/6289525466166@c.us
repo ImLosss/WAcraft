@@ -3,8 +3,14 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
+    "username": "Xonezka",
+    "ip": "claritynetwork.net",
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "except": [
+      "Xon",
+      "xon, nez"
+    ]
   }
 ]

@@ -3,6 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "autorightclick": false
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false
   }
 ]

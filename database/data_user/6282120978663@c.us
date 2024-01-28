@@ -8,6 +8,8 @@
     "except": [
       "tes"
     ],
-    "autorightclick": false
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false
   }
 ]

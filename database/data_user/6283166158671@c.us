@@ -4,12 +4,13 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "Railynx",
+    "username": "ClaraMon",
     "autorightclick": false,
     "automsg": {
       "message": "WTB>>> Chrismas Box jual di [/pwarp konmatket] harga mulai dari  2/50",
       "status": false
     },
-    "afkfarm": false
+    "afkfarm": false,
+    "afkfish": false
   }
 ]

@@ -23,9 +23,13 @@
       "Clan locked",
       "KON >",
       "has been sent",
-      "has been received"
+      "has been received",
+      "[island]",
+      "[team]",
+      "has requested"
     ],
     "autorightclick": false,
-    "afkfarm": false
+    "afkfarm": false,
+    "afkfish": false
   }
 ]
