@@ -21,24 +21,6 @@ async function joinServer(msg, sender, isAdmin, client) {
         auth: 'offline'
     })
 
-    if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) {
-        let array = dataUser[0].autocmd;
-        repeatCmd = 0;
-
-        const repeatInterval = setInterval(() => {
-            chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
-            if (array[repeatCmd] == '/survival') {
-                bot.setQuickBarSlot(0);
-                bot.activateItem(false);
-                bot.once('windowOpen', (items) => {
-                    bot.clickWindow(11, 0, 0);
-                });
-            } else bot.chat(array[repeatCmd]);
-            repeatCmd +=1;
-            if (repeatCmd == array.length) clearInterval(repeatInterval);
-        }, 5000);
-    }
-
 
     Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
@@ -61,6 +43,24 @@ async function joinServer(msg, sender, isAdmin, client) {
             dataUser[0].status = 'online';
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         // }
+
+        if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) {
+            let array = dataUser[0].autocmd;
+            repeatCmd = 0;
+    
+            const repeatInterval = setInterval(() => {
+                chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
+                if (array[repeatCmd] == '/survival') {
+                    bot.setQuickBarSlot(0);
+                    bot.activateItem(false);
+                    bot.once('windowOpen', (items) => {
+                        bot.clickWindow(11, 0, 0);
+                    });
+                } else bot.chat(array[repeatCmd]);
+                repeatCmd +=1;
+                if (repeatCmd == array.length) clearInterval(repeatInterval);
+            }, 5000);
+        }
     });
 
     Lerror = async (e) => {
@@ -103,8 +103,6 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
                     fish.fishing(bot, msg5, sender);
                 } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
                     afkFishOf(msg5, sender);
-                } else if(pesan.startsWith('/autoreconnect')) {
-                    fungsi.setAutoReconnect(msg5, sender);
                 } else {
                     bot.chat(msg2.body);
                 }
