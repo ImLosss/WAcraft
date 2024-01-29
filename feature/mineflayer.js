@@ -34,10 +34,8 @@ async function joinServer(msg, sender, isAdmin, client) {
         chat.sendMessage(msgstr);
     }
 
-    bot.once('spawn', () => {
-        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-        dataUser = JSON.parse(dataUser);
-
+    bot.once('spawn', async () => {
+        let dataUser = await fungsi.getDataUser(sender);
         // if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender, chat, isAdmin);
             dataUser[0].status = 'online';
@@ -73,8 +71,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     });
 
     Lerror = async (e) => {
-        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-        dataUser = JSON.parse(dataUser);
+        let dataUser = await fungsi.getDataUser(sender);
         dataUser[0].statusRepeat = false;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         console.log(`Lerror: ${ e }`);
