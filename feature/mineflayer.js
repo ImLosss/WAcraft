@@ -22,8 +22,8 @@ async function joinServer(msg, sender, isAdmin, client) {
         auth: 'offline'
     })
 
-    const joinInt = setTimeout(async () => {
-        let dataUser = await fungsi.getDataUser(sender);
+    const joinInt = setTimeout(() => {
+        let dataUser = fungsi.getDataUser(sender);
         if (dataUser[0].status == 'offline') chat.sendMessage('*Gagal join ke server...*');
     }, 30000);
 
@@ -41,7 +41,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 
     bot.once('spawn', async () => {
         clearInterval(joinInt);
-        let dataUser = await fungsi.getDataUser(sender);
+        let dataUser = fungsi.getDataUser(sender);
         // if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender, chat, isAdmin);
             dataUser[0].status = 'online';
@@ -77,9 +77,6 @@ async function joinServer(msg, sender, isAdmin, client) {
     });
 
     Lerror = async (e) => {
-        let dataUser = await fungsi.getDataUser(sender);
-        dataUser[0].statusRepeat = false;
-        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         console.log(`Lerror: ${ e }`);
         if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
         if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
