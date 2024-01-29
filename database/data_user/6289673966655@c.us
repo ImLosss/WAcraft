@@ -1,12 +1,25 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "claritynetwork.net",
     "username": "Xnzz_",
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "autocmd": [
+      "/login pras2009",
+      "/survival",
+      "/automsg 10"
+    ],
+    "autoReconnect": true,
+    "except": [
+      "xon"
+    ],
+    "automsg": {
+      "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
+      "status": true
+    }
   }
 ]

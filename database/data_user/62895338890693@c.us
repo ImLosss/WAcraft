@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
     "ip": "proxy1.claritynetwork.net",
     "username": "Ned",
-    "status": "offline",
+    "status": "online",
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "except": [
       "[me ->",
@@ -18,6 +18,12 @@
     ],
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "autocmd": [
+      "/login rayajr440",
+      "/survival",
+      "/automsg 2"
+    ],
+    "autoReconnect": true
   }
 ]
