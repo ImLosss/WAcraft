@@ -5,6 +5,7 @@
     "status": "offline",
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "statusRepeat": false
   }
 ]

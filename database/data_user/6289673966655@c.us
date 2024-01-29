@@ -11,15 +11,19 @@
     "autocmd": [
       "/login pras2009",
       "/survival",
-      "/automsg 10"
+      "/automsg 10",
+      "/chatpublic off"
     ],
     "autoReconnect": true,
     "except": [
-      "xon"
+      "xon",
+      "[me ->",
+      "me]->"
     ],
     "automsg": {
       "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
-      "status": true
-    }
+      "status": false
+    },
+    "statusRepeat": false
   }
 ]

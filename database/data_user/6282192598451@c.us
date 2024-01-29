@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "proxy1.claritynetwork.net",
     "username": "Losss",
     "automsg": {
@@ -26,10 +26,18 @@
       "has been received",
       "[island]",
       "[team]",
-      "has requested"
+      "has requested",
+      "Balance"
     ],
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": true,
+    "statusRepeat": false,
+    "autocmd": [
+      "/login 040103",
+      "/survival",
+      "/automsg 10"
+    ],
+    "autoReconnect": false
   }
 ]

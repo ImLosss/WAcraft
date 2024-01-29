@@ -11,6 +11,7 @@
     "except": [
       "Xon",
       "xon, nez"
-    ]
+    ],
+    "statusRepeat": false
   }
 ]

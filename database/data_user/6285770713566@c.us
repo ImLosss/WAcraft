@@ -15,6 +15,7 @@
     },
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "statusRepeat": false
   }
 ]
