@@ -41,6 +41,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         // if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender, chat, isAdmin);
             dataUser[0].status = 'online';
+            dataUser[0].statusRepeat = true;
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         // }
 
@@ -49,25 +50,31 @@ async function joinServer(msg, sender, isAdmin, client) {
             let repeatCmd = 0;
     
             const repeatInterval = setInterval(() => {
-                chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
-                if (array[repeatCmd] == '/survival') {
-                    bot.setQuickBarSlot(0);
-                    bot.activateItem(false);
-                    bot.once('windowOpen', (items) => {
-                        bot.clickWindow(11, 0, 0);
-                    });
-                } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
-                else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
-                else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
-                else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
-                else bot.chat(array[repeatCmd]);
-                repeatCmd +=1;
-                if (repeatCmd == array.length) clearInterval(repeatInterval);
+                let dataUser = fungsi.getDataUser(sender);
+                if(dataUser[0].statusRepeat) {
+                    chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
+                    if (array[repeatCmd] == '/survival') {
+                        bot.setQuickBarSlot(0);
+                        bot.activateItem(false);
+                        bot.once('windowOpen', (items) => {
+                            bot.clickWindow(11, 0, 0);
+                        });
+                    } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
+                    else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
+                    else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
+                    else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
+                    else bot.chat(array[repeatCmd]);
+                    repeatCmd +=1;
+                    if (repeatCmd == array.length) clearInterval(repeatInterval);
+                }
             }, 5000);
         }
     });
 
     Lerror = async (e) => {
+        let dataUser = fungsi.getDataUser(sender);
+        dataUser[0].statusRepeat = false;
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         console.log(`Lerror: ${ e }`);
         if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
         if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
@@ -131,6 +138,7 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
             dataUser[0].autorightclick = false;
             dataUser[0].afkfarm = false;
             dataUser[0].afkfish = false;
+            dataUser[0].statusRepeat = false;
             if(dataUser[0].automsg != undefined) {
                 dataUser[0].automsg.status = false;
             }

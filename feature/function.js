@@ -31,6 +31,7 @@ async function resetDataUser() {
                     jsonData[0].autorightclick = false;
                     jsonData[0].afkfarm = false;
                     jsonData[0].afkfish = false;
+                    jsonData[0].statusRepeat = false;
                     if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
 
                     // Tulis kembali file JSON yang telah diubah
