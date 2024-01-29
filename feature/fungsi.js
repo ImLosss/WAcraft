@@ -83,9 +83,3 @@ exports.delautocmd = async function delautocmd(msg, sender) {
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 }
-
-exports.getDataUser = async function getDataUser(sender) {
-    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-    dataUser = JSON.parse(dataUser);
-    return dataUser;
-}

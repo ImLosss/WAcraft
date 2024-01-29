@@ -50,8 +50,8 @@ async function joinServer(msg, sender, isAdmin, client) {
             let repeatCmd = 0;
     
             const repeatInterval = setInterval(() => {
-                let dataUser = fungsi.getDataUser(sender);
-                if(dataUser[0].statusRepeat == undefined) dataUser[0].statusRepeat = true;
+                let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+                dataUser = JSON.parse(dataUser);
                 if(dataUser[0].statusRepeat) {
                     chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
                     if (array[repeatCmd] == '/survival') {
@@ -73,7 +73,8 @@ async function joinServer(msg, sender, isAdmin, client) {
     });
 
     Lerror = async (e) => {
-        let dataUser = fungsi.getDataUser(sender);
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
         dataUser[0].statusRepeat = false;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         console.log(`Lerror: ${ e }`);
