@@ -229,13 +229,13 @@ async function cektellme(msg, sender) {
 // Fungsi untuk menghapus nilai tertentu dari array
 function removeFromArray(arr, value) {
     if (value == 'reset') {
-        arr = [];
+        arr.splice(0, arr.length); // Hapus semua elemen dari array
         return 'Berhasil reset data';
     } else {
         const index = arr.indexOf(value);
         if (index !== -1) {
             arr.splice(index, 1);
-            return `Berhasil menghapus *${ value }*`;
+            return `Berhasil menghapus *${value}*`;
         } else {
             return 'Data tidak ditemukan';
         }
