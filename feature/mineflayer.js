@@ -12,6 +12,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
 
+    if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
     if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
     if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser [username]*');
 
@@ -21,7 +22,10 @@ async function joinServer(msg, sender, isAdmin, client) {
         auth: 'offline'
     })
 
-
+    setTimeout(async () => {
+        let dataUser = fungsi.getDataUser(sender);
+        if (dataUser[0].status == 'offline') chat.sendMessage('*Gagal join ke server, mencoba join kembali...*');
+    }, 30000);
     Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
         // console.log(msgstr);
@@ -134,6 +138,7 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
+            dataUser[0].status = 'offline';
             dataUser[0].autorightclick = false;
             dataUser[0].afkfarm = false;
             dataUser[0].afkfish = false;
@@ -150,7 +155,6 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
                     resolve('reconnect');
                 }, 15000);
             } else {
-                dataUser[0].status = 'offline';
                 dataUser[0].chatPublic = true;
                 msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
                 fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
