@@ -22,10 +22,11 @@ async function joinServer(msg, sender, isAdmin, client) {
         auth: 'offline'
     })
 
-    setTimeout(async () => {
-        let dataUser = fungsi.getDataUser(sender);
-        if (dataUser[0].status == 'offline') chat.sendMessage('*Gagal join ke server, mencoba join kembali...*');
+    const joinInt = setTimeout(async () => {
+        let dataUser = await fungsi.getDataUser(sender);
+        if (dataUser[0].status == 'offline') chat.sendMessage('*Gagal join ke server...*');
     }, 30000);
+
     Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
         // console.log(msgstr);
@@ -39,6 +40,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     }
 
     bot.once('spawn', async () => {
+        clearInterval(joinInt);
         let dataUser = await fungsi.getDataUser(sender);
         // if(dataUser[0].status == 'offline') {
             sendMsg(client, bot, msg, sender, chat, isAdmin);
