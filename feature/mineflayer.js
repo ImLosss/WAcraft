@@ -51,6 +51,7 @@ async function joinServer(msg, sender, isAdmin, client) {
     
             const repeatInterval = setInterval(() => {
                 let dataUser = fungsi.getDataUser(sender);
+                if(dataUser[0].statusRepeat == undefined) dataUser[0].statusRepeat = true;
                 if(dataUser[0].statusRepeat) {
                     chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
                     if (array[repeatCmd] == '/survival') {
