@@ -74,7 +74,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         bot.once('kicked', (msgK) => {
             msgK = JSON.parse(msgK);
             console.log(`Kicked: ${ msgK }`);
-            if (msgK.text != undefined) msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
+            if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
             if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
             if (msgK.extra != undefined) msg.reply(`Kicked : ${ msgK.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.extra[0].text }`) });
             bot.quit();
@@ -91,6 +91,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         bot.addListener('messagestr', Lmessagestr);
         bot.addListener('error', Lerror);
     } catch (err) {
+        console.log(err);
         chat.sendMessage('Error');
     }
 }
