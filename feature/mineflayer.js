@@ -8,88 +8,91 @@ let Lmessagestr, Lerror;
 
 async function joinServer(msg, sender, isAdmin, client) {
     const chat = await msg.getChat();
-    if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
-    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-    dataUser = JSON.parse(dataUser);
-
-    if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
-    if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
-    if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser [username]*');
-
-    const bot = mineflayer.createBot({
-        host: dataUser[0].ip, 
-        username: dataUser[0].username, 
-        auth: 'offline'
-    })
-
-    Lmessagestr = async (msgstr) => {
-        if(msgstr == "") return;
-        // console.log(msgstr);
-        let except = [];
+    try {
+        if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
-        if(dataUser[0].except != undefined) except = dataUser[0].except;
-        if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
-        if(!dataUser[0].chatPublic) return;
-        chat.sendMessage(msgstr);
-    }
 
-    bot.once('spawn', async () => {
-        clearInterval(joinInt);
-        let dataUser = fungsi.getDataUser(sender);
-        // if(dataUser[0].status == 'offline') {
-            sendMsg(client, bot, msg, sender, chat, isAdmin);
-            dataUser[0].status = 'online';
-            dataUser[0].statusRepeat = true;
-            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-        // }
+        if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
+        if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
+        if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser [username]*');
 
-        if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) {
-            let array = dataUser[0].autocmd;
-            let repeatCmd = 0;
-    
-            const repeatInterval = setInterval(() => {
-                let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-                dataUser = JSON.parse(dataUser);
-                if(dataUser[0].statusRepeat) {
-                    chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
-                    if (array[repeatCmd] == '/survival') {
-                        bot.setQuickBarSlot(0);
-                        bot.activateItem(false);
-                        bot.once('windowOpen', (items) => {
-                            bot.clickWindow(11, 0, 0);
-                        });
-                    } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
-                    else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
-                    else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
-                    else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
-                    else bot.chat(array[repeatCmd]);
-                    repeatCmd +=1;
-                    if (repeatCmd == array.length) clearInterval(repeatInterval);
-                } else clearInterval(repeatInterval);
-            }, 5000);
+        const bot = mineflayer.createBot({
+            host: dataUser[0].ip, 
+            username: dataUser[0].username, 
+            auth: 'offline'
+        })
+
+        Lmessagestr = async (msgstr) => {
+            if(msgstr == "") return;
+            // console.log(msgstr);
+            let except = [];
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(dataUser[0].except != undefined) except = dataUser[0].except;
+            if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
+            if(!dataUser[0].chatPublic) return;
+            chat.sendMessage(msgstr);
         }
-    });
 
-    bot.once('kicked', (msgK) => {
-        msgK = JSON.parse(msgK);
-        console.log(`Kicked: ${ msgK }`);
-        if (msgK.text != undefined) msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
-        if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
-        if (msgK.extra != undefined) msg.reply(`Kicked : ${ msgK.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.extra[0].text }`) });
-        bot.quit();
-    })
+        bot.once('spawn', async () => {
+            let dataUser = fungsi.getDataUser(sender);
+            // if(dataUser[0].status == 'offline') {
+                sendMsg(client, bot, msg, sender, chat, isAdmin);
+                dataUser[0].status = 'online';
+                dataUser[0].statusRepeat = true;
+                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+            // }
 
-    Lerror = async (e) => {
-        console.log(`Lerror: ${ e }`);
-        if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
-        if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-        else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-        return;
+            if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) {
+                let array = dataUser[0].autocmd;
+                let repeatCmd = 0;
+        
+                const repeatInterval = setInterval(() => {
+                    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+                    dataUser = JSON.parse(dataUser);
+                    if(dataUser[0].statusRepeat) {
+                        chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
+                        if (array[repeatCmd] == '/survival') {
+                            bot.setQuickBarSlot(0);
+                            bot.activateItem(false);
+                            bot.once('windowOpen', (items) => {
+                                bot.clickWindow(11, 0, 0);
+                            });
+                        } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
+                        else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
+                        else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
+                        else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
+                        else bot.chat(array[repeatCmd]);
+                        repeatCmd +=1;
+                        if (repeatCmd == array.length) clearInterval(repeatInterval);
+                    } else clearInterval(repeatInterval);
+                }, 5000);
+            }
+        });
+
+        bot.once('kicked', (msgK) => {
+            msgK = JSON.parse(msgK);
+            console.log(`Kicked: ${ msgK }`);
+            if (msgK.text != undefined) msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
+            if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
+            if (msgK.extra != undefined) msg.reply(`Kicked : ${ msgK.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.extra[0].text }`) });
+            bot.quit();
+        })
+
+        Lerror = async (e) => {
+            console.log(`Lerror: ${ e }`);
+            if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
+            if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+            else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+            return;
+        }
+
+        bot.addListener('messagestr', Lmessagestr);
+        bot.addListener('error', Lerror);
+    } catch (err) {
+        chat.sendMessage('Error');
     }
-
-    bot.addListener('messagestr', Lmessagestr);
-    bot.addListener('error', Lerror);
 }
 
 function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
