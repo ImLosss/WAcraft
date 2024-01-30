@@ -4,7 +4,7 @@ const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 
-let Lmessagestr, Lerror;
+let Lmessagestr;
 
 async function joinServer(msg, sender, isAdmin, client) {
     const chat = await msg.getChat();
@@ -80,16 +80,15 @@ async function joinServer(msg, sender, isAdmin, client) {
             bot.quit();
         })
 
-        Lerror = async (e) => {
+        bot.once('error', (e) => {
             console.log(`Lerror: ${ e }`);
             if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
-            if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+            else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
             else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-            return;
-        }
+            bot.quit();
+        })
 
         bot.addListener('messagestr', Lmessagestr);
-        bot.addListener('error', Lerror);
     } catch (err) {
         console.log(err);
         chat.sendMessage('Error');
@@ -135,7 +134,6 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
             console.log(`End: ${ msg }`);
             client.removeListener('message', list2);
             bot.removeListener('messagestr', Lmessagestr);
-            bot.removeListener('error', Lerror);
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);

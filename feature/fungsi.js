@@ -8,9 +8,9 @@ exports.setAutoReconnect = async function setAutoReconnect(msg, sender) {
     let pesan = msg.body;
     pesan = pesan.split(' ');
 
-    if(pesan.length < 2 || (pesan[1] != 'of' && pesan[1] != 'on')) return msg.reply('Format kamu salah, kirim kembali dengan format */autoReconnect [on/off]*')
+    if(pesan.length < 2 || (pesan[1] != 'of' && pesan[1] != 'on' && pesan[1] != 'off')) return msg.reply('Format kamu salah, kirim kembali dengan format */autoReconnect [on/off]*')
     if(pesan[1] == 'on') dataUser[0].autoReconnect = true; 
-    else if(pesan[1] == 'of') dataUser[0].autoReconnect = false; 
+    else if(pesan[1] == 'of' || pesan[1] == 'off') dataUser[0].autoReconnect = false; 
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 

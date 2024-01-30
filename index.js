@@ -20,6 +20,10 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/setip [ip_server]
 ║ ▹/setuser [username_mc]
 ║ ▹/join
+║ ▹/autoReconnect [on/of]
+║ ▹/autocmd [msg]
+║ ▹/delAutocmd [msg]
+║ ▹/cekAutocmd [msg]
 ╟───「 *Command inGame* 」
 ║ ▹/automsg [time_in_min]
 ║ ▹/autoRightClick [time_in_sec]
@@ -28,10 +32,6 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/tellme [msg]
 ║ ▹/cekTellme
 ║ ▹/delTellme [msg]
-║ ▹/autoReconnect [on/of]
-║ ▹/autocmd [msg]
-║ ▹/delAutocmd [msg]
-║ ▹/cekAutocmd [msg]
 ║ ▹/ping
 ║ ▹/dc
 ╟─────「 *example* 」
