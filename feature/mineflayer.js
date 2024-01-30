@@ -22,11 +22,6 @@ async function joinServer(msg, sender, isAdmin, client) {
         auth: 'offline'
     })
 
-    const joinInt = setTimeout(() => {
-        let dataUser = fungsi.getDataUser(sender);
-        if (dataUser[0].status == 'offline') chat.sendMessage('*Gagal join ke server...*');
-    }, 30000);
-
     Lmessagestr = async (msgstr) => {
         if(msgstr == "") return;
         // console.log(msgstr);
@@ -76,6 +71,15 @@ async function joinServer(msg, sender, isAdmin, client) {
         }
     });
 
+    bot.once('kicked', (msgK) => {
+        msgK = JSON.parse(msgK);
+        console.log(`Kicked: ${ msgK }`);
+        if (msgK.text != undefined) msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
+        if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
+        if (msgK.extra != undefined) msg.reply(`Kicked : ${ msgK.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.extra[0].text }`) });
+        bot.quit();
+    })
+
     Lerror = async (e) => {
         console.log(`Lerror: ${ e }`);
         if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
@@ -123,14 +127,6 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
         }
         client.addListener('message', list2);
 
-        bot.on('kicked', (msg) => {
-            msg = JSON.parse(msg);
-            console.log(`Kicked: ${ msg }`);
-            if (msg.text != undefined) msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
-            if (msg.translate != undefined) msg5.reply(`Kicked : ${ msg.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.translate }`) });
-            if (msg.extra != undefined) msg5.reply(`Kicked : ${ msg.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.extra[0].text }`) });
-            bot.quit();
-        })
         bot.on('end', (msg) => {
             console.log(`End: ${ msg }`);
             client.removeListener('message', list2);
@@ -179,7 +175,7 @@ async function automsg(bot, msg, pesan, sender) {
         if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan automsg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
         if(dataUser[0].automsg.status) return msg.reply('automsg masih aktif, kirim */automsg of* untuk menonaktifkannya');
 
-        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
+        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time2 = time * 60000 + 1000;
         console.log(time2);
         dataUser[0].automsg.status = true;
@@ -242,7 +238,7 @@ async function autoRightClick(bot, msg, pesan, sender) {
 
         if(dataUser[0].autorightclick) return msg.reply('autorightclick masih aktif, kirim */autorightclick of* untuk menonaktifkannya');
 
-        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */autorightclick [time_in_sec]*');
+        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */autorightclick [time_in_sec]*');
         let time2 = time * 1000;
         console.log(time2);
         dataUser[0].autorightclick = true;
@@ -286,7 +282,7 @@ async function afkfarm(bot, msg, pesan, sender) {
 
         if(dataUser[0].afkfarm) return msg.reply('afkfarm masih aktif, kirim */afkfarm of* untuk menonaktifkannya');
 
-        if(isNaN(time)) return msg.reply('Format anda salah kirim kembali dengan format */afkfarm [time_in_sec]*');
+        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */afkfarm [time_in_sec]*');
         let time2 = time * 1000;
         console.log(time2);
         dataUser[0].afkfarm = true;
