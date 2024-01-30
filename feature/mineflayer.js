@@ -128,6 +128,8 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
             console.log(`Kicked: ${ msg }`);
             if (msg.text != undefined) msg5.reply(`Kicked : ${ msg.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.text }`) });
             if (msg.translate != undefined) msg5.reply(`Kicked : ${ msg.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.translate }`) });
+            if (msg.extra != undefined) msg5.reply(`Kicked : ${ msg.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msg.extra[0].text }`) });
+            bot.quit();
         })
         bot.on('end', (msg) => {
             console.log(`End: ${ msg }`);
