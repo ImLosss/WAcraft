@@ -73,7 +73,8 @@ async function joinServer(msg, sender, isAdmin, client) {
 
         bot.once('kicked', (msgK) => {
             msgK = JSON.parse(msgK);
-            console.log(`Kicked: ${ msgK }`);
+            let time = fungsi.getTime();
+            console.log(`(${ time }) Kicked: ${ msgK }`);
             if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
             if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
             if (msgK.extra != undefined) msg.reply(`Kicked : ${ msgK.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.extra[0].text }`) });
@@ -81,7 +82,8 @@ async function joinServer(msg, sender, isAdmin, client) {
         })
 
         bot.once('error', (e) => {
-            console.log(`Lerror: ${ e }`);
+            let time = fungsi.getTime();
+            console.log(`(${ time }) Lerror: ${ e }`);
             if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
             else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
             else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });

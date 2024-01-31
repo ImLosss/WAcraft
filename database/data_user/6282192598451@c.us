@@ -2,9 +2,9 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
-    "ip": "proxy1.claritynetwork.net",
-    "username": "Losss",
+    "status": "offline",
+    "ip": "play.luckynetwork.net",
+    "username": "shenxx",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
       "status": false
@@ -31,7 +31,7 @@
     ],
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": true,
+    "afkfish": false,
     "statusRepeat": false,
     "autocmd": [
       "/login 040103",

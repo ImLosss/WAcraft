@@ -89,3 +89,32 @@ exports.getDataUser = function getDataUser(sender) {
     dataUser = JSON.parse(dataUser);
     return dataUser;
 }
+
+exports.getTime = function getTime() {
+    // Buat objek Date
+    const date = new Date();
+
+    // Atur zona waktu ke WITA (GMT+8)
+    date.setUTCHours(date.getUTCHours() + 8);
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1; // Ingat bahwa indeks bulan dimulai dari 0 (Januari = 0)
+    const day = date.getDate();
+    const dayOfWeekIndex = date.getDay();
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+    formattedTime = {
+        day: days[dayOfWeekIndex],
+        date: day,
+        month: month,
+        year: year,
+        hours:hours,
+        minutes: minutes,
+        seconds: seconds
+    }
+
+    return `${ formattedTime.day } / ${ formattedTime.date }-${ formattedTime.month }-${ formattedTime.year } / ${ formattedTime.hours }.${ formattedTime.minutes }`;
+
+}

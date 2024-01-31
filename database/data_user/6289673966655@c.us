@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "claritynetwork.net",
     "username": "Xnzz_",
     "autorightclick": false,
@@ -14,7 +14,7 @@
       "/automsg 10",
       "/chatpublic off"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "except": [
       "xon",
       "[me ->",

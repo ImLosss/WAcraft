@@ -12,6 +12,12 @@
     },
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false
+    "statusRepeat": false,
+    "autoReconnect": false,
+    "autocmd": [
+      "/login tolol123",
+      "/survival",
+      "/autorightclick 5"
+    ]
   }
 ]
