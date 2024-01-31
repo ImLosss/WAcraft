@@ -74,7 +74,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         bot.once('kicked', (msgK) => {
             msgK = JSON.parse(msgK);
             let time = fungsi.getTime();
-            console.log(`(${ time }) Kicked: ${ msgK }`);
+            console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
             if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
             if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
             if (msgK.extra != undefined) msg.reply(`Kicked : ${ msgK.extra[0].text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.extra[0].text }`) });
