@@ -99,6 +99,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+                bot.quit();
             } catch (e) {
                 console.log(e);
                 msg.reply(`Terjadi kesalahan, coba kembali...`).catch(() => { chat.sendMessage(`Terjadi kesalahan, coba kembali...`) });
@@ -147,7 +148,7 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
         }
         client.addListener('message', list2);
 
-        bot.on('end', (msg) => {
+        bot.once('end', (msg) => {
             console.log(`End: ${ msg }`);
             client.removeListener('message', list2);
             bot.removeListener('messagestr', Lmessagestr);
