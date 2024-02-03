@@ -137,6 +137,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}autoreconnect`))) fungsi.setAutoReconnect(msg, sender);
         else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
         else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
+        else if (prefix.some(pre => text.startsWith(`${pre}sendmsg`)) && sender == "6282192598451@c.us") fungsi.sendMsg(msg, client);
         
     } catch(err) {
         console.log(err)
