@@ -3,10 +3,10 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.luckynetwork.net",
-    "username": "shenxx",
+    "ip": "play.claritynetwork.net",
+    "username": "Losss",
     "automsg": {
-      "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
+      "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lEvent &r&lkamu di [/pwarp Losss]",
       "status": false
     },
     "except": [
@@ -27,7 +27,8 @@
       "[island]",
       "[team]",
       "has requested",
-      "Balance"
+      "Balance",
+      "Obtained"
     ],
     "autorightclick": false,
     "afkfarm": false,
@@ -38,6 +39,6 @@
       "/survival",
       "/automsg 10"
     ],
-    "autoReconnect": false
+    "autoReconnect": true
   }
 ]

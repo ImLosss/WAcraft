@@ -14,7 +14,8 @@
       "me]->",
       "Ned",
       "[island]",
-      "[team]"
+      "[team]",
+      "Obtained"
     ],
     "autorightclick": false,
     "afkfarm": false,
@@ -24,7 +25,7 @@
       "/survival",
       "/automsg 2"
     ],
-    "autoReconnect": false,
+    "autoReconnect": true,
     "statusRepeat": false
   }
 ]

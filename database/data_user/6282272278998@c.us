@@ -12,6 +12,12 @@
     },
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false
+    "statusRepeat": false,
+    "autocmd": [
+      "/login afkaja",
+      "/survival",
+      "/automsg 2"
+    ],
+    "autoReconnect": true
   }
 ]

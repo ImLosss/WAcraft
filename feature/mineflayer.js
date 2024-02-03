@@ -72,27 +72,37 @@ async function joinServer(msg, sender, isAdmin, client) {
         });
 
         bot.once('kicked', (msgK) => {
-            msgK = JSON.parse(msgK);
-            let time = fungsi.getTime();
-            console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
-            if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
-            if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
-            if (msgK.extra != undefined) {
-                let strKick = '';
-                msgK.extra.map((item) => {
-                    if(item.text != undefined) strKick += item.text;
-                })
-                msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
+            try {
+                msgK = JSON.parse(msgK);
+                let time = fungsi.getTime();
+                console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
+                if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
+                if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
+                if (msgK.extra != undefined) {
+                    let strKick = '';
+                    msgK.extra.map((item) => {
+                        if(item.text != undefined) strKick += item.text;
+                    })
+                    msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
+                }
+                bot.quit();
+            } catch (e) {
+                console.log(e);
+                msg.reply(`Terjadi kesalahan, coba kembali...`).catch(() => { chat.sendMessage(`terjadi kesalahan coba kembali, coba kembali...`) });
             }
-            bot.quit();
         })
 
         bot.once('error', (e) => {
-            let time = fungsi.getTime();
-            console.log(`(${ time }) Lerror: ${ e }`);
-            if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
-            else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-            else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+            try {
+                let time = fungsi.getTime();
+                console.log(`(${ time }) Lerror: ${ e }`);
+                if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
+                else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+                else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+            } catch (e) {
+                console.log(e);
+                msg.reply(`Terjadi kesalahan, coba kembali...`).catch(() => { chat.sendMessage(`Terjadi kesalahan, coba kembali...`) });
+            }
         })
 
         bot.addListener('messagestr', Lmessagestr);
