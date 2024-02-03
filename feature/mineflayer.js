@@ -98,6 +98,11 @@ async function joinServer(msg, sender, isAdmin, client) {
                 console.log(`(${ time }) Lerror: ${ e }`);
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
+                else if(e.code == "ETIMEDOUT") {
+                    msg.reply('Gagal join ke server, mencoba join kembali...').catch(() => { chat.sendMessage('Gagal join ke server, mencoba join kembali...') });
+                    joinServer(msg, sender, isAdmin, client);
+                    return;
+                }
                 else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 bot.quit();
             } catch (e) {

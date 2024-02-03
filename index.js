@@ -24,6 +24,7 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/autocmd [msg]
 ║ ▹/delAutocmd [msg]
 ║ ▹/cekAutocmd [msg]
+║ ▹/bugReport [describe_bug]
 ╟───「 *Command inGame* 」
 ║ ▹/automsg [time_in_min]
 ║ ▹/autoRightClick [time_in_sec]
@@ -135,6 +136,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}delautocmd`))) fungsi.delautocmd(msg, sender);
         else if (prefix.some(pre => text == `${pre}cekautocmd`)) fungsi.cekautocmd(msg, sender);
         else if (prefix.some(pre => text.startsWith(`${pre}autoreconnect`))) fungsi.setAutoReconnect(msg, sender);
+        else if (prefix.some(pre => text.startsWith(`${pre}bugreport`))) fungsi.bugReport(msg, client, sender);
         else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
         else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
         else if (prefix.some(pre => text.startsWith(`${pre}sendmsg`)) && sender == "6282192598451@c.us") fungsi.sendMsg(msg, client);

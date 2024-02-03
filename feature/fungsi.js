@@ -119,13 +119,42 @@ exports.getTime = function getTime() {
 
 }
 
+exports.getTime = function getTime() {
+    // Buat objek Date
+    const date = new Date();
+
+    // Atur zona waktu ke WITA (GMT+8)
+    date.setUTCHours(date.getUTCHours() + 8);
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1; // Ingat bahwa indeks bulan dimulai dari 0 (Januari = 0)
+    const day = date.getDate();
+    const dayOfWeekIndex = date.getDay();
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+    formattedTime = {
+        day: days[dayOfWeekIndex],
+        date: day,
+        month: month,
+        year: year,
+        hours:hours,
+        minutes: minutes,
+        seconds: seconds
+    }
+
+    return `${ formattedTime.day } / ${ formattedTime.date }-${ formattedTime.month }-${ formattedTime.year } / ${ formattedTime.hours }.${ formattedTime.minutes }`;
+
+}
+
 exports.sendMsg = async function sendMsg(msg, client) {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
     
     let pesan = msg.body;
     pesan = pesan.split(' ');
 
-    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */autocmd [message]*');
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */sendmsg [message]*');
     pesan = pesan.slice(1, pesan.length);
     pesan = pesan.join(" ");
 
@@ -165,4 +194,27 @@ exports.sendMsg = async function sendMsg(msg, client) {
             });
         });
     });
+}
+
+exports.bugReport = async function bugReport(msg, client, sender) {
+    const chat = await msg.getChat();
+    try {
+        let pesan = msg.body;
+        pesan = pesan.split(' ');
+
+        if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */bugReport [describe_bug]*');
+        pesan = pesan.slice(1, pesan.length);
+        pesan = pesan.join(" ");
+
+        client.sendMessage('6282192598451@c.us', pesan)
+        .then(() => {
+            msg.reply('The report has been succesfully sent, Thank you!').catch(() => { chat.sendMessage('The report has been succesfully sent, Thank you!') })
+        }).catch((e) => {
+            console.log(e);
+            msg.reply('Terjadi kesalahan, coba kembali...').catch(() => { chat.sendMessage('Terjadi kesalahan, coba kembali...')});
+        })
+    } catch (e) {
+        console.log(e);
+        msg.reply('Error, coba kembali...').catch(() => { chat.sendMessage('Error, coba kembali...') });
+    }
 }
