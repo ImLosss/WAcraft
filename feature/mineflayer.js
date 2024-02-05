@@ -35,6 +35,7 @@ async function joinServer(msg, sender, isAdmin, client) {
             if(!dataUser[0].chatPublic || message == msgstr) return;
             chat.sendMessage(msgstr);
             message = msgstr;
+            console.log(message);
         }
 
         bot.once('spawn', async () => {
