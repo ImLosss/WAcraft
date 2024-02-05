@@ -23,6 +23,7 @@ async function joinServer(msg, sender, isAdmin, client) {
             auth: 'offline'
         })
 
+        let message = ''
         Lmessagestr = async (msgstr) => {
             if(msgstr == "") return;
             // console.log(msgstr);
@@ -31,8 +32,9 @@ async function joinServer(msg, sender, isAdmin, client) {
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].except != undefined) except = dataUser[0].except;
             if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
-            if(!dataUser[0].chatPublic) return;
+            if(!dataUser[0].chatPublic || message == msgstr) return;
             chat.sendMessage(msgstr);
+            message = msgstr;
         }
 
         bot.once('spawn', async () => {
@@ -98,7 +100,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                 console.log(`(${ time }, ${ dataUser[0].username }) Lerror: code(${ e.code }) ${ e }`);
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-                else if(e.code == "ETIMEDOUT") {
+                else if(e == "Error: ETIMEDOUT") {
                     msg.reply('Gagal join ke server, mencoba join kembali...').catch(() => { chat.sendMessage('Gagal join ke server, mencoba join kembali...') });
                     joinServer(msg, sender, isAdmin, client);
                     return;
