@@ -98,7 +98,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         bot.once('error', (e) => {
             try {
                 let time = fungsi.getTime();
-                console.log(`(${ time }, ${ dataUser[0].username }) Lerror: code(${ e.code }) ${ e }`);
+                console.log(`(${ time }, ${ dataUser[0].username }) Lerror: code(${ e.code }) (${ e })`);
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 else if(e == "Error: ETIMEDOUT") {
@@ -107,7 +107,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                     return;
                 }
                 else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-                bot.quit();
+                if (dataUser[0].status == 'online') bot.quit();
             } catch (e) {
                 console.log(e);
                 msg.reply(`Terjadi kesalahan, coba kembali...`).catch(() => { chat.sendMessage(`Terjadi kesalahan, coba kembali...`) });
