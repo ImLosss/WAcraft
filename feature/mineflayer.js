@@ -27,7 +27,6 @@ async function joinServer(msg, sender, isAdmin, client) {
         Lmessagestr = async (msgstr) => {
             if(msgstr == "" || message == msgstr) return;
             message = msgstr;
-            console.log(message);
             let except = [];
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
