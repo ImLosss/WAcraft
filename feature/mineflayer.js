@@ -25,17 +25,16 @@ async function joinServer(msg, sender, isAdmin, client) {
 
         let message = ''
         Lmessagestr = async (msgstr) => {
-            if(msgstr == "") return;
-            // console.log(msgstr);
+            if(msgstr == "" || message == msgstr) return;
+            message = msgstr;
+            console.log(message);
             let except = [];
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].except != undefined) except = dataUser[0].except;
             if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
-            if(!dataUser[0].chatPublic || message == msgstr) return;
+            if(!dataUser[0].chatPublic) return;
             chat.sendMessage(msgstr);
-            message = msgstr;
-            console.log(message);
         }
 
         bot.once('spawn', async () => {
