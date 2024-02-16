@@ -4,14 +4,13 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "Xnzz_",
+    "username": "Klvv",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login pras2009",
       "/survival",
-      "/automsg 10",
       "/chatpublic off"
     ],
     "autoReconnect": false,

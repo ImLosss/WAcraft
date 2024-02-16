@@ -3,14 +3,21 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "luckynetwork.net",
-    "username": "Sinzz06_",
+    "ip": "claritynetwork.net",
+    "username": "TheRosses",
     "except": [
       "tes"
     ],
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false
+    "statusRepeat": false,
+    "autocmd": [
+      "/login rayajr440",
+      "/survival",
+      "/home afk",
+      "/autorightclick 3"
+    ],
+    "autoReconnect": true
   }
 ]

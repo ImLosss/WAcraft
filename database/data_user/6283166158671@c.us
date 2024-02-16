@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "ClaraMon",
+    "username": "Domuxis",
     "autorightclick": false,
     "automsg": {
       "message": "WTB>>> Chrismas Box jual di [/pwarp konmatket] harga mulai dari  2/50",
@@ -13,7 +13,7 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "autoReconnect": false,
+    "autoReconnect": true,
     "autocmd": [
       "/login tolol123",
       "/survival",

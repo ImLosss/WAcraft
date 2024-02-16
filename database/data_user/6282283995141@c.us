@@ -1,0 +1,20 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "Horm",
+    "ip": "play.claritynetwork.net",
+    "statusRepeat": false,
+    "autocmd": [
+      "/login rimbun",
+      "/survival",
+      "/is",
+      "/home afk"
+    ],
+    "autoReconnect": true,
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false
+  }
+]
