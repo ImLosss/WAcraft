@@ -32,6 +32,7 @@ async function resetDataUser() {
                     jsonData[0].afkfarm = false;
                     jsonData[0].afkfish = false;
                     jsonData[0].statusRepeat = false;
+                    if(!jsonData[1]) jsonData[1] = {};
                     if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
 
                     // Tulis kembali file JSON yang telah diubah
@@ -116,7 +117,9 @@ async function setUser(msg, sender) {
     pesan = pesan.split(' ');
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser [username]*')
-    dataUser[0].username = pesan[1]; 
+    let username = pesan.slice(1, pesan.length);
+    username = username.join(" ");
+    dataUser[0].username = username; 
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 

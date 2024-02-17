@@ -64,6 +64,80 @@ exports.cekautocmd = async function cekautocmd(msg, sender) {
     else return msg.reply(`autocmd: *${ autocmd }*`);
 }
 
+exports.setRealUser = async function setRealUser(msg, sender) {
+    let dataUser = getDataUser(sender);
+    const ip = dataUser[0].ip;
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser [username]*')
+    let username = pesan.slice(1, pesan.length);
+    username = username.join(" ");
+
+    if(!dataUser[1][ip]) dataUser[1][ip] = {};
+    dataUser[1][ip].realUser = username;
+
+    let listAlt = [];
+    if(dataUser[1][ip].alt) listAlt = dataUser[1][ip].alt;
+    removeFromArray(listAlt, pesan);
+    dataUser[1][ip].alt = listAlt;
+
+    dataUser[0].autocmd = autocmd;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+}
+
+exports.cekAlt = async function cekAlt(sender) {
+    let dataUser = getDataUser(sender);
+    const user = dataUser[0].username;
+    const ip = dataUser[0].ip;
+    let listAlt = [];
+    if(dataUser[1][ip].alt) listAlt = dataUser[1][ip].alt;
+
+    const index = listAlt.indexOf(user);
+    if (index !== -1) {
+        // data ditemukan
+    } else {
+        if(user != dataUser[1][ip].realUser) { 
+            listAlt.push(user);
+            dataUser[1][ip].alt = listAlt;
+            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+        }
+    }
+}
+
+exports.cekInfo = async function cekInfo(msg, sender) {
+    const chat = await msg.getChat();
+    let dataUser = getDataUser(sender);
+
+    jsonData = dataUser[1];
+
+    if (Object.keys(jsonData).length === 0) return msg.reply('Data kosong');
+
+    const dataArray = Object.entries(jsonData).map(([key, value]) => ({
+        ip: key,
+        realUser: value.realUser,
+        alt: value.alt
+    }));
+
+    let msg = "*Info Akun & List Alt*\n\n"
+    let no = 1;
+    dataArray.map(item => {
+        let listAlt = item.alt;
+        if(listAlt.length > 0) listAlt = listAlt.join(', ');
+        else listAlt = "None";
+
+        msg+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n\n`;
+        if(dataArray.length != no) {
+        msg+='----------------------\n\n'
+        no+=1;
+        }
+    })
+
+    return msg.reply(msg).catch(() => { chat.sendMessage(msg) });
+}
+
 exports.delautocmd = async function delautocmd(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
