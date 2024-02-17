@@ -83,8 +83,6 @@ exports.setRealUser = async function setRealUser(msg, sender) {
     removeFromArray(listAlt, pesan);
     dataUser[1][ip].alt = listAlt;
 
-    dataUser[0].autocmd = autocmd;
-
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 }
 
