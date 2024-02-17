@@ -121,16 +121,16 @@ exports.cekInfo = async function cekInfo(msg, sender) {
         alt: value.alt
     }));
 
-    let send = "*Info Akun & List Alt*\n\n"
+    let send = "*Info Akun & List Alt*\n\n-----------------------------------------"
     let no = 1;
     dataArray.map(item => {
         let listAlt = item.alt;
         if(listAlt.length > 0) listAlt = listAlt.join(', ');
         else listAlt = "None";
 
-        send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n\n`;
+        send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n`;
         if(dataArray.length != no) {
-        send+='----------------------\n\n'
+        send+='-----------------------------------------\n'
         no+=1;
         }
     })

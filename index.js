@@ -19,6 +19,8 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/menu
 ║ ▹/setip [ip_server]
 ║ ▹/setuser [username_mc]
+║ ▹/setRealUser [real_username]
+║ ▹/cekInfo
 ║ ▹/join
 ║ ▹/autoReconnect [on/of]
 ║ ▹/autocmd [msg]
