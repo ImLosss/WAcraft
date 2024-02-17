@@ -84,6 +84,8 @@ exports.setRealUser = async function setRealUser(msg, sender) {
     dataUser[1][ip].alt = listAlt;
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+
+    return msg.reply(`Real username berhasil diatur ke ${ username }`);
 }
 
 exports.cekAlt = async function cekAlt(sender) {
