@@ -136,12 +136,6 @@ exports.cekInfo = async function cekInfo(msg, sender) {
     })
 
     return msg.reply(send).catch(() => { chat.sendMessage(send) });
-
-    function getDataUser(sender) {
-        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-        dataUser = JSON.parse(dataUser);
-        return dataUser;
-    }
 }
 
 exports.delautocmd = async function delautocmd(msg, sender) {
@@ -349,4 +343,10 @@ exports.bugReport = async function bugReport(msg, client, sender) {
         console.log(e);
         msg.reply('Error, coba kembali...').catch(() => { chat.sendMessage('Error, coba kembali...') });
     }
+}
+
+function getDataUser(sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+    return dataUser;
 }
