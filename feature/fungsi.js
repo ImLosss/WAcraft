@@ -276,13 +276,6 @@ exports.sendUpdate = async function sendUpdate(msg, client) {
     let update = fs.readFileSync(`update`, 'utf-8');
     update = JSON.parse(update);
     update = update["1.2.5"].details;
-    
-    let pesan = msg.body;
-    pesan = pesan.split(' ');
-
-    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */sendupdate*');
-    pesan = pesan.slice(1, pesan.length);
-    pesan = pesan.join(" ");
 
     fs.readdir(folderPath, (err, files) => {
         if (err) {
