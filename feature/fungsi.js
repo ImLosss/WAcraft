@@ -121,7 +121,7 @@ exports.cekInfo = async function cekInfo(msg, sender) {
         alt: value.alt
     }));
 
-    let send = "*Info Akun & List Alt*\n\n-----------------------------------------"
+    let send = "*Info Akun & List Alt*\n\n"
     let no = 1;
     dataArray.map(item => {
         let listAlt = item.alt;
