@@ -121,21 +121,21 @@ exports.cekInfo = async function cekInfo(msg, sender) {
         alt: value.alt
     }));
 
-    let msg = "*Info Akun & List Alt*\n\n"
+    let send = "*Info Akun & List Alt*\n\n"
     let no = 1;
     dataArray.map(item => {
         let listAlt = item.alt;
         if(listAlt.length > 0) listAlt = listAlt.join(', ');
         else listAlt = "None";
 
-        msg+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n\n`;
+        send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n\n`;
         if(dataArray.length != no) {
-        msg+='----------------------\n\n'
+        send+='----------------------\n\n'
         no+=1;
         }
     })
 
-    return msg.reply(msg).catch(() => { chat.sendMessage(msg) });
+    return msg.reply(send).catch(() => { chat.sendMessage(send) });
 }
 
 exports.delautocmd = async function delautocmd(msg, sender) {
