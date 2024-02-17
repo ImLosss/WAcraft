@@ -271,6 +271,57 @@ exports.sendMsg = async function sendMsg(msg, client) {
     });
 }
 
+exports.sendUpdate = async function sendUpdate(msg, client) {
+    const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
+    let update = fs.readFileSync(`./database/update`, 'utf-8');
+    update = JSON.parse(dataUser);
+    update = update["1.2.5"].details;
+    
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */sendupdate*');
+    pesan = pesan.slice(1, pesan.length);
+    pesan = pesan.join(" ");
+
+    fs.readdir(folderPath, (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+
+        files.forEach(user => {
+            const filePath = path.join(folderPath, user);
+            
+            // Baca file JSON
+            fs.readFile(filePath, 'utf8', (err, data) => {
+                if (err) {
+                    console.error(`Error reading file ${user}:`, err);
+                    return;
+                }
+
+                // Ubah data dalam file JSON
+                try {
+                    const jsonData = JSON.parse(data);
+
+                    if(jsonData[0].ip) { 
+                        client.sendMessage(user, `${ update }`)
+                        .then(() => {
+                            msg.reply(`Success sending Message to ${ user }`);
+                        })
+                        .catch((e) => {
+                            console.log(e);
+                            msg.reply(`Error when sending Message to ${ user }`);
+                        })
+                    }
+                } catch (parseErr) {
+                    console.error(`Error when sending a Message:`, parseErr);
+                }
+            });
+        });
+    });
+}
+
 exports.bugReport = async function bugReport(msg, client, sender) {
     const chat = await msg.getChat();
     try {
