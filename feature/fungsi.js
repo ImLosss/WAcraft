@@ -273,7 +273,7 @@ exports.sendMsg = async function sendMsg(msg, client) {
 
 exports.sendUpdate = async function sendUpdate(msg, client) {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
-    let update = fs.readFileSync(`./database/update`, 'utf-8');
+    let update = fs.readFileSync(`update`, 'utf-8');
     update = JSON.parse(dataUser);
     update = update["1.2.5"].details;
     
