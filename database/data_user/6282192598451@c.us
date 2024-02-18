@@ -41,5 +41,6 @@
       "/automsg 10"
     ],
     "autoReconnect": false
-  }
+  },
+  {}
 ]
