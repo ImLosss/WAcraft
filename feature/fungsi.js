@@ -390,7 +390,6 @@ exports.getInfoUser = async function getInfoUser(msg, client) {
                         send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ altStr }\n`;
                     })
                     if (send != `WA: ${ user }\n`) return msg.reply(send);
-                    else return msg.reply(`Tidak menemukan akun alt dengan Nama ${ username }`);
                 } catch (parseErr) {
                     msg.reply(`Error when sending a Message:`, parseErr);
                 }
