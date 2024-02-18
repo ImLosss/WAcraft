@@ -384,12 +384,12 @@ exports.getInfoUser = async function getInfoUser(msg, client) {
                         return foundAlt;
                     })
 
-                    let msg = `WA: ${ user }\n`;
+                    let send = `WA: ${ user }\n`;
                     output.map((item) => {
                         altStr = item.alt.join(', ');
-                        msg+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ altStr }\n`;
+                        send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ altStr }\n`;
                     })
-                    if (msg != `WA: ${ user }\n`) return msg.reply(msg);
+                    if (send != `WA: ${ user }\n`) return msg.reply(send);
                     else return msg.reply(`Tidak menemukan akun alt dengan Nama ${ username }`);
                 } catch (parseErr) {
                     msg.reply(`Error when sending a Message:`, parseErr);
