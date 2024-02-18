@@ -71,7 +71,7 @@ exports.setRealUser = async function setRealUser(msg, sender) {
     let pesan = msg.body;
     pesan = pesan.split(' ');
 
-    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser [username]*')
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setRealUser [username]*')
     let username = pesan.slice(1, pesan.length);
     username = username.join(" ");
 
@@ -85,7 +85,7 @@ exports.setRealUser = async function setRealUser(msg, sender) {
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
-    return msg.reply(`Real username berhasil diatur ke ${ username }`);
+    return msg.reply(`Real username berhasil diatur ke *${ username }*`);
 }
 
 exports.cekAlt = async function cekAlt(sender) {
@@ -336,6 +336,67 @@ exports.bugReport = async function bugReport(msg, client, sender) {
         console.log(e);
         msg.reply('Error, coba kembali...').catch(() => { chat.sendMessage('Error, coba kembali...') });
     }
+}
+
+exports.getInfoUser = async function getInfoUser(msg, client) {
+    const folderPath = 'database'; // Ganti dengan path menuju folder Anda
+    
+    let username = msg.body;
+    username = username.split(' ');
+
+    if(username.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */getInfoUser [username]*');
+    username = username.slice(1, username.length);
+    username = username.join(" ");
+
+    fs.readdir(folderPath, (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+
+        files.forEach(async (user) => {
+        const filePath = path.join(folderPath, user);
+        
+            // Baca file JSON
+            fs.readFile(filePath, 'utf8', (err, data) => {
+                if (err) {
+                    console.error(`Error reading file ${user}:`, err);
+                    return;
+                }
+
+                // Ubah data dalam file JSON
+                try {
+                    const jsonData = JSON.parse(data);
+
+                    if(!jsonData[1]) return
+                    if (Object.keys(jsonData).length === 0) return console.log('data Kosong');
+
+                    dataUser = jsonData[1];
+
+                    const dataArray = Object.entries(dataUser).map(([key, value]) => ({
+                        ip: key,
+                        realUser: value.realUser,
+                        alt: value.alt
+                    }));
+                    
+                    let output = dataArray.filter((item) => {
+                        const foundAlt = item.alt.find((listAlt) => listAlt == username);
+                        return foundAlt;
+                    })
+
+                    let msg = `WA: ${ user }\n`;
+                    output.map((item) => {
+                        altStr = item.alt.join(', ');
+                        msg+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ altStr }\n`;
+                    })
+                    if (msg != `WA: ${ user }\n`) return msg.reply(msg);
+                    else return msg.reply(`Tidak menemukan akun alt dengan Nama ${ username }`);
+                } catch (parseErr) {
+                    msg.reply(`Error when sending a Message:`, parseErr);
+                }
+            });
+        });
+    });
 }
 
 function getDataUser(sender) {

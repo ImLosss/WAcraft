@@ -144,6 +144,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
         else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', msg);
         else if (prefix.some(pre => text.startsWith(`${pre}sendmsg`)) && sender == "6282192598451@c.us") fungsi.sendMsg(msg, client);
+        else if (prefix.some(pre => text.startsWith(`${pre}getinfouser`)) && sender == "6282192598451@c.us") fungsi.getInfoUser(msg, client);
         else if (prefix.some(pre => text === `${pre}sendupdate`) && sender == "6282192598451@c.us") fungsi.sendUpdate(msg, client);
         
     } catch(err) {
