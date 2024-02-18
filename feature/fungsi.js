@@ -339,7 +339,7 @@ exports.bugReport = async function bugReport(msg, client, sender) {
 }
 
 exports.getInfoUser = async function getInfoUser(msg, client) {
-    const folderPath = 'database'; // Ganti dengan path menuju folder Anda
+    const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
     
     let username = msg.body;
     username = username.split(' ');
