@@ -146,6 +146,7 @@ client.on('message', async msg => {
         else if (prefix.some(pre => text.startsWith(`${pre}sendmsg`)) && sender == "6282192598451@c.us") fungsi.sendMsg(msg, client);
         else if (prefix.some(pre => text.startsWith(`${pre}getinfouser`)) && sender == "6282192598451@c.us") fungsi.getInfoUser(msg, client);
         else if (prefix.some(pre => text === `${pre}sendupdate`) && sender == "6282192598451@c.us") fungsi.sendUpdate(msg, client);
+        else if (prefix.some(pre => text === `${pre}sendmsgall`) && sender == "6282192598451@c.us") fungsi.sendMsgAll(msg, client);
         
     } catch(err) {
         console.log(err)
