@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.claritynetwork.net",
-    "username": "Losss",
+    "ip": "claritynetwork.net",
+    "username": "shenxx",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
       "status": false
@@ -42,5 +42,19 @@
     ],
     "autoReconnect": false
   },
-  {}
+  {
+    "play.claritynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "Ned",
+        "shenxx"
+      ]
+    },
+    "claritynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ]
+    }
+  }
 ]

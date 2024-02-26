@@ -12,7 +12,16 @@
       "Xon",
       "xon, nez"
     ],
-    "statusRepeat": false
+    "statusRepeat": false,
+    "autoReconnect": false,
+    "autocmd": [
+      "/login pras2009"
+    ]
   },
-  {}
+  {
+    "claritynetwork.net": {
+      "realUser": "Xonezka",
+      "alt": []
+    }
+  }
 ]

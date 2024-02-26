@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "Klvv",
+    "username": "nowezki",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -13,7 +13,7 @@
       "/survival",
       "/chatpublic off"
     ],
-    "autoReconnect": false,
+    "autoReconnect": true,
     "except": [
       "xon",
       "[me ->",
@@ -29,7 +29,8 @@
     "claritynetwork.net": {
       "realUser": "Xonezka",
       "alt": [
-        "Klvv"
+        "Klvv",
+        "nowezki"
       ]
     }
   }

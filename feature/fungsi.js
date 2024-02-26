@@ -1,6 +1,8 @@
 const fs = require('fs');
 const { removeFromArray } = require('./function');
 const path = require('path');
+const { MessageMedia } = require('whatsapp-web.js');
+const archiver = require('archiver');
 
 exports.setAutoReconnect = async function setAutoReconnect(msg, sender) { 
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
@@ -444,6 +446,40 @@ exports.getInfoUser = async function getInfoUser(msg, client) {
             });
         });
     });
+}
+
+exports.backupInterval = async function backupInterval(sourceFolderPath, outputFilePath, client) {
+    const output = fs.createWriteStream(outputFilePath);
+    const archive = archiver('zip', { zlib: { level: 9 } });
+
+    output.on('close', () => {
+        console.log('Compression completed.');
+        const media = MessageMedia.fromFilePath(outputFilePath);
+        client.sendMessage("6282192598451@c.us", media, { caption: 'Daily Backup' });
+    });
+
+    archive.on('error', (error) => {
+        console.error('An error occurred:', error);
+    });
+
+    archive.pipe(output);
+
+    async function addFilesToArchive(folderPath, parentFolderName) {
+        const items = fs.readdirSync(folderPath);
+        for (const item of items) {
+            const itemPath = path.join(folderPath, item);
+            const relativePath = path.join(parentFolderName, item);
+
+            if (fs.statSync(itemPath).isDirectory()) {
+                addFilesToArchive(itemPath, relativePath);
+            } else {
+                archive.append(fs.createReadStream(itemPath), { name: relativePath });
+            }
+        }
+    }
+
+    await addFilesToArchive(sourceFolderPath, path.basename(sourceFolderPath))
+    archive.finalize();
 }
 
 function getDataUser(sender) {
