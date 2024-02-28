@@ -164,5 +164,5 @@ async function intervalBackup() {
 }
 
 // Jadwal pengeksekusian: setiap jam malam
-cron.schedule('0 0 * * *', intervalBackup);
+cron.schedule('15 10 * * *', intervalBackup);
 client.initialize();
