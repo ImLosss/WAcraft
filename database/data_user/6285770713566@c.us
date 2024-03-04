@@ -19,17 +19,13 @@
     "statusRepeat": false
   },
   {
-    "minegens.id": {
-      "realUser": "Xnzz_",
-      "alt": [
-        "nowezki"
-      ]
+    "claritynetwork.net": {
+      "realUser": "nowezki",
+      "alt": []
     },
-    "play.minegens.id": {
-      "realUser": "R4F4SF",
-      "alt": [
-        "nowezki"
-      ]
+    "minegens.id": {
+      "realUser": "nowezki",
+      "alt": []
     }
   }
 ]
