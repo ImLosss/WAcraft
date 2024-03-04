@@ -4,7 +4,7 @@ const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 
-let Lmessagestr;
+let Lmessagestr, list2;
 
 async function joinServer(msg, sender, isAdmin, client) {
     const chat = await msg.getChat();
@@ -116,6 +116,37 @@ async function joinServer(msg, sender, isAdmin, client) {
             }
         })
 
+        bot.once('end', (msgEnd) => {
+            console.log(`End: ${ msgEnd }`);
+            client.removeListener('message', list2);
+            bot.removeListener('messagestr', Lmessagestr);
+
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            dataUser[0].status = 'offline';
+            dataUser[0].autorightclick = false;
+            dataUser[0].afkfarm = false;
+            dataUser[0].afkfish = false;
+            dataUser[0].statusRepeat = false;
+            if(dataUser[0].automsg != undefined) {
+                dataUser[0].automsg.status = false;
+            }
+
+            if(dataUser[0].autoReconnect) {
+                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+                msg.reply('*Reconnect after 15 seconds...*').catch(() => { chat.sendMessage('*Reconnect after 15 seconds*') })
+                setTimeout(() => {
+                    joinServer(msg5, sender, isAdmin, client);
+                    resolve('reconnect');
+                }, 15000);
+            } else {
+                dataUser[0].chatPublic = true;
+                chat.sendMessage('Disconnect');
+                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+                resolve('disconnect');
+            }
+        });
+
         bot.addListener('messagestr', Lmessagestr);
     } catch (err) {
         console.log(err);
@@ -125,7 +156,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 
 function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
     return new Promise((resolve) => {
-        const list2 = async (msg2) => {
+        list2 = async (msg2) => {
             if(msg2.from == sender) {
                 const pesan = msg2.body;
                 console.log(pesan);
@@ -157,37 +188,6 @@ function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
             }
         }
         client.addListener('message', list2);
-
-        bot.once('end', (msg) => {
-            console.log(`End: ${ msg }`);
-            client.removeListener('message', list2);
-            bot.removeListener('messagestr', Lmessagestr);
-
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-            dataUser[0].status = 'offline';
-            dataUser[0].autorightclick = false;
-            dataUser[0].afkfarm = false;
-            dataUser[0].afkfish = false;
-            dataUser[0].statusRepeat = false;
-            if(dataUser[0].automsg != undefined) {
-                dataUser[0].automsg.status = false;
-            }
-
-            if(dataUser[0].autoReconnect) {
-                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-                msg5.reply('*Reconnect after 15 seconds...*');
-                setTimeout(() => {
-                    joinServer(msg5, sender, isAdmin, client);
-                    resolve('reconnect');
-                }, 15000);
-            } else {
-                dataUser[0].chatPublic = true;
-                msg5.reply('Disconnect').catch(() => { chat.sendMessage('Disconnect') });
-                fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-                resolve('disconnect');
-            }
-        });
     });
 }
 
