@@ -137,13 +137,11 @@ async function joinServer(msg, sender, isAdmin, client) {
                 msg.reply('*Reconnect after 15 seconds...*').catch(() => { chat.sendMessage('*Reconnect after 15 seconds*') })
                 setTimeout(() => {
                     joinServer(msg, sender, isAdmin, client);
-                    resolve('reconnect');
                 }, 15000);
             } else {
                 dataUser[0].chatPublic = true;
                 chat.sendMessage('Disconnect');
                 fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-                resolve('disconnect');
             }
         });
 
