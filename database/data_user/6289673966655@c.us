@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "claritynetwork.net",
     "username": "nowezki",
     "autorightclick": false,
@@ -23,7 +23,7 @@
       "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
       "status": false
     },
-    "statusRepeat": false
+    "statusRepeat": true
   },
   {
     "claritynetwork.net": {

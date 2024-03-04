@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
+    "ip": "minegens.id",
     "username": "nowezki",
     "except": [
       "[me ->",
@@ -18,5 +18,18 @@
     "afkfish": false,
     "statusRepeat": false
   },
-  {}
+  {
+    "minegens.id": {
+      "realUser": "Xnzz_",
+      "alt": [
+        "nowezki"
+      ]
+    },
+    "play.minegens.id": {
+      "realUser": "R4F4SF",
+      "alt": [
+        "nowezki"
+      ]
+    }
+  }
 ]

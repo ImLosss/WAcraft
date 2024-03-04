@@ -109,6 +109,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                     joinServer(msg, sender, isAdmin, client);
                     return;
                 }
+                else if(e == "Error: ETIMEDOUT") { chat.sendMessage('Gagal join ke server...') }
                 else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 if (dataUser[0].status == 'online') bot.quit();
             } catch (e) {

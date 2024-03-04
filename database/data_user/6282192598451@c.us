@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
+    "ip": "play.minegens.id",
     "username": "shenxx",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
@@ -51,6 +51,30 @@
       ]
     },
     "claritynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ]
+    },
+    "play.luckynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ]
+    },
+    "minegens.id": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ]
+    },
+    "tess": {
+      "realUser": "tess.id",
+      "alt": [
+        "shenxx"
+      ]
+    },
+    "play.minegens.id": {
       "realUser": "Losss",
       "alt": [
         "shenxx"
