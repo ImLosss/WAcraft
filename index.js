@@ -8,6 +8,8 @@ const cron = require('node-cron');
 const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser } = require('./feature/function');
 
 resetDataUser();
+// Jadwal pengeksekusian: setiap jam malam
+cron.schedule('0 0 * * *', intervalBackup);
 
 const client = new Client({
     authStrategy: new LocalAuth()
@@ -160,9 +162,8 @@ client.on('message', async msg => {
 });
 // Fungsi yang akan dijalankan setiap jam
 async function intervalBackup() {
+    console.log('Daily backup');
     await backup_database('database', 'database.zip', client);
 }
 
-// Jadwal pengeksekusian: setiap jam malam
-cron.schedule('0 0 * * *', intervalBackup);
 client.initialize();
