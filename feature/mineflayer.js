@@ -100,10 +100,11 @@ async function joinServer(msg, sender, isAdmin, client) {
         bot.once('error', (e) => {
             try {
                 let time = fungsi.getTime();
+                let dataUser = fungsi.getDataUser(sender);
                 console.log(`(${ time }, ${ dataUser[0].username }) Lerror: code(${ e.code }) (${ e })`);
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
-                else if(e == "Error: ETIMEDOUT") {
+                else if(e == "Error: ETIMEDOUT" && dataUser[0].status != 'online' && dataUser[0].autoReconnect) {
                     msg.reply('Gagal join ke server, mencoba join kembali...').catch(() => { chat.sendMessage('Gagal join ke server, mencoba join kembali...') });
                     joinServer(msg, sender, isAdmin, client);
                     return;
