@@ -4,9 +4,10 @@ const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 
-let Lmessagestr, list2;
+
 
 async function joinServer(msg, sender, isAdmin, client) {
+    let Lmessagestr, list2;
     const chat = await msg.getChat();
     try {
         if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -152,47 +153,48 @@ async function joinServer(msg, sender, isAdmin, client) {
         });
 
         bot.addListener('messagestr', Lmessagestr);
+
+        function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
+            return new Promise((resolve) => {
+                list2 = async (msg2) => {
+                    if(msg2.from == sender) {
+                        const pesan = msg2.body;
+                        console.log(pesan);
+                        if (pesan == '/dc') { 
+                            bot.quit();
+                            resolve('dc');
+                        } else if (pesan == '/survival') {
+                            bot.setQuickBarSlot(0);
+                            bot.activateItem(false);
+                            bot.once('windowOpen', (items) => {
+                                bot.clickWindow(11, 0, 0);
+                            });
+                        } else if (pesan.startsWith('/automsg')) {
+                            automsg(bot, msg5, pesan, sender);
+                        } else if(pesan == '/playerlist') {
+                            playerOnline(bot, msg5);
+                        } else if(pesan.startsWith('/autorightclick')) {
+                            autoRightClick(bot, msg5, pesan, sender);
+                        } else if(pesan.startsWith('/afkfarm')) {
+                            afkfarm(bot, msg5, pesan, sender);
+                        } else if(pesan == '/ping') {
+                            chat.sendMessage(`*Ping:* ${ bot.player.ping }`);
+                        } else if(pesan == '/afkfish on') {
+                            fish.fishing(bot, msg5, sender);
+                        } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
+                            afkFishOf(msg5, sender);
+                        } else {
+                            bot.chat(msg2.body);
+                        }
+                    }
+                }
+                client.addListener('message', list2);
+            });
+        }
     } catch (err) {
         console.log(err);
         chat.sendMessage('Error');
     }
-}
-
-function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
-    return new Promise((resolve) => {
-        list2 = async (msg2) => {
-            if(msg2.from == sender) {
-                const pesan = msg2.body;
-                console.log(pesan);
-                if (pesan == '/dc') { 
-                    bot.quit();
-                } else if (pesan == '/survival') {
-                    bot.setQuickBarSlot(0);
-                    bot.activateItem(false);
-                    bot.once('windowOpen', (items) => {
-                        bot.clickWindow(11, 0, 0);
-                    });
-                } else if (pesan.startsWith('/automsg')) {
-                    automsg(bot, msg5, pesan, sender);
-                } else if(pesan == '/playerlist') {
-                    playerOnline(bot, msg5);
-                } else if(pesan.startsWith('/autorightclick')) {
-                    autoRightClick(bot, msg5, pesan, sender);
-                } else if(pesan.startsWith('/afkfarm')) {
-                    afkfarm(bot, msg5, pesan, sender);
-                } else if(pesan == '/ping') {
-                    chat.sendMessage(`*Ping:* ${ bot.player.ping }`);
-                } else if(pesan == '/afkfish on') {
-                    fish.fishing(bot, msg5, sender);
-                } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
-                    afkFishOf(msg5, sender);
-                } else {
-                    bot.chat(msg2.body);
-                }
-            }
-        }
-        client.addListener('message', list2);
-    });
 }
 
 async function automsg(bot, msg, pesan, sender) {
