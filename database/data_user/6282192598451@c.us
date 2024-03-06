@@ -2,8 +2,8 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
-    "ip": "minegens.id",
+    "status": "offline",
+    "ip": "claritynetwork.net",
     "username": "shenxx",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
@@ -33,10 +33,11 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [
       "/login 040103",
       "/survival",
+      "/afkfish on",
       "/automsg 10"
     ],
     "autoReconnect": false
@@ -50,18 +51,6 @@
       ]
     },
     "claritynetwork.net": {
-      "realUser": "Losss",
-      "alt": [
-        "shenxx"
-      ]
-    },
-    "play.minegens.id": {
-      "realUser": "Losss",
-      "alt": [
-        "shenxx"
-      ]
-    },
-    "minegens.id": {
       "realUser": "Losss",
       "alt": [
         "shenxx"

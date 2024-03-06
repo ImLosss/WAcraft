@@ -226,7 +226,7 @@ async function automsg(bot, msg, pesan, sender) {
             if(!dataUser[0].automsg.status) { 
                 clearInterval(cekautomsg);
                 clearInterval(intval);
-                msg.reply('*Berhasil menonaktifkan automsg*').catch(() => { chat.sendMessage('Berhasil menonaktifkan automsg*') });
+                msg.reply('*Berhasil menonaktifkan automsg*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan automsg*') });
             }
         }, 2000);
     } catch(e) {
