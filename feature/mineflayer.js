@@ -120,11 +120,11 @@ async function joinServer(msg, sender, isAdmin, client) {
 
         bot.once('end', (msgEnd) => {
             console.log(`End: ${ msgEnd }`);
-            const numListenersAfterRemoval = client.listeners('message').length;
-            console.log('Jumlah listener client "message" sebelum dihapus: '.numListenersBeforeRemoval);
-            client.removeListener('message', list2);
             const numListenersBeforeRemoval = client.listeners('message').length;
-            console.log('Jumlah listener client "message" setelah dihapus: '.numListenersBeforeRemoval);
+            console.log(`Jumlah listener sebelum dihapus : ${ numListenersBeforeRemoval }`);
+            client.removeListener('message', list2);
+            const numListenersAfterRemoval = client.listeners('message').length;
+            console.log(`Jumlah listener setelah dihapus : ${  numListenersAfterRemoval }`);
             bot.removeListener('messagestr', Lmessagestr);
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
