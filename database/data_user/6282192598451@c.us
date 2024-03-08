@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
+    "ip": "play.claritynetwork.net",
     "username": "shenxx",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
@@ -36,9 +36,7 @@
     "statusRepeat": false,
     "autocmd": [
       "/login 040103",
-      "/survival",
-      "/afkfish on",
-      "/automsg 10"
+      "/survival"
     ],
     "autoReconnect": false
   },

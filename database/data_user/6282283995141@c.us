@@ -1,11 +1,11 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "Horm",
-    "ip": "play.claritynetwork.net",
-    "statusRepeat": true,
+    "ip": "claritynetwork.net",
+    "statusRepeat": false,
     "autocmd": [
       "/login rimbun",
       "/survival",
@@ -21,6 +21,13 @@
     "play.claritynetwork.net": {
       "realUser": "qxeraa",
       "alt": [
+        "Horm"
+      ]
+    },
+    "claritynetwork.net": {
+      "realUser": "oryuu_",
+      "alt": [
+        "qxeraa",
         "Horm"
       ]
     }
