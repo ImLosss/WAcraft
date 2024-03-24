@@ -17,6 +17,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
         if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
         if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser [username]*');
+        if(dataUser[0].reconnectTime == 5) return chat.sendMessage('Gagal join ke server...');
 
         const ip = dataUser[0].ip;
         if(!dataUser[1][ip]) return msg.reply(`Sebelum join ke server, Anda *diwajibkan* untuk mengatur username asli yang anda mainkan(bukan akun alt/afk) di server ${ dataUser[0].ip } terlebih dahulu.\nKirim pesan dengan format:\n*/setRealUser [username_asli]*\n\n_Hal ini diperlukan karena semua user yg join menggunakan bot ini akan memiliki ip yg sama, untuk melihat info akun anda kirim */cekInfo*_.`);
@@ -47,6 +48,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                 sendMsg(client, bot, msg, sender, chat, isAdmin);
                 dataUser[0].status = 'online';
                 dataUser[0].statusRepeat = true;
+                dataUser[0].reconnectTime = 0;
                 fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
             // }
 
@@ -106,7 +108,9 @@ async function joinServer(msg, sender, isAdmin, client) {
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 else if(e == "Error: ETIMEDOUT" && dataUser[0].status != 'online' && dataUser[0].autoReconnect) {
-                    msg.reply('Gagal join ke server, mencoba join kembali...').catch(() => { chat.sendMessage('Gagal join ke server, mencoba join kembali...') });
+                    bot.quit();
+                    dataUser[0].reconnectTime+=1;
+                    msg.reply(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`).catch(() => { chat.sendMessage(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`) });
                     joinServer(msg, sender, isAdmin, client);
                     return;
                 }

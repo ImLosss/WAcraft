@@ -32,6 +32,7 @@ async function resetDataUser() {
                     jsonData[0].afkfarm = false;
                     jsonData[0].afkfish = false;
                     jsonData[0].statusRepeat = false;
+                    jsonData[0].reconnectTime = 0;
                     if(!jsonData[1]) jsonData[1] = {};
                     if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
 
