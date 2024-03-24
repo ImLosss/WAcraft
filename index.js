@@ -163,7 +163,7 @@ async function intervalBackup() {
     await backup_database('database', 'database.zip', client);
 }
 
-setTimeout(() => {
+setInterval(() => {
     intervalBackup();
 }, (1000 * 60 * 60) * 24);
 
