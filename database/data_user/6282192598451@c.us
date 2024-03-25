@@ -38,7 +38,8 @@
       "/login 040103",
       "/survival"
     ],
-    "autoReconnect": false
+    "autoReconnect": false,
+    "reconnectTime": 0
   },
   {
     "play.claritynetwork.net": {

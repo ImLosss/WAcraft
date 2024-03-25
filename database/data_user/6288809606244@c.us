@@ -3,16 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
-    "username": "nowezki",
-    "except": [
-      "[me ->",
-      "me]->"
-    ],
-    "automsg": {
-      "message": "/feed",
-      "status": false
-    },
+    "ip": "play.claritynetwork.net",
+    "username": "Ned",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,

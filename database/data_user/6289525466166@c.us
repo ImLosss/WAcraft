@@ -10,13 +10,14 @@
     "afkfish": false,
     "except": [
       "Xon",
-      "xon, nez"
+      "xon, nez",
+      "member",
+      "SHI >"
     ],
     "statusRepeat": false,
     "autoReconnect": false,
-    "autocmd": [
-      "/login pras2009"
-    ]
+    "autocmd": [],
+    "reconnectTime": 0
   },
   {
     "claritynetwork.net": {

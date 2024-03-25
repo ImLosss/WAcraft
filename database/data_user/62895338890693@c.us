@@ -4,10 +4,10 @@
     "chatPrivate": true,
     "ip": "play.claritynetwork.net",
     "username": "Ned",
-    "status": "offline",
+    "status": "online",
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "except": [
       "[me ->",
@@ -28,7 +28,8 @@
       "/automsg 2"
     ],
     "autoReconnect": true,
-    "statusRepeat": false
+    "statusRepeat": true,
+    "reconnectTime": 0
   },
   {
     "play.claritynetwork.net": {

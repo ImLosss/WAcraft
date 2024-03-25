@@ -18,7 +18,8 @@
       "/home afk",
       "/autorightclick 3"
     ],
-    "autoReconnect": true
+    "autoReconnect": true,
+    "reconnectTime": 0
   },
   {}
 ]

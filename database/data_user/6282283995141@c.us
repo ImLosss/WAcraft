@@ -15,7 +15,8 @@
     "autoReconnect": true,
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "reconnectTime": 0
   },
   {
     "play.claritynetwork.net": {

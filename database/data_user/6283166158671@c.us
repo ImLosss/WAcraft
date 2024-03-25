@@ -18,7 +18,8 @@
       "/login tolol123",
       "/survival",
       "/autorightclick 5"
-    ]
+    ],
+    "reconnectTime": 0
   },
   {
     "claritynetwork.net": {

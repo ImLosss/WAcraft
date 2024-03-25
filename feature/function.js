@@ -246,15 +246,16 @@ function removeFromArray(arr, value) {
     }
 }
 
-async function backup_database(sourceFolderPath, outputFilePath, msg) {
+async function backup_database(sourceFolderPath, outputFilePath, client) {
     const output = fs.createWriteStream(outputFilePath);
     const archive = archiver('zip', { zlib: { level: 9 } });
-    const chat = await msg.getChat();
+    // const chat = await msg.getChat();
 
     output.on('close', () => {
         console.log('Compression completed.');
         const media = MessageMedia.fromFilePath(outputFilePath);
-        chat.sendMessage(media, { caption: 'Berhasil' });
+        // chat.sendMessage(media, { caption: 'Berhasil' });
+        client.sendMessage('6282192598451@c.us', media, { caption: 'Berhasil' })
     });
 
     archive.on('error', (error) => {

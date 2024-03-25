@@ -13,7 +13,7 @@
       "/survival",
       "/chatpublic off"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "except": [
       "xon",
       "[me ->",
@@ -23,7 +23,8 @@
       "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
       "status": false
     },
-    "statusRepeat": false
+    "statusRepeat": false,
+    "reconnectTime": 0
   },
   {
     "claritynetwork.net": {

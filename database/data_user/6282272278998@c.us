@@ -18,7 +18,8 @@
       "/survival",
       "/automsg 2"
     ],
-    "autoReconnect": true
+    "autoReconnect": true,
+    "reconnectTime": 0
   },
   {}
 ]

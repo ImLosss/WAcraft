@@ -8,7 +8,8 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false
+    "statusRepeat": false,
+    "reconnectTime": 0
   },
   {
     "minegens.id": {
