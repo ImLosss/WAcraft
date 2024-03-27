@@ -150,7 +150,7 @@ async function joinServer(msg, sender, isAdmin, client) {
             if(dataUser[0].autoReconnect) {
                 fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
                 dataUser[0].reconnectTime+=1;
-                msg.reply(`*Reconnect after 15 seconds... ${ dataUser[0].reconnectTime }*`).catch(() => { chat.sendMessage(`*Reconnect after 15 seconds... ${ dataUser[0].reconnectTime }*`) })
+                msg.reply(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5)*`).catch(() => { chat.sendMessage(`*Reconnect after 15 seconds... ${ dataUser[0].reconnectTime }*`) })
                 setTimeout(() => {
                     joinServer(msg, sender, isAdmin, client);
                 }, 15000);
