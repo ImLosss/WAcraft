@@ -1,6 +1,6 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
     "ip": "play.claritynetwork.net",
     "username": "Ned",

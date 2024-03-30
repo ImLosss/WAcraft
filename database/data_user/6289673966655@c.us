@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "nowezki",
+    "username": "Xonezka",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -17,7 +17,8 @@
     "except": [
       "xon",
       "[me ->",
-      "me]->"
+      "me]->",
+      "SHI"
     ],
     "automsg": {
       "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
@@ -31,7 +32,8 @@
       "realUser": "Xonezka",
       "alt": [
         "Klvv",
-        "nowezki"
+        "nowezki",
+        "xonezka"
       ]
     }
   }
