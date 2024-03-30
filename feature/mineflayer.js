@@ -17,7 +17,11 @@ async function joinServer(msg, sender, isAdmin, client) {
         if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
         if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
         if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser [username]*');
-        if(dataUser[0].reconnectTime == 5) return chat.sendMessage('Gagal join ke server...');
+        if(dataUser[0].reconnectTime == 5) {
+            dataUser[0].reconnectTime = 0;
+            fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+            return chat.sendMessage('Gagal join ke server...');
+        }
 
         const ip = dataUser[0].ip;
         if(!dataUser[1][ip]) return msg.reply(`Sebelum join ke server, Anda *diwajibkan* untuk mengatur username asli yang anda mainkan(bukan akun alt/afk) di server ${ dataUser[0].ip } terlebih dahulu.\nKirim pesan dengan format:\n*/setRealUser [username_asli]*\n\n_Hal ini diperlukan karena semua user yg join menggunakan bot ini akan memiliki ip yg sama, untuk melihat info akun anda kirim */cekInfo*_.`);
