@@ -8,8 +8,13 @@ const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, d
 
 resetDataUser();
 
+const wwebVersion = '2.2407.3';
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(), // your authstrategy here
+    webVersionCache: {
+        type: 'remote',
+        remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
+    },
 });
 
 const menu = `╓──▷「 *Menu Command* 」
