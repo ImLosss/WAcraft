@@ -7,7 +7,7 @@ const fungsi = require('./fungsi');
 
 
 async function joinServer(msg, sender, isAdmin, client) {
-    let Lmessagestr, list2;
+    let Lmessagestr, list2, timeoutDc;
     const chat = await msg.getChat();
     try {
         if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -36,6 +36,14 @@ async function joinServer(msg, sender, isAdmin, client) {
         let message = ''
         Lmessagestr = async (msgstr) => {
             if(msgstr == "" || message == msgstr) return;
+
+            // menambah timeout untuk disconnect jika tidak terdapat aktivitas
+            clearInterval(timeoutDc);
+            timeoutDc =  setTimeout(() => {
+                chat.sendMessage('*Tidak terdapat pesan selama 15 menit. Disconnect dari server...*');
+                bot.quit();
+            }, 1000*60*15);
+
             message = msgstr;
             let except = [];
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
