@@ -38,7 +38,7 @@ async function joinServer(msg, sender, isAdmin, client) {
             if(msgstr == "" || message == msgstr) return;
 
             // menambah timeout untuk disconnect jika tidak terdapat aktivitas
-            clearInterval(timeoutDc);
+            clearTimeout(timeoutDc);
             timeoutDc =  setTimeout(() => {
                 chat.sendMessage('*Tidak terdapat pesan selama 15 menit. Disconnect dari server...*');
                 bot.quit();
