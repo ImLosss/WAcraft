@@ -137,6 +137,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 
         bot.once('end', (msgEnd) => {
             console.log(`End: ${ msgEnd }`);
+            clearTimeout(timeoutDc);
             const numListenersBeforeRemoval = client.listeners('message').length;
             console.log(`Jumlah listener sebelum dihapus : ${ numListenersBeforeRemoval }`);
             try{
