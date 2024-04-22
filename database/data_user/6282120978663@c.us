@@ -19,7 +19,8 @@
       "/autorightclick 3"
     ],
     "autoReconnect": true,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoleftclick": false
   },
   {}
 ]

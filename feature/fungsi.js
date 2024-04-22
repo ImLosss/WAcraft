@@ -273,11 +273,21 @@ exports.sendMsg = async function sendMsg(msg, client) {
     });
 }
 
+exports.update = async function update(msg) {
+    const chat = await msg.getChat();
+    const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
+    let update = fs.readFileSync(`update`, 'utf-8');
+    update = JSON.parse(update);
+    update = update["1.3.0"].details;
+
+    msg.reply('update').catch(() => { chat.sendMessage(reply) })
+}
+
 exports.sendUpdate = async function sendUpdate(msg, client) {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
     let update = fs.readFileSync(`update`, 'utf-8');
     update = JSON.parse(update);
-    update = update["1.2.5"].details;
+    update = update["1.3.0"].details;
 
     fs.readdir(folderPath, (err, files) => {
         if (err) {

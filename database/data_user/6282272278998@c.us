@@ -19,7 +19,8 @@
       "/automsg 2"
     ],
     "autoReconnect": true,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoleftclick": false
   },
   {}
 ]

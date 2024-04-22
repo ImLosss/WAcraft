@@ -1,11 +1,11 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "Horm",
     "ip": "claritynetwork.net",
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [
       "/login rimbun",
       "/survival",
@@ -16,7 +16,8 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoleftclick": false
   },
   {
     "play.claritynetwork.net": {

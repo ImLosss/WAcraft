@@ -25,16 +25,18 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/setip [ip_server]
 ║ ▹/setuser [username_mc]
 ║ ▹/setRealUser [real_username]
-║ ▹/cekInfo
+║ ▹/info
 ║ ▹/join
 ║ ▹/autoReconnect [on/of]
 ║ ▹/autocmd [msg]
 ║ ▹/delAutocmd [msg]
 ║ ▹/cekAutocmd [msg]
+║ ▹/update
 ║ ▹/bugReport [describe_bug]
 ╟───「 *Command inGame* 」
 ║ ▹/automsg [time_in_min]
 ║ ▹/autoRightClick [time_in_sec]
+║ ▹/autoLeftClick [time_in_sec]
 ║ ▹/chat [on/off]
 ║ ▹/playerlist
 ║ ▹/tellme [msg]
@@ -56,6 +58,35 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹ Harap gunakan perintah dengan 
 ║   bijak
 ╙───────────────▷`
+
+const prefixFunctionsAdmin = {
+    'backup': (msg, sender, client, arg) => backup_database('database', 'database.zip', client),
+    'sendmsg': (msg, sender, client, arg) => fungsi.sendMsg(msg, client),
+    'sendupdate': (msg, sender, client, arg) => fungsi.sendUpdate(msg, client),
+    'sendmsgall': (msg, sender, client, arg) => fungsi.sendMsgAll(msg, client),
+}
+
+const prefixFunctions = {
+    'update': (msg, sender, client, arg) => fungsi.update(msg),
+    'join': (msg, sender, client, arg) => joinServer(msg, sender, client),
+    'dc': (msg, sender, client, arg) => disconnect(msg, sender),
+    'automsg of': (msg, sender, client, arg) => automsgof(msg, sender),
+    'cektellme': (msg, sender, client, arg) => cektellme(msg, sender),
+    'cekautocmd': (msg, sender, client, arg) => fungsi.cekautocmd(msg, sender),
+    'chat': (msg, sender, client, arg) => chatPublic(msg, sender),
+    'setip': (msg, sender, client, arg) => setIp(msg, sender),
+    'setuser': (msg, sender, client, arg) => setUser(msg, sender),
+    'setautomsg': (msg, sender, client, arg) => setAutoMsg(msg, sender),
+    'tellme': (msg, sender, client, arg) => tellme(msg, sender),
+    'delltellme': (msg, sender, client, arg) => delltellme(msg, sender),
+    'autocmd': (msg, sender, client, arg) => fungsi.autocmd(msg, sender),
+    'delautocmd': (msg, sender, client, arg) => fungsi.delautocmd(msg, sender),
+    'autoreconnect': (msg, sender, client, arg) => fungsi.setAutoReconnect(msg, sender),
+    'setrealuser': (msg, sender, client, arg) => fungsi.setRealUser(msg, sender),
+    'info': (msg, sender, client, arg) => fungsi.cekInfo(msg, sender),
+    'bugreport': (msg, sender, client, arg) => fungsi.bugReport(msg, client, sender),
+    'getinfouser': (msg, sender, client, arg) => fungsi.getInfoUser(msg, client),
+};
 
 client.on('qr', qrdata => {
     qrcode.generate(qrdata, {
@@ -91,17 +122,13 @@ client.on('message', async msg => {
     try {
         const chat = await msg.getChat();
 
-        const prefix = ['!', '/', '.'];
+        const prefix = ['/', '!'];
 
         chat.sendSeen();
         client.sendPresenceAvailable();
 
         const text = msg.body.toLowerCase() || '';
 
-        chat.sendSeen;
-
-        const authorId = msg.author;
-        let isAdmin = false;
         let sender = msg.from;
 
         const dir_data_user = `./database/data_user/${ sender }`
@@ -114,45 +141,22 @@ client.on('message', async msg => {
             fs.writeFileSync(dir_data_user, JSON.stringify(data_user));
         }
 
-        if(chat.isGroup) {
-            for(let participant of chat.participants) {
-                if(participant.id._serialized === authorId && participant.isAdmin) {
-                    isAdmin = true;
-                    break;
+        if (prefix.some(pre => text == `${pre}menu`)) return msg.reply(menu);
+        else if(!chat.isGroup) {
+            for (const pre of prefix) {
+                if (text.startsWith(`${pre}`)) {
+                    const funcName = text.replace(pre, '').trim().split(' ');
+                    // if(prefixFunctions[funcName[0]] && sender != "6282192598451@c.us") {
+                    //     return msg.reply('Bot sedang melakukan pengujian fitur, Anda tidak termasuk dalam whitelist!');
+                    // }
+                    if (prefixFunctions[funcName[0]]) {
+                        return prefixFunctions[funcName[0]](msg, sender, client, text);
+                    } else if (prefixFunctionsAdmin[funcName[0]] && sender == "6282192598451@c.us") {
+                        return prefixFunctionsAdmin[funcName[0]](msg, sender, client, text);
+                    }
                 }
             }
         }
-
-        if (prefix.some(pre => text.startsWith(`${pre}join`))) {
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-        
-            if (dataUser[0].status == 'online') { 
-                msg.reply('Anda sedang Online, kirim /dc untuk disconnect');
-            } else joinServer(msg, sender, isAdmin, client);
-        } else if (prefix.some(pre => text.startsWith(`${pre}chatpublic`) || text.startsWith(`${pre}chat`))) chatPublic(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}dc`))) disconnect(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}setip`))) setIp(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}setuser`))) setUser(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}setautomsg`))) setAutoMsg(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}automsg of`))) automsgof(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}tellme`))) tellme(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}deltellme`))) delltellme(msg, sender);
-        else if (prefix.some(pre => text == `${pre}cektellme`)) cektellme(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}autocmd`))) fungsi.autocmd(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}delautocmd`))) fungsi.delautocmd(msg, sender);
-        else if (prefix.some(pre => text == `${pre}cekautocmd`)) fungsi.cekautocmd(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}autoreconnect`))) fungsi.setAutoReconnect(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}setrealuser`))) fungsi.setRealUser(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}cekinfo`))) fungsi.cekInfo(msg, sender);
-        else if (prefix.some(pre => text.startsWith(`${pre}bugreport`))) fungsi.bugReport(msg, client, sender);
-        else if (prefix.some(pre => text == `${pre}menu`)) msg.reply(menu);
-        else if (prefix.some(pre => text === `${pre}backup`) && sender == "6282192598451@c.us") await backup_database('database', 'database.zip', client);
-        else if (prefix.some(pre => text.startsWith(`${pre}sendmsg`)) && sender == "6282192598451@c.us") fungsi.sendMsg(msg, client);
-        else if (prefix.some(pre => text.startsWith(`${pre}getinfouser`)) && sender == "6282192598451@c.us") fungsi.getInfoUser(msg, client);
-        else if (prefix.some(pre => text === `${pre}sendupdate`) && sender == "6282192598451@c.us") fungsi.sendUpdate(msg, client);
-        else if (prefix.some(pre => text === `${pre}sendmsgall`) && sender == "6282192598451@c.us") fungsi.sendMsgAll(msg, client);
-        
     } catch(err) {
         console.log(err)
         msg.reply('Error')

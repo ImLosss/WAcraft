@@ -25,7 +25,8 @@
       "status": false
     },
     "statusRepeat": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoleftclick": false
   },
   {
     "claritynetwork.net": {

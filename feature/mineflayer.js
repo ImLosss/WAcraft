@@ -6,7 +6,7 @@ const fungsi = require('./fungsi');
 
 
 
-async function joinServer(msg, sender, isAdmin, client) {
+async function joinServer(msg, sender, client) {
     let Lmessagestr, list2, timeoutDc;
     const chat = await msg.getChat();
     try {
@@ -57,7 +57,7 @@ async function joinServer(msg, sender, isAdmin, client) {
         bot.once('spawn', async () => {
             let dataUser = fungsi.getDataUser(sender);
             // if(dataUser[0].status == 'offline') {
-                sendMsg(client, bot, msg, sender, chat, isAdmin);
+                sendMsg(client, bot, msg, sender, chat);
                 dataUser[0].status = 'online';
                 dataUser[0].statusRepeat = true;
                 dataUser[0].reconnectTime = 0;
@@ -123,7 +123,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                     bot.quit();
                     dataUser[0].reconnectTime+=1;
                     msg.reply(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`).catch(() => { chat.sendMessage(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`) });
-                    joinServer(msg, sender, isAdmin, client);
+                    joinServer(msg, sender, client);
                     return;
                 }
                 else if(e == "Error: ETIMEDOUT") { chat.sendMessage('Gagal join ke server...') }
@@ -165,7 +165,7 @@ async function joinServer(msg, sender, isAdmin, client) {
                 fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
                 msg.reply(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5)*`).catch(() => { chat.sendMessage(`*Reconnect after 15 seconds... ${ dataUser[0].reconnectTime }*`) })
                 setTimeout(() => {
-                    joinServer(msg, sender, isAdmin, client);
+                    joinServer(msg, sender, client);
                 }, 15000);
             } else {
                 dataUser[0].chatPublic = true;
@@ -176,7 +176,7 @@ async function joinServer(msg, sender, isAdmin, client) {
 
         bot.addListener('messagestr', Lmessagestr);
 
-        function sendMsg(client, bot, msg5, sender, chat, isAdmin) {
+        function sendMsg(client, bot, msg5, sender, chat) {
             list2 = async (msg2) => {
                 if(msg2.from == sender) {
                     const pesan = msg2.body;
@@ -196,6 +196,8 @@ async function joinServer(msg, sender, isAdmin, client) {
                         playerOnline(bot, msg5);
                     } else if(pesan.startsWith('/autorightclick')) {
                         autoRightClick(bot, msg5, pesan, sender);
+                    } else if(pesan.startsWith('/autoleftclick')) {
+                        autoLeftClick(bot, msg5, pesan, sender);
                     } else if(pesan.startsWith('/afkfarm')) {
                         afkfarm(bot, msg5, pesan, sender);
                     } else if(pesan == '/ping') {
@@ -340,21 +342,22 @@ async function autoLeftClick(bot, msg, pesan, sender) {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
 
-        if(dataUser[0].autorightclick) return msg.reply('autoleftclick masih aktif, kirim */autorightclick of* untuk menonaktifkannya');
+        if(dataUser[0].autoleftclick) return msg.reply('autoleftclick masih aktif, kirim */autoleftclick of* untuk menonaktifkannya');
 
         if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */autoleftclick [time_in_sec]*');
         let time2 = time * 1000;
         console.log(time2);
-        dataUser[0].autorightclick = true;
+        dataUser[0].autoleftclick = true;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         chat.sendMessage(`*Berhasil mengaktifkan autoleftclick tiap ${ time } Detik*`);
         const intval2 = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].autoleftclick) {
-                const entity = bot.entityAtCursor(10);
-                // console.log(entity);
-                if(entity) bot.attack(entity);
+                const entity = bot.entityAtCursor(5);
+                if (entity && entity.kind != "UNKNOWN")  {
+                    bot.attack(entity);
+                }
                 else bot.swingArm();
             } else clearInterval(intval2);
         }, time2);
@@ -362,7 +365,7 @@ async function autoLeftClick(bot, msg, pesan, sender) {
         let cekautoleftclick = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
-            if(!dataUser[0].autorightclick) { 
+            if(!dataUser[0].autoleftclick) { 
                 clearInterval(cekautoleftclick);
                 clearInterval(intval2);
                 msg.reply('*Berhasil menonaktifkan autoLeftClick*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan autoLeftClick*') });

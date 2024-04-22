@@ -2,11 +2,11 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "play.claritynetwork.net",
-    "username": "shenxx",
+    "username": "Losss",
     "automsg": {
-      "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
+      "message": "/feed",
       "status": false
     },
     "except": [
@@ -33,15 +33,14 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
+    "statusRepeat": true,
     "autocmd": [
-      "/login 040103",
-      "/survival",
-      "/dd",
-      "/dp"
+      "/login rayajr440",
+      "/server survival"
     ],
     "autoReconnect": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoleftclick": true
   },
   {
     "play.claritynetwork.net": {
