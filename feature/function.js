@@ -29,6 +29,7 @@ async function resetDataUser() {
                     jsonData[0].status = 'offline'; 
                     jsonData[0].chatPublic = true;
                     jsonData[0].autorightclick = false;
+                    jsonData[0].autoleftclick = false;
                     jsonData[0].afkfarm = false;
                     jsonData[0].afkfish = false;
                     jsonData[0].statusRepeat = false;
@@ -175,6 +176,16 @@ async function autoRightClickOff(msg, sender) {
 
 }
 
+async function autoLeftClickOff(msg, sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    dataUser[0].autoleftclick = false;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+
+}
+
 async function afkFarmOf(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
@@ -283,5 +294,5 @@ async function backup_database(sourceFolderPath, outputFilePath, client) {
 }
 
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray
 }

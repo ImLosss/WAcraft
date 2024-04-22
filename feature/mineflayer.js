@@ -1,6 +1,6 @@
 const mineflayer = require('mineflayer');
 const fs = require('fs');
-const { autoRightClickOff, afkFarmOf, afkFishOf } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 
@@ -319,6 +319,53 @@ async function autoRightClick(bot, msg, pesan, sender) {
                 clearInterval(cekautorightclick);
                 clearInterval(intval2);
                 msg.reply('*Berhasil menonaktifkan autoRightClick*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan autoRightClick*') });
+            }
+        }, 2000);
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+async function autoLeftClick(bot, msg, pesan, sender) {
+    try {
+        const chat = await msg.getChat();
+        if(pesan == '/autoleftclick of' || pesan == '/autoleftclick off') {
+            autoLeftClickOff(msg, sender);
+            return;
+        };
+        pesan = pesan.split(' ');
+        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */autoleftclick [time_in_sec]*');
+        let time = pesan[1];
+
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
+
+        if(dataUser[0].autorightclick) return msg.reply('autoleftclick masih aktif, kirim */autorightclick of* untuk menonaktifkannya');
+
+        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */autoleftclick [time_in_sec]*');
+        let time2 = time * 1000;
+        console.log(time2);
+        dataUser[0].autorightclick = true;
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+        chat.sendMessage(`*Berhasil mengaktifkan autoleftclick tiap ${ time } Detik*`);
+        const intval2 = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(dataUser[0].autoleftclick) {
+                const entity = bot.entityAtCursor(10);
+                // console.log(entity);
+                if(entity) bot.attack(entity);
+                else bot.swingArm();
+            } else clearInterval(intval2);
+        }, time2);
+
+        let cekautoleftclick = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(!dataUser[0].autorightclick) { 
+                clearInterval(cekautoleftclick);
+                clearInterval(intval2);
+                msg.reply('*Berhasil menonaktifkan autoLeftClick*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan autoLeftClick*') });
             }
         }, 2000);
     } catch(e) {
