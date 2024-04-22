@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "play.claritynetwork.net",
-    "username": "Losss",
+    "username": "shenxx",
     "automsg": {
       "message": "/promosi &e&lButuh Duid??? &r&lJual item &d&lDungeon &r&lkamu di [/pwarp Losss]",
       "status": false
@@ -37,7 +37,6 @@
     "autocmd": [
       "/login 040103",
       "/survival",
-      "/autorightclick 2",
       "/dd",
       "/dp"
     ],
