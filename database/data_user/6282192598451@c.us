@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "play.claritynetwork.net",
     "username": "Losss",
     "automsg": {
@@ -33,14 +33,14 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [
       "/login rayajr440",
       "/server survival"
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
-    "autoleftclick": true
+    "autoleftclick": false
   },
   {
     "play.claritynetwork.net": {

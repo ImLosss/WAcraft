@@ -280,7 +280,7 @@ exports.update = async function update(msg) {
     update = JSON.parse(update);
     update = update["1.3.0"].details;
 
-    msg.reply('update').catch(() => { chat.sendMessage(reply) })
+    msg.reply(update).catch(() => { chat.sendMessage(update) })
 }
 
 exports.sendUpdate = async function sendUpdate(msg, client) {
