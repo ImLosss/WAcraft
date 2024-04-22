@@ -81,6 +81,7 @@ async function joinServer(msg, sender, client) {
                             });
                         } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
                         else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
+                        else if (array[repeatCmd].startsWith('/autoleftclick')) autoLeftClick(bot, msg, array[repeatCmd], sender);
                         else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
                         else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
                         else bot.chat(array[repeatCmd]);
