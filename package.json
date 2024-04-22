@@ -7,6 +7,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "mineflayer": "^4.14.0",
+    "mineflayer-item-map-downloader": "github:ImLosss/item-map-downloader-mineflayer",
     "node-cron": "^3.0.3",
     "nodemon": "^3.0.1",
     "qrcode": "^1.5.3",

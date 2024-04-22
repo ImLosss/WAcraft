@@ -205,7 +205,11 @@ async function joinServer(msg, sender, isAdmin, client) {
                     } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
                         afkFishOf(msg5, sender);
                     } else {
-                        bot.chat(msg2.body);
+                        try {
+                            bot.chat(pesan);
+                        } catch (err) {
+                            chat.sendMessage('_Terjadi kesalahan saat mengirim pesan anda..._')
+                        }
                     }
                 }
             }
