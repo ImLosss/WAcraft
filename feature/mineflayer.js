@@ -154,6 +154,7 @@ async function joinServer(msg, sender, client) {
             dataUser = JSON.parse(dataUser);
             dataUser[0].status = 'offline';
             dataUser[0].autorightclick = false;
+            dataUser[0].autoleftclick = false;
             dataUser[0].afkfarm = false;
             dataUser[0].afkfish = false;
             dataUser[0].statusRepeat = false;
