@@ -77,6 +77,7 @@ exports.setRealUser = async function setRealUser(msg, sender) {
     let username = pesan.slice(1, pesan.length);
     username = username.join(" ");
 
+    if (dataUser[1] == undefined) dataUser[1] = {};
     if(!dataUser[1][ip]) dataUser[1][ip] = {};
     dataUser[1][ip].realUser = username;
 
