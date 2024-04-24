@@ -28,15 +28,20 @@
       "[team]",
       "has requested",
       "Balance",
-      "Obtained"
+      "Obtained",
+      "kicked"
     ],
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
     "autocmd": [
-      "/login rayajr440",
-      "/server survival"
+      "/login 040103",
+      "/server survival",
+      "/dd",
+      "/dp",
+      "/autorightclick 2",
+      "/automsg"
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
