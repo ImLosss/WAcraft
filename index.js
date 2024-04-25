@@ -146,9 +146,9 @@ client.on('message', async msg => {
             for (const pre of prefix) {
                 if (text.startsWith(`${pre}`)) {
                     const funcName = text.replace(pre, '').trim().split(' ');
-                    // if(prefixFunctions[funcName[0]] && sender != "6282192598451@c.us") {
-                    //     return msg.reply('Bot sedang melakukan pengujian fitur, Anda tidak termasuk dalam whitelist!');
-                    // }
+                    if(prefixFunctions[funcName[0]] && sender != "6282192598451@c.us") {
+                        return msg.reply('Bot sedang melakukan pengujian fitur, Anda tidak termasuk dalam whitelist!');
+                    }
                     if (prefixFunctions[funcName[0]]) {
                         return prefixFunctions[funcName[0]](msg, sender, client, text);
                     } else if (prefixFunctionsAdmin[funcName[0]] && sender == "6282192598451@c.us") {

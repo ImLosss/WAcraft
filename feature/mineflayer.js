@@ -1,13 +1,15 @@
 const mineflayer = require('mineflayer');
+const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
 const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
+const { MessageMedia } = require('whatsapp-web.js');
 
 
 
 async function joinServer(msg, sender, client) {
-    let Lmessagestr, title, subtitle, list2, timeoutDc;
+    let Lmessagestr, title, subtitle, list2, timeoutDc, watcherDirMap;
     const chat = await msg.getChat();
     try {
         if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -28,13 +30,43 @@ async function joinServer(msg, sender, client) {
         if(!dataUser[1][ip]) return msg.reply(`Sebelum join ke server, Anda *diwajibkan* untuk mengatur username asli yang anda mainkan(bukan akun alt/afk) di server ${ dataUser[0].ip } terlebih dahulu.\nKirim pesan dengan format:\n*/setRealUser [username_asli]*\n\n_Hal ini diperlukan karena semua user yg join menggunakan bot ini akan memiliki ip yg sama, untuk melihat info akun anda kirim */info*_.`);
         fungsi.cekAlt(sender);
 
+        const filePathMap = `database/data_user/map/${ sender }`;
         const bot = mineflayer.createBot({
             host: ip, 
             username: dataUser[0].username, 
-            auth: 'offline'
+            auth: 'offline',
+            "mapDownloader-outputDir": filePathMap
         })
 
+        bot.loadPlugin(mapDownloader)
+
         injectTitle(bot);
+
+        if(!fs.existsSync(filePathMap)) {
+            fs.mkdirSync(filePathMap);
+        }
+
+        watcherDirMap = fs.watch(filePathMap, (eventType, filename) => {
+            if (eventType === 'change') {
+                console.log('file changed');
+                const dir = `${ filePathMap }/map_000000.png`;
+                try {
+                    const media = MessageMedia.fromFilePath(dir);
+                    chat.sendMessage(media);
+                } catch (err) {
+                    console.log('Error sending image map: ' . err)
+                }
+
+                setTimeout(() => {
+                    fs.unlink(dir, err => {
+                        if (err) {
+                            console.error('Error deleting file:', err);
+                            return;
+                        }
+                    });
+                }, 5000);
+            }
+        });
 
         let message = ''
         Lmessagestr = async (msgstr) => {
@@ -182,6 +214,12 @@ async function joinServer(msg, sender, client) {
                 console.log(`Jumlah listener subtitle setelah dihapus : ${  numListenersSubtitleAfterRemoval }`);
             } catch (e) {
                 console.log(`Gagal hapus listener : ${ e }`);
+            }
+
+            try {
+                watcherDirMap.close();
+            } catch (err) {
+                console.log('Error ketika menghapus listener map: ' . err);
             }
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');

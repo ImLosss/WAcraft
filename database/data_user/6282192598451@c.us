@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "play.claritynetwork.net",
-    "username": "Losss",
+    "username": "Losseess",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -35,14 +35,7 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "autocmd": [
-      "/login 040103",
-      "/server survival",
-      "/dd",
-      "/dp",
-      "/autorightclick 2",
-      "/automsg"
-    ],
+    "autocmd": [],
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false
@@ -52,7 +45,11 @@
       "realUser": "Losss",
       "alt": [
         "Ned",
-        "shenxx"
+        "shenxx",
+        "lossesss",
+        "Lossseeess",
+        "TheRosses",
+        "Losseess"
       ]
     },
     "claritynetwork.net": {
