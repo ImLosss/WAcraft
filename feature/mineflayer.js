@@ -1,13 +1,13 @@
 const mineflayer = require('mineflayer');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 
 
 
 async function joinServer(msg, sender, client) {
-    let Lmessagestr, list2, timeoutDc;
+    let Lmessagestr, title, subtitle, list2, timeoutDc;
     const chat = await msg.getChat();
     try {
         if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -34,6 +34,8 @@ async function joinServer(msg, sender, client) {
             auth: 'offline'
         })
 
+        injectTitle(bot);
+
         let message = ''
         Lmessagestr = async (msgstr) => {
             if(msgstr == "" || message == msgstr) return;
@@ -55,7 +57,28 @@ async function joinServer(msg, sender, client) {
             chat.sendMessage(msgstr);
         }
 
+        title = async (text) => {
+            try {
+                text = JSON.parse(text);
+
+                chat.sendMessage(`Title: ${ text.text }`);
+            } catch (err) {
+                console.log('Error title: ' . err);
+            }
+        }
+
+        subtitle = async (text) => {
+            try {
+                text = JSON.parse(text);
+
+                chat.sendMessage(`Subtitle: ${ text.text }`);
+            } catch (err) {
+                console.log('Error subtitle: ' . err);
+            }
+        }
+
         bot.once('spawn', async () => {
+            chat.sendMessage(`Connected`);
             let dataUser = fungsi.getDataUser(sender);
             // if(dataUser[0].status == 'offline') {
                 sendMsg(client, bot, msg, sender, chat);
@@ -140,16 +163,26 @@ async function joinServer(msg, sender, client) {
         bot.once('end', (msgEnd) => {
             console.log(`End: ${ msgEnd }`);
             clearTimeout(timeoutDc);
-            const numListenersBeforeRemoval = client.listeners('message').length;
-            console.log(`Jumlah listener sebelum dihapus : ${ numListenersBeforeRemoval }`);
+            const numListenersMessageBeforeRemoval = client.listeners('message').length;
+            const numListenersSubtitleBeforeRemoval = bot.listeners('subtitle').length;
+            const numListenersTitleBeforeRemoval = bot.listeners('title').length;
+            console.log(`Jumlah listener message sebelum dihapus : ${ numListenersMessageBeforeRemoval }`);
+            console.log(`Jumlah listener title sebelum dihapus : ${ numListenersTitleBeforeRemoval }`);
+            console.log(`Jumlah listener subtitle message sebelum dihapus : ${ numListenersSubtitleBeforeRemoval }`);
             try{
+                bot.removeListener('messagestr', Lmessagestr);
+                bot.removeListener('title', title);
+                bot.removeListener('subtitle', subtitle);
                 client.removeListener('message', list2);
-                const numListenersAfterRemoval = client.listeners('message').length;
-                console.log(`Jumlah listener setelah dihapus : ${  numListenersAfterRemoval }`);
+                const numListenersMessageAfterRemoval = client.listeners('message').length;
+                const numListenersSubtitleAfterRemoval = bot.listeners('subtitle').length;
+                const numListenersTitleAfterRemoval = bot.listeners('title').length;
+                console.log(`Jumlah listener message setelah dihapus : ${  numListenersMessageAfterRemoval }`);
+                console.log(`Jumlah listener title setelah dihapus : ${  numListenersTitleAfterRemoval }`);
+                console.log(`Jumlah listener subtitle setelah dihapus : ${  numListenersSubtitleAfterRemoval }`);
             } catch (e) {
                 console.log(`Gagal hapus listener : ${ e }`);
             }
-            bot.removeListener('messagestr', Lmessagestr);
 
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
@@ -178,6 +211,8 @@ async function joinServer(msg, sender, client) {
         });
 
         bot.addListener('messagestr', Lmessagestr);
+        bot.addListener('title', title);
+        bot.addListener('subtitle', subtitle);
 
         function sendMsg(client, bot, msg5, sender, chat) {
             list2 = async (msg2) => {

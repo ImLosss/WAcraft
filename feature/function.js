@@ -293,6 +293,23 @@ async function backup_database(sourceFolderPath, outputFilePath, client) {
     archive.finalize();
 }
 
+function injectTitle (bot) {
+    bot._client.on('title', (packet) => {
+        if (packet.action === 0 || packet.action === 1) {
+            bot.emit('title', packet.text)
+        }
+    })
+  
+    bot._client.on('set_title_text', (packet) => {
+        bot.emit('title', packet.text)
+    })
+    bot._client.on('set_title_subtitle', (packet) => {
+        setTimeout(() => {
+            bot.emit('subtitle', packet.text)
+        }, 100);
+    })
+}
+
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray, injectTitle
 }
