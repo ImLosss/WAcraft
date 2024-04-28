@@ -177,7 +177,9 @@ async function joinServer(msg, sender, client) {
                 if(e.code == "ENOTFOUND") msg.reply('IP mu sepertinya salah...').catch(( )=> { chat.sendMessage('IP mu sepertinya salah...') });
                 else if(e.code == "ECONNRESET") msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 else if(e == "Error: ETIMEDOUT" && dataUser[0].status != 'online' && dataUser[0].autoReconnect) {
-                    bot.quit();
+                    try{ 
+                        bot.quit();
+                    } catch (e) { console.log(e) }
                     dataUser[0].reconnectTime+=1;
                     msg.reply(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`).catch(() => { chat.sendMessage(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`) });
                     joinServer(msg, sender, client);
