@@ -6,8 +6,6 @@ const { joinServer } = require('./feature/mineflayer');
 const fungsi = require('./feature/fungsi');
 const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser } = require('./feature/function');
 
-resetDataUser();
-
 const wwebVersion = '2.2407.3';
 const client = new Client({
     authStrategy: new LocalAuth(), // your authstrategy here
@@ -114,8 +112,9 @@ client.on('qr', qrdata => {
     });
 });
 
-client.on('ready', () => {
+client.once('ready', () => {
     console.log('Client is ready!');
+    resetDataUser(client);
 });
 
 client.on('message', async msg => {

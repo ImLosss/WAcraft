@@ -4,7 +4,7 @@ const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
 
 
-async function resetDataUser() {
+async function resetDataUser(client) {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
 
     fs.readdir(folderPath, (err, files) => {
@@ -26,6 +26,9 @@ async function resetDataUser() {
                 // Ubah data dalam file JSON
                 try {
                     const jsonData = JSON.parse(data);
+
+                    if(jsonData[0].status == 'online') client.sendMessage(file, '_*Bot restarted*_');
+
                     jsonData[0].status = 'offline'; 
                     jsonData[0].chatPublic = true;
                     jsonData[0].autorightclick = false;
