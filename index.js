@@ -149,14 +149,15 @@ client.on('message', async msg => {
             for (const pre of prefix) {
                 if (text.startsWith(`${pre}`)) {
                     const funcName = text.replace(pre, '').trim().split(' ');
+
+                    if(prefixFunctions[funcName[0]] && config.blacklist.includes(sender)) return chat.sendMessage("Maaf nomor anda telah di blacklist. Anda tidak dapat menggunakan bot ini lagi");
+
                     if(config.maintenance) {
                         const whitelist = config.maintenanceWhitelist;
                         if(prefixFunctions[funcName[0]] && !whitelist.includes(sender)) {
                             return msg.reply('Bot sedang melakukan pengujian fitur, Anda tidak termasuk dalam whitelist!');
                         }
                     }
-
-                    if(prefixFunctions[funcName[0]] && config.blacklist.includes(sender)) return chat.sendMessage("Maaf nomor anda telah di blacklist. Anda tidak dapat menggunakan bot ini lagi");
 
                     if (prefixFunctions[funcName[0]]) {
                         return prefixFunctions[funcName[0]](msg, sender, client, text);
