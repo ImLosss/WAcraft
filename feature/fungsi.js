@@ -494,6 +494,16 @@ exports.backupInterval = async function backupInterval(sourceFolderPath, outputF
     archive.finalize();
 }
 
+exports.chatOff = async function chatOff(sender) {
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser); 
+
+    dataUser[0].chatPublic = false; 
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+    return;
+}
+
 function getDataUser(sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);

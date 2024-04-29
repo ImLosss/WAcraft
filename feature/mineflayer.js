@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer');
 const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle, chatPublic } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
@@ -9,7 +9,7 @@ const { MessageMedia } = require('whatsapp-web.js');
 
 
 async function joinServer(msg, sender, client) {
-    let Lmessagestr, title, subtitle, list2, timeoutDc, watcherDirMap;
+    let Lmessagestr, title, subtitle, list2, timeoutDc, timeoutChat, watcherDirMap;
     const chat = await msg.getChat();
     try {
         if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -197,6 +197,7 @@ async function joinServer(msg, sender, client) {
         bot.once('end', (msgEnd) => {
             console.log(`End: ${ msgEnd }`);
             clearTimeout(timeoutDc);
+            clearTimeout(timeoutChat);
             const numListenersMessageBeforeRemoval = client.listeners('message').length;
             const numListenersSubtitleBeforeRemoval = bot.listeners('subtitle').length;
             const numListenersTitleBeforeRemoval = bot.listeners('title').length;
@@ -291,6 +292,19 @@ async function joinServer(msg, sender, client) {
                             chat.sendMessage('_Terjadi kesalahan saat mengirim pesan anda..._')
                         }
                     }
+
+                    // menambah timeout untuk chat of jika tidak terdapat aktivitas
+                    clearTimeout(timeoutChat);
+                    timeoutChat =  setTimeout(() => {
+                        let dataUser = fungsi.getDataUser(sender);
+                        if(dataUser[0].chatPublic) {
+                            fungsi.chatOff(sender)
+                            chat.sendMessage('*Tidak terdapat pesan yang dikirim selama 1 jam, mematikan chat untuk menghindari spam bot. Kirim _/chat on_ untuk menyalakan chat kembali...*\n\n_Note:_\n_pesan yang dikirim ke chat ini akan tetap dikirim ke game meskipun chat telah dimatikan_')
+                            .then(() => {
+                                chat.sendMessage('*Anda dapat menggunakan fitur filter chat agar tetap dapat menerima pesan saat chat diatur ke of (_/tellme [pesan]_)*\n\nContoh:\n*_/tellme Obtained_*');
+                            });
+                        }
+                    }, 1000*60*60);
                 }
             }
             client.addListener('message', list2);
