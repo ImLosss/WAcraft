@@ -416,7 +416,8 @@ exports.getInfoUser = async function getInfoUser(msg, client) {
         }
 
         files.forEach(async (user) => {
-        const filePath = path.join(folderPath, user);
+            const filePath = path.join(folderPath, user);
+            const formattedNumber = await client.getFormattedNumber(user);
         
             // Baca file JSON
             fs.readFile(filePath, 'utf8', (err, data) => {
@@ -445,12 +446,12 @@ exports.getInfoUser = async function getInfoUser(msg, client) {
                         return foundAlt;
                     })
 
-                    let send = `WA: ${ user }\n`;
+                    let send = `WA: ${ formattedNumber }\n`;
                     output.map((item) => {
                         altStr = item.alt.join(', ');
                         send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ altStr }\n`;
                     })
-                    if (send != `WA: ${ user }\n`) return msg.reply(send);
+                    if (send != `WA: ${ formattedNumber }\n`) return msg.reply(send);
                 } catch (parseErr) {
                     msg.reply(`Error when sending a Message:`, parseErr);
                 }
