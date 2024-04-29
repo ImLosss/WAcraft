@@ -1,4 +1,6 @@
 {
+    "owner": "6282192598451@c.us",
     "maintenance": false,
-    "maintenanceWhitelist": [""]
+    "maintenanceWhitelist": ["6282192598451@c.us"],
+    "blacklist": []
 }

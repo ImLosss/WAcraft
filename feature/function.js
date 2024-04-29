@@ -313,6 +313,68 @@ function injectTitle (bot) {
     })
 }
 
+async function addWhitelist(msg, client) {
+    try {
+        let config = fs.readFileSync(`./config.json`, 'utf-8');
+        config = JSON.parse(config);
+
+        let user = msg.body.split(' ');
+
+        if(user.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */addWhitelist [phone_number]*\n\nExample:\n_/addWhitelist 6282192598451_');
+
+        const check = await client.getNumberId(user[1]);
+
+        if (check == null) return msg.reply('Nomor tersebut tidak terdaftar di Whatsapp');
+
+        config.maintenanceWhitelist.push(check._serialized);
+
+        fs.writeFileSync('./config.json', JSON.stringify(config, null, 2));
+
+        return msg.reply("Data berhasil ditambahkan");
+    } catch (e) {
+        return msg.reply('Sepertinya parameter yang kamu masukkan salah, Coba kirim kembali dengan format */addWhitelist [phone_number]*\n\nExample:\n_/addWhitelist 6282192598451_')
+    }
+}
+
+async function addBlacklist(msg, client) {
+    try {
+        let config = fs.readFileSync(`./config.json`, 'utf-8');
+        config = JSON.parse(config);
+
+        let user = msg.body.split(' ');
+
+        if(user.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */addBlacklist [phone_number]*\n\nExample:\n_/addBlacklist 6282192598451_');
+
+        const check = await client.getNumberId(user[1]);
+
+        if (check == null) return msg.reply('Nomor tersebut tidak terdaftar di Whatsapp');
+
+        config.blacklist.push(check._serialized);
+
+        fs.writeFileSync('./config.json', JSON.stringify(config, null, 2));
+
+        return msg.reply("Data berhasil ditambahkan");
+    } catch (e) {
+        return msg.reply('Sepertinya parameter yang kamu masukkan salah, Coba kirim kembali dengan format */addBlacklist [phone_number]*\n\nExample:\n_/addBlacklist 6282192598451_')
+    }
+}
+
+async function maintenance(msg) {
+    let config = fs.readFileSync(`./config.json`, 'utf-8');
+    config = JSON.parse(config);
+
+    let status = msg.body.split(' ');
+
+    if(status.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */maintenance [on/of]*');
+
+    if(status[1] == 'off' || status[1] == 'of') config.maintenance = false;
+    else if (user[1] == 'on') config.maintenance = true;
+
+    fs.writeFileSync('./config.json', JSON.stringify(config, null, 2));
+
+    return msg.reply("Data berhasil di update");
+}
+
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray, injectTitle
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance
 }

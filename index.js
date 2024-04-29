@@ -4,7 +4,8 @@ const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
 const fungsi = require('./feature/fungsi');
-const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser } = require('./feature/function');
+const config = require('./config.json');
+const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser, addWhitelist, addBlacklist, maintenance } = require('./feature/function');
 
 const wwebVersion = '2.2407.3';
 const client = new Client({
@@ -62,6 +63,9 @@ const prefixFunctionsAdmin = {
     'sendmsg': (msg, sender, client, arg) => fungsi.sendMsg(msg, client),
     'sendupdate': (msg, sender, client, arg) => fungsi.sendUpdate(msg, client),
     'sendmsgall': (msg, sender, client, arg) => fungsi.sendMsgAll(msg, client),
+    'addwhitelist': (msg, sender, client, arg) => addWhitelist(msg, client),
+    'addblacklist': (msg, sender, client, arg) => addBlacklist(msg, client),
+    'maintenance': (msg, sender, client, arg) => maintenance(msg),
 }
 
 const prefixFunctions = {
@@ -145,12 +149,18 @@ client.on('message', async msg => {
             for (const pre of prefix) {
                 if (text.startsWith(`${pre}`)) {
                     const funcName = text.replace(pre, '').trim().split(' ');
-                    // if(prefixFunctions[funcName[0]] && sender != "6282192598451@c.us") {
-                    //     return msg.reply('Bot sedang melakukan pengujian fitur, Anda tidak termasuk dalam whitelist!');
-                    // }
+                    if(config.maintenance) {
+                        const whitelist = config.maintenanceWhitelist;
+                        if(prefixFunctions[funcName[0]] && !whitelist.includes(sender)) {
+                            return msg.reply('Bot sedang melakukan pengujian fitur, Anda tidak termasuk dalam whitelist!');
+                        }
+                    }
+
+                    if(prefixFunctions[funcName[0]] && config.blacklist.includes(sender)) return chat.sendMessage("Maaf nomor anda telah di blacklist. Anda tidak dapat menggunakan bot ini lagi");
+
                     if (prefixFunctions[funcName[0]]) {
                         return prefixFunctions[funcName[0]](msg, sender, client, text);
-                    } else if (prefixFunctionsAdmin[funcName[0]] && sender == "6282192598451@c.us") {
+                    } else if (prefixFunctionsAdmin[funcName[0]] && sender == config.owner) {
                         return prefixFunctionsAdmin[funcName[0]](msg, sender, client, text);
                     }
                 }
