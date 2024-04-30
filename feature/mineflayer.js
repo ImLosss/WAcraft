@@ -59,17 +59,10 @@ async function joinServer(msg, sender, client) {
                 }
 
                 setTimeout(() => {
-                    // Mendapatkan daftar file dalam folder
-                    const files = fs.readdirSync(filePathMap);
-
-                    // Menghapus setiap file dalam folder
-                    files.forEach(file => {
-                        try {
-                            const filePath = path.join(filePathMap, file);
-                            console.log('filepath' . filePath);
-                            fs.unlinkSync(filePath);
-                        } catch (e) {
-                            console.log('Error hapus file map: ' . e)
+                    fs.unlink(filePathMap, err => {
+                        if (err) {
+                            console.error('Error deleting file:', err);
+                            return;
                         }
                     });
                 }, 5000);
