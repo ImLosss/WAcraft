@@ -66,7 +66,7 @@ async function joinServer(msg, sender, client) {
                     files.forEach(file => {
                         try {
                             const filePath = path.join(filePathMap, file);
-                            console.log(filePath);
+                            console.log('filepath' . filePath);
                             fs.unlinkSync(filePath);
                         } catch (e) {
                             console.log('Error hapus file map: ' . e)
