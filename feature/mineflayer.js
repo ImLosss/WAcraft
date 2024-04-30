@@ -53,7 +53,7 @@ async function joinServer(msg, sender, client) {
                 const dir = `${ filePathMap }/map_000000.png`;
                 try {
                     const media = MessageMedia.fromFilePath(dir);
-                    chat.sendMessage(media);
+                    chat.sendMessage(media).catch((err) => { chat.sendMessage('Error ketika mengirim file image map') });
                 } catch (err) {
                     console.log('Error sending image map: ' . err)
                 }
