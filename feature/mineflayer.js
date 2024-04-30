@@ -68,7 +68,7 @@ async function joinServer(msg, sender, client) {
                             const filePath = path.join(filePathMap, file);
                             fs.unlinkSync(filePath);
                         } catch (e) {
-                            console.log('Error hapus file map: ' . e.message)
+                            console.log('Error hapus file map: ' . e)
                         }
                     });
                 }, 5000);
