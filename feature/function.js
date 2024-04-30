@@ -368,7 +368,7 @@ async function maintenance(msg) {
     if(status.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */maintenance [on/of]*');
 
     if(status[1] == 'off' || status[1] == 'of') config.maintenance = false;
-    else if (user[1] == 'on') config.maintenance = true;
+    else if (status[1] == 'on') config.maintenance = true;
 
     fs.writeFileSync('./config.json', JSON.stringify(config, null, 2));
 
