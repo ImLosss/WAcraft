@@ -218,7 +218,7 @@ async function delltellme(msg, sender) {
     let except = [];
     if(dataUser[0].except != undefined) except = dataUser[0].except;
 
-    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */delltellme [message]*')
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */deltellme [message]*')
     pesan = pesan.slice(1, pesan.length);
     pesan = pesan.join(" ");
 
@@ -359,6 +359,66 @@ async function addBlacklist(msg, client) {
     }
 }
 
+async function delBlacklist(msg, sender, client) {
+    try {
+        let config = fs.readFileSync(`./config.json`, 'utf-8');
+        config = JSON.parse(config);
+
+        let user = msg.body;
+        user = user.split(' ');
+
+        let blacklist = [];
+        if(config.blacklist != undefined) blacklist = config.blacklist;
+
+        if(user.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */delblacklist [phoneNumber]*')
+        user = user.slice(1, user.length);
+        user = user.join(" ");
+
+        const check = await client.getNumberId(user);
+
+        if (check == null) return msg.reply('Nomor tersebut tidak terdaftar di Whatsapp');
+
+        msg.reply(removeFromArray(blacklist, check._serialized));
+
+        config.blacklist = blacklist;
+
+        fs.writeFileSync(`./config.json`, JSON.stringify(config, null, 2));
+    } catch (err) {
+        console.log(err);
+        return msg.reply('Sepertinya parameter yang kamu masukkan salah, Coba kirim kembali dengan format */delBlacklist [phone_number]*\n\nExample:\n_/addBlacklist 6282192598451_')
+    }
+}
+
+async function delWhitelist(msg, sender, client) {
+    try {
+        let config = fs.readFileSync(`./config.json`, 'utf-8');
+        config = JSON.parse(config);
+
+        let user = msg.body;
+        user = user.split(' ');
+
+        let whitelist = [];
+        if(config.maintenanceWhitelist != undefined) whitelist = config.maintenanceWhitelist;
+
+        if(user.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */delblacklist [phoneNumber]*')
+        user = user.slice(1, user.length);
+        user = user.join(" ");
+
+        const check = await client.getNumberId(user);
+
+        if (check == null) return msg.reply('Nomor tersebut tidak terdaftar di Whatsapp');
+
+        msg.reply(removeFromArray(whitelist, check._serialized));
+
+        config.maintenanceWhitelist = whitelist;
+
+        fs.writeFileSync(`./config.json`, JSON.stringify(config, null, 2));
+    } catch (err) {
+        console.log(err);
+        return msg.reply('Sepertinya parameter yang kamu masukkan salah, Coba kirim kembali dengan format */delWhitelist [phone_number]*\n\nExample:\n_/addBlacklist 6282192598451_')
+    }
+}
+
 async function maintenance(msg) {
     let config = fs.readFileSync(`./config.json`, 'utf-8');
     config = JSON.parse(config);
@@ -376,5 +436,5 @@ async function maintenance(msg) {
 }
 
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist
 }

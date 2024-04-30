@@ -4,8 +4,7 @@ const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
 const fungsi = require('./feature/fungsi');
-const config = require('./config.json');
-const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser, addWhitelist, addBlacklist, maintenance } = require('./feature/function');
+const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist } = require('./feature/function');
 
 const wwebVersion = '2.2407.3';
 const client = new Client({
@@ -66,6 +65,8 @@ const prefixFunctionsAdmin = {
     'addwhitelist': (msg, sender, client, arg) => addWhitelist(msg, client),
     'addblacklist': (msg, sender, client, arg) => addBlacklist(msg, client),
     'maintenance': (msg, sender, client, arg) => maintenance(msg),
+    'delblacklist': (msg, sender, client, arg) => delBlacklist(msg, sender, client),
+    'delwhitelist': (msg, sender, client, arg) => delWhitelist(msg, sender, client),
 }
 
 const prefixFunctions = {
@@ -80,7 +81,7 @@ const prefixFunctions = {
     'setuser': (msg, sender, client, arg) => setUser(msg, sender),
     'setautomsg': (msg, sender, client, arg) => setAutoMsg(msg, sender),
     'tellme': (msg, sender, client, arg) => tellme(msg, sender),
-    'delltellme': (msg, sender, client, arg) => delltellme(msg, sender),
+    'deltellme': (msg, sender, client, arg) => delltellme(msg, sender),
     'autocmd': (msg, sender, client, arg) => fungsi.autocmd(msg, sender),
     'delautocmd': (msg, sender, client, arg) => fungsi.delautocmd(msg, sender),
     'autoreconnect': (msg, sender, client, arg) => fungsi.setAutoReconnect(msg, sender),
@@ -123,6 +124,9 @@ client.once('ready', () => {
 
 client.on('message', async msg => {
     try {
+        let config = fs.readFileSync(`./config.json`, 'utf-8');
+        config = JSON.parse(config);
+
         const chat = await msg.getChat();
 
         const prefix = ['/', '!'];
@@ -151,7 +155,7 @@ client.on('message', async msg => {
                     const funcName = text.replace(pre, '').trim().split(' ');
 
                     if(prefixFunctions[funcName[0]] && config.blacklist.includes(sender)) return chat.sendMessage("Maaf nomor anda telah di blacklist. Anda tidak dapat menggunakan bot ini lagi");
-
+                    
                     if(config.maintenance) {
                         const whitelist = config.maintenanceWhitelist;
                         if(prefixFunctions[funcName[0]] && !whitelist.includes(sender)) {

@@ -24,7 +24,7 @@
       "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
       "status": false
     },
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autoleftclick": false
   },
