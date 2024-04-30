@@ -334,12 +334,12 @@ async function automsg(bot, msg, pesan, sender) {
         let time2 = time * 60000 + 1000;
         console.log(time2);
         dataUser[0].automsg.status = true;
-        const auto = dataUser[0].automsg.message;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         chat.sendMessage(`*Berhasil mengaktifkan automsg tiap ${ time } Menit*`);
         const intval = setInterval(() => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
+            const auto = dataUser[0].automsg.message;
             if(dataUser[0].automsg.status) {
                 bot.chat(auto);
                 if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
