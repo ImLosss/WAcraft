@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "claritynetwork.net",
     "username": "nowezki",
     "autorightclick": false,
@@ -13,7 +13,7 @@
       "/survival",
       "/chatpublic off"
     ],
-    "autoReconnect": false,
+    "autoReconnect": true,
     "except": [
       "xon",
       "[me ->",
@@ -24,7 +24,7 @@
       "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
       "status": false
     },
-    "statusRepeat": false,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "autoleftclick": false
   },

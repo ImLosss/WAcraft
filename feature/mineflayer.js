@@ -30,7 +30,12 @@ async function joinServer(msg, sender, client) {
         if(!dataUser[1][ip]) return msg.reply(`Sebelum join ke server, Anda *diwajibkan* untuk mengatur username asli yang anda mainkan(bukan akun alt/afk) di server ${ dataUser[0].ip } terlebih dahulu.\nKirim pesan dengan format:\n*/setRealUser [username_asli]*\n\n_Hal ini diperlukan karena semua user yg join menggunakan bot ini akan memiliki ip yg sama, untuk melihat info akun anda kirim */info*_.`);
         fungsi.cekAlt(sender);
 
-        const filePathMap = `database/data_user/map/${ sender }`;
+        const filePathMap = `database/map/${ sender }`;
+
+        if(!fs.existsSync(filePathMap)) {
+            fs.mkdirSync(filePathMap);
+        }
+        
         const bot = mineflayer.createBot({
             host: ip, 
             username: dataUser[0].username, 
@@ -41,10 +46,6 @@ async function joinServer(msg, sender, client) {
         bot.loadPlugin(mapDownloader)
 
         injectTitle(bot);
-
-        if(!fs.existsSync(filePathMap)) {
-            fs.mkdirSync(filePathMap);
-        }
 
         watcherDirMap = fs.watch(filePathMap, (eventType, filename) => {
             if (eventType === 'change') {
@@ -58,10 +59,16 @@ async function joinServer(msg, sender, client) {
                 }
 
                 setTimeout(() => {
-                    fs.unlink(dir, err => {
-                        if (err) {
-                            console.error('Error deleting file:', err);
-                            return;
+                    // Mendapatkan daftar file dalam folder
+                    const files = fs.readdirSync(filePathMap);
+
+                    // Menghapus setiap file dalam folder
+                    files.forEach(file => {
+                        try {
+                            const filePath = path.join(filePathMap, file);
+                            fs.unlinkSync(filePath);
+                        } catch (e) {
+                            console.log('Error hapus file map: ' . e.message)
                         }
                     });
                 }, 5000);
