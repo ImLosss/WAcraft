@@ -59,7 +59,7 @@ async function joinServer(msg, sender, client) {
                 }
 
                 setTimeout(() => {
-                    fs.unlink(filePathMap, err => {
+                    fs.unlink(dir, err => {
                         if (err) {
                             console.error('Error deleting file:', err);
                             return;
