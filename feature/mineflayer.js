@@ -93,6 +93,7 @@ async function joinServer(msg, sender, client) {
         title = async (text) => {
             try {
                 text = JSON.parse(text);
+                if(text.text == "") return;
 
                 chat.sendMessage(`Title: ${ text.text }`);
             } catch (err) {
@@ -103,6 +104,7 @@ async function joinServer(msg, sender, client) {
         subtitle = async (text) => {
             try {
                 text = JSON.parse(text);
+                if(text.text == "") return;
 
                 chat.sendMessage(`Subtitle: ${ text.text }`);
             } catch (err) {
