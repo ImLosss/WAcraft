@@ -73,7 +73,6 @@ const prefixFunctions = {
     'update': (msg, sender, client, arg) => fungsi.update(msg),
     'join': (msg, sender, client, arg) => joinServer(msg, sender, client),
     'dc': (msg, sender, client, arg) => disconnect(msg, sender),
-    'automsg of': (msg, sender, client, arg) => automsgof(msg, sender),
     'cektellme': (msg, sender, client, arg) => cektellme(msg, sender),
     'cekautocmd': (msg, sender, client, arg) => fungsi.cekautocmd(msg, sender),
     'chat': (msg, sender, client, arg) => chatPublic(msg, sender),

@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer');
 const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle, chatPublic } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle, chatPublic, automsgof } = require('./function');
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
@@ -319,7 +319,7 @@ async function joinServer(msg, sender, client) {
 async function automsg(bot, msg, pesan, sender) {
     try {
         const chat = await msg.getChat();
-        if(pesan == '/automsg off' || pesan == '/automsg of') return;
+        if(pesan == '/automsg off' || pesan == '/automsg of') return automsgof(msg, sender);
         pesan = pesan.split(' ');
         if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
         let time = pesan[1];
