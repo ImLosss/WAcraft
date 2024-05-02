@@ -261,7 +261,8 @@ async function joinServer(msg, sender, client) {
         function sendMsg(client, bot, msg5, sender, chat) {
             list2 = async (msg2) => {
                 if(msg2.from == sender) {
-                    const pesan = msg2.body;
+                    const send = msg2.body;
+                    const pesan = send.toLowerCase() | '';
                     console.log(pesan);
                     if (pesan == '/dc') { 
                         bot.quit();
@@ -290,7 +291,7 @@ async function joinServer(msg, sender, client) {
                         afkFishOf(msg5, sender);
                     } else {
                         try {
-                            bot.chat(pesan);
+                            bot.chat(send);
                         } catch (err) {
                             chat.sendMessage('_Terjadi kesalahan saat mengirim pesan anda..._')
                         }
