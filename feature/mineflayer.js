@@ -149,6 +149,17 @@ async function joinServer(msg, sender, client) {
                     } else clearInterval(repeatInterval);
                 }, 5000);
             }
+
+            timeoutChat =  setTimeout(() => {
+                let dataUser = fungsi.getDataUser(sender);
+                if(dataUser[0].chatPublic) {
+                    fungsi.chatOff(sender)
+                    chat.sendMessage('*Tidak terdapat pesan yang dikirim selama 1 jam, mematikan chat untuk menghindari spam bot. Kirim _/chat on_ untuk menyalakan chat kembali...*\n\n_Note:_\n_pesan yang dikirim ke chat ini akan tetap dikirim ke game meskipun chat telah dimatikan_')
+                    .then(() => {
+                        chat.sendMessage('*Anda dapat menggunakan fitur filter chat agar tetap dapat menerima pesan saat chat diatur ke of (_/tellme [pesan]_)*\n\nContoh:\n*_/tellme Obtained_*');
+                    });
+                }
+            }, 1000*60*60);
         });
 
         bot.once('kicked', (msgK) => {
