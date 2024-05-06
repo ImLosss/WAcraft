@@ -5,6 +5,7 @@ const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle, 
 const fish = require('./fishing');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
+const { getInventory, throwItem } = require('../app/function/Mineflayer');
 
 
 
@@ -289,6 +290,10 @@ async function joinServer(msg, sender, client) {
                         fish.fishing(bot, msg5, sender);
                     } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
                         afkFishOf(msg5, sender);
+                    } else if(pesan == '/inventory') {
+                        chat.sendMessage(getInventory(bot));
+                    } else if(pesan.startsWith('/throw')) {
+                        chat.sendMessage(throwItem(bot, msg2));
                     } else {
                         try {
                             bot.chat(send);
