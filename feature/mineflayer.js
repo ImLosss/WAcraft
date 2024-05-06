@@ -132,18 +132,19 @@ async function joinServer(msg, sender, client) {
                     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
                     dataUser = JSON.parse(dataUser);
                     if(dataUser[0].statusRepeat) {
-                        chat.sendMessage(`*mengirim pesan ${ array[repeatCmd] }*`);
-                        if (array[repeatCmd] == '/survival') {
+                        const command = array[repeatCmd].toLowerCase();
+                        chat.sendMessage(`*mengirim pesan ${ command }*`);
+                        if (command == '/survival') {
                             bot.setQuickBarSlot(0);
                             bot.activateItem(false);
                             bot.once('windowOpen', (items) => {
                                 bot.clickWindow(11, 0, 0);
                             });
-                        } else if (array[repeatCmd].startsWith('/automsg')) automsg(bot, msg, array[repeatCmd], sender);
-                        else if (array[repeatCmd].startsWith('/autorightclick')) autoRightClick(bot, msg, array[repeatCmd], sender);
-                        else if (array[repeatCmd].startsWith('/autoleftclick')) autoLeftClick(bot, msg, array[repeatCmd], sender);
-                        else if (array[repeatCmd].startsWith('/afkfarm')) afkfarm(bot, msg, array[repeatCmd], sender);
-                        else if (array[repeatCmd] == '/afkfish on') fish.fishing(bot, msg, sender);
+                        } else if (command.startsWith('/automsg')) automsg(bot, msg, command, sender);
+                        else if (command.startsWith('/autorightclick')) autoRightClick(bot, msg, command, sender);
+                        else if (command.startsWith('/autoleftclick')) autoLeftClick(bot, msg, command, sender);
+                        else if (command.startsWith('/afkfarm')) afkfarm(bot, msg, command, sender);
+                        else if (command == '/afkfish on') fish.fishing(bot, msg, sender);
                         else bot.chat(array[repeatCmd]);
                         repeatCmd +=1;
                         if (repeatCmd == array.length) clearInterval(repeatInterval);
