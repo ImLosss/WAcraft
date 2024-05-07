@@ -264,7 +264,6 @@ async function joinServer(msg, sender, client) {
             list2 = async (msg2) => {
                 if(msg2.from == sender) {
                     const send = msg2.body;
-                    console.log(send);
                     const pesan = send.toLowerCase() || '';
                     console.log(pesan);
                     if (pesan == '/dc') { 
@@ -293,7 +292,6 @@ async function joinServer(msg, sender, client) {
                     } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
                         afkFishOf(msg5, sender);
                     } else if(pesan == '/inventory') {
-                        console.log('ini jlana');
                         getInventory(bot, msg2);
                     } else if(pesan.startsWith('/throw')) {
                         throwItem(bot, msg2);
