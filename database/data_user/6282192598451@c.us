@@ -2,9 +2,9 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "play.claritynetwork.net",
-    "username": "Losseess",
+    "username": "Ned",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -34,7 +34,7 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
+    "statusRepeat": true,
     "autocmd": [],
     "autoReconnect": false,
     "reconnectTime": 0,

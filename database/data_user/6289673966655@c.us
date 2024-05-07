@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "claritynetwork.net",
     "username": "nowezki",
     "autorightclick": false,
@@ -25,9 +25,9 @@
     ],
     "automsg": {
       "message": "/feed",
-      "status": true
+      "status": false
     },
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autoleftclick": false
   },
