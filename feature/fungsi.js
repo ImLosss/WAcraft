@@ -279,7 +279,11 @@ exports.update = async function update(msg) {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
     let update = fs.readFileSync(`update`, 'utf-8');
     update = JSON.parse(update);
-    update = update["1.3.1"].details;
+    
+    const keys = Object.keys(update);
+    const lastKey = keys[keys.length - 1];
+
+    update = update[lastKey].details;
 
     msg.reply(update).catch(() => { chat.sendMessage(update) })
 }
@@ -288,7 +292,11 @@ exports.sendUpdate = async function sendUpdate(msg, client) {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
     let update = fs.readFileSync(`update`, 'utf-8');
     update = JSON.parse(update);
-    update = update["1.3.1"].details;
+
+    const keys = Object.keys(update);
+    const lastKey = keys[keys.length - 1];
+
+    update = update[lastKey].details;
 
     fs.readdir(folderPath, (err, files) => {
         if (err) {
