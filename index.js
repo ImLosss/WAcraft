@@ -35,6 +35,7 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/automsg [time_in_min]
 ║ ▹/autoRightClick [time_in_sec]
 ║ ▹/autoLeftClick [time_in_sec]
+║ ▹/inventory
 ║ ▹/chat [on/off]
 ║ ▹/playerlist
 ║ ▹/tellme [msg]

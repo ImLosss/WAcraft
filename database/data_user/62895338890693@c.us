@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
     "ip": "play.claritynetwork.net",
     "username": "Ned",
-    "status": "offline",
+    "status": "online",
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "except": [
       "[me ->",
@@ -27,8 +27,8 @@
       "/survival",
       "/automsg 2"
     ],
-    "autoReconnect": false,
-    "statusRepeat": false,
+    "autoReconnect": true,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "autoleftclick": false
   },

@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "Xonezka",
+    "username": "Klvv",
     "ip": "claritynetwork.net",
     "autorightclick": false,
     "afkfarm": false,
@@ -11,19 +11,31 @@
     "except": [
       "Xon",
       "xon, nez",
-      "member",
-      "SHI >"
+      "SHI >",
+      "Klvv"
     ],
     "statusRepeat": false,
     "autoReconnect": false,
-    "autocmd": [],
+    "autocmd": [
+      "/login pras2009",
+      "/survival",
+      "/chat off",
+      "/automsg 2"
+    ],
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "automsg": {
+      "message": "/feed",
+      "status": false
+    }
   },
   {
     "claritynetwork.net": {
       "realUser": "Xonezka",
-      "alt": []
+      "alt": [
+        "nowezki",
+        "Klvv"
+      ]
     }
   }
 ]

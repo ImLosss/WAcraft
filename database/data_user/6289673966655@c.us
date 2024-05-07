@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "claritynetwork.net",
     "username": "nowezki",
     "autorightclick": false,
@@ -11,20 +11,23 @@
     "autocmd": [
       "/login pras2009",
       "/survival",
-      "/chatpublic off"
+      "/chat off",
+      "/automsg 2"
     ],
     "autoReconnect": true,
     "except": [
       "xon",
       "[me ->",
       "me]->",
-      "SHI"
+      "SHI",
+      "Xonezka",
+      "join"
     ],
     "automsg": {
-      "message": "exp farm umum [/pwarp shiexp] [/rtp] dulu ke world baru",
-      "status": false
+      "message": "/feed",
+      "status": true
     },
-    "statusRepeat": false,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "autoleftclick": false
   },
