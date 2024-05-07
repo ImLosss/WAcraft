@@ -9,7 +9,7 @@ function getInventory(bot, msg) {
     if(items.length == 0) return 'Inventory kosong';
 
     let no = 0;
-    let strMsg = '_slot_ | _name_ | _count_\n';
+    let strMsg = '*_slot_ | _name_ | _count_*\n';
 
     items.forEach((item) => {
         try {
@@ -52,7 +52,7 @@ function throwItem(bot, msg) {
         let items = bot.inventory.slots.filter((item) => { return item != undefined });
 
         if(items.length == 0) return 'Inventory kosong';
-        if(slot < (items.length - 1) || slot < 0) return 'Mohon masukkan slot yang valid!';
+        if(slot > (items.length - 1) || slot < 0) return 'Mohon masukkan slot yang valid!';
 
         const item = items[slot];
         bot.tossStack(item);
