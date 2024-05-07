@@ -2,18 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
 
-async function getInventory(bot, msg) {
-
-    const chat = await msg.getChat();
+function getInventory(bot, msg) {
 
     let items = bot.inventory.slots.filter((item) => { return item != undefined });
 
-    if(items.length == 0) return chat.sendMessage('Inventory kosong');
+    if(items.length == 0) return 'Inventory kosong';
 
     let no = 0;
     let strMsg = '_slot_ | _name_ | _count_\n';
 
-    console.log(strMsg);
     items.forEach((item) => {
         try {
             if (item.nbt == null || item.nbt.value.display == undefined) {
@@ -36,25 +33,26 @@ async function getInventory(bot, msg) {
 
     strMsg += `\n\n_Kirim */throw [slot]* untuk buang item yang anda mau. Contoh: /throw 0_\n\n*_Note:_*\n_Selalu kirim /inventory untuk cek slot anda sebelum membuang item agar item yang anda buang tidak salah_`;
 
-    return chat.sendMessage(strMsg);
+    return strMsg;
 }
 
-async function throwItem(bot, msg) {
+function throwItem(bot, msg) {
     try {
-        const chat = await msg.getChat();
+        const chat = msg.getChat();
 
         let slot = msg.body;
         slot = slot.split(' ');
 
-        if(slot.length < 2 || slot.length > 2) return chat.sendMessage('Command anda salah kirim kembali dengan format */throw [slot]*');
+        if(slot.length < 2 || slot.length > 2) return 'Command anda salah kirim kembali dengan format */throw [slot]*';
 
         slot = slot[1]
 
-        if(!Number.isInteger(Number(slot))) return chat.sendMessage('Masukkan nomor slot yang benar, _contoh: /throw 3_');
+        if(!Number.isInteger(Number(slot))) return 'Masukkan nomor slot yang benar, _contoh: /throw 3_';
 
         let items = bot.inventory.slots.filter((item) => { return item != undefined });
 
-        if(items.length == 0) return chat.sendMessage('Inventory kosong');
+        if(items.length == 0) return 'Inventory kosong';
+        if(slot < (items.length - 1) || slot < 0) return 'Mohon masukkan slot yang valid!';
 
         const item = items[slot];
         bot.tossStack(item);
@@ -76,11 +74,11 @@ async function throwItem(bot, msg) {
             name = 'item'
         }
 
-        return chat.sendMessage(`Berhasil membuang ${ name }`);
+        return `Berhasil membuang ${ name }`;
     } catch (err) {
         console.log('Error ketika membuang item: ' . err)
 
-        return chat.sendMessage('Terjadi kesalahan');
+        return 'Terjadi kesalahan';
     }
 }
 
