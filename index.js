@@ -13,6 +13,10 @@ const client = new Client({
         type: 'remote',
         remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
     },
+    puppeteer: {
+        headless: true,
+        args: ['--no-sandbox']
+    }
 });
 
 const menu = `╓──▷「 *Menu Command* 」
