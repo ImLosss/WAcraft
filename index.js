@@ -14,8 +14,8 @@ const client = new Client({
         remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
     },
     puppeteer: {
-        headless: true,
-        args: ['--no-sandbox']
+        product: "chrome",
+        executablePath: "/usr/bin/chromium-browser"
     }
 });
 
