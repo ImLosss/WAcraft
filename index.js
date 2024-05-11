@@ -15,7 +15,7 @@ const client = new Client({
     },
     puppeteer: {
         product: "chrome",
-        executablePath: "/usr/bin/chromium-browse"
+        executablePath: "/usr/bin/chromium-browser"
     }
 });
 
