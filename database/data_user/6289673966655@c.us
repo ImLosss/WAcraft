@@ -1,10 +1,10 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "claritynetwork.net",
-    "username": "nowezki",
+    "username": "Xonezka",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -12,7 +12,8 @@
       "/login pras2009",
       "/survival",
       "/chat off",
-      "/automsg 2"
+      "/automsg 2",
+      "/autoleftclick 3"
     ],
     "autoReconnect": true,
     "except": [
@@ -21,15 +22,16 @@
       "me]->",
       "SHI",
       "Xonezka",
-      "join"
+      "join",
+      "Balance"
     ],
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
-    "statusRepeat": false,
+    "statusRepeat": true,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": true
   },
   {
     "claritynetwork.net": {

@@ -1,0 +1,36 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "autocmd": [
+      "command"
+    ],
+    "ip": "claritynetwork.net",
+    "username": "Rey_ONLY",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0
+  },
+  {
+    "[play.claritynetwork.net]": {
+      "realUser": "[Rey]",
+      "alt": [
+        "[Rey_ONLY]"
+      ]
+    },
+    "[claritynetwork.net]": {
+      "realUser": "[fahry]",
+      "alt": [
+        "[Rey_ONLY]"
+      ]
+    },
+    "claritynetwork.net": {
+      "realUser": "Rey_ONLY",
+      "alt": []
+    }
+  }
+]
