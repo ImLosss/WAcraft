@@ -6,15 +6,10 @@ const { joinServer } = require('./feature/mineflayer');
 const fungsi = require('./feature/fungsi');
 const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist } = require('./feature/function');
 
-const wwebVersion = '2.2407.3';
+
 const client = new Client({
     authStrategy: new LocalAuth(), // your authstrategy here
-    webVersionCache: {
-        type: 'remote',
-        remotePath: `https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/${wwebVersion}.html`,
-    },
     puppeteer: {
-        headless: true,
         args: ['--no-sandbox']
     }
 });
