@@ -185,6 +185,7 @@ async function joinServer(msg, sender, client) {
                     try{ 
                         bot.quit();
                     } catch (e) { console.log(e) }
+                    chat.sendMessage('Gagal join ke server, mencoba join kembali...')
                     return;
                 }
                 else if(e == "Error: ETIMEDOUT") { chat.sendMessage('Gagal join ke server...') }
