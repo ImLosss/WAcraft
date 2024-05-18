@@ -20,7 +20,7 @@ async function joinServer(msg, sender, client) {
         if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
         if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
         if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser [username]*');
-        if(dataUser[0].reconnectTime == 5) {
+        if(dataUser[0].reconnectTime >= 5) {
             dataUser[0].reconnectTime = 0;
             fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
             return chat.sendMessage('Gagal join ke server...');
@@ -185,9 +185,6 @@ async function joinServer(msg, sender, client) {
                     try{ 
                         bot.quit();
                     } catch (e) { console.log(e) }
-                    dataUser[0].reconnectTime+=1;
-                    msg.reply(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`).catch(() => { chat.sendMessage(`Gagal join ke server, mencoba join kembali... (${ dataUser[0].reconnectTime }/5)`) });
-                    joinServer(msg, sender, client);
                     return;
                 }
                 else if(e == "Error: ETIMEDOUT") { chat.sendMessage('Gagal join ke server...') }
