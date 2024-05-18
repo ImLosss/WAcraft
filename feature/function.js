@@ -57,10 +57,10 @@ async function chatPublic(msg, sender) {
     let pesan = msg.body;
     pesan = pesan.split(' ');
 
-    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */chatPublic [on/off]*')
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */chat [on/off]*')
     if(pesan[1] == 'off' || pesan[1] == 'of') dataUser[0].chatPublic = false; 
     else if(pesan[1] == 'on') dataUser[0].chatPublic = true; 
-    else return msg.reply('Format kamu salah, kirim kembali dengan format */chatPublic [on/off]*')
+    else return msg.reply('Format kamu salah, kirim kembali dengan format */chat [on/off]*')
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
 
