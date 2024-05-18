@@ -1,11 +1,11 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "Horm",
     "ip": "claritynetwork.net",
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [
       "/login rimbun",
       "/survival",

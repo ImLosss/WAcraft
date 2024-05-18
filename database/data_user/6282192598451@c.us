@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.claritynetwork.net",
+    "ip": "play.kings-craft.com",
     "username": "Losssesss",
     "automsg": {
       "message": "/feed",
@@ -63,13 +63,27 @@
       "realUser": "Losss",
       "alt": [
         "Ned",
-        "shenxx"
+        "shenxx",
+        "Losssesss"
       ]
     },
     "play.luckynetwork.net": {
       "realUser": "Losss",
       "alt": [
-        "shenxx"
+        "shenxx",
+        "Losssesss"
+      ]
+    },
+    "kakdijd": {
+      "realUser": "Losss",
+      "alt": [
+        "Losssesss"
+      ]
+    },
+    "play.kings-craft.com": {
+      "realUser": "Losss",
+      "alt": [
+        "Losssesss"
       ]
     }
   }

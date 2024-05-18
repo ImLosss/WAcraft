@@ -4,7 +4,10 @@
     "chatPrivate": true,
     "status": "offline",
     "autocmd": [
-      "command"
+      "/login rey0809",
+      "/server survival",
+      "/automsg 2",
+      "/autoRightClick 2"
     ],
     "ip": "claritynetwork.net",
     "username": "Rey_ONLY",
@@ -13,7 +16,18 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoReconnect": false,
+    "except": [
+      "SHI",
+      "ElMoney",
+      "Rey_ONLY",
+      "Xonezka"
+    ],
+    "automsg": {
+      "message": "/feed",
+      "status": false
+    }
   },
   {
     "[play.claritynetwork.net]": {
