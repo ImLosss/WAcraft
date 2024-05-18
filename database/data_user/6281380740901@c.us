@@ -1,0 +1,50 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "autocmd": [
+      "/login rey0809",
+      "/server survival",
+      "/automsg 2",
+      "/autoRightClick 2"
+    ],
+    "ip": "claritynetwork.net",
+    "username": "Rey_ONLY",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autoReconnect": false,
+    "except": [
+      "SHI",
+      "ElMoney",
+      "Rey_ONLY",
+      "Xonezka"
+    ],
+    "automsg": {
+      "message": "/feed",
+      "status": false
+    }
+  },
+  {
+    "[play.claritynetwork.net]": {
+      "realUser": "[Rey]",
+      "alt": [
+        "[Rey_ONLY]"
+      ]
+    },
+    "[claritynetwork.net]": {
+      "realUser": "[fahry]",
+      "alt": [
+        "[Rey_ONLY]"
+      ]
+    },
+    "claritynetwork.net": {
+      "realUser": "Rey_ONLY",
+      "alt": []
+    }
+  }
+]

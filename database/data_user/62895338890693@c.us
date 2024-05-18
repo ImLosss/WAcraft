@@ -27,7 +27,7 @@
       "/survival",
       "/automsg 2"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "statusRepeat": false,
     "reconnectTime": 0,
     "autoleftclick": false

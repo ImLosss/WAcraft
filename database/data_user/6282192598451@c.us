@@ -2,9 +2,9 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
-    "ip": "play.claritynetwork.net",
-    "username": "Ned",
+    "status": "offline",
+    "ip": "play.kings-craft.com",
+    "username": "Losssesss",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -34,7 +34,7 @@
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [],
     "autoReconnect": false,
     "reconnectTime": 0,
@@ -49,13 +49,41 @@
         "lossesss",
         "Lossseeess",
         "TheRosses",
-        "Losseess"
+        "Losseess",
+        "Losssesss"
       ]
     },
     "claritynetwork.net": {
       "realUser": "Losss",
       "alt": [
         "shenxx"
+      ]
+    },
+    "minegens.id": {
+      "realUser": "Losss",
+      "alt": [
+        "Ned",
+        "shenxx",
+        "Losssesss"
+      ]
+    },
+    "play.luckynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx",
+        "Losssesss"
+      ]
+    },
+    "kakdijd": {
+      "realUser": "Losss",
+      "alt": [
+        "Losssesss"
+      ]
+    },
+    "play.kings-craft.com": {
+      "realUser": "Losss",
+      "alt": [
+        "Losssesss"
       ]
     }
   }

@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "Klvv",
+    "username": "nowezki",
     "ip": "claritynetwork.net",
     "autorightclick": false,
     "afkfarm": false,
@@ -15,7 +15,7 @@
       "Klvv"
     ],
     "statusRepeat": false,
-    "autoReconnect": false,
+    "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
       "/survival",

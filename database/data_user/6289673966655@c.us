@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "nowezki",
+    "username": "Xonezka",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -14,14 +14,15 @@
       "/chat off",
       "/automsg 2"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "except": [
       "xon",
       "[me ->",
       "me]->",
       "SHI",
       "Xonezka",
-      "join"
+      "join",
+      "Balance"
     ],
     "automsg": {
       "message": "/feed",
