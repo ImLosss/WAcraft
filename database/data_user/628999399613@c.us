@@ -8,7 +8,19 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "ip": "claritynetwork.net",
+    "autoReconnect": false,
+    "autocmd": [
+      "/login Sipa1212",
+      "/server survival"
+    ],
+    "username": "Sipaaa"
   },
-  {}
+  {
+    "claritynetwork.net": {
+      "realUser": "Sipaaa",
+      "alt": []
+    }
+  }
 ]
