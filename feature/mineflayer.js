@@ -292,7 +292,7 @@ async function joinServer(msg, sender, client) {
                     } else if(pesan == '/inventory') {
                         chat.sendMessage(getInventory(bot, msg2));
                     } else if(pesan.startsWith('/throw')) {
-                        throwItem(bot, msg2);
+                        chat.sendMessage(throwItem(bot, msg2));
                     } else {
                         try {
                             bot.chat(send);
