@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "username": "nowezki",
     "ip": "claritynetwork.net",
     "autorightclick": false,
@@ -14,7 +14,7 @@
       "SHI >",
       "Klvv"
     ],
-    "statusRepeat": false,
+    "statusRepeat": true,
     "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
@@ -26,7 +26,7 @@
     "autoleftclick": false,
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     }
   },
   {

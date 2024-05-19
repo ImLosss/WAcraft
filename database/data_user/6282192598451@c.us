@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
-    "ip": "play.kings-craft.com",
-    "username": "Losssesss",
+    "status": "online",
+    "ip": "play.claritynetwork.net",
+    "username": "Losss",
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "except": [
       "Losss",
@@ -31,11 +31,17 @@
       "Obtained",
       "kicked"
     ],
-    "autorightclick": false,
+    "autorightclick": true,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
-    "autocmd": [],
+    "statusRepeat": true,
+    "autocmd": [
+      "/login 040103",
+      "/server survival",
+      "/dd",
+      "/dp",
+      "/autorightclick 2"
+    ],
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false
