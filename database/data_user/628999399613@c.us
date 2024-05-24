@@ -1,16 +1,16 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "ip": "claritynetwork.net",
-    "autoReconnect": false,
+    "autoReconnect": true,
     "autocmd": [
       "/login Sipa1212",
       "/server survival"

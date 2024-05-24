@@ -1,0 +1,29 @@
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "status": "online",
+    "username": "Jade77",
+    "autocmd": [
+      "/login 12345",
+      "/server survival"
+    ],
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": true,
+    "reconnectTime": 0,
+    "ip": "play.claritynetwork.net",
+    "autoReconnect": true
+  },
+  {
+    "play.claritynetwork.net": {
+      "realUser": "Yandakame",
+      "alt": [
+        "Dut",
+        "Jade77"
+      ]
+    }
+  }
+]

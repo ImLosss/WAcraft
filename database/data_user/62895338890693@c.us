@@ -24,7 +24,7 @@
     "afkfish": false,
     "autocmd": [
       "/login rayajr440",
-      "/survival",
+      "/server survival",
       "/automsg 2"
     ],
     "autoReconnect": true,

@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "play.claritynetwork.net",
-    "username": "Losss",
+    "username": "TheRosses",
     "automsg": {
       "message": "/feed",
-      "status": true
+      "status": false
     },
     "except": [
       "Losss",
@@ -29,17 +29,20 @@
       "has requested",
       "Balance",
       "Obtained",
-      "kicked"
+      "kicked",
+      "TheRosses",
+      "GOD >"
     ],
-    "autorightclick": true,
+    "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [
-      "/login 040103",
+      "/login rayajr440",
       "/server survival",
       "/dd",
       "/dp",
+      "/automsg 2",
       "/autorightclick 2"
     ],
     "autoReconnect": false,
