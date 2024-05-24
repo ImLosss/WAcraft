@@ -88,7 +88,7 @@ async function joinServer(msg, sender, client) {
             if(dataUser[0].except != undefined) except = dataUser[0].except;
             if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
             if(!dataUser[0].chatPublic) return;
-            chat.sendMessage(msgstr);
+            chat.sendMessage(msgstr).catch((err) => { console.log('error saat mengirim pesan') });
         }
 
         title = async (text) => {
