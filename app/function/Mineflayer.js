@@ -75,7 +75,7 @@ function throwItem(bot, msg) {
 
         setTimeout(() => {
             msg.reply(getInventory(bot, msg));
-        }, 500);
+        }, 5000);
         return `Berhasil membuang ${ name }`;
     } catch (err) {
         console.log('Error ketika membuang item: ' . err)
