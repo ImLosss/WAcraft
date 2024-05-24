@@ -116,6 +116,7 @@ exports.cekInfo = async function cekInfo(msg, sender) {
 
     jsonData = dataUser[1];
 
+    if (jsonData == undefined) return msg.reply('Data kosong');
     if (Object.keys(jsonData).length === 0) return msg.reply('Data kosong');
 
     const dataArray = Object.entries(jsonData).map(([key, value]) => ({
