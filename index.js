@@ -179,6 +179,13 @@ client.on('message', async msg => {
     }
 
 });
+
+client.on('call', async call => {
+    call.reject();
+
+    if (!call.isGroup) client.sendMessage(call.from, '> ⓘ _Hey!, hanya menerima pesan chat!_');
+});
+
 // Fungsi yang akan dijalankan setiap jam
 async function intervalBackup() {
     console.log('Daily backup');

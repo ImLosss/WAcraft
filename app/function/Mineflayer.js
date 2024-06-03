@@ -84,7 +84,31 @@ function throwItem(bot, msg) {
     }
 }
 
+async function donate(msg) {
+    try {
+        const chat = await msg.getChat();
+
+        const name = chat.lastMessage._data.notifyName || 'User';
+        const message = `Hai ${ name }! 👋
+
+    Terima kasih telah menggunakan MinecraftBot! 🎮
+
+    Jika kamu merasa terbantu dengan adanya Bot ini, Saya akan sangat berterima kasih jika kamu bersedia untuk berdonasi. Dukunganmu akan sangat berarti untuk menjaga Bot ini tetap berjalan dan berkembang.
+        
+    082192598451 | Gopay/Shopeepay/Dana
+    901618887124 | SeaBank
+
+Terima kasih atas perhatian dan dukunganmu! 💖`;
+
+        chat.sendMessage(message);
+    } catch (err) {
+        console.log(`Terjadi kesalahan saat mengirim pesan donasi :\n${ err }`);
+    }
+    
+}
+
 module.exports = {
     getInventory,
-    throwItem
+    throwItem,
+    donate
 }
