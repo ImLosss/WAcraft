@@ -17,6 +17,7 @@ async function joinServer(msg, sender, client) {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
         dataUser = JSON.parse(dataUser);
         let config = fs.readFileSync(`./config.json`, 'utf-8');
+        config = JSON.parse(config);
 
         if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
         if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*');
