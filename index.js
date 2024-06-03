@@ -17,6 +17,7 @@ const client = new Client({
 const menu = `╓──▷「 *Menu Command* 」
 ║ Author : Losss
 ║ Bot_desc : AFK bot for your farm
+║ Region_server : Singapore 
 ╟────「 *List Command* 」
 ║ ▹/menu
 ║ ▹/setip [ip_server]
