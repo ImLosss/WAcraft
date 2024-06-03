@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.claritynetwork.net",
-    "username": "TheRosses",
+    "ip": "212.38.94.135",
+    "username": "shandy",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -93,6 +93,20 @@
       "realUser": "Losss",
       "alt": [
         "Losssesss"
+      ]
+    },
+    "sanzakujojo.aternos.me": {
+      "realUser": "shandy",
+      "alt": []
+    },
+    "sanzakujojo.aternos.me:5249": {
+      "realUser": "shandy",
+      "alt": []
+    },
+    "212.38.94.135": {
+      "realUser": "Losss",
+      "alt": [
+        "shandy"
       ]
     }
   }

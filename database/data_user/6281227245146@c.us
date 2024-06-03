@@ -4,6 +4,9 @@
     "chatPrivate": true,
     "status": "online",
     "username": "Jade77",
+    "except": [
+      "Obtained"
+    ],
     "autocmd": [
       "/login 12345",
       "/server survival"

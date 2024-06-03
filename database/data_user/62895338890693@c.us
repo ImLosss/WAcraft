@@ -4,10 +4,10 @@
     "chatPrivate": true,
     "ip": "play.claritynetwork.net",
     "username": "Ned",
-    "status": "online",
+    "status": "offline",
     "automsg": {
       "message": "/feed",
-      "status": true
+      "status": false
     },
     "except": [
       "[me ->",
@@ -17,7 +17,8 @@
       "[team]",
       "Obtained",
       "Losss",
-      "losss"
+      "losss",
+      "Invalid player data"
     ],
     "autorightclick": false,
     "afkfarm": false,
@@ -28,8 +29,8 @@
       "/automsg 2"
     ],
     "autoReconnect": true,
-    "statusRepeat": true,
-    "reconnectTime": 0,
+    "statusRepeat": false,
+    "reconnectTime": 3,
     "autoleftclick": false
   },
   {

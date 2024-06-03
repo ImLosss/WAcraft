@@ -4,8 +4,8 @@
     "chatPrivate": true,
     "status": "offline",
     "autorightclick": false,
-    "ip": "play.claritynetwork.net",
-    "username": "Ego",
+    "ip": "z",
+    "username": "vayne",
     "automsg": {
       "message": "/ec",
       "status": false
@@ -19,8 +19,15 @@
       "/automsg 2"
     ],
     "autoReconnect": true,
-    "reconnectTime": 0,
+    "reconnectTime": 1,
     "autoleftclick": false
   },
-  {}
+  {
+    "kzn.my.id": {
+      "realUser": "Kidsyy",
+      "alt": [
+        "vayne"
+      ]
+    }
+  }
 ]
