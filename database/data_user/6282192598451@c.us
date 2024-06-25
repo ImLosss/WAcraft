@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "212.38.94.135",
-    "username": "shandy",
+    "ip": "kalwi.id",
+    "username": "jjjaaaakk",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -73,14 +73,17 @@
       "alt": [
         "Ned",
         "shenxx",
-        "Losssesss"
+        "Losssesss",
+        "shandy",
+        "raph"
       ]
     },
     "play.luckynetwork.net": {
       "realUser": "Losss",
       "alt": [
         "shenxx",
-        "Losssesss"
+        "Losssesss",
+        "shandy"
       ]
     },
     "kakdijd": {
@@ -107,6 +110,19 @@
       "realUser": "Losss",
       "alt": [
         "shandy"
+      ]
+    },
+    "luckynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shandy"
+      ]
+    },
+    "kalwi.id": {
+      "realUser": "Losss",
+      "alt": [
+        "raph",
+        "jjjaaaakk"
       ]
     }
   }

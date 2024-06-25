@@ -3,16 +3,16 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
-    "username": "Xonezka",
+    "ip": "kratosmc.us",
+    "username": "nowezki",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login pras2009",
-      "/survival",
       "/chat off",
-      "/automsg 2"
+      "/automsg 2",
+      "/server survival"
     ],
     "autoReconnect": false,
     "except": [
@@ -39,6 +39,12 @@
         "Klvv",
         "nowezki",
         "xonezka"
+      ]
+    },
+    "kratosmc.us": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
       ]
     }
   }

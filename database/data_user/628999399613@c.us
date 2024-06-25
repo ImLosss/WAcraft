@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "ip": "claritynetwork.net",
     "autoReconnect": true,

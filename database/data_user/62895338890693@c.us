@@ -1,6 +1,6 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
     "ip": "play.claritynetwork.net",
     "username": "Ned",
@@ -30,7 +30,7 @@
     ],
     "autoReconnect": true,
     "statusRepeat": false,
-    "reconnectTime": 3,
+    "reconnectTime": 0,
     "autoleftclick": false
   },
   {
