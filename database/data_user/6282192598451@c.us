@@ -1,10 +1,10 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
-    "ip": "kalwi.id",
-    "username": "jjjaaaakk",
+    "status": "online",
+    "ip": "play.claritynetwork.net",
+    "username": "Losss",
     "automsg": {
       "message": "/feed",
       "status": false
@@ -31,19 +31,19 @@
       "Obtained",
       "kicked",
       "TheRosses",
-      "GOD >"
+      "GOD >",
+      "los",
+      "Los",
+      "Kino"
     ],
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
+    "statusRepeat": true,
     "autocmd": [
-      "/login rayajr440",
+      "/login 040103",
       "/server survival",
-      "/dd",
-      "/dp",
-      "/automsg 2",
-      "/autorightclick 2"
+      "/home afk"
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
@@ -59,7 +59,8 @@
         "Lossseeess",
         "TheRosses",
         "Losseess",
-        "Losssesss"
+        "Losssesss",
+        "shencx"
       ]
     },
     "claritynetwork.net": {
@@ -122,7 +123,15 @@
       "realUser": "Losss",
       "alt": [
         "raph",
-        "jjjaaaakk"
+        "jjjaaaakk",
+        "shenxx",
+        "shencx"
+      ]
+    },
+    "minecraft.websiteku.help": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
       ]
     }
   }

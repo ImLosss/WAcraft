@@ -10,16 +10,16 @@
     "statusRepeat": false,
     "reconnectTime": 0,
     "ip": "claritynetwork.net",
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
-      "/login Sipa1212",
-      "/server survival"
+      "/login SM120205",
+      "/server skyblock"
     ],
-    "username": "Sipaaa"
+    "username": "SapiMan"
   },
   {
     "claritynetwork.net": {
-      "realUser": "Sipaaa",
+      "realUser": "SapiMan",
       "alt": []
     }
   }

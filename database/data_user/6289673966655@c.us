@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "kratosmc.us",
+    "ip": "play.ioncraft.my.id",
     "username": "nowezki",
     "autorightclick": false,
     "afkfarm": false,
@@ -11,8 +11,8 @@
     "autocmd": [
       "/login pras2009",
       "/chat off",
-      "/automsg 2",
-      "/server survival"
+      "/server survival",
+      "/is home"
     ],
     "autoReconnect": false,
     "except": [
@@ -46,6 +46,10 @@
       "alt": [
         "nowezki"
       ]
+    },
+    "play.ioncraft.my.id": {
+      "realUser": "nowezki",
+      "alt": []
     }
   }
 ]

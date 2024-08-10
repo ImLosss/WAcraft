@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "ip": "play.claritynetwork.net",
+    "ip": "srv531927.hstgr.cloud",
     "username": "Ned",
     "status": "offline",
     "automsg": {
@@ -28,7 +28,7 @@
       "/server survival",
       "/automsg 2"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "statusRepeat": false,
     "reconnectTime": 0,
     "autoleftclick": false
@@ -37,12 +37,28 @@
     "play.claritynetwork.net": {
       "realUser": "Losss",
       "alt": [
-        "Ned"
+        "Ned",
+        "yowas",
+        "shenxx",
+        "shencx"
       ]
     },
     "proxy2.claritynetwork.net": {
       "realUser": "Losss",
       "alt": [
+        "Ned"
+      ]
+    },
+    "play.paguyuban.xyz": {
+      "realUser": "Losss",
+      "alt": [
+        "shencx"
+      ]
+    },
+    "srv531927.hstgr.cloud": {
+      "realUser": "Losss",
+      "alt": [
+        "shencx",
         "Ned"
       ]
     }

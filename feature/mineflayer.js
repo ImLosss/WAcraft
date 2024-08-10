@@ -469,7 +469,7 @@ async function autoLeftClick(bot, msg, pesan, sender) {
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].autoleftclick) {
                 const entity = bot.entityAtCursor(5);
-                if (entity && entity.kind != "UNKNOWN")  {
+                if (entity && entity.kind != "UNKNOWN" && entity.kind != undefined)  {
                     bot.attack(entity);
                 }
                 else bot.swingArm();

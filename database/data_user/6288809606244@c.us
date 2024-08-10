@@ -3,14 +3,19 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.claritynetwork.net",
-    "username": "Ned",
-    "autorightclick": false,
-    "afkfarm": false,
-    "afkfish": false,
+    "ip": "srv531927.hstgr.cloud",
+    "username": "Losss",
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false
   },
-  {}
+  {
+    "srv531927.hstgr.cloud": {
+      "realUser": "Losss",
+      "alt": []
+    }
+  }
 ]
