@@ -464,15 +464,27 @@ async function autoLeftClick(bot, msg, pesan, sender) {
         dataUser[0].autoleftclick = true;
         fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
         chat.sendMessage(`*Berhasil mengaktifkan autoleftclick tiap ${ time } Detik*`);
-        const intval2 = setInterval(() => {
+        const intval2 = setInterval(async () => {
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
             if(dataUser[0].autoleftclick) {
-                const entity = bot.entityAtCursor(5);
-                if (entity && entity.kind != "UNKNOWN" && entity.kind != undefined)  {
+                // const entity = bot.entityAtCursor(5);
+                // if (entity && entity.kind != "UNKNOWN" && entity.kind != undefined)  {
+                //     bot.attack(entity);
+                // }
+                // else bot.swingArm();
+
+                const entity = bot.nearestEntity(entity => {
+                    if (!entity.type) return;
+                    const type = entity.type;
+                    return type === 'hostile' || type === 'animal';
+                });
+
+                if(entity) {
+                    const position = entity.position.offset(0, 0.5, 0);
+                    await bot.lookAt(position)
                     bot.attack(entity);
                 }
-                else bot.swingArm();
             } else clearInterval(intval2);
         }, time2);
 
