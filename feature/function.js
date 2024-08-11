@@ -199,15 +199,6 @@ async function afkFarmOf(msg, sender) {
 
 }
 
-async function afkFishOf(msg, sender) {
-    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-    dataUser = JSON.parse(dataUser);
-
-    dataUser[0].afkfish = false;
-
-    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-}
-
 async function delltellme(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
@@ -436,5 +427,5 @@ async function maintenance(msg) {
 }
 
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, afkFishOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist
 }

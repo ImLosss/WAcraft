@@ -1,11 +1,12 @@
 const mineflayer = require('mineflayer');
 const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, afkFishOf, injectTitle, chatPublic, automsgof } = require('./function');
-const fish = require('./fishing');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle, chatPublic, automsgof } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
 const { getInventory, throwItem, donate } = require('../app/function/Mineflayer');
+const { fishing2 } = require('./fishing2');
+const { afkFishOf } = require('../app/function/fishing');
 
 
 
@@ -147,7 +148,7 @@ async function joinServer(msg, sender, client) {
                         else if (command.startsWith('/autorightclick')) autoRightClick(bot, msg, command, sender);
                         else if (command.startsWith('/autoleftclick')) autoLeftClick(bot, msg, command, sender);
                         else if (command.startsWith('/afkfarm')) afkfarm(bot, msg, command, sender);
-                        else if (command == '/afkfish on') fish.fishing(bot, msg, sender);
+                        else if (command == '/afkfish on') fishing2(bot, msg, sender);
                         else bot.chat(array[repeatCmd]);
                         repeatCmd +=1;
                         if (repeatCmd == array.length) clearInterval(repeatInterval);
@@ -289,7 +290,7 @@ async function joinServer(msg, sender, client) {
                     } else if(pesan == '/ping') {
                         chat.sendMessage(`*Ping:* ${ bot.player.ping }`);
                     } else if(pesan == '/afkfish on') {
-                        fish.fishing(bot, msg5, sender);
+                        fishing2(bot, msg5, sender);
                     } else if(pesan == '/afkfish of' || pesan == '/afkfish off') {
                         afkFishOf(msg5, sender);
                     } else if(pesan == '/inventory') {
