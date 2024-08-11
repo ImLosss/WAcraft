@@ -7,7 +7,7 @@
     "username": "Losss",
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "except": [
       "Losss",
@@ -43,11 +43,12 @@
     "autocmd": [
       "/login 040103",
       "/server survival",
-      "/home afk"
+      "/autoleftclick 0.3",
+      "/automsg 2"
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": true
   },
   {
     "play.claritynetwork.net": {
