@@ -24,6 +24,7 @@ async function fishing2(bot, msg, sender) {
 
         if(!dataUser[0].afkfish) {
             clearInterval(timer2);
+            clearInterval(timer);
             bot.removeListener('playerCollect', playerCollect);
             bot.activateItem();
             chat.sendMessage('Memancing dihentikan');
@@ -53,8 +54,7 @@ async function fishing2(bot, msg, sender) {
         try {
             await bot.fish()
         } catch (err) {
-            chat.sendMessage('Terjadi kesalahan saat Mencoba memancing');
-            return afkFishOf(msg, sender);
+
         }
     }
 
