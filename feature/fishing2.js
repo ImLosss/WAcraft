@@ -47,9 +47,9 @@ async function fishing2(bot, msg, sender) {
         }
       
         timer = setTimeout(() => {
-            chat.sendMessage('Memancing dibatalkan karena tidak mendapat ikan dalam 40 detik');
+            chat.sendMessage('Memancing dibatalkan karena tidak mendapat ikan dalam 1 menit');
             return afkFishOf(msg, sender);
-        }, 40000);
+        }, 60000);
       
         try {
             await bot.fish()
