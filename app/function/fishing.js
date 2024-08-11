@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-function findItemById(id) {
+function findItemById(id, bot) {
     const data = bot.registry.itemsByName;
     return Object.values(data).find(item => item.id === id) || null;
 }

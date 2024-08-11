@@ -63,7 +63,7 @@ async function fishing2(bot, msg, sender) {
           startFishing()
         } else if (entity.type == "other" && entity.metadata && entity.metadata[8] && entity.metadata[8].itemId) {
           const itemId = entity.metadata[8].itemId;
-          const find = findItemById(itemId);
+          const find = findItemById(itemId, bot);
           chat.sendMessage(`*Catch ${ find.displayName }*`)
         }
     }
