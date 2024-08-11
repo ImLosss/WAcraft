@@ -30,8 +30,6 @@ async function fishing2(bot, msg, sender) {
         }
     }, 5000);
 
-    bot.addListener('playerCollect', playerCollect);
-
     startFishing()
 
     dataUser[0].afkfish = true;
@@ -69,6 +67,7 @@ async function fishing2(bot, msg, sender) {
           chat.sendMessage(`*Catch ${ find.displayName }*`)
         }
     }
+    bot.addListener('playerCollect', playerCollect);
 
 }
 
