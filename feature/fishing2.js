@@ -60,11 +60,13 @@ async function fishing2(bot, msg, sender) {
 
     playerCollect = async (player, entity) => {
         if(entity.type == "orb") {
-          startFishing()
+            setTimeout(() => {
+                startFishing()
+            }, 750);
         } else if (entity.type == "other" && entity.metadata && entity.metadata[8] && entity.metadata[8].itemId) {
-          const itemId = entity.metadata[8].itemId;
-          const find = findItemById(itemId, bot);
-          chat.sendMessage(`*Catch ${ find.displayName }*`)
+            const itemId = entity.metadata[8].itemId;
+            const find = findItemById(itemId, bot);
+            chat.sendMessage(`*Catch ${ find.displayName }*`)
         }
     }
     bot.addListener('playerCollect', playerCollect);
