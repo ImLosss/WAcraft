@@ -4,7 +4,7 @@ const fs = require('fs');
 const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle, chatPublic, automsgof } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
-const { getInventory, throwItem, donate } = require('../app/function/Mineflayer');
+const { getInventory, throwItem, donate, automsg } = require('../app/function/Mineflayer');
 const { fishing2 } = require('./fishing2');
 const { afkFishOf } = require('../app/function/fishing');
 
@@ -40,7 +40,6 @@ async function joinServer(msg, sender, client) {
             fs.mkdirSync(filePathMap);
         }
         
-        if(dataUser[0].reconnectTime == 0 && config.donate) donate(msg);
         const bot = mineflayer.createBot({
             host: ip, 
             username: dataUser[0].username, 
@@ -76,7 +75,9 @@ async function joinServer(msg, sender, client) {
 
         let message = ''
         Lmessagestr = async (msgstr) => {
-            if(msgstr == "" || message == msgstr) return;
+            if(msgstr.trim().length == 0 || message == msgstr) return;
+
+            msgstr = msgstr.trim();
 
             // menambah timeout untuk disconnect jika tidak terdapat aktivitas
             clearTimeout(timeoutDc);
@@ -120,6 +121,7 @@ async function joinServer(msg, sender, client) {
         bot.once('spawn', async () => {
             chat.sendMessage(`Connected`);
             let dataUser = fungsi.getDataUser(sender);
+            if(dataUser[0].reconnectTime == 0 && config.broadcast.status) donate(msg, config);
             // if(dataUser[0].status == 'offline') {
                 sendMsg(client, bot, msg, sender, chat);
                 dataUser[0].status = 'online';
@@ -335,49 +337,6 @@ async function joinServer(msg, sender, client) {
     } catch (err) {
         console.log(err);
         chat.sendMessage('Error');
-    }
-}
-
-async function automsg(bot, msg, pesan, sender) {
-    try {
-        const chat = await msg.getChat();
-        if(pesan == '/automsg off' || pesan == '/automsg of') return automsgof(msg, sender);
-        pesan = pesan.split(' ');
-        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
-        let time = pesan[1];
-
-        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-        dataUser = JSON.parse(dataUser);
-
-        if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan automsg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
-        if(dataUser[0].automsg.status) return msg.reply('automsg masih aktif, kirim */automsg of* untuk menonaktifkannya');
-
-        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
-        let time2 = time * 60000 + 1000;
-        console.log(time2);
-        dataUser[0].automsg.status = true;
-        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-        chat.sendMessage(`*Berhasil mengaktifkan automsg tiap ${ time } Menit*`);
-        const intval = setInterval(() => {
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-            const auto = dataUser[0].automsg.message;
-            if(dataUser[0].automsg.status) {
-                bot.chat(auto);
-                if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
-            } else clearInterval(intval);
-        }, time2);
-        let cekautomsg = setInterval(() => {
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-            if(!dataUser[0].automsg.status) { 
-                clearInterval(cekautomsg);
-                clearInterval(intval);
-                msg.reply('*Berhasil menonaktifkan automsg*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan automsg*') });
-            }
-        }, 2000);
-    } catch(e) {
-        console.log(e);
     }
 }
 

@@ -1,9 +1,9 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
-    "ip": "play.ioncraft.my.id",
+    "status": "online",
+    "ip": "claritynetwork.net",
     "username": "nowezki",
     "autorightclick": false,
     "afkfarm": false,
@@ -11,8 +11,7 @@
     "autocmd": [
       "/login pras2009",
       "/chat off",
-      "/server survival",
-      "/is home"
+      "/server survival"
     ],
     "autoReconnect": false,
     "except": [
@@ -28,7 +27,7 @@
       "message": "/feed",
       "status": false
     },
-    "statusRepeat": false,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "autoleftclick": false
   },

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { findItemById, afkFishOf } = require('../app/function/fishing');
+const { findItemById, afkFishOf, reset } = require('../app/function/fishing');
 
 async function fishing2(bot, msg, sender) {
     const chat = await msg.getChat();
@@ -13,10 +13,10 @@ async function fishing2(bot, msg, sender) {
     try {
         await bot.equip(bot.registry.itemsByName.fishing_rod.id, 'hand')
     } catch (err) {
-        return chat.sendMessage('Tidak menemukan pancingan di inventory')
+        return chat.sendMessage('*Tidak menemukan pancingan di inventory*')
     }
     
-    chat.sendMessage('Mulai memancing');
+    chat.sendMessage('*Mulai memancing*');
 
     timer2 = setInterval(() => {
         let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
@@ -26,10 +26,10 @@ async function fishing2(bot, msg, sender) {
             clearInterval(timer2);
             clearInterval(timer);
             bot.removeListener('playerCollect', playerCollect);
-            bot.activateItem();
-            chat.sendMessage('Memancing dihentikan');
+            reset(bot);
+            chat.sendMessage('*Memancing dihentikan*');
         }
-    }, 5000);
+    }, 3000);
 
     startFishing()
 
@@ -40,29 +40,28 @@ async function fishing2(bot, msg, sender) {
         clearTimeout(timer);
     
         try {
+            await reset(bot);
             await bot.equip(bot.registry.itemsByName.fishing_rod.id, 'hand')
         } catch (err) {
-            chat.sendMessage('Tidak menemukan pancingan di inventory')
+            chat.sendMessage('*Tidak menemukan pancingan di inventory*')
             return afkFishOf(msg, sender);
         }
       
         timer = setTimeout(() => {
-            chat.sendMessage('Memancing dibatalkan karena tidak mendapat ikan dalam 1 menit');
-            return afkFishOf(msg, sender);
+            chat.sendMessage('*Tidak mendapat apapun dalam 1 menit, memancing kembali...*');
+            return startFishing();
         }, 60000);
       
         try {
             await bot.fish()
         } catch (err) {
-
+            console.log(err.message);
         }
     }
 
     playerCollect = async (player, entity) => {
         if(entity.type == "orb") {
-            setTimeout(() => {
-                startFishing()
-            }, 750);
+            startFishing()
         } else if (entity.type == "other" && entity.metadata && entity.metadata[8] && entity.metadata[8].itemId) {
             const itemId = entity.metadata[8].itemId;
             const find = findItemById(itemId, bot);

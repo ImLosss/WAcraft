@@ -84,7 +84,7 @@ function throwItem(bot, msg) {
     }
 }
 
-async function donate(msg) {
+async function donate(msg, config) {
     try {
         const chat = await msg.getChat();
 
@@ -93,22 +93,74 @@ async function donate(msg) {
 
     Terima kasih telah menggunakan MinecraftBot! 🎮
 
-    Jika kamu merasa terbantu dengan adanya Bot ini, Saya akan sangat berterima kasih jika kamu bersedia untuk berdonasi. Dukunganmu akan sangat berarti untuk menjaga Bot ini tetap berjalan dan berkembang.
+    Jika kamu merasa terbantu dengan adanya Bot ini, support dengan cara share/donate. Dukunganmu akan sangat berarti untuk menjaga Bot ini tetap berjalan dan berkembang.
         
     082192598451 | Gopay/Shopeepay/Dana
     901618887124 | SeaBank
 
 Terima kasih atas perhatian dan dukunganmu! 💖`;
 
-        chat.sendMessage(message);
+        if(config.donate) chat.sendMessage(message);
+
+        config.broadcast.message.forEach(item => {
+            chat.sendMessage(`> ⓘ _${ item }_`);
+        });
+
+        
     } catch (err) {
         console.log(`Terjadi kesalahan saat mengirim pesan donasi :\n${ err }`);
     }
     
 }
 
+
+async function automsg(bot, msg, pesan, sender) {
+    try {
+        const chat = await msg.getChat();
+        if(pesan == '/automsg off' || pesan == '/automsg of') return automsgof(msg, sender);
+        pesan = pesan.split(' ');
+        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
+        let time = pesan[1];
+
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
+
+        if(dataUser[0].automsg == undefined) return msg.reply('Atur pesan automsg anda terlebih dahulu dengan cara mengirim pesan dengan format */setautomsg [message]*');
+        if(dataUser[0].automsg.status) return msg.reply('automsg masih aktif, kirim */automsg of* untuk menonaktifkannya');
+
+        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */automsg [time_in_min]*');
+        let time2 = time * 60000 + 1000;
+        console.log(time2);
+        dataUser[0].automsg.status = true;
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+        chat.sendMessage(`*Berhasil mengaktifkan automsg tiap ${ time } Menit*`);
+        const intval = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            const auto = dataUser[0].automsg.message;
+            if(dataUser[0].automsg.status) {
+                bot.chat(auto);
+                if(dataUser[0].chatPublic) chat.sendMessage('*Berhasil mengirimkan automsg*');
+            } else clearInterval(intval);
+        }, time2);
+        let cekautomsg = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(!dataUser[0].automsg.status) { 
+                clearInterval(cekautomsg);
+                clearInterval(intval);
+                msg.reply('*Berhasil menonaktifkan automsg*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan automsg*') });
+            }
+        }, 2000);
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+
 module.exports = {
     getInventory,
     throwItem,
-    donate
+    donate,
+    automsg
 }

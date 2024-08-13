@@ -34,7 +34,8 @@
       "GOD >",
       "los",
       "Los",
-      "Kino"
+      "Kino",
+      "Skill Level"
     ],
     "autorightclick": false,
     "afkfarm": false,
@@ -43,8 +44,10 @@
     "autocmd": [
       "/login 040103",
       "/server survival",
+      "/automsg 2",
       "/autoleftclick 0.3",
-      "/automsg 2"
+      "/dp",
+      "/dd"
     ],
     "autoReconnect": false,
     "reconnectTime": 0,

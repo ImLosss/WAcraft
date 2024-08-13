@@ -6,5 +6,13 @@
     "62895338890693@c.us"
   ],
   "blacklist": [],
-  "donate": false
+  "donate": false,
+  "broadcast": {
+    "status": true,
+    "message": [
+      "Suka dengan bot ini? Share!",
+      "Gunakan /tellme [message] untuk tetap menerima pesan saat chat dimatikan",
+      "Kirim /menu untuk melihat semua command"
+    ]
+  }
 }
