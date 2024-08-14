@@ -95,8 +95,7 @@ async function donate(msg, config) {
 
     Jika kamu merasa terbantu dengan adanya Bot ini, support dengan cara share/donate. Dukunganmu akan sangat berarti untuk menjaga Bot ini tetap berjalan dan berkembang.
         
-    082192598451 | Gopay/Shopeepay/Dana
-    901618887124 | SeaBank
+    https://sociabuzz.com/losss/tribe
 
 Terima kasih atas perhatian dan dukunganmu! 💖`;
 
