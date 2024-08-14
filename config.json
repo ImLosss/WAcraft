@@ -12,7 +12,8 @@
     "message": [
       "Suka dengan bot ini? Share!",
       "Gunakan /tellme [message] untuk tetap menerima pesan saat chat dimatikan",
-      "Kirim /menu untuk melihat semua command"
+      "Kirim /menu untuk melihat semua command",
+      "Menemukan bug? report! example: /bugreport [detail_bug]"
     ]
   }
 }

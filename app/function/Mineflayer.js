@@ -102,9 +102,16 @@ Terima kasih atas perhatian dan dukunganmu! 💖`;
 
         if(config.donate) chat.sendMessage(message);
 
-        config.broadcast.message.forEach(item => {
-            chat.sendMessage(`> ⓘ _${ item }_`);
-        });
+        let repeatInterval;
+        let repeatBroadcast = 0;
+        let repeatArray = config.broadcast.message;
+        repeatInterval = setInterval(() => {
+            const message = repeatArray[repeatBroadcast];
+            chat.sendMessage(`> ⓘ _${ message }_`);
+
+            repeatBroadcast+=1;
+            if (repeatBroadcast == repeatArray.length) clearInterval(repeatInterval);
+        }, 7500);
 
         
     } catch (err) {
