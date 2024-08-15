@@ -1,17 +1,18 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "nowezki",
+    "username": "Xonezka",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login pras2009",
       "/chat off",
-      "/server survival"
+      "/server survival",
+      "/autoleftclick 1"
     ],
     "autoReconnect": false,
     "except": [
@@ -27,7 +28,7 @@
       "message": "/feed",
       "status": false
     },
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autoleftclick": false
   },

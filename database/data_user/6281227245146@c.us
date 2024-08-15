@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "goret",
     "except": [
       "Obtained"
@@ -14,8 +14,8 @@
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
-    "afkfish": true,
-    "statusRepeat": true,
+    "afkfish": false,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "ip": "play.claritynetwork.net",
     "autoReconnect": false

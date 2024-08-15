@@ -13,7 +13,7 @@
     "autoReconnect": false,
     "autocmd": [
       "/login SM120205",
-      "/server skyblock"
+      "/server survival"
     ],
     "username": "SapiMan"
   },

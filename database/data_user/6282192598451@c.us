@@ -6,7 +6,7 @@
     "ip": "play.claritynetwork.net",
     "username": "Losss",
     "automsg": {
-      "message": "/feed",
+      "message": "/repair",
       "status": true
     },
     "except": [
@@ -39,19 +39,19 @@
     ],
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": false,
+    "afkfish": true,
     "statusRepeat": true,
     "autocmd": [
       "/login 040103",
       "/server survival",
       "/automsg 2",
-      "/autoleftclick 0.3",
       "/dp",
-      "/dd"
+      "/dd",
+      "/afkfish on"
     ],
-    "autoReconnect": false,
+    "autoReconnect": true,
     "reconnectTime": 0,
-    "autoleftclick": true
+    "autoleftclick": false
   },
   {
     "play.claritynetwork.net": {
