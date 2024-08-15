@@ -4,7 +4,7 @@ const fs = require('fs');
 const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle, chatPublic } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
-const { getInventory, throwItem, donate, automsg } = require('../app/function/Mineflayer');
+const { getInventory, throwItem, donate, automsg, findBlock } = require('../app/function/Mineflayer');
 const { fishing2 } = require('./fishing2');
 const { afkFishOf } = require('../app/function/fishing');
 
@@ -299,6 +299,8 @@ async function joinServer(msg, sender, client) {
                         chat.sendMessage(getInventory(bot, msg2));
                     } else if(pesan.startsWith('/throw')) {
                         chat.sendMessage(throwItem(bot, msg2));
+                    } else if(pesan.startsWith('/find')) {
+                        findBlock(bot, msg2, pesan);
                     } else {
                         try {
                             bot.chat(send);

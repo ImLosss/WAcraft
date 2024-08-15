@@ -170,10 +170,30 @@ async function automsg(bot, msg, pesan, sender) {
     }
 }
 
+async function findBlock(bot, msg, pesan) {
+    const chat = await msg.getChat();
+    pesan = pesan.split(' ');
+    if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */find [blockName]*');
+    let blockName = pesan[1];
+
+    if (bot.registry.blocksByName[blockName] === undefined) {
+        msg.reply('nama block salah');
+        return;
+    }
+    const ids = [bot.registry.blocksByName[blockName].id]
+
+    const blocks = bot.findBlocks({ matching: ids, maxDistance: 256, count: 1 })
+
+    if(blocks.length == 0) return chat.sendMessage(`Tidak menemukan block ${ blockName }`);
+
+    chat.sendMessage(`Menemukan ${blocks.length} ${blockName} blocks in x:${blocks[0].x}, y:${blocks[0].y}, z:${blocks[0].z}`);
+}
+
 
 module.exports = {
     getInventory,
     throwItem,
     donate,
-    automsg
+    automsg,
+    findBlock
 }
