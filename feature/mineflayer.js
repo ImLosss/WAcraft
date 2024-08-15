@@ -301,6 +301,8 @@ async function joinServer(msg, sender, client) {
                         chat.sendMessage(throwItem(bot, msg2));
                     } else if(pesan.startsWith('/find')) {
                         findBlock(bot, msg2, pesan);
+                    } else if(pesan.startsWith('find')) {
+                        return;
                     } else {
                         try {
                             bot.chat(send);
