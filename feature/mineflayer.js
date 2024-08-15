@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer');
 const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle, chatPublic, automsgof } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle, chatPublic } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
 const { getInventory, throwItem, donate, automsg } = require('../app/function/Mineflayer');
