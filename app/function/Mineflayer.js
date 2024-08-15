@@ -85,7 +85,7 @@ function throwItem(bot, msg) {
     }
 }
 
-async function donate(msg, config) {
+async function donate(msg, config, sender) {
     try {
         const chat = await msg.getChat();
 
