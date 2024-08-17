@@ -11,7 +11,7 @@ const { afkFishOf } = require('../app/function/fishing');
 
 
 async function joinServer(msg, sender, client) {
-    let Lmessagestr, title, subtitle, list2, timeoutDc, timeoutChat, watcherDirMap;
+    let repeatIntervalBroadcast, Lmessagestr, title, subtitle, list2, timeoutDc, timeoutChat, watcherDirMap;
     const chat = await msg.getChat();
     try {
         if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
@@ -159,7 +159,6 @@ async function joinServer(msg, sender, client) {
                 }, 5000);
             }
 
-            let repeatIntervalBroadcast;
             let repeatTimeoutBroadcast = config.broadcast.repeatInSec * 1000;
             let repeatIndex = 0
             repeatIntervalBroadcast = setInterval(() => {
@@ -226,6 +225,7 @@ async function joinServer(msg, sender, client) {
             console.log(`End: ${ msgEnd }`);
             clearTimeout(timeoutDc);
             clearTimeout(timeoutChat);
+            clearInterval(repeatIntervalBroadcast);
             const numListenersMessageBeforeRemoval = client.listeners('message').length;
             const numListenersSubtitleBeforeRemoval = bot.listeners('subtitle').length;
             const numListenersTitleBeforeRemoval = bot.listeners('title').length;
