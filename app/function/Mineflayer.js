@@ -177,14 +177,14 @@ async function findBlock(bot, msg, pesan) {
     let blockName = pesan[1];
 
     if (bot.registry.blocksByName[blockName] === undefined) {
-        msg.reply('nama block salah');
+        msg.reply('Nama block salah, cek list block disini https://mobile.websiteku.help/');
         return;
     }
     const ids = [bot.registry.blocksByName[blockName].id]
 
-    const blocks = bot.findBlocks({ matching: ids, maxDistance: 256, count: 1 })
+    const blocks = bot.findBlocks({ matching: ids, maxDistance: 192, count: 1 })
 
-    if(blocks.length == 0) return chat.sendMessage(`Tidak menemukan block ${ blockName }`);
+    if(blocks.length == 0) return chat.sendMessage(`Tidak menemukan ${ blockName } dalam radius 192. Pindah posisi lalu coba kembali...`);
 
     chat.sendMessage(`Menemukan ${blocks.length} ${blockName} blocks in x:${blocks[0].x}, y:${blocks[0].y}, z:${blocks[0].z}`);
 }
