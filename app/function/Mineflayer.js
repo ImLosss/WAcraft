@@ -101,25 +101,6 @@ async function donate(msg, config, sender) {
 Terima kasih atas perhatian dan dukunganmu! 💖`;
 
         if(config.donate) chat.sendMessage(message);
-
-        let repeatInterval;
-        let repeatBroadcast = 0;
-        let repeatArray = config.broadcast.message;
-        repeatInterval = setInterval(() => {
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-            if(dataUser[0].status == "online") {
-                const message = repeatArray[repeatBroadcast];
-                chat.sendMessage(`> ⓘ _${ message }_`);
-
-                repeatBroadcast+=1;
-                if (repeatBroadcast == repeatArray.length) clearInterval(repeatInterval);
-            } else {
-                clearInterval(repeatInterval);
-            }
-        }, 7500);
-
-        
     } catch (err) {
         console.log(`Terjadi kesalahan saat mengirim pesan donasi :\n${ err }`);
     }
