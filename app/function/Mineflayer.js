@@ -161,6 +161,9 @@ async function findBlock(bot, msg, pesan) {
         msg.reply('Nama block salah, cek list block disini https://mobile.websiteku.help/');
         return;
     }
+
+    await bot.waitForChunksToLoad()
+    
     const ids = [bot.registry.blocksByName[blockName].id]
 
     const blocks = bot.findBlocks({ matching: ids, maxDistance: 192, count: 1 })
