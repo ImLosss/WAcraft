@@ -163,7 +163,7 @@ async function findBlock(bot, msg, pesan) {
     }
 
     await bot.waitForChunksToLoad()
-    
+
     const ids = [bot.registry.blocksByName[blockName].id]
 
     const blocks = bot.findBlocks({ matching: ids, maxDistance: 192, count: 1 })
@@ -173,11 +173,25 @@ async function findBlock(bot, msg, pesan) {
     chat.sendMessage(`Menemukan ${blocks.length} ${blockName} blocks in x:${blocks[0].x}, y:${blocks[0].y}, z:${blocks[0].z}`);
 }
 
+async function listener(bot) {
+    bot.on('health', () => {
+        let health = bot.health;
+        health = Math.round(health);
+
+        if(health <= 5) chat.sendMessage(`> ⚠️ _Darah kamu sisa ${ health }_`);
+    })
+
+    bot.on('death', () => {
+        console.log('> ⚠️ _You Die_');
+    })
+}
+
 
 module.exports = {
     getInventory,
     throwItem,
     donate,
     automsg,
-    findBlock
+    findBlock,
+    listener
 }

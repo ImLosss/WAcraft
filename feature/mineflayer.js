@@ -1,10 +1,10 @@
 const mineflayer = require('mineflayer');
 const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle, chatPublic } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
-const { getInventory, throwItem, donate, automsg, findBlock } = require('../app/function/Mineflayer');
+const { getInventory, throwItem, donate, automsg, findBlock, listener } = require('../app/function/Mineflayer');
 const { fishing2 } = require('./fishing2');
 const { afkFishOf } = require('../app/function/fishing');
 
@@ -120,6 +120,7 @@ async function joinServer(msg, sender, client) {
 
         bot.once('spawn', async () => {
             chat.sendMessage(`Connected`);
+            listener();
             let dataUser = fungsi.getDataUser(sender);
             if(dataUser[0].reconnectTime == 0 && config.broadcast.status) donate(msg, config, sender);
             // if(dataUser[0].status == 'offline') {
@@ -317,6 +318,10 @@ async function joinServer(msg, sender, client) {
                         chat.sendMessage(getInventory(bot, msg2));
                     } else if(pesan.startsWith('/throw')) {
                         chat.sendMessage(throwItem(bot, msg2));
+                    } else if(pesan == '/health') {
+                        return chat.sendMessage(bot.health);
+                    } else if(pesan == '/exp') {
+                        return chat.sendMessage(bot.experience.level);
                     } else if(pesan.startsWith('/find')) {
                         findBlock(bot, msg2, pesan);
                     } else if(pesan.startsWith('find')) {
