@@ -160,17 +160,18 @@ async function joinServer(msg, sender, client) {
             }
 
             let repeatTimeoutBroadcast = config.broadcast.repeatInSec * 1000;
+            let broadcastMessageArr = config.broadcast.message;
             let repeatIndex = 0
             repeatIntervalBroadcast = setInterval(() => {
                 let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
                 dataUser = JSON.parse(dataUser);
                 if(dataUser[0].status == "online") {
                     if(!dataUser[0].chatPublic) return;
-                    const message = repeatArray[repeatIndex];
+                    const message = broadcastMessageArr[repeatIndex];
                     chat.sendMessage(`> ⓘ _${ message }_`);
 
                     repeatIndex+=1;
-                    if (repeatIndex == repeatArray.length) repeatIndex = 0;
+                    if (repeatIndex == broadcastMessageArr.length) repeatIndex = 0;
                 } else {
                     clearInterval(repeatInterval);
                 }
