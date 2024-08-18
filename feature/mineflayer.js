@@ -120,7 +120,7 @@ async function joinServer(msg, sender, client) {
 
         bot.once('spawn', async () => {
             chat.sendMessage(`Connected`);
-            listener();
+            listener(bot);
             let dataUser = fungsi.getDataUser(sender);
             if(dataUser[0].reconnectTime == 0 && config.broadcast.status) donate(msg, config, sender);
             // if(dataUser[0].status == 'offline') {

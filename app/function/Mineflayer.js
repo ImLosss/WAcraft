@@ -173,7 +173,8 @@ async function findBlock(bot, msg, pesan) {
     chat.sendMessage(`Menemukan ${blocks.length} ${blockName} blocks in x:${blocks[0].x}, y:${blocks[0].y}, z:${blocks[0].z}`);
 }
 
-async function listener(bot) {
+async function listener(bot, msg) {
+    const chat = await msg.getChat();
     bot.on('health', () => {
         let health = bot.health;
         health = Math.round(health);
@@ -182,7 +183,7 @@ async function listener(bot) {
     })
 
     bot.on('death', () => {
-        console.log('> ⚠️ _You Die_');
+        chat.sendMessage('> ⚠️ _You Die_');
     })
 }
 
