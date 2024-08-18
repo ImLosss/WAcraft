@@ -320,7 +320,7 @@ async function joinServer(msg, sender, client) {
                     } else if(pesan.startsWith('/throw')) {
                         chat.sendMessage(throwItem(bot, msg2));
                     } else if(pesan == '/health') {
-                        const health = bot.health;
+                        const health = Math.round(bot.health);
                         chat.sendMessage(`Health: ${ health }`);
                     } else if(pesan == '/exp') {
                         const exp = bot.experience.points;
