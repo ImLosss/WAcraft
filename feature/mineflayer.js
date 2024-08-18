@@ -319,11 +319,11 @@ async function joinServer(msg, sender, client) {
                     } else if(pesan.startsWith('/throw')) {
                         chat.sendMessage(throwItem(bot, msg2));
                     } else if(pesan == '/health') {
-                        console.log(bot.health);
-                        chat.sendMessage(bot.health);
+                        const health = bot.health;
+                        chat.sendMessage(`Health: ${ health }`);
                     } else if(pesan == '/exp') {
-                        console.log(bot.experience.level);
-                        chat.sendMessage(bot.experience.level);
+                        const exp = bot.experience.level;
+                        chat.sendMessage(`Exp: ${ exp }`);
                     } else if(pesan.startsWith('/find')) {
                         findBlock(bot, msg2, pesan);
                     } else if(pesan.startsWith('find')) {
