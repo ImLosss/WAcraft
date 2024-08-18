@@ -319,8 +319,10 @@ async function joinServer(msg, sender, client) {
                     } else if(pesan.startsWith('/throw')) {
                         chat.sendMessage(throwItem(bot, msg2));
                     } else if(pesan == '/health') {
+                        console.log(bot.health);
                         chat.sendMessage(bot.health);
                     } else if(pesan == '/exp') {
+                        console.log(bot.experience.level);
                         chat.sendMessage(bot.experience.level);
                     } else if(pesan.startsWith('/find')) {
                         findBlock(bot, msg2, pesan);
