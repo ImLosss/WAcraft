@@ -322,7 +322,7 @@ async function joinServer(msg, sender, client) {
                         const health = bot.health;
                         chat.sendMessage(`Health: ${ health }`);
                     } else if(pesan == '/exp') {
-                        const exp = bot.experience.level;
+                        const exp = bot.experience.points;
                         chat.sendMessage(`Exp: ${ exp }`);
                     } else if(pesan.startsWith('/find')) {
                         findBlock(bot, msg2, pesan);
