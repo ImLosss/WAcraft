@@ -13,7 +13,8 @@
       "Suka dengan bot ini? Share!",
       "Gunakan /tellme [message] untuk tetap menerima pesan saat chat dimatikan",
       "Kirim /menu untuk melihat semua command",
-      "Menemukan bug? report! example: /bugreport [detail_bug]"
+      "Menemukan bug? report! example: /bugreport [detail_bug]",
+      "Fitur right/left click hanya berfungsi pada item yang dipegang oleh bot"
     ],
     "repeatInSec": 60 
   }
