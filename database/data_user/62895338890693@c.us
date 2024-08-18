@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
     "ip": "play.claritynetwork.net",
     "username": "Ned",
-    "status": "offline",
+    "status": "online",
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "except": [
       "[me ->",
@@ -18,7 +18,8 @@
       "Obtained",
       "Losss",
       "losss",
-      "Invalid player data"
+      "Invalid player data",
+      "Only 10 more votes"
     ],
     "autorightclick": false,
     "afkfarm": false,
@@ -28,8 +29,8 @@
       "/server survival",
       "/automsg 2"
     ],
-    "autoReconnect": false,
-    "statusRepeat": false,
+    "autoReconnect": true,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "autoleftclick": false
   },
@@ -60,6 +61,19 @@
       "alt": [
         "shencx",
         "Ned"
+      ]
+    },
+    "play.crazynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "Ned"
+      ]
+    },
+    "kalwi.id": {
+      "realUser": "Losss",
+      "alt": [
+        "Ned",
+        "shencx"
       ]
     }
   }

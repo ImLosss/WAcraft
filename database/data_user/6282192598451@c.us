@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "play.claritynetwork.net",
     "username": "Losss",
     "automsg": {
       "message": "/repair",
-      "status": true
+      "status": false
     },
     "except": [
       "Losss",
@@ -39,8 +39,8 @@
     ],
     "autorightclick": false,
     "afkfarm": false,
-    "afkfish": true,
-    "statusRepeat": true,
+    "afkfish": false,
+    "statusRepeat": false,
     "autocmd": [
       "/login 040103",
       "/server survival",
@@ -49,7 +49,7 @@
       "/dd",
       "/afkfish on"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false
   },

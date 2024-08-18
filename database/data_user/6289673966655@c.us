@@ -4,15 +4,14 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "Xonezka",
+    "username": "nowezki",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login pras2009",
       "/chat off",
-      "/server survival",
-      "/autoleftclick 1"
+      "/server survival"
     ],
     "autoReconnect": false,
     "except": [
@@ -25,7 +24,7 @@
       "Balance"
     ],
     "automsg": {
-      "message": "/feed",
+      "message": "/sell all 1",
       "status": false
     },
     "statusRepeat": false,

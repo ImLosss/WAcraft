@@ -6,7 +6,7 @@
     "62895338890693@c.us"
   ],
   "blacklist": [],
-  "donate": false,
+  "donate": true,
   "broadcast": {
     "status": true,
     "message": [

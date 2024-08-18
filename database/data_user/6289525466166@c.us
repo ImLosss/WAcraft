@@ -12,7 +12,8 @@
       "Xon",
       "xon, nez",
       "SHI >",
-      "Klvv"
+      "Klvv",
+      "your"
     ],
     "statusRepeat": true,
     "autoReconnect": true,
@@ -20,12 +21,13 @@
       "/login pras2009",
       "/survival",
       "/chat off",
-      "/server survival"
+      "/server survival",
+      "/automsg 1"
     ],
     "reconnectTime": 0,
     "autoleftclick": false,
     "automsg": {
-      "message": "/feed",
+      "message": "/sell all",
       "status": false
     }
   },

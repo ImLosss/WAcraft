@@ -13,7 +13,8 @@
     "autoReconnect": false,
     "autocmd": [
       "/login SM120205",
-      "/server survival"
+      "/server survival",
+      "/afkfish on"
     ],
     "username": "SapiMan"
   },

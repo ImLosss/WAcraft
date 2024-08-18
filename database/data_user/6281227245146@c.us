@@ -2,8 +2,8 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
-    "username": "goret",
+    "status": "online",
+    "username": "Jade77",
     "except": [
       "Obtained"
     ],
@@ -15,10 +15,10 @@
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
+    "statusRepeat": true,
     "reconnectTime": 0,
     "ip": "play.claritynetwork.net",
-    "autoReconnect": false
+    "autoReconnect": true
   },
   {
     "play.claritynetwork.net": {
