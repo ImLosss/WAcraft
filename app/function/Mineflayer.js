@@ -27,6 +27,7 @@ function getInventory(bot, msg) {
             }
         } catch (err) {
             no++;
+            console.log(JSON.stringify(item));
             console.log('Error ketika mengambil inventory: ' . err);
             console.log(item.nbt.value.display);
         }
