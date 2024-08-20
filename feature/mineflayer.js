@@ -293,6 +293,8 @@ async function joinServer(msg, sender, client) {
                     if (pesan == '/dc') { 
                         bot.quit();
                         return;
+                    } else if (send.includes(`who ${ dataUser[0].username }`)) {
+                        chat.sendMessage(`Im ${ dataUser[1][ip].realUser }`);
                     } else if (pesan == '/survival') {
                         bot.setQuickBarSlot(0);
                         bot.activateItem(false);
