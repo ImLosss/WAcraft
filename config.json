@@ -15,7 +15,7 @@
       "Kirim /menu untuk melihat semua command",
       "Menemukan bug? report! example: /bugreport [detail_bug]",
       "Fitur right/left click hanya berfungsi pada item yang dipegang oleh bot",
-      "Pastikan /setRealUser yang anda atur adalah username asli yang anda mainkan. Jika bukan, kamu akan di blacklist sehingga tidak dapat menggunakan bot ini lagi"
+      "Pastikan /setRealUser yang anda atur adalah username asli yang anda mainkan di server saat ini. Jika bukan, kamu akan di blacklist sehingga tidak dapat menggunakan bot ini lagi"
     ],
     "repeatInSec": 60 
   }
