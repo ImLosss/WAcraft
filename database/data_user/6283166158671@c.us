@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "claritynetwork.net",
     "username": "ClaraMon",
     "autorightclick": false,
@@ -12,7 +12,7 @@
     },
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
+    "statusRepeat": true,
     "autoReconnect": false,
     "autocmd": [
       "/login tolol123",

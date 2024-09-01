@@ -2,12 +2,12 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "ip": "srv531927.hstgr.cloud",
+    "ip": "play.claritynetwork.net",
     "username": "Ned",
-    "status": "online",
+    "status": "offline",
     "automsg": {
       "message": "/sell all",
-      "status": true
+      "status": false
     },
     "except": [
       "[me ->",
@@ -24,18 +24,17 @@
       "been sent"
     ],
     "autorightclick": false,
-    "afkfarm": true,
+    "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login rayajr440",
       "/server survival",
       "/automsg 2"
     ],
-    "autoReconnect": true,
-    "statusRepeat": true,
+    "autoReconnect": false,
+    "statusRepeat": false,
     "reconnectTime": 0,
-    "autoleftclick": false,
-    "afkArcher": false
+    "autoleftclick": false
   },
   {
     "play.claritynetwork.net": {

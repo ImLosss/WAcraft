@@ -63,11 +63,23 @@ async function joinServer(msg, sender, client) {
                 }
 
                 setTimeout(() => {
-                    fs.unlink(dir, err => {
+                    fs.readdir(filePathMap, (err, files) => {
                         if (err) {
-                            console.error('Error deleting file:', err);
+                            console.error('Error reading directory:', err);
                             return;
                         }
+                
+                        files.forEach(file => {
+                            const filePath = path.join(dir, file);
+                
+                            fs.unlink(filePath, err => {
+                                if (err) {
+                                    console.error('Error deleting file:', filePath, err);
+                                } else {
+                                    console.log('File deleted:', filePath);
+                                }
+                            });
+                        });
                     });
                 }, 5000);
             }
