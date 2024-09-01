@@ -224,7 +224,6 @@ async function archer(bot, msg, pesan, sender) {
         bot.activateItem();
         setTimeout(async () => {
             try {
-                await bot.equip(bot.registry.itemsByName.arrow.id, 'hand')
                 await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
             } catch (err) {
                 chat.sendMessage('Tidak menemukan Bow/Arrow di Inventory');
