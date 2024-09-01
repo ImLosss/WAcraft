@@ -71,7 +71,7 @@ async function joinServer(msg, sender, client) {
                         }
                 
                         files.forEach(file => {
-                            const filePath = path.join(dir, file);
+                            const filePath = path.join(filePathMap, file);
                 
                             fs.unlink(filePath, err => {
                                 if (err) {
