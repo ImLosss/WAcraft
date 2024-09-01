@@ -1,10 +1,10 @@
 const mineflayer = require('mineflayer');
 const { mapDownloader } = require('mineflayer-item-map-downloader');
 const fs = require('fs');
-const { autoRightClickOff, autoLeftClickOff, afkFarmOf, injectTitle } = require('./function');
+const { autoRightClickOff, autoLeftClickOff, injectTitle } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
-const { getInventory, throwItem, donate, automsg, findBlock, listener } = require('../app/function/Mineflayer');
+const { getInventory, throwItem, donate, automsg, findBlock, listener, archer, afkfarm } = require('../app/function/Mineflayer');
 const { fishing2 } = require('./fishing2');
 const { afkFishOf } = require('../app/function/fishing');
 
@@ -90,6 +90,7 @@ async function joinServer(msg, sender, client) {
             let except = [];
             let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
             dataUser = JSON.parse(dataUser);
+            if (msgstr.includes(`who ${ dataUser[0].username }`)) bot.chat(`Im ${ dataUser[1][ip].realUser }`);
             if(dataUser[0].except != undefined) except = dataUser[0].except;
             if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
             if(!dataUser[0].chatPublic) return;
@@ -293,8 +294,6 @@ async function joinServer(msg, sender, client) {
                     if (pesan == '/dc') { 
                         bot.quit();
                         return;
-                    } else if (send.includes(`who ${ dataUser[0].username }`)) {
-                        chat.sendMessage(`Im ${ dataUser[1][ip].realUser }`);
                     } else if (pesan == '/survival') {
                         bot.setQuickBarSlot(0);
                         bot.activateItem(false);
@@ -331,6 +330,8 @@ async function joinServer(msg, sender, client) {
                         findBlock(bot, msg2, pesan);
                     } else if(pesan.startsWith('find')) {
                         return;
+                    } else if(pesan.startsWith('/afkarcher')) {
+                        archer(bot, msg2, pesan, sender);
                     } else {
                         try {
                             bot.chat(send);
@@ -487,51 +488,6 @@ async function autoLeftClick(bot, msg, pesan, sender) {
                 clearInterval(cekautoleftclick);
                 clearInterval(intval2);
                 msg.reply('*Berhasil menonaktifkan autoLeftClick*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan autoLeftClick*') });
-            }
-        }, 2000);
-    } catch(e) {
-        console.log(e);
-    }
-}
-
-async function afkfarm(bot, msg, pesan, sender) {
-    try {
-        const chat = await msg.getChat();
-        if(pesan == '/afkfarm of' || pesan == '/afkfarm of') {
-            afkFarmOf(msg, sender);
-            return;
-        };
-        pesan = pesan.split(' ');
-        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */afkfarm [time_in_sec]*');
-        let time = pesan[1];
-
-        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-        dataUser = JSON.parse(dataUser);
-
-        if(dataUser[0].afkfarm) return msg.reply('afkfarm masih aktif, kirim */afkfarm of* untuk menonaktifkannya');
-
-        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */afkfarm [time_in_sec]*');
-        let time2 = time * 1000;
-        console.log(time2);
-        dataUser[0].afkfarm = true;
-        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-        chat.sendMessage(`*Berhasil mengaktifkan afkFarm tiap ${ time } Detik*`);
-        const intval2 = setInterval(() => {
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-            if(dataUser[0].afkfarm) {
-                const blockToActivate = bot.blockAt(bot.entity.position.offset(-3, 1, 0));
-                bot.activateBlock(blockToActivate);
-            } else clearInterval(intval2);
-        }, time2);
-
-        let cekafkfarm = setInterval(() => {
-            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
-            dataUser = JSON.parse(dataUser);
-            if(!dataUser[0].afkfarm) { 
-                clearInterval(cekafkfarm);
-                clearInterval(intval2);
-                msg.reply('*Berhasil menonaktifkan afkFarm*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan afkFarm*') });
             }
         }, 2000);
     } catch(e) {

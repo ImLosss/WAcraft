@@ -63,9 +63,11 @@ async function fishing2(bot, msg, sender) {
         if(entity.type == "orb") {
             startFishing()
         } else if (entity.type == "other" && entity.metadata && entity.metadata[8] && entity.metadata[8].itemId) {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
             const itemId = entity.metadata[8].itemId;
             const find = findItemById(itemId, bot);
-            chat.sendMessage(`*Catch ${ find.displayName }*`)
+            if(dataUser[0].chatPublic) chat.sendMessage(`*Catch ${ find.displayName }*`)
         }
     }
     bot.addListener('playerCollect', playerCollect);

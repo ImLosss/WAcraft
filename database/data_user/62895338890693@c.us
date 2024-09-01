@@ -1,12 +1,12 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "ip": "play.claritynetwork.net",
+    "ip": "srv531927.hstgr.cloud",
     "username": "Ned",
     "status": "online",
     "automsg": {
-      "message": "/feed",
+      "message": "/sell all",
       "status": true
     },
     "except": [
@@ -19,10 +19,12 @@
       "Losss",
       "losss",
       "Invalid player data",
-      "Only 10 more votes"
+      "Only 10 more votes",
+      "Balance",
+      "been sent"
     ],
     "autorightclick": false,
-    "afkfarm": false,
+    "afkfarm": true,
     "afkfish": false,
     "autocmd": [
       "/login rayajr440",
@@ -32,7 +34,8 @@
     "autoReconnect": true,
     "statusRepeat": true,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "afkArcher": false
   },
   {
     "play.claritynetwork.net": {
@@ -74,6 +77,12 @@
       "alt": [
         "Ned",
         "shencx"
+      ]
+    },
+    "claritynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "Ned"
       ]
     }
   }

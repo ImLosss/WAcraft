@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
-const { automsgof } = require('../../feature/function');
+const { automsgof, afkFarmOf } = require('../../feature/function');
 
 function getInventory(bot, msg) {
 
@@ -188,6 +188,125 @@ async function listener(bot, msg) {
     })
 }
 
+async function archer(bot, msg, pesan, sender) {
+    let timer;
+    const chat = await msg.getChat();
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    if(pesan == "/afkarcher of") return archerOf(bot, msg, sender);
+
+    if(dataUser[0].afkArcher) return chat.sendMessage('afkArcher masih aktif, nonaktifkan dengan mengirim pesan /afkArcher of');
+
+    pesan = pesan.split(' ');
+    if(pesan.length > 2) return msg.reply('Format anda salah, kirim kembali dengan format /afkArcher [on/of]');
+    else if(pesan[1] == "of" || pesan[1] == "off") return archerOf(bot, msg, sender);
+    else if(pesan[1] != "on") return msg.reply('Format anda salah, kirim kembali dengan format /afkArcher [on/of]');
+
+    try {
+        await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
+    } catch (err) {
+        return console.log('tidak menemukan Busur di inventory')
+    }
+
+    dataUser[0].afkArcher = true;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+
+    chat.sendMessage('AfkArcher berhasil diaktifkan');
+
+    timer = setInterval(() => {
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
+
+        if(!dataUser[0].afkArcher) clearInterval(timer);
+        bot.activateItem();
+        setTimeout(async () => {
+            try {
+                await bot.equip(bot.registry.itemsByName.arrow.id, 'hand')
+                await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
+            } catch (err) {
+                chat.sendMessage('Tidak menemukan Bow/Arrow di Inventory');
+                return archerOf(bot, msg, sender)
+            }
+            const entity = bot.nearestEntity(entity => {
+                if (!entity.type) return;
+                const type = entity.type;
+                return type === 'hostile' || type === 'animal';
+            });
+
+            if(entity) {
+                const position = entity.position.offset(0, 1, 0);
+                await bot.lookAt(position);
+                bot.deactivateItem();
+            }
+        }, 1000);
+    }, 2000);
+}
+
+async function archerOf(bot, msg, sender) {
+    const chat = await msg.getChat();
+
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    dataUser[0].afkArcher = false;
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+
+    chat.sendMessage('Afk Archer berhasil dimatikan');
+}
+
+async function afkfarm(bot, msg, pesan, sender) {
+    try {
+        const chat = await msg.getChat();
+        let click = "right";
+
+        if(pesan == '/afkfarm of' || pesan == '/afkfarm off') {
+            afkFarmOf(msg, sender);
+            return;
+        };
+        pesan = pesan.split(' ');
+        if(pesan.length < 2) return msg.reply('Format anda salah kirim kembali dengan format */afkfarm [time_in_sec] (right/left)*');
+        let time = pesan[1];
+
+        if(pesan.length == 3 && pesan[3] == "left") click = "left";
+
+        let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+        dataUser = JSON.parse(dataUser);
+
+        if(dataUser[0].afkfarm) return msg.reply('afkfarm masih aktif, kirim */afkfarm of* untuk menonaktifkannya');
+
+        if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */afkfarm [time_in_sec] (right/left)*');
+        let time2 = time * 1000;
+        console.log(time2);
+        dataUser[0].afkfarm = true;
+        fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+        chat.sendMessage(`*Berhasil mengaktifkan afkFarm tiap ${ time } Detik, dengan ${click} Click*`);
+        const intval2 = setInterval(async () => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(dataUser[0].afkfarm) {
+                const blockToActivate = bot.blockAt(bot.entity.position.offset(-3, 1, 0));
+                if(click == "right") bot.dig(blockToActivate);
+                else bot.activateBlock(blockToActivate);
+            } else clearInterval(intval2);
+        }, time2);
+
+        let cekafkfarm = setInterval(() => {
+            let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+            dataUser = JSON.parse(dataUser);
+            if(!dataUser[0].afkfarm) { 
+                clearInterval(cekafkfarm);
+                clearInterval(intval2);
+                msg.reply('*Berhasil menonaktifkan afkFarm*').catch(() => { chat.sendMessage('*Berhasil menonaktifkan afkFarm*') });
+            }
+        }, 2000);
+    } catch(e) {
+        console.log(e);
+    }
+}
+
 
 module.exports = {
     getInventory,
@@ -195,5 +314,7 @@ module.exports = {
     donate,
     automsg,
     findBlock,
-    listener
+    listener,
+    archer,
+    afkfarm
 }

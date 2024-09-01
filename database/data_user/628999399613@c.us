@@ -14,7 +14,8 @@
     "autocmd": [
       "/login SM120205",
       "/server survival",
-      "/afkfish on"
+      "/dp",
+      "/dd"
     ],
     "username": "SapiMan"
   },

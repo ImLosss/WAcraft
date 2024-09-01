@@ -36,6 +36,7 @@ const menu = `╓──▷「 *Menu Command* 」
 ║ ▹/autoRightClick [time_in_sec]
 ║ ▹/autoLeftClick [time_in_sec]
 ║ ▹/afkFish [on/of]
+║ ▹/afkArcher [on/of]
 ║ ▹/inventory
 ║ ▹/health
 ║ ▹/exp

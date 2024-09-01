@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "nowezki",
     "ip": "claritynetwork.net",
     "autorightclick": false,
@@ -13,10 +13,12 @@
       "xon, nez",
       "SHI >",
       "Klvv",
-      "your"
+      "PLR",
+      "DPR",
+      "PKI"
     ],
-    "statusRepeat": true,
-    "autoReconnect": true,
+    "statusRepeat": false,
+    "autoReconnect": false,
     "autocmd": [
       "/login pras2009",
       "/survival",

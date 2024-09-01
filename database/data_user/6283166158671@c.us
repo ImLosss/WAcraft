@@ -13,11 +13,10 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
       "/login tolol123",
-      "/survival",
-      "/autorightclick 5"
+      "/survival"
     ],
     "reconnectTime": 0,
     "autoleftclick": false
@@ -26,7 +25,8 @@
     "claritynetwork.net": {
       "realUser": "Domuxis",
       "alt": [
-        "ClaraMon"
+        "ClaraMon",
+        "suburan"
       ]
     }
   }
