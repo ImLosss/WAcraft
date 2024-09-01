@@ -204,9 +204,10 @@ async function archer(bot, msg, pesan, sender) {
     else if(pesan[1] != "on") return msg.reply('Format anda salah, kirim kembali dengan format /afkArcher [on/of]');
 
     try {
+        await bot.equip(bot.registry.itemsByName.arrow.id, 'hand')
         await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
     } catch (err) {
-        return console.log('tidak menemukan Busur di inventory')
+        return chat.sendMessage('tidak menemukan Bow/Arrow di inventory')
     }
 
     dataUser[0].afkArcher = true;
