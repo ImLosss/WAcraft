@@ -483,7 +483,7 @@ async function autoLeftClick(bot, msg, pesan, sender) {
                 const entity = bot.nearestEntity(entity => {
                     if (!entity.type) return;
                     const type = entity.type;
-                    return type === 'hostile' || type === 'animal';
+                    return type === 'hostile' || type === 'animal' || type === 'mob';
                 });
 
                 if(entity) {

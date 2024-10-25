@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "mineflayer": "https://github.com/ImLosss/mineflayer.git",
+    "mineflayer": "github:ImLosss/mineflayer",
     "mineflayer-item-map-downloader": "github:ImLosss/item-map-downloader-mineflayer",
     "node-cron": "^3.0.3",
     "nodemon": "^3.0.1",
