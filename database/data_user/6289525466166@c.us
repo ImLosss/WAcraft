@@ -15,22 +15,24 @@
       "Klvv",
       "PLR",
       "DPR",
-      "PKI"
+      "PKI",
+      "[XPBottle]",
+      "W4R"
     ],
     "statusRepeat": true,
-    "autoReconnect": false,
+    "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
-      "/survival",
       "/chat off",
-      "/server survival",
-      "/automsg 1"
+      "/server smp",
+      "/autoleftclick 1",
+      "/automsg 15"
     ],
     "reconnectTime": 0,
-    "autoleftclick": false,
+    "autoleftclick": true,
     "automsg": {
-      "message": "/sell all",
-      "status": false
+      "message": "/xpbottle",
+      "status": true
     }
   },
   {
@@ -38,7 +40,8 @@
       "realUser": "Xonezka",
       "alt": [
         "nowezki",
-        "Klvv"
+        "Klvv",
+        "MieAyam"
       ]
     }
   }

@@ -1,0 +1,43 @@
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "status": "online",
+    "username": "Uvuvwey",
+    "ip": "play.claritynetwork.net",
+    "autorightclick": false,
+    "autoleftclick": true,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": true,
+    "reconnectTime": 0,
+    "autoReconnect": true,
+    "autocmd": [
+      "/login HappyHoliday.00_"
+    ],
+    "automsg": {
+      "message": "/xpbottle",
+      "status": true
+    }
+  },
+  {
+    "[claritynetwork.net]": {
+      "realUser": "[Dra1s]",
+      "alt": [
+        "[Uvuvwey]\n/setRealUser [Dra1s]\n/setip [play.claritynetwork.net]\n/autoReconnect [on]\n/autocmd [/xpbottle]\n/automsg [16]\n/autoLeftClick [0,8]"
+      ]
+    },
+    "[play.claritynetwork.net]": {
+      "realUser": "[Dra1s]",
+      "alt": [
+        "[Uvuvwey]\n/setRealUser [Dra1s]\n/setip [play.claritynetwork.net]\n/autoReconnect [on]\n/autocmd [/xpbottle]\n/automsg [16]\n/autoLeftClick [0,8]"
+      ]
+    },
+    "play.claritynetwork.net": {
+      "realUser": "Dra1s",
+      "alt": [
+        "Uvuvwey"
+      ]
+    }
+  }
+]

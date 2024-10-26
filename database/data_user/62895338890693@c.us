@@ -2,8 +2,8 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "ip": "play.claritynetwork.net",
-    "username": "Ned",
+    "ip": "minegens.id",
+    "username": "shencx",
     "status": "offline",
     "automsg": {
       "message": "/sell all",
@@ -29,12 +29,13 @@
     "autocmd": [
       "/login rayajr440",
       "/server survival",
-      "/automsg 2"
+      "/automsg 1"
     ],
     "autoReconnect": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "afkArcher": false
   },
   {
     "play.claritynetwork.net": {
@@ -82,6 +83,18 @@
       "realUser": "Losss",
       "alt": [
         "Ned"
+      ]
+    },
+    "minegens.id": {
+      "realUser": "Losss",
+      "alt": [
+        "shencx"
+      ]
+    },
+    "minegens.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shencx"
       ]
     }
   }
