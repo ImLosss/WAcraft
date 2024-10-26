@@ -16,6 +16,7 @@ const client = new Client({
 
 const menu = `╓──▷「 *Menu Command* 」
 ║ Author : Losss
+║ Contact : +62 895-3388-90693
 ║ Bot_desc : AFK bot for your farm
 ║ Region_server : Singapore 
 ╟────「 *List Command* 」

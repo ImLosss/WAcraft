@@ -5,7 +5,7 @@ const path = require('path');
 const { autoRightClickOff, autoLeftClickOff, injectTitle } = require('./function');
 const fungsi = require('./fungsi');
 const { MessageMedia } = require('whatsapp-web.js');
-const { getInventory, throwItem, donate, automsg, findBlock, listener, archer, afkfarm } = require('../app/function/Mineflayer');
+const { getInventory, throwItem, donate, automsg, findBlock, listener, archer, afkfarm, equipItem } = require('../app/function/Mineflayer');
 const { fishing2 } = require('./fishing2');
 const { afkFishOf } = require('../app/function/fishing');
 
@@ -333,6 +333,8 @@ async function joinServer(msg, sender, client) {
                         chat.sendMessage(getInventory(bot, msg2));
                     } else if(pesan.startsWith('/throw')) {
                         chat.sendMessage(throwItem(bot, msg2));
+                    } else if(pesan.startsWith('/equip')) {
+                        chat.sendMessage(equipItem(bot, msg2));
                     } else if(pesan == '/health') {
                         const health = Math.round(bot.health);
                         chat.sendMessage(`Health: ${ health }`);
