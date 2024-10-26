@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "nowezki",
     "ip": "claritynetwork.net",
     "autorightclick": false,
@@ -19,7 +19,7 @@
       "[XPBottle]",
       "W4R"
     ],
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
@@ -29,10 +29,10 @@
       "/automsg 15"
     ],
     "reconnectTime": 0,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "automsg": {
       "message": "/xpbottle",
-      "status": true
+      "status": false
     }
   },
   {

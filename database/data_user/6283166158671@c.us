@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "claritynetwork.net",
     "username": "Shiuri",
     "autorightclick": false,
@@ -12,7 +12,7 @@
     },
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autoReconnect": true,
     "autocmd": [
       "/login tolol123",
@@ -20,7 +20,7 @@
       "/autoleftclick 1"
     ],
     "reconnectTime": 0,
-    "autoleftclick": true
+    "autoleftclick": false
   },
   {
     "claritynetwork.net": {

@@ -1,15 +1,15 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "Uvuvwey",
     "ip": "play.claritynetwork.net",
     "autorightclick": false,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autoReconnect": true,
     "autocmd": [
@@ -17,7 +17,7 @@
     ],
     "automsg": {
       "message": "/xpbottle",
-      "status": true
+      "status": false
     }
   },
   {
