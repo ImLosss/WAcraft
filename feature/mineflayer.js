@@ -192,18 +192,18 @@ async function joinServer(msg, sender, client) {
 
         bot.once('kicked', (msgK) => {
             try {
-                msgK = JSON.parse(msgK);
-                let time = fungsi.getTime();
-                console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
-                if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
-                if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
-                if (msgK.extra != undefined) {
-                    let strKick = '';
-                    msgK.extra.map((item) => {
-                        if(item.text != undefined) strKick += item.text;
-                    })
-                    msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
-                }
+                console.log(msgK);
+                // let time = fungsi.getTime();
+                // console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
+                // if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
+                // if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
+                // if (msgK.extra != undefined) {
+                //     let strKick = '';
+                //     msgK.extra.map((item) => {
+                //         if(item.text != undefined) strKick += item.text;
+                //     })
+                //     msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
+                // }
                 bot.quit();
             } catch (e) {
                 console.log(e);
