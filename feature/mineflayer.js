@@ -112,10 +112,9 @@ async function joinServer(msg, sender, client) {
 
         title = async (text) => {
             try {
-                text = JSON.parse(text);
-                if(text.text == "") return;
+                if(text.value.text.value == "") return;
 
-                chat.sendMessage(`Title: ${ text.text }`);
+                chat.sendMessage(`Title: ${ text.value.text.value }`);
             } catch (err) {
                 console.log('Error title: ' . err);
             }
@@ -123,10 +122,9 @@ async function joinServer(msg, sender, client) {
 
         subtitle = async (text) => {
             try {
-                text = JSON.parse(text);
-                if(text.text == "") return;
+                if(text.value.text.value == "") return;
 
-                chat.sendMessage(`Subtitle: ${ text.text }`);
+                chat.sendMessage(`Subtitle: ${ text.value.text.value }`);
             } catch (err) {
                 console.log('Error subtitle: ' . err);
             }
