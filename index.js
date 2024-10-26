@@ -4,7 +4,7 @@ const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const { joinServer } = require('./feature/mineflayer');
 const fungsi = require('./feature/fungsi');
-const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist } = require('./feature/function');
+const { chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, resetDataUser, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist, setVer } = require('./feature/function');
 
 const client = new Client({
     authStrategy: new LocalAuth(), // your authstrategy here
@@ -22,6 +22,7 @@ const menu = `╓──▷「 *Menu Command* 」
 ╟────「 *List Command* 」
 ║ ▹/menu
 ║ ▹/setip [ip_server]
+║ ▹/setver [version]
 ║ ▹/setuser [username_mc]
 ║ ▹/setRealUser [real_username]
 ║ ▹/info
@@ -83,6 +84,7 @@ const prefixFunctions = {
     'cekautocmd': (msg, sender, client, arg) => fungsi.cekautocmd(msg, sender),
     'chat': (msg, sender, client, arg) => chatPublic(msg, sender),
     'setip': (msg, sender, client, arg) => setIp(msg, sender),
+    'setver': (msg, sender, client, arg) => setVer(msg, sender),
     'setuser': (msg, sender, client, arg) => setUser(msg, sender),
     'setautomsg': (msg, sender, client, arg) => setAutoMsg(msg, sender),
     'tellme': (msg, sender, client, arg) => tellme(msg, sender),

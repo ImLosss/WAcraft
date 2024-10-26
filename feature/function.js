@@ -82,6 +82,29 @@ async function setIp(msg, sender) {
     return msg.reply(`IP berhasil diatur ke ${ pesan[1] }`);
 }
 
+async function setVer(msg, sender) {
+    let versions = ['1.17', '1.18', '1.19', '1.20'];
+    let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
+    dataUser = JSON.parse(dataUser);
+
+    if(!dataUser[0].ip) return msg.reply('Atur ip kamu terlebih dahulu');
+
+    let ip = dataUser[0].ip;
+    let version = pesan[1];
+
+    if(!versions.includes(version)) return msg.reply(`Versi minecraft yang kamu pilih salah. Kirim */setver [version]* untuk mengatur versi.\nContoh: /setver 1.20\nList Version:\n- 1.17\n- 1.18\n- 1.19\n- 1.20`)
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setVer [version]*')
+    dataUser[1][ip].version = version; 
+
+    fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
+
+    return msg.reply(`Versi minecraft berhasil diatur ke ${ version }`);
+}
+
 async function tellme(msg, sender) {
     let dataUser = fs.readFileSync(`./database/data_user/${ sender }`, 'utf-8');
     dataUser = JSON.parse(dataUser);
@@ -427,5 +450,5 @@ async function maintenance(msg) {
 }
 
 module.exports = {
-    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist
+    chatPublic, disconnect, setIp, setUser, setAutoMsg, automsgof, tellme, delltellme, cektellme, backup_database, autoRightClickOff, autoLeftClickOff, resetDataUser, afkFarmOf, removeFromArray, injectTitle, addWhitelist, addBlacklist, maintenance, delBlacklist, delWhitelist, setVer
 }

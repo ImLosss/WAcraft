@@ -33,6 +33,7 @@ async function joinServer(msg, sender, client) {
         const ip = dataUser[0].ip;
         if (dataUser[1] == undefined) dataUser[1] = {};
         if(!dataUser[1][ip]) return msg.reply(`Sebelum join ke server, Anda *diwajibkan* untuk mengatur username asli yang anda mainkan(bukan akun alt/afk) di server ${ dataUser[0].ip } terlebih dahulu.\nKirim pesan dengan format:\n*/setRealUser [username_asli]*\n\n_Hal ini diperlukan karena semua user yg join menggunakan bot ini akan memiliki ip yg sama, untuk melihat info akun anda kirim */info*_.`);
+        if(!dataUser[1][ip][version]) return msg.reply(`Atur versi minecraft yang ingin kamu mainkan di server ${ dataUser[0].ip }. Kirim */setver [version]* untuk mengatur versi.\nContoh: /setver 1.20\nList Version:\n- 1.17\n- 1.18\n- 1.19\n- 1.20`)
         fungsi.cekAlt(sender);
 
         const filePathMap = `database/map/${ sender }`;
@@ -45,6 +46,7 @@ async function joinServer(msg, sender, client) {
             host: ip, 
             username: dataUser[0].username, 
             auth: 'offline',
+            version: dataUser[1][ip].version,
             "mapDownloader-outputDir": filePathMap
         })
 
@@ -112,9 +114,9 @@ async function joinServer(msg, sender, client) {
 
         title = async (text) => {
             try {
-                if(text.value.text.value == "") return;
-
-                chat.sendMessage(`Title: ${ text.value.text.value }`);
+                text = (() => { try { return JSON.parse(text); } catch { return text; } })();
+                if (text.value?.text?.value !== undefined) console.log(text.value.text.value);
+                if (text.text !== undefined) console.log(text.text);
             } catch (err) {
                 console.log('Error title: ' . err);
             }
@@ -122,9 +124,9 @@ async function joinServer(msg, sender, client) {
 
         subtitle = async (text) => {
             try {
-                if(text.value.text.value == "") return;
-
-                chat.sendMessage(`Subtitle: ${ text.value.text.value }`);
+                text = (() => { try { return JSON.parse(text); } catch { return text; } })();
+                if (text.value?.text?.value !== undefined) console.log(text.value.text.value);
+                if (text.text !== undefined) console.log(text.text);
             } catch (err) {
                 console.log('Error subtitle: ' . err);
             }
@@ -192,18 +194,19 @@ async function joinServer(msg, sender, client) {
 
         bot.once('kicked', (msgK) => {
             try {
-                console.log(msgK);
-                // let time = fungsi.getTime();
-                // console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
-                // if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
-                // if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
-                // if (msgK.extra != undefined) {
-                //     let strKick = '';
-                //     msgK.extra.map((item) => {
-                //         if(item.text != undefined) strKick += item.text;
-                //     })
-                //     msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
-                // }
+                msgK = (() => { try { return JSON.parse(msgK); } catch { return msgK; } })();
+                let time = fungsi.getTime();
+                console.log(`(${ time }) Kicked: ${ JSON.stringify(msgK) }`);
+                if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
+                if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
+                if (msgK.extra != undefined) {
+                    let strKick = '';
+                    msgK.extra.map((item) => {
+                        if(item.text != undefined) strKick += item.text;
+                    })
+                    msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
+                }
+                if (msgK.value?.text?.value != undefined) msg.reply(`Kicked : ${ msgK.value.text.value }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.value.text.value}`) });
                 bot.quit();
             } catch (e) {
                 console.log(e);

@@ -121,6 +121,7 @@ exports.cekInfo = async function cekInfo(msg, sender) {
 
     const dataArray = Object.entries(jsonData).map(([key, value]) => ({
         ip: key,
+        version: value.version ? value.version : '1.20',
         realUser: value.realUser,
         alt: value.alt
     }));
@@ -132,7 +133,7 @@ exports.cekInfo = async function cekInfo(msg, sender) {
         if(listAlt.length > 0) listAlt = listAlt.join(', ');
         else listAlt = "None";
 
-        send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n`;
+        send+=`ip: ${ item.ip }\nversion: ${ item.version }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n`;
         if(dataArray.length != no) {
         send+='-----------------------------------------\n'
         no+=1;
