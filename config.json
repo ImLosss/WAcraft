@@ -13,8 +13,11 @@
       "Suka dengan bot ini? Share!",
       "Gunakan /tellme [message] untuk tetap menerima pesan saat chat dimatikan",
       "Kirim /menu untuk melihat semua command",
+      "Donasilah jika ingin Bot ini tetap berjalan dan berkembang",
+      "Ketahuilah Dev bisa memantau Chat mu saat ini, jadi jangan mengirim chat yang bersifat privasi",
       "Menemukan bug? report! example: /bugreport [detail_bug]",
       "Fitur right/left click hanya berfungsi pada item yang dipegang oleh bot",
+      "Kamu bisa melakukan chat ke nomor yang ada di /menu jika ingin memberi saran atau pertanyaan",
       "Pastikan /setRealUser yang anda atur adalah username asli yang anda mainkan di server saat ini. Jika bukan, kamu akan di blacklist sehingga tidak dapat menggunakan bot ini lagi"
     ],
     "repeatInSec": 60 
