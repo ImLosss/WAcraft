@@ -115,8 +115,8 @@ async function joinServer(msg, sender, client) {
         title = async (text) => {
             try {
                 text = (() => { try { return JSON.parse(text); } catch { return text; } })();
-                if (text.value?.text?.value) chat.sendMessage(`Title: ${ text.value.text.value }`);
-                if (text.text) chat.sendMessage(`Title: ${ text.text }`);
+                if (text.value?.text?.value && text.value?.text?.value != "") chat.sendMessage(`Title: ${ text.value.text.value }`);
+                if (text.text && text.text != "") chat.sendMessage(`Title: ${ text.text }`);
             } catch (err) {
                 console.log('Error title: ' . err);
             }
@@ -125,8 +125,8 @@ async function joinServer(msg, sender, client) {
         subtitle = async (text) => {
             try {
                 text = (() => { try { return JSON.parse(text); } catch { return text; } })();
-                if (text.value?.text?.value) chat.sendMessage(`Subtitle: ${ text.value.text.value }`);
-                if (text.text) chat.sendMessage(`Subtitle: ${ text.text }`);
+                if (text.value?.text?.value && text.value?.text?.value != "") chat.sendMessage(`Subtitle: ${ text.value.text.value }`);
+                if (text.text && text.text != "") chat.sendMessage(`Subtitle: ${ text.text }`);
             } catch (err) {
                 console.log('Error subtitle: ' . err);
             }
