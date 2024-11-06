@@ -132,7 +132,7 @@ async function joinServer(msg, sender, client) {
             }
         }
 
-        bot.once('spawn', async () => {
+        bot.once('login', async () => {
             chat.sendMessage(`Connected`);
             listener(bot, msg);
             let dataUser = fungsi.getDataUser(sender);
