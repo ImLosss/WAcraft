@@ -121,7 +121,7 @@ exports.cekInfo = async function cekInfo(msg, sender) {
 
     const dataArray = Object.entries(jsonData).map(([key, value]) => ({
         ip: key,
-        version: value.version ? value.version : '1.20',
+        version: value.version ? value.version : 'None',
         realUser: value.realUser,
         alt: value.alt
     }));

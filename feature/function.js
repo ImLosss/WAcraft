@@ -99,6 +99,7 @@ async function setVer(msg, sender) {
     if(!versions.includes(version)) return msg.reply(`Versi minecraft yang kamu pilih salah. Kirim */setver [version]* untuk mengatur versi.\nContoh: /setver 1.20\nList Version:\n- 1.17\n- 1.18\n- 1.19\n- 1.20`)
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setVer [version]*')
+    if(!dataUser[1].ip) dataUser[1][ip] = {};
     dataUser[1][ip].version = version; 
 
     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
