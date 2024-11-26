@@ -68,6 +68,9 @@ exports.cekautocmd = async function cekautocmd(msg, sender) {
 
 exports.setRealUser = async function setRealUser(msg, sender) {
     let dataUser = getDataUser(sender);
+
+    if(!dataUser[0].ip) return msg.reply('Atur ip kamu terlebih dahulu');
+
     const ip = dataUser[0].ip;
 
     let pesan = msg.body;
