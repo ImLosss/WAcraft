@@ -271,5 +271,19 @@
     "errorLocation": "function.js:84:21",
     "errorMessage": "fs is not defined",
     "error": "fs is not defined\nReferenceError: fs is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\SendMessageController.js:10:5\n    at Object.sendMsg (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:82:19)\n    at Object.sendmsg (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:13:62)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:69)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 17:37",
+    "errorLocation": "function.js:206:21",
+    "errorMessage": "fs is not defined",
+    "error": "fs is not defined\nReferenceError: fs is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\BackupController.js:10:20\n    at Object.backup (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:204:19)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:13:79\n    at Object.backup (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:204:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:92:69)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 17:41",
+    "errorLocation": "function.js:211:21",
+    "errorMessage": "fs is not defined",
+    "error": "fs is not defined\nReferenceError: fs is not defined\n    at Object.addWhitelist (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:86:22)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:17:85\n    at Object.addwhitelist (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:209:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:92:69)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
   }
 ]

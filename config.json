@@ -1,6 +1,6 @@
 {
   "owner": "6282192598451@c.us",
-  "maintenance": true,
+  "maintenance": false,
   "maintenanceWhitelist": [
     "6282192598451@c.us",
     "62895338890693@c.us"
@@ -20,6 +20,6 @@
       "Kamu bisa melakukan chat ke nomor yang ada di /menu jika ingin memberi saran atau pertanyaan",
       "Pastikan /setRealUser yang anda atur adalah username asli yang anda mainkan di server saat ini. Jika bukan, kamu akan di blacklist sehingga tidak dapat menggunakan bot ini lagi"
     ],
-    "repeatInSec": 60 
+    "repeatInSec": 60
   }
 }
