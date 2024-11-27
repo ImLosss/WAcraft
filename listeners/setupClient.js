@@ -3,6 +3,7 @@ const qr = require('qrcode');
 const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const console = require('console');
+const { resetDataUser } = require('utils');
 
 module.exports = (function() {
     return function(client) {
@@ -34,6 +35,7 @@ module.exports = (function() {
         
         client.once('ready', () => {
             console.log('Client is ready!');
+            resetDataUser(client);
         });
 
         client.on('call', async call => {
