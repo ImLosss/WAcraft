@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const lockfile = require('proper-lockfile');
 
 function getLocation() {
     const error = new Error();
@@ -51,21 +52,6 @@ function getLocationError() {
         }
     }
     return null;
-}
-
-function removeFromArray(arr, value) {
-    if (value == 'reset') {
-        arr.splice(0, arr.length); // Hapus semua elemen dari array
-        return 'Berhasil reset data';
-    } else {
-        const index = arr.indexOf(value);
-        if (index !== -1) {
-            arr.splice(index, 1);
-            return `Berhasil menghapus *${value}*`;
-        } else {
-            return 'Data tidak ditemukan';
-        }
-    }
 }
 
 function injectTitle (bot) {
@@ -129,8 +115,9 @@ function readJSONFileSync(filePath) {
 function writeJSONFileSync(filePath, data) {
     let release;
     try {
-        // Lock the file for writing
-        release = lockfile.lockSync(filePath);
+        try {
+            release = lockfile.lockSync(filePath);
+        } catch(err) {}
         
         const jsonData = JSON.stringify(data, null, 2);
         fs.writeFileSync(filePath, jsonData, 'utf-8');
@@ -189,7 +176,26 @@ async function resetDataUser(client) {
     });
 }
 
+function sleep(ms) {
+    return new Promise(resolve => {
+        const intervalId = setInterval(() => {
+            clearInterval(intervalId);
+            resolve();
+        }, ms);
+    });
+}
+
+const withErrorHandling = (fn) => {
+    return async (...args) => {
+        try {
+            await fn(...args);
+        } catch (err) {
+            console.error(err);
+        }
+    };
+};
+
 
 module.exports = {
-    getLocation, getLocationError, injectTitle, deleteFile, removeFromArray, writeJSONFileSync, readJSONFileSync, resetDataUser
+    getLocation, getLocationError, injectTitle, deleteFile, writeJSONFileSync, readJSONFileSync, resetDataUser, sleep, withErrorHandling
 };

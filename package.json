@@ -24,6 +24,7 @@
     "controller": "./app/controller",
     "service": "./app/service",
     "config": "./config",
-    "utils": "./app/function/utils"
+    "utils": "./app/function/utils",
+    "command": "./app/service/CommandImport"
   }
 }

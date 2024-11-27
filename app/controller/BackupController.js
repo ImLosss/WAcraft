@@ -1,9 +1,10 @@
 require('module-alias/register');
 const console = require('console');
-const { withErrorHandling } = require('function/function');
+const { withErrorHandling } = require('utils');
 const archiver = require('archiver');
 const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
+const fs = require('fs');
 
 const backup = withErrorHandling(async (sourceFolderPath, outputFilePath, client) => {
     const output = fs.createWriteStream(outputFilePath);

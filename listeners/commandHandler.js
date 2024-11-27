@@ -1,17 +1,18 @@
 require('module-alias/register');
 const fs = require('fs');
 const console = require('console');
-const { cutVal } = require("function/function");
-const { writeJSONFileSync, readJSONFileSync } = require('utils');
+const { cutVal, getMenu } = require("function/function");
+const { readJSONFileSync, writeJSONFileSync } = require('utils');
+const { backup } = require('command');
 
 module.exports = (function() {
     return function(client) {
         client.on('message', async (msg) => {
             const prefixFunctionsAdmin = {
-                'backup': (msg, sender, client, arg) => backup_database('database', 'database.zip', client),
+                'backup': (msg, sender, client, arg) => backup('database', 'database.zip', client),
                 'sendmsg': (msg, sender, client, arg) => sendMsg(msg, client, arg),
                 'sendupdate': (msg, sender, client, arg) => sendUpdate(msg, client),
-                'sendmsgall': (msg, sender, client, arg) => sendMsgAll(msg, client),
+                'sendmsgall': (msg, sender, client, arg) => sendMsgAll(msg, client, arg),
                 'addwhitelist': (msg, sender, client, arg) => addWhitelist(msg, client),
                 'addblacklist': (msg, sender, client, arg) => addBlacklist(msg, client),
                 'maintenance': (msg, sender, client, arg) => maintenance(msg),
@@ -64,11 +65,11 @@ module.exports = (function() {
                 writeJSONFileSync(dir_data_user, data_user);
             }
 
-            console.log(msg.body, `MessageFrom:${ chat.name }`);
+            if(msg.body != "")console.log(msg.body, `MessageFrom:${ chat.name }`);
             const value = cutVal(msg.body, 1);
 
             if(!chat.isGroup) {
-                if (prefix.some(pre => text == `${pre}menu`)) return msg.reply(menu, { linkPreview: false });
+                if (prefix.some(pre => text == `${pre}menu`)) return msg.reply(getMenu(dir_data_user));
 
                 for (const pre of prefix) {
                     if (text.startsWith(`${pre}`)) {

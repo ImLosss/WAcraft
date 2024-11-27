@@ -1,8 +1,7 @@
 require('module-alias/register');
 const console = require('console');
-const { withErrorHandling } = require('function/function');
 const path = require('path');
-const { readJSONFileSync } = require('utils');
+const { readJSONFileSync, withErrorHandling } = require('utils');
 
 const sendUpdate = withErrorHandling(async (msg, client) => {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
