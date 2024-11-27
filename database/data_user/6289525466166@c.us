@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "nowezki",
     "ip": "claritynetwork.net",
     "autorightclick": false,
@@ -12,21 +12,28 @@
       "Xon",
       "xon, nez",
       "SHI >",
-      "Klvv"
+      "Klvv",
+      "PLR",
+      "DPR",
+      "PKI",
+      "[XPBottle]",
+      "W4R",
+      "EOD"
     ],
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
-      "/survival",
       "/chat off",
-      "/automsg 2"
+      "/server smp",
+      "/autoleftclick 1",
+      "/automsg 15"
     ],
     "reconnectTime": 0,
     "autoleftclick": false,
     "automsg": {
-      "message": "/feed",
-      "status": true
+      "message": "/xpbottle",
+      "status": false
     }
   },
   {
@@ -34,8 +41,24 @@
       "realUser": "Xonezka",
       "alt": [
         "nowezki",
-        "Klvv"
-      ]
+        "Klvv",
+        "MieAyam"
+      ],
+      "version": "1.20"
+    },
+    "159.65.247.79:2012": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
+    },
+    "play.xetapixel.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
     }
   }
 ]

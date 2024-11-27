@@ -1,13 +1,13 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "play.claritynetwork.net",
     "username": "Losss",
     "automsg": {
-      "message": "/feed",
-      "status": true
+      "message": "/repair",
+      "status": false
     },
     "except": [
       "Losss",
@@ -29,18 +29,25 @@
       "has requested",
       "Balance",
       "Obtained",
-      "kicked"
+      "kicked",
+      "TheRosses",
+      "GOD >",
+      "los",
+      "Los",
+      "Kino",
+      "Skill Level"
     ],
-    "autorightclick": true,
+    "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autocmd": [
       "/login 040103",
       "/server survival",
-      "/dd",
+      "/automsg 2",
       "/dp",
-      "/autorightclick 2"
+      "/dd",
+      "/afkfish on"
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
@@ -56,7 +63,8 @@
         "Lossseeess",
         "TheRosses",
         "Losseess",
-        "Losssesss"
+        "Losssesss",
+        "shencx"
       ]
     },
     "claritynetwork.net": {
@@ -70,14 +78,17 @@
       "alt": [
         "Ned",
         "shenxx",
-        "Losssesss"
+        "Losssesss",
+        "shandy",
+        "raph"
       ]
     },
     "play.luckynetwork.net": {
       "realUser": "Losss",
       "alt": [
         "shenxx",
-        "Losssesss"
+        "Losssesss",
+        "shandy"
       ]
     },
     "kakdijd": {
@@ -90,6 +101,41 @@
       "realUser": "Losss",
       "alt": [
         "Losssesss"
+      ]
+    },
+    "sanzakujojo.aternos.me": {
+      "realUser": "shandy",
+      "alt": []
+    },
+    "sanzakujojo.aternos.me:5249": {
+      "realUser": "shandy",
+      "alt": []
+    },
+    "212.38.94.135": {
+      "realUser": "Losss",
+      "alt": [
+        "shandy"
+      ]
+    },
+    "luckynetwork.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shandy"
+      ]
+    },
+    "kalwi.id": {
+      "realUser": "Losss",
+      "alt": [
+        "raph",
+        "jjjaaaakk",
+        "shenxx",
+        "shencx"
+      ]
+    },
+    "minecraft.websiteku.help": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
       ]
     }
   }

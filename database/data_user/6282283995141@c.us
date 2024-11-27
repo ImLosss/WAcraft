@@ -8,8 +8,7 @@
     "statusRepeat": false,
     "autocmd": [
       "/login rimbun",
-      "/survival",
-      "/is",
+      "/server survival",
       "/home afk"
     ],
     "autoReconnect": true,

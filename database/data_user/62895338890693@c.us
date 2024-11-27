@@ -1,48 +1,27 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "ip": "play.claritynetwork.net",
-    "username": "Ned",
-    "status": "online",
-    "automsg": {
-      "message": "/feed",
-      "status": true
-    },
-    "except": [
-      "[me ->",
-      "me]->",
-      "Ned",
-      "[island]",
-      "[team]",
-      "Obtained",
-      "Losss",
-      "losss"
-    ],
+    "status": "offline",
+    "ip": "minegens.id",
     "autorightclick": false,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "autocmd": [
-      "/login rayajr440",
-      "/survival",
-      "/automsg 2"
-    ],
-    "autoReconnect": true,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "username": "mweheh",
+    "autoReconnect": false,
+    "automsg": {
+      "message": "/sell all",
+      "status": false
+    }
   },
   {
-    "play.claritynetwork.net": {
-      "realUser": "Losss",
+    "minegens.id": {
+      "version": "1.20",
       "alt": [
-        "Ned"
-      ]
-    },
-    "proxy2.claritynetwork.net": {
-      "realUser": "Losss",
-      "alt": [
-        "Ned"
+        "mweheh"
       ]
     }
   }

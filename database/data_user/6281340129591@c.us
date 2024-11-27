@@ -1,0 +1,29 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "MieAyam",
+    "autocmd": [
+      "/server smp",
+      "/login gibigibi"
+    ],
+    "ip": "claritynetwork.net",
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autoleftclick": false,
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "autoReconnect": false
+  },
+  {
+    "claritynetwork.net": {
+      "realUser": "Mieyamin",
+      "alt": [
+        "MieAyam"
+      ],
+      "version": "1.20"
+    }
+  }
+]

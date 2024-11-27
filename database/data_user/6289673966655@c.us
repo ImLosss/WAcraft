@@ -3,29 +3,41 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
-    "username": "Xonezka",
+    "ip": "play.xetapixel.net",
+    "username": "nowezki",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login pras2009",
-      "/survival",
       "/chat off",
-      "/automsg 2"
+      "/server smp",
+      "/autoleftclick 1",
+      "/acidisland"
     ],
-    "autoReconnect": false,
+    "autoReconnect": true,
     "except": [
       "xon",
-      "[me ->",
-      "me]->",
       "SHI",
       "Xonezka",
-      "join",
-      "Balance"
+      "Balance",
+      "PKI",
+      "sated",
+      "[XPBottle]",
+      "Your",
+      "W4R",
+      "added",
+      "EOD",
+      "WTB",
+      "sold",
+      "[TempFly]",
+      "received",
+      "[me",
+      "me]",
+      "Used"
     ],
     "automsg": {
-      "message": "/feed",
+      "message": "/wtb Butuh Uang? ayo habis kan uang Xonezka dengan menjual withered skull mu di /pwarp pkimart 150k/skull",
       "status": false
     },
     "statusRepeat": false,
@@ -38,8 +50,29 @@
       "alt": [
         "Klvv",
         "nowezki",
-        "xonezka"
+        "xonezka",
+        "Morphyy777",
+        "kaiser5636",
+        "MieAyam"
+      ],
+      "version": "1.20"
+    },
+    "kratosmc.us": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
       ]
+    },
+    "play.ioncraft.my.id": {
+      "realUser": "nowezki",
+      "alt": []
+    },
+    "play.xetapixel.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
     }
   }
 ]

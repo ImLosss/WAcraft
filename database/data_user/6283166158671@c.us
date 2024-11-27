@@ -4,30 +4,35 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "claritynetwork.net",
-    "username": "ClaraMon",
+    "username": "suburan",
     "autorightclick": false,
     "automsg": {
-      "message": "WTB>>> Chrismas Box jual di [/pwarp konmatket] harga mulai dari  2/50",
+      "message": "/feed",
       "status": false
     },
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
-      "/login tolol123",
-      "/survival",
-      "/autorightclick 5"
+      "/login loli123",
+      "/server smp"
     ],
     "reconnectTime": 0,
     "autoleftclick": false
   },
   {
     "claritynetwork.net": {
-      "realUser": "Domuxis",
+      "realUser": "suburan",
       "alt": [
-        "ClaraMon"
-      ]
+        "ClaraMon",
+        "suburan"
+      ],
+      "version": "1.20"
+    },
+    "kratosmc.us": {
+      "realUser": "ClaraMon",
+      "alt": []
     }
   }
 ]

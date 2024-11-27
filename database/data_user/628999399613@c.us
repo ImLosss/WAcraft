@@ -9,17 +9,21 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "ip": "claritynetwork.net",
-    "autoReconnect": false,
+    "ip": "minegens.id",
+    "autoReconnect": true,
     "autocmd": [
-      "/login Sipa1212",
-      "/server survival"
+      "/login SM120205",
+      "/server tycoon"
     ],
-    "username": "Sipaaa"
+    "username": "SapiMan"
   },
   {
     "claritynetwork.net": {
       "realUser": "Sipaaa",
+      "alt": []
+    },
+    "minegens.id": {
+      "realUser": "SapiMan",
       "alt": []
     }
   }
