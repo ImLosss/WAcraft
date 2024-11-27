@@ -185,17 +185,8 @@ function sleep(ms) {
     });
 }
 
-const withErrorHandling = (fn) => {
-    return async (...args) => {
-        try {
-            await fn(...args);
-        } catch (err) {
-            console.error(err);
-        }
-    };
-};
 
 
 module.exports = {
-    getLocation, getLocationError, injectTitle, deleteFile, writeJSONFileSync, readJSONFileSync, resetDataUser, sleep, withErrorHandling
+    getLocation, getLocationError, injectTitle, deleteFile, writeJSONFileSync, readJSONFileSync, resetDataUser, sleep
 };

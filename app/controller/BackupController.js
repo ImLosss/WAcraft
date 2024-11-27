@@ -1,16 +1,15 @@
 require('module-alias/register');
 const console = require('console');
-const { withErrorHandling } = require('utils');
+const { withErrorHandling } = require('function/function');
 const archiver = require('archiver');
 const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
 const fs = require('fs');
 
-const backup = withErrorHandling(async (sourceFolderPath, outputFilePath, client) => {
+const backup = withErrorHandling(async (msg, sourceFolderPath, outputFilePath, client) => {
     const output = fs.createWriteStream(outputFilePath);
     const archive = archiver('zip', { zlib: { level: 9 } });
-    // const chat = await msg.getChat();
-
+    
     output.on('close', () => {
         console.log('Compression completed.', 'Backup');
         const media = MessageMedia.fromFilePath(outputFilePath);

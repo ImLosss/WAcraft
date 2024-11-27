@@ -76,6 +76,19 @@ function getMenu(dir) {
     return str;
 }
 
+const withErrorHandling = (fn) => {
+    return async (...args) => {
+        try {
+            await fn(...args);
+        } catch (err) {
+            console.error(err);
+            const [msg] = args; // Mengambil msg dari args
+            
+            msg.reply(`Terjadi kesalahan`);
+        }
+    };
+};
+
 module.exports = {
-    getTime, cutVal, removeFromArray, getMenu
+    getTime, cutVal, removeFromArray, getMenu, withErrorHandling
 }

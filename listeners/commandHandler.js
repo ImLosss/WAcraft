@@ -3,15 +3,15 @@ const fs = require('fs');
 const console = require('console');
 const { cutVal, getMenu } = require("function/function");
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
-const { backup } = require('command');
+const cmd = require('command');
 
 module.exports = (function() {
     return function(client) {
         client.on('message', async (msg) => {
             const prefixFunctionsAdmin = {
-                'backup': (msg, sender, client, arg) => backup('database', 'database.zip', client),
-                'sendmsg': (msg, sender, client, arg) => sendMsg(msg, client, arg),
-                'sendupdate': (msg, sender, client, arg) => sendUpdate(msg, client),
+                'backup': (msg, sender, client, arg) => cmd.backup(msg, 'database', 'database.zip', client),
+                'sendmsg': (msg, sender, client, arg) => cmd.sendMsg(msg, client, arg),
+                'sendupdate': (msg, sender, client, arg) => cmd.sendUpdate(msg, client),
                 'sendmsgall': (msg, sender, client, arg) => sendMsgAll(msg, client, arg),
                 'addwhitelist': (msg, sender, client, arg) => addWhitelist(msg, client),
                 'addblacklist': (msg, sender, client, arg) => addBlacklist(msg, client),
@@ -86,9 +86,9 @@ module.exports = (function() {
 
                         if (prefixFunctions[funcName[0]]) {     
                             console.log(value, `cmd:${ funcName[0] }`);
-                            return prefixFunctions[funcName[0]](msg, sender, client, value, chat);
+                            return prefixFunctions[funcName[0]](msg, sender, client, value);
                         } else if (prefixFunctionsAdmin[funcName[0]] && sender == config.owner) {
-                            return prefixFunctionsAdmin[funcName[0]](msg, sender, client, text);
+                            return prefixFunctionsAdmin[funcName[0]](msg, sender, client, value);
                         }
                     }
                 }

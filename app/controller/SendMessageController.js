@@ -1,7 +1,8 @@
 require('module-alias/register');
 const console = require('console');
-const { withErrorHandling } = require('utils');
+const { withErrorHandling } = require('function/function');
 const path = require('path');
+const fs = require('fs');
 
 const sendMsg = withErrorHandling(async (msg, client, arg) => {
     const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
