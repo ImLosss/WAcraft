@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "username": "Uvuvwey",
-    "ip": "play.claritynetwork.net",
+    "ip": "mc.aetherium.fun",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -13,12 +13,14 @@
     "reconnectTime": 0,
     "autoReconnect": true,
     "autocmd": [
-      "/login HappyHoliday.00_"
+      "/login HappyHoliday.00_",
+      "/chat off"
     ],
     "automsg": {
       "message": "/xpbottle",
       "status": false
-    }
+    },
+    "afkArcher": false
   },
   {
     "[claritynetwork.net]": {
@@ -37,7 +39,15 @@
       "realUser": "Dra1s",
       "alt": [
         "Uvuvwey"
-      ]
+      ],
+      "version": "1.20"
+    },
+    "mc.aetherium.fun": {
+      "realUser": "Dra1s",
+      "alt": [
+        "Uvuvwey"
+      ],
+      "version": "1.20"
     }
   }
 ]

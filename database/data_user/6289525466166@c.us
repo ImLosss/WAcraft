@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "username": "nowezki",
     "ip": "claritynetwork.net",
     "autorightclick": false,
@@ -17,9 +17,10 @@
       "DPR",
       "PKI",
       "[XPBottle]",
-      "W4R"
+      "W4R",
+      "EOD"
     ],
-    "statusRepeat": false,
+    "statusRepeat": true,
     "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
@@ -29,10 +30,10 @@
       "/automsg 15"
     ],
     "reconnectTime": 0,
-    "autoleftclick": false,
+    "autoleftclick": true,
     "automsg": {
       "message": "/xpbottle",
-      "status": false
+      "status": true
     }
   },
   {
@@ -42,7 +43,22 @@
         "nowezki",
         "Klvv",
         "MieAyam"
-      ]
+      ],
+      "version": "1.20"
+    },
+    "159.65.247.79:2012": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
+    },
+    "play.xetapixel.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
     }
   }
 ]
