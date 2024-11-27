@@ -5,7 +5,7 @@ const fs = require('fs');
 const {Client, LocalAuth, Buttons, MessageMedia } = require('whatsapp-web.js');
 const console = require('console');
 
-const bot = new Client({
+const client = new Client({
     authStrategy: new LocalAuth(), // your authstrategy here
     puppeteer: {
         args: ['--no-sandbox'],
@@ -13,6 +13,6 @@ const bot = new Client({
     }
 });
 
-require('import')(bot);
+require('import')(client);
 
-bot.initialize();
+client.initialize();

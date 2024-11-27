@@ -5,8 +5,8 @@ const { cutVal } = require("function/function");
 const { writeJSONFileSync, readJSONFileSync } = require('utils');
 
 module.exports = (function() {
-    return function(bot) {
-        bot.on('message', async (msg) => {
+    return function(client) {
+        client.on('message', async (msg) => {
             const prefixFunctionsAdmin = {
                 'backup': (msg, sender, client, arg) => backup_database('database', 'database.zip', client),
                 'sendmsg': (msg, sender, client, arg) => sendMsg(msg, client),
@@ -48,7 +48,7 @@ module.exports = (function() {
             const chat = await msg.getChat();
 
             chat.sendSeen();
-            bot.sendPresenceAvailable();
+            client.sendPresenceAvailable();
 
             const text = msg.body.toLowerCase() || '';
 
@@ -85,7 +85,7 @@ module.exports = (function() {
 
                         if (prefixFunctions[funcName[0]]) {     
                             console.log(value, `cmd:${ funcName[0] }`);
-                            return prefixFunctions[funcName[0]](msg, sender, bot, value, chat);
+                            return prefixFunctions[funcName[0]](msg, sender, client, value, chat);
                         } else if (prefixFunctionsAdmin[funcName[0]] && sender == config.owner) {
                             return prefixFunctionsAdmin[funcName[0]](msg, sender, client, text);
                         }

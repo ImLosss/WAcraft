@@ -1,8 +1,8 @@
 require('module-alias/register');
 
 module.exports = (function() {
-    return function(bot) {
-        require('listeners/setupClient')(bot);
-        require('listeners/commandHandler')(bot);
+    return function(client) {
+        require('listeners/setupClient')(client);
+        require('listeners/commandHandler')(client);
     };
 })();

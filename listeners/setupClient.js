@@ -5,8 +5,8 @@ const fs = require('fs');
 const console = require('console');
 
 module.exports = (function() {
-    return function(bot) {
-        bot.on('qr', qrdata => {
+    return function(client) {
+        client.on('qr', qrdata => {
             qrcode.generate(qrdata, {
                 small: true
             })
@@ -32,8 +32,24 @@ module.exports = (function() {
             });
         });
         
-        bot.once('ready', () => {
+        client.once('ready', () => {
             console.log('Client is ready!');
         });
+
+        client.on('call', async call => {
+            call.reject();
+        
+            if (!call.isGroup) client.sendMessage(call.from, '> ⓘ _Hey!, hanya menerima pesan chat!_');
+        });
+        
+        // Fungsi yang akan dijalankan setiap jam
+        async function intervalBackup() {
+            console.log('Daily backup');
+            await backup_database('database', 'database.zip', client);
+        }
+        
+        setInterval(() => {
+            intervalBackup();
+        }, (1000 * 60 * 60) * 24);
     };
 })();
