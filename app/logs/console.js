@@ -10,7 +10,7 @@ async function error(errorMsg) {
         const time = getTime();
         const file = getLocationError();
 
-        console.log(`[${ time } / error] ${ errorMsg.message }`);
+        console.log(`[${ time } / error] ${ errorMsg.message? errorMsg.message : errorMsg }`);
 
         let errorData = readJSONFileSync('app/logs/error.json')
 
@@ -20,7 +20,7 @@ async function error(errorMsg) {
             type: 'Error',
             date: time,
             errorLocation: file,
-            errorMessage: errorMsg.message? errorMsg.message : null,
+            errorMessage: errorMsg.message? errorMsg.message : errorMsg,
             error: errorMsg instanceof Error ? `${errorMsg.message}\n${errorMsg.stack}` : errorMsg
         }
 
@@ -101,7 +101,7 @@ async function gameError(errorMsg, id) {
         // Tentukan zona waktu Makassar
         const time = getTime();
 
-        console.log(`[${ time } / error_${ id }] ${ errorMsg.message }`);
+        console.log(`[${ time } / error_${ id }] ${ errorMsg instanceof Error ? errorMsg.message : errorMsg }`);
 
         let errorData = readJSONFileSync(dir)
 
@@ -111,7 +111,7 @@ async function gameError(errorMsg, id) {
             type: 'Error',
             date: time,
             errorLocation: stackLines[1] ? stackLines[1] : null,
-            errorMessage: errorMsg.message? errorMsg.message : null,
+            errorMessage: errorMsg instanceof Error ? errorMsg.message : errorMsg,
             error: errorMsg instanceof Error ? `${errorMsg.message}\n${errorMsg.stack}` : errorMsg
         }
 

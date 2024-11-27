@@ -1,34 +1,6 @@
 [
   {
     "type": "Error",
-    "date": "2024-11-08 / 18:02",
-    "errorLocation": "function.js:81:21",
-    "errorMessage": "tess is not defined",
-    "error": "tess is not defined\nReferenceError: tess is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\controller\\RenegadeImmortalController.js:15:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\function\\function.js:79:13\n    at async Object.callback (D:\\Dokumenku\\Pemrograman\\Node\\subBot\\listeners\\renegadeImmortal.js:12:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-11-08 / 18:02",
-    "errorLocation": "function.js:81:21",
-    "errorMessage": "tess is not defined",
-    "error": "tess is not defined\nReferenceError: tess is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\controller\\RenegadeImmortalController.js:16:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\function\\function.js:79:13\n    at async Object.callback (D:\\Dokumenku\\Pemrograman\\Node\\subBot\\listeners\\renegadeImmortal.js:12:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-11-08 / 18:04",
-    "errorLocation": "function.js:81:21",
-    "errorMessage": "tess is not defined",
-    "error": "tess is not defined\nReferenceError: tess is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\controller\\RenegadeImmortalController.js:16:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\function\\function.js:79:13\n    at async Object.callback (D:\\Dokumenku\\Pemrograman\\Node\\subBot\\listeners\\renegadeImmortal.js:12:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-11-08 / 18:05",
-    "errorLocation": "function.js:81:21",
-    "errorMessage": "tess is not defined",
-    "error": "tess is not defined\nReferenceError: tess is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\controller\\RenegadeImmortalController.js:16:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Dokumenku\\Pemrograman\\Node\\subBot\\app\\function\\function.js:79:13\n    at async Object.callback (D:\\Dokumenku\\Pemrograman\\Node\\subBot\\listeners\\renegadeImmortal.js:12:13)"
-  },
-  {
-    "type": "Error",
     "date": "2024-11-08 / 18:09",
     "errorLocation": "function.js:81:21",
     "errorMessage": "tess is not defined",
@@ -285,5 +257,96 @@
     "errorLocation": "function.js:211:21",
     "errorMessage": "fs is not defined",
     "error": "fs is not defined\nReferenceError: fs is not defined\n    at Object.addWhitelist (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:86:22)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:17:85\n    at Object.addwhitelist (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:209:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:92:69)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 18:59",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "cmd.joinServer is not a function",
+    "error": "cmd.joinServer is not a function\nTypeError: cmd.joinServer is not a function\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:26:77\n    at Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 19:00",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "mineflayer is not defined",
+    "error": "mineflayer is not defined\nReferenceError: mineflayer is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:42:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:13)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 21:42",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fungsi is not defined",
+    "error": "fungsi is not defined\nReferenceError: fungsi is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:91:24\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:48",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fungsi is not defined",
+    "error": "fungsi is not defined\nReferenceError: fungsi is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:91:24\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:50",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fungsi is not defined",
+    "error": "fungsi is not defined\nReferenceError: fungsi is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:91:24\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:50",
+    "errorLocation": "function.js:235:25",
+    "errorMessage": "Cannot read properties of undefined (reading 'reply')",
+    "error": "Cannot read properties of undefined (reading 'reply')\nTypeError: Cannot read properties of undefined (reading 'reply')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:233:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:56",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fn is not a function",
+    "error": "fn is not a function\nTypeError: fn is not a function\n    at Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:57",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fn is not a function",
+    "error": "fn is not a function\nTypeError: fn is not a function\n    at Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:58",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fn is not a function",
+    "error": "fn is not a function\nTypeError: fn is not a function\n    at Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:58",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fn is not a function",
+    "error": "fn is not a function\nTypeError: fn is not a function\n    at Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-27 / 23:59",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fn is not a function",
+    "error": "fn is not a function\nTypeError: fn is not a function\n    at Object.backup (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:92:69)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-28 / 00:00",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "fs is not defined",
+    "error": "fs is not defined\nReferenceError: fs is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\BackupController.js:10:20\n    at Object.backup (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:13:79\n    at Object.backup (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:92:69)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-11-28 / 00:47",
+    "errorLocation": "MineflayerController.js:146:21",
+    "errorMessage": "fungsi is not defined",
+    "error": "fungsi is not defined\nReferenceError: fungsi is not defined\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:91:28)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)\n    at Writable.write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:286:10)"
   }
 ]

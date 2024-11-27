@@ -47,7 +47,7 @@ function getMenu(dir) {
         let dataClient = readJSONFileSync(`./database/client.json`);
         let dataUser = readJSONFileSync(dir);
 
-        let str = `╓──▷「 Menu Command 」`
+        let str = `╓──▷「 *Menu Command* 」`
         for(const key in dataClient) {
             if(key == "information") {
                 const data = dataClient[key];
@@ -57,20 +57,20 @@ function getMenu(dir) {
 
                 if(dataUser[0]?.ip) {
                     const ip = dataUser[0].ip;
-                    str += `\n╟────「 Information 」`;
+                    str += `\n╟────「 *Information* 」`;
                     str += `\n║ Server: ${ip}`;
                     str += `\n║ Version: ${ dataUser[1][ip].version ? dataUser[1][ip].version : 'None'}`;
                     str += `\n║ Username: ${dataUser[0].username ? dataUser[0].username : 'None'}`;
                     str += `\n║ Status: ${dataUser[0].status}`;
                 }
             } else if(Array.isArray(dataClient[key])) {
-                str+= `\n╟────「 ${ key } 」`
+                str+= `\n╟────「 *${ key }* 」`
                 dataClient[key].forEach(item => {
                     if (item.status) str+= `\n║ ▹${ item.name }`;
                     else str+= `\n║ ▹ ~${ item.name }~`;
                 });
             } else {
-                str+= `\n╟────「 ${ key } 」`;
+                str+= `\n╟────「 *${ key }* 」`;
                 const data = dataClient[key];
                 for(const key in data) {
                     str+=`\n║ ▹ ${ data[key] }`
@@ -229,7 +229,11 @@ const withErrorHandling = (fn) => {
             console.error(err);
             const [msg] = args; // Mengambil msg dari args
             
-            msg.reply(`Terjadi kesalahan: ${ err.message }`).catch(() => { return `Terjadi kesalahan: ${ err.message }` });
+            try {
+                msg.reply(`Terjadi kesalahan: ${ err.message }`).catch(() => { return `Terjadi kesalahan: ${ err.message }` });
+            } catch (err) {
+                console.error(err);
+            }
         }
     };
 };

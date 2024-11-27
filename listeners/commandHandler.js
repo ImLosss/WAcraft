@@ -23,7 +23,7 @@ module.exports = (function() {
             
             const prefixFunctions = {
                 'update': withErrorHandling((msg, sender, client, arg) => cmd.update(msg)),
-                'join': withErrorHandling((msg, sender, client, arg) => joinServer(msg, sender, client)),
+                'join': withErrorHandling((msg, sender, client, arg) => cmd.joinServer(msg, sender, client)),
                 'dc': withErrorHandling((msg, sender, client, arg) => disconnect(msg, sender)),
                 'cektellme': withErrorHandling((msg, sender, client, arg) => cektellme(msg, sender)),
                 'cekautocmd': withErrorHandling((msg, sender, client, arg) => fungsi.cekautocmd(msg, sender)),
