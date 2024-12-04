@@ -221,16 +221,24 @@ async function update(msg) {
     msg.reply(update).catch(() => { chat.sendMessage(update) })
 }
 
-const withErrorHandling = (fn) => {
+const withErrorHandling = (fn, defaultMsg) => {
     return async (...args) => {
         try {
             await fn(...args);
         } catch (err) {
             console.error(err);
-            const [msg] = args; // Mengambil msg dari args
-            
+
+            // Cek apakah `msg` ada di args
+            const msgFromArgs = args.find(arg => arg && typeof arg.reply === 'function');
+            const msg = msgFromArgs || defaultMsg; // Gunakan msg dari args atau defaultMsg
+
+            if (!msg) {
+                console.error('Error: Tidak ada msg yang tersedia untuk reply.');
+                return;
+            }
+
             try {
-                msg.reply(`Terjadi kesalahan: ${ err.message }`).catch(() => { return `Terjadi kesalahan: ${ err.message }` });
+                msg.reply(`Terjadi kesalahan: ${err.message}`);
             } catch (err) {
                 console.error(err);
             }

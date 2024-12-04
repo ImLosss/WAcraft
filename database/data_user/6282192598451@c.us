@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.claritynetwork.net",
+    "ip": "clarity-id.net",
     "username": "Losss",
     "automsg": {
       "message": "/repair",
@@ -73,6 +73,13 @@
       "alt": [
         "shenxx"
       ]
+    },
+    "clarity-id.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ],
+      "version": "1.20"
     },
     "minegens.id": {
       "realUser": "Losss",

@@ -38,20 +38,50 @@ function injectTitle (bot) {
     })
 }
 
-async function listener(bot, msg) {
-    const chat = await msg.getChat();
-    bot.on('health', () => {
-        let health = bot.health;
-        health = Math.round(health);
+async function startBroadcast(sender, config) {
+    let repeatTimeoutBroadcast = config.broadcast.repeatInSec * 1000;
+    let broadcastMessageArr = config.broadcast.message;
+    let repeatIndex = 0
+    const repeatIntervalBroadcast = setInterval(() => {
+        let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+        if(dataUser[0].status == "online") {
+            if(!dataUser[0].chatPublic) return;
+            const message = broadcastMessageArr[repeatIndex];
+            chat.sendMessage(`> ⓘ _${ message }_`);
 
-        if(health <= 5) chat.sendMessage(`> ⚠️ _Darah kamu sisa ${ health }_`);
-    })
+            repeatIndex+=1;
+            if (repeatIndex == broadcastMessageArr.length) repeatIndex = 0;
+        } else {
+            clearInterval(repeatInterval);
+        }
+    }, repeatTimeoutBroadcast);
 
-    bot.on('death', () => {
-        chat.sendMessage('> ⚠️ _You Die_');
-    })
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    const intervalId = Number(repeatIntervalBroadcast);
+
+    dataUser[0].intervalIds.broadcast = intervalId;
+
+    // Simpan ID interval ke file JSON
+    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+}
+
+async function stopBroadcast(sender) {
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+    clearInterval(dataUser[0].intervalIds.broadcast);
+}
+
+async function cekMember(client, sender) {
+    const chat = await client.getChatById("120363355816098681@g.us");
+
+    for (let participant of chat.participants) {
+        const contact = participant.id._serialized;
+        if(contact == sender) return true;
+    }
+
+    return false;
 }
 
 module.exports = {
-    cekAlt, injectTitle, listener
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember
 }

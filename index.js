@@ -13,6 +13,6 @@ const client = new Client({
     }
 });
 
-require('import')(client);
+require('import/index')(client);
 
 client.initialize();
