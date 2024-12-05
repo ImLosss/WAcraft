@@ -26,6 +26,6 @@
     "service": "./app/service",
     "config": "./config",
     "utils": "./app/function/utils",
-    "command": "./app/service/CommandImport"
+    "command": "./import/CommandImport"
   }
 }

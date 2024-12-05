@@ -230,12 +230,15 @@ const withErrorHandling = (fn, defaultMsg) => {
 
             // Cek apakah `msg` ada di args
             const msgFromArgs = args.find(arg => arg && typeof arg.reply === 'function');
+            const bot = args.find(arg => arg && typeof arg.quit === 'function');
             const msg = msgFromArgs || defaultMsg; // Gunakan msg dari args atau defaultMsg
 
             if (!msg) {
                 console.error('Error: Tidak ada msg yang tersedia untuk reply.');
                 return;
             }
+
+            if(bot) bot.quit();
 
             try {
                 msg.reply(`Terjadi kesalahan: ${err.message}`);

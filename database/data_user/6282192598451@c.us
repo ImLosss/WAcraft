@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "clarity-id.net",
     "username": "Losss",
     "automsg": {
@@ -51,7 +51,10 @@
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "intervalIds": {
+      "broadcast": 2530
+    }
   },
   {
     "play.claritynetwork.net": {

@@ -38,7 +38,7 @@ function injectTitle (bot) {
     })
 }
 
-async function startBroadcast(sender, config) {
+async function startBroadcast(sender, config, chat) {
     let repeatTimeoutBroadcast = config.broadcast.repeatInSec * 1000;
     let broadcastMessageArr = config.broadcast.message;
     let repeatIndex = 0
@@ -52,13 +52,15 @@ async function startBroadcast(sender, config) {
             repeatIndex+=1;
             if (repeatIndex == broadcastMessageArr.length) repeatIndex = 0;
         } else {
-            clearInterval(repeatInterval);
+            stopBroadcast(sender);
         }
     }, repeatTimeoutBroadcast);
 
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
     const intervalId = Number(repeatIntervalBroadcast);
+
+    if(!dataUser[0].intervalIds) dataUser[0].intervalIds = {}
 
     dataUser[0].intervalIds.broadcast = intervalId;
 

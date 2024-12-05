@@ -21,6 +21,6 @@
       "Kamu bisa melakukan chat ke nomor yang ada di /menu jika ingin memberi saran atau pertanyaan",
       "Pastikan /setRealUser yang anda atur adalah username asli yang anda mainkan di server saat ini. Jika bukan, kamu akan di blacklist sehingga tidak dapat menggunakan bot ini lagi"
     ],
-    "repeatInSec": 60
+    "repeatInSec": 30
   }
 }
