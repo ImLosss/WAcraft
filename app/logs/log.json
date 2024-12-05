@@ -1,23 +1,5 @@
 [
   {
-    "type": "info",
-    "date": "2024-11-27 / 15:41",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 15:41",
-    "location": "commandHandler.js:68:21",
-    "message": "/menu"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 15:42",
-    "location": "commandHandler.js:68:21",
-    "message": "/setip play.claritynetwork.net"
-  },
-  {
     "type": "cmd:setip",
     "date": "2024-11-27 / 15:42",
     "location": "commandHandler.js:88:37",
@@ -2993,6 +2975,24 @@
   {
     "type": "cmd:join",
     "date": "2024-12-06 / 02:19",
+    "location": "commandHandler.js:89:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2024-12-06 / 02:24",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-06 / 02:24",
+    "location": "commandHandler.js:69:39",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-06 / 02:24",
     "location": "commandHandler.js:89:37",
     "message": ""
   }

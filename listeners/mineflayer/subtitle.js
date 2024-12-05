@@ -1,9 +1,9 @@
 require('module-alias/register');
+const { withErrorHandling } = require('function/function');
 
 module.exports = (function() {
-    return async function(bot, msg) {
-        const chat = await msg.getChat();
-        bot.on('subtitle', (text) => {
+    return async function(bot, chat, msg) {
+        bot.on('subtitle', withErrorHandling((text) => {
             try {
                 text = (() => { try { return JSON.parse(text); } catch { return text; } })();
                 if (text.value?.text?.value?.trim() && text.value?.text?.value.trim() != "") chat.sendMessage(`Subtitle: ${ text.value.text.value }`);
@@ -11,6 +11,6 @@ module.exports = (function() {
             } catch (err) {
                 console.log('Error subtitle: ' . err);
             }
-        })
+        }, msg))
     };
 })();
