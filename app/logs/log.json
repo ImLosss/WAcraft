@@ -1,72 +1,6 @@
 [
   {
     "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 23:45",
-    "location": "commandHandler.js:69:39",
-    "message": "/menu"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 23:47",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-11-27 / 23:47",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2024-11-27 / 23:50",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 23:50",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-11-27 / 23:50",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2024-11-27 / 23:56",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 23:56",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-11-27 / 23:56",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2024-11-27 / 23:57",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-11-27 / 23:57",
-    "location": "commandHandler.js:69:39",
-    "message": "/menu"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
     "date": "2024-11-27 / 23:57",
     "location": "commandHandler.js:69:39",
     "message": "/join"
@@ -2994,5 +2928,71 @@
     "date": "2024-12-06 / 23:08",
     "location": "commandHandler.js:69:39",
     "message": "/menu"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-06 / 23:24",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:69:39",
+    "message": "/tellme"
+  },
+  {
+    "type": "cmd:tellme",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:89:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:69:39",
+    "message": "/cektellme"
+  },
+  {
+    "type": "cmd:cektellme",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:89:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:69:39",
+    "message": "/deltellme losss"
+  },
+  {
+    "type": "cmd:deltellme",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:89:37",
+    "message": "losss"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:69:39",
+    "message": "/tellme losss"
+  },
+  {
+    "type": "cmd:tellme",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:89:37",
+    "message": "losss"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:69:39",
+    "message": "/tellme losss"
+  },
+  {
+    "type": "cmd:tellme",
+    "date": "2024-12-06 / 23:24",
+    "location": "commandHandler.js:89:37",
+    "message": "losss"
   }
 ]

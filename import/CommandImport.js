@@ -6,6 +6,7 @@ const backupController = require('controller/BackupController');
 const mineflayer = require('controller/MineflayerController');
 const fungsi = require('function/function');
 const mineflayerService = require('service/MineflayerService');
+const tellme = require('function/tellme');
 
 module.exports = {
     ...utils,
@@ -13,5 +14,6 @@ module.exports = {
     ...backupController,
     ...fungsi,
     ...mineflayer,
-    ...mineflayerService
+    ...mineflayerService,
+    ...tellme
 };
