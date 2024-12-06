@@ -2,10 +2,10 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
-const { startBroadcast } = require('../../app/service/MineflayerService');
+const { startBroadcast } = require('service/MineflayerService');
 
 module.exports = (function() {
-    return function(bot, dirUser, msg, chat, sender) {
+    return function(client, bot, dirUser, msg, chat, sender) {
         bot.once('login', withErrorHandling(async () => {
             let config = readJSONFileSync('config.json');
             let dataUser = readJSONFileSync(dirUser);
@@ -14,6 +14,8 @@ module.exports = (function() {
             writeJSONFileSync(dirUser, dataUser);
 
             startBroadcast(sender, config, chat);
-        }, msg))
+
+            require('mineflayer-listener/messageHandler')(client, bot, dirUser, chat, sender);
+        }, msg, bot))
     };
 })();

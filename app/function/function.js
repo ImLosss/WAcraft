@@ -3,7 +3,7 @@ const axios = require('axios');
 const moment = require('moment-timezone');
 const fs = require('fs');
 const console = require('console');
-const { readJSONFileSync } = require('utils');
+const { readJSONFileSync, writeJSONFileSync } = require('utils');
 
 function cutVal(value, index) {
     const words = value.split(' '); // Pisahkan kalimat menjadi array kata-kata
@@ -221,7 +221,7 @@ async function update(msg) {
     msg.reply(update).catch(() => { chat.sendMessage(update) })
 }
 
-const withErrorHandling = (fn, defaultMsg) => {
+const withErrorHandling = (fn, defaultMsg, bot) => {
     return async (...args) => {
         try {
             await fn(...args);
@@ -230,7 +230,6 @@ const withErrorHandling = (fn, defaultMsg) => {
 
             // Cek apakah `msg` ada di args
             const msgFromArgs = args.find(arg => arg && typeof arg.reply === 'function');
-            const bot = args.find(arg => arg && typeof arg.quit === 'function');
             const msg = msgFromArgs || defaultMsg; // Gunakan msg dari args atau defaultMsg
 
             if (!msg) {

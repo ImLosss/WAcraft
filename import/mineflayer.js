@@ -5,6 +5,6 @@ module.exports = (function() {
         require('mineflayer-listener/subtitle')(bot, chat, msg);
         require('mineflayer-listener/title')(bot, chat, msg);
         require('mineflayer-listener/messagestr')(bot, dirUser, msg, chat, sender);
-        require('mineflayer-listener/login')(bot, dirUser, msg, chat, sender);
+        require('mineflayer-listener/login')(client, bot, dirUser, msg, chat, sender);
     };
 })();
