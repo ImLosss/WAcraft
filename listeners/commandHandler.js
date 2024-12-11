@@ -25,22 +25,22 @@ const prefixFunctions = {
     'tellme': withErrorHandling((msg, sender, client, arg) => cmd.tellme(msg, sender)),
     'cektellme': withErrorHandling((msg, sender, client, arg) => cmd.cektellme(msg, sender)),
     'deltellme': withErrorHandling((msg, sender, client, arg) => cmd.deltellme(msg, sender)),
-    'cekautocmd': withErrorHandling((msg, sender, client, arg) => fungsi.cekautocmd(msg, sender)),
-    'chat': withErrorHandling((msg, sender, client, arg) => chatPublic(msg, sender)),
-    'setip': withErrorHandling((msg, sender, client, arg) => setIp(msg, sender)),
-    'setver': withErrorHandling((msg, sender, client, arg) => setVer(msg, sender)),
-    'setuser': withErrorHandling((msg, sender, client, arg) => setUser(msg, sender)),
+    'cekautocmd': withErrorHandling((msg, sender, client, arg) => cmd.cekautocmd(msg, sender)),
+    'autocmd': withErrorHandling((msg, sender, client, arg) => cmd.autocmd(msg, sender)),
+    'delautocmd': withErrorHandling((msg, sender, client, arg) => cmd.delautocmd(msg, sender)),
+    'chat': withErrorHandling((msg, sender, client, arg) => cmd.chatPublic(msg, sender)),
+    'setip': withErrorHandling((msg, sender, client, arg) => cmd.setIp(msg, sender)),
+    'setver': withErrorHandling((msg, sender, client, arg) => cmd.setVer(msg, sender)),
+    'setuser': withErrorHandling((msg, sender, client, arg) => cmd.setUser(msg, sender)),
+    'setrealuser': withErrorHandling((msg, sender, client, arg) => cmd.setRealUser(msg, sender)),
     'setautomsg': withErrorHandling((msg, sender, client, arg) => setAutoMsg(msg, sender)),
-    'autocmd': withErrorHandling((msg, sender, client, arg) => autocmd(msg, sender)),
-    'delautocmd': withErrorHandling((msg, sender, client, arg) => delautocmd(msg, sender)),
     'autoreconnect': withErrorHandling((msg, sender, client, arg) => setAutoReconnect(msg, sender)),
-    'setrealuser': withErrorHandling((msg, sender, client, arg) => setRealUser(msg, sender)),
     'info': withErrorHandling((msg, sender, client, arg) => cekInfo(msg, sender)),
     'bugreport': withErrorHandling((msg, sender, client, arg) => bugReport(msg, client, sender)),
     'getinfouser': withErrorHandling((msg, sender, client, arg) => getInfoUser(msg, client)),
 };    
 
-const prefix = ['/', '!'];
+const prefix = ['/'];
 
 module.exports = (function() {
     return function(client) {
@@ -57,20 +57,12 @@ module.exports = (function() {
             let sender = msg.from;
 
             const dir_data_user = `./database/data_user/${ sender }`
-            if(!fs.existsSync(dir_data_user)) {
-                let data_user = [{
-                    chatPublic: true,
-                    chatPrivate: true,
-                    status: "offline"
-                }]
-                writeJSONFileSync(dir_data_user, data_user);
-            }
 
-            if(msg.body != "")console.log(msg.body, `MessageFrom:${ chat.name }`);
+            if(msg.body != "") console.log(msg.body, `MessageFrom:${ chat.name }`);
             const value = cutVal(msg.body, 1);
 
-            if(!chat.isGroup) {
-                if (prefix.some(pre => text == `${pre}menu`)) return msg.reply(getMenu(dir_data_user));
+            if(!chat.isGroup && msg.body != "") {
+                if (prefix.some(pre => text == `${pre}menu`)) return chat.sendMessage(getMenu(dir_data_user), { linkPreview: false });
 
                 for (const pre of prefix) {
                     if (text.startsWith(`${pre}`)) {
@@ -85,8 +77,18 @@ module.exports = (function() {
                             }
                         }
 
-                        if (prefixFunctions[funcName[0]]) {     
+                        if (prefixFunctions[funcName[0]]) {
                             console.log(value, `cmd:${ funcName[0] }`);
+
+                            if(!fs.existsSync(dir_data_user)) {
+                                let data_user = [{
+                                    chatPublic: true,
+                                    chatPrivate: true,
+                                    status: "offline"
+                                }, {}]
+                                writeJSONFileSync(dir_data_user, data_user);
+                            }
+
                             return prefixFunctions[funcName[0]](msg, sender, client, value);
                         } else if (prefixFunctionsAdmin[funcName[0]] && sender == config.owner) {
                             return prefixFunctionsAdmin[funcName[0]](msg, sender, client, value);

@@ -1,7 +1,8 @@
 require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
-const { removeFromArray } = require('function/function')
+const { removeFromArray } = require('function/function');
+const { cutVal } = require("function/function");
 
 async function cekAlt(sender) {
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
@@ -20,6 +21,88 @@ async function cekAlt(sender) {
             writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
         }
     }
+}
+
+async function chatPublic(msg, sender) {
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */chat <on/of>*')
+    if(pesan[1] == 'off' || pesan[1] == 'of') dataUser[0].chatPublic = false; 
+    else if(pesan[1] == 'on') dataUser[0].chatPublic = true; 
+    else return msg.reply('Format kamu salah, kirim kembali dengan format */chat <on/of>*')
+
+    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+
+    return msg.reply('Pengaturan berhasil diubah');
+}
+
+async function setUser(msg, sender) {
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser <username>*')
+    const username = cutVal(pesan, 1);
+    dataUser[0].username = username; 
+
+    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+
+    return msg.reply(`Username berhasil diatur ke ${ pesan[1] }`);
+}
+
+async function setVer(msg, sender) {
+    let versions = ['1.17', '1.18', '1.19', '1.20'];
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    if(!dataUser[0].ip) return msg.reply('Atur ip kamu terlebih dahulu');
+
+    let ip = dataUser[0].ip;
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    let version = pesan[1];
+
+    if(!versions.includes(version)) return msg.reply(`Versi minecraft yang kamu pilih salah. Kirim */setver <version>* untuk mengatur versi.\nContoh: /setver 1.20\nList Version:\n- 1.17\n- 1.18\n- 1.19\n- 1.20`)
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setVer <version>*')
+    if(!dataUser[1][ip]) dataUser[1][ip] = {};
+    dataUser[1][ip].version = version; 
+
+    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+
+    return msg.reply(`Versi minecraft berhasil diatur ke ${ version }`);
+}
+
+async function setRealUser(msg, sender) {
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    if(!dataUser[0].ip) return msg.reply('Atur ip kamu terlebih dahulu');
+
+    const ip = dataUser[0].ip;
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setRealUser <username>*')
+    const username = cutVal(pesan, 1);
+
+    if (dataUser[1] == undefined) dataUser[1] = {};
+    if(!dataUser[1][ip]) dataUser[1][ip] = {};
+    dataUser[1][ip].realUser = username;
+
+    let listAlt = [];
+    if(dataUser[1][ip].alt) listAlt = dataUser[1][ip].alt;
+    removeFromArray(listAlt, pesan);
+    dataUser[1][ip].alt = listAlt;
+
+    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+
+    return msg.reply(`Real username berhasil diatur ke *${ username }*`);
 }
 
 async function disconnect(msg, sender) {
@@ -98,5 +181,5 @@ async function cekMember(client, sender) {
 }
 
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser
 }

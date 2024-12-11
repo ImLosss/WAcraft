@@ -3,151 +3,25 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "clarity-id.net",
-    "username": "Losss",
-    "automsg": {
-      "message": "/repair",
-      "status": false
-    },
-    "except": [
-      "Losss",
-      "loss",
-      "[me ->",
-      "me]->",
-      "hah",
-      "HAH",
-      "[Shop]",
-      "Only 10 more votes",
-      "has been received",
-      "Clan locked",
-      "KON >",
-      "has been sent",
-      "has been received",
-      "[island]",
-      "[team]",
-      "has requested",
-      "Balance",
-      "Obtained",
-      "kicked",
-      "TheRosses",
-      "GOD >",
-      "los",
-      "Los",
-      "Kino",
-      "Skill Level",
-      "losss"
-    ],
     "autorightclick": false,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "autocmd": [
-      "/login 040103",
-      "/server survival",
-      "/automsg 2",
-      "/dp",
-      "/dd",
-      "/afkfish on"
-    ],
-    "autoReconnect": false,
     "reconnectTime": 0,
-    "autoleftclick": false,
+    "ip": "clarity-id.net",
+    "username": "shenxx",
     "intervalIds": {
       "broadcast": null
     }
   },
   {
-    "play.claritynetwork.net": {
-      "realUser": "Losss",
-      "alt": [
-        "Ned",
-        "shenxx",
-        "lossesss",
-        "Lossseeess",
-        "TheRosses",
-        "Losseess",
-        "Losssesss",
-        "shencx"
-      ],
-      "version": "1.20"
-    },
-    "claritynetwork.net": {
-      "realUser": "Losss",
-      "alt": [
-        "shenxx"
-      ]
-    },
     "clarity-id.net": {
       "realUser": "Losss",
       "alt": [
         "shenxx"
       ],
       "version": "1.20"
-    },
-    "minegens.id": {
-      "realUser": "Losss",
-      "alt": [
-        "Ned",
-        "shenxx",
-        "Losssesss",
-        "shandy",
-        "raph"
-      ]
-    },
-    "play.luckynetwork.net": {
-      "realUser": "Losss",
-      "alt": [
-        "shenxx",
-        "Losssesss",
-        "shandy"
-      ]
-    },
-    "kakdijd": {
-      "realUser": "Losss",
-      "alt": [
-        "Losssesss"
-      ]
-    },
-    "play.kings-craft.com": {
-      "realUser": "Losss",
-      "alt": [
-        "Losssesss"
-      ]
-    },
-    "sanzakujojo.aternos.me": {
-      "realUser": "shandy",
-      "alt": []
-    },
-    "sanzakujojo.aternos.me:5249": {
-      "realUser": "shandy",
-      "alt": []
-    },
-    "212.38.94.135": {
-      "realUser": "Losss",
-      "alt": [
-        "shandy"
-      ]
-    },
-    "luckynetwork.net": {
-      "realUser": "Losss",
-      "alt": [
-        "shandy"
-      ]
-    },
-    "kalwi.id": {
-      "realUser": "Losss",
-      "alt": [
-        "raph",
-        "jjjaaaakk",
-        "shenxx",
-        "shencx"
-      ]
-    },
-    "minecraft.websiteku.help": {
-      "realUser": "Losss",
-      "alt": [
-        "shenxx"
-      ]
     }
   }
 ]

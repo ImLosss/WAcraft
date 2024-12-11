@@ -7,6 +7,8 @@ const mineflayer = require('controller/MineflayerController');
 const fungsi = require('function/function');
 const mineflayerService = require('service/MineflayerService');
 const tellme = require('function/tellme');
+const autocmd = require('function/autocmd');
+const setIp = require('function/setIp');
 
 module.exports = {
     ...utils,
@@ -15,5 +17,7 @@ module.exports = {
     ...fungsi,
     ...mineflayer,
     ...mineflayerService,
-    ...tellme
+    ...tellme,
+    ...autocmd,
+    ...setIp
 };

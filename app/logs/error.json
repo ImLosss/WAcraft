@@ -2,55 +2,6 @@
   {
     "type": "Error",
     "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "msgst is not defined",
-    "error": "msgst is not defined\nReferenceError: msgst is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messagestr.js:12:13\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\chat.js:141:9)\n    at Client.emit (node:events:514:28)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client\\chat.js:165:12)\n    at Client.emit (node:events:514:28)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:245:25",
-    "errorMessage": "Cannot read properties of undefined (reading 'reply')",
-    "error": "Cannot read properties of undefined (reading 'reply')\nTypeError: Cannot read properties of undefined (reading 'reply')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:241:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "msgst is not defined",
-    "error": "msgst is not defined\nReferenceError: msgst is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messagestr.js:12:13\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\chat.js:141:9)\n    at Client.emit (node:events:514:28)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client\\chat.js:165:12)\n    at Client.emit (node:events:514:28)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:245:25",
-    "errorMessage": "Cannot read properties of undefined (reading 'reply')",
-    "error": "Cannot read properties of undefined (reading 'reply')\nTypeError: Cannot read properties of undefined (reading 'reply')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:241:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "msgst is not defined",
-    "error": "msgst is not defined\nReferenceError: msgst is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messagestr.js:12:13\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\chat.js:141:9)\n    at Client.emit (node:events:514:28)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client\\chat.js:165:12)\n    at Client.emit (node:events:514:28)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:245:25",
-    "errorMessage": "Cannot read properties of undefined (reading 'reply')",
-    "error": "Cannot read properties of undefined (reading 'reply')\nTypeError: Cannot read properties of undefined (reading 'reply')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:241:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "msgst is not defined",
-    "error": "msgst is not defined\nReferenceError: msgst is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messagestr.js:12:13\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\chat.js:141:9)\n    at Client.emit (node:events:514:28)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client\\chat.js:165:12)\n    at Client.emit (node:events:514:28)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
     "errorLocation": "function.js:245:25",
     "errorMessage": "Cannot read properties of undefined (reading 'reply')",
     "error": "Cannot read properties of undefined (reading 'reply')\nTypeError: Cannot read properties of undefined (reading 'reply')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:241:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
@@ -348,5 +299,54 @@
     "errorLocation": "function.js:229:21",
     "errorMessage": "Cannot read properties of undefined (reading 'except')",
     "error": "Cannot read properties of undefined (reading 'except')\nTypeError: Cannot read properties of undefined (reading 'except')\n    at Object.cektellme (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:106:20)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:25:70\n    at Object.cektellme (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 18:30",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "autocmd is not defined",
+    "error": "autocmd is not defined\nReferenceError: autocmd is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:29:64\n    at Object.autocmd (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 18:43",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "chatPublic is not defined",
+    "error": "chatPublic is not defined\nReferenceError: chatPublic is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:31:61\n    at Object.chat (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 18:50",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53",
+    "error": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\nError: Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:13)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 18:50",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53",
+    "error": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\nError: Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:13)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 19:00",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "Cannot read properties of undefined (reading 'clarity-id.net')",
+    "error": "Cannot read properties of undefined (reading 'clarity-id.net')\nTypeError: Cannot read properties of undefined (reading 'clarity-id.net')\n    at Object.setVer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:73:20)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:33:67\n    at Object.setver (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 19:00",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "Cannot read properties of undefined (reading 'clarity-id.net')",
+    "error": "Cannot read properties of undefined (reading 'clarity-id.net')\nTypeError: Cannot read properties of undefined (reading 'clarity-id.net')\n    at Object.setVer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:73:20)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:33:67\n    at Object.setver (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 19:06",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "setRealUser is not defined",
+    "error": "setRealUser is not defined\nReferenceError: setRealUser is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:37:68\n    at Object.setrealuser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
   }
 ]

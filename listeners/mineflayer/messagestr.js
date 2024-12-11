@@ -26,7 +26,7 @@ module.exports = (function() {
             if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);
             if(!dataUser[0].chatPublic) return;
             console.game(msgstr, sender);
-            chat.sendMessage(msgstr).catch((err) => { console.gameError('error saat mengirim pesan') });
+            chat.sendMessage(msgstr, { linkPreview: false }).catch((err) => { console.gameError('error saat mengirim pesan') });
         }, msg))
     };
 })();

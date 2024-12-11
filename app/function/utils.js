@@ -169,6 +169,7 @@ async function resetDataUser(client) {
                     // Tulis kembali file JSON yang telah diubah
                     writeJSONFileSync(filePath, jsonData);
                 } catch (parseErr) {
+                    if (file == "DON'T DELETE THIS") return;
                     console.error(`Error parsing JSON in file ${file}:`, parseErr);
                 }
             });
