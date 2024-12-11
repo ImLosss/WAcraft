@@ -3,9 +3,11 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
 const { cutVal } = require("function/function");
+const cmd = require('import/CommandImportMineflayer');
 
 const prefixFunctions = {
     'dc': withErrorHandling((bot, sender, dirUser, chat, msg) => { bot.quit() }),
+    'playerlist': withErrorHandling((bot, sender, dirUser, chat, msg) => cmd.playerOnline(bot, msg)),
 };  
 
 module.exports = (function() {

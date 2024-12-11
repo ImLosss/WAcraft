@@ -2,13 +2,6 @@
   {
     "type": "Error",
     "date": "2024-12-04 / 23:14",
-    "errorLocation": "function.js:245:25",
-    "errorMessage": "Cannot read properties of undefined (reading 'reply')",
-    "error": "Cannot read properties of undefined (reading 'reply')\nTypeError: Cannot read properties of undefined (reading 'reply')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:241:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-04 / 23:14",
     "errorLocation": "function.js:229:21",
     "errorMessage": "msgst is not defined",
     "error": "msgst is not defined\nReferenceError: msgst is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messagestr.js:12:13\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\chat.js:141:9)\n    at Client.emit (node:events:514:28)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client\\chat.js:165:12)\n    at Client.emit (node:events:514:28)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
@@ -348,5 +341,12 @@
     "errorLocation": "function.js:229:21",
     "errorMessage": "setRealUser is not defined",
     "error": "setRealUser is not defined\nReferenceError: setRealUser is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:37:68\n    at Object.setrealuser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-11 / 20:19",
+    "errorLocation": "function.js:229:21",
+    "errorMessage": "msg is not defined",
+    "error": "msg is not defined\nReferenceError: msg is not defined\n    at Object.playerOnline (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:184:18)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler.js:10:78\n    at Object.playerlist (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.messageListener (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler.js:29:52)\n    at Client.emit (node:events:526:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:425:18\n    at CDPPage._CDPPage_onBindingCalled (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Page.js:2462:30)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Page.js:160:100\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\third_party\\mitt\\index.js:3:232\n    at Array.map (<anonymous>)\n    at Object.emit (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\third_party\\mitt\\index.js:3:216)\n    at CDPSessionImpl.emit (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\EventEmitter.js:87:22)\n    at CDPSessionImpl._onMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:350:18)\n    at Connection.onMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:156:25)\n    at WebSocket.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\NodeWebSocketTransport.js:45:32)\n    at WebSocket.onMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\ws\\lib\\event-target.js:199:18)"
   }
 ]

@@ -180,6 +180,18 @@ async function cekMember(client, sender) {
     return false;
 }
 
+async function playerOnline(bot, msg) {
+    const chat = await msg.getChat();
+    let player = [];
+    for (const playerName in bot.players) {
+        player.push(playerName);
+    }
+    let jml = player.length;
+    player = player.join(', ');
+
+    return msg.reply(`*Players Online(${ jml }):*\n\n${ player }`).catch(() => { chat.sendMessage(`*Players Online:*\n\n${ player }`) });
+}
+
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline
 }
