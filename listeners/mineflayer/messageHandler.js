@@ -8,6 +8,11 @@ const cmd = require('import/CommandImportMineflayer');
 const prefixFunctions = {
     'dc': withErrorHandling((bot, sender, dirUser, chat, msg) => { bot.quit() }),
     'playerlist': withErrorHandling((bot, sender, dirUser, chat, msg) => cmd.playerOnline(bot, msg)),
+    'inventory': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(cmd.getInventory(bot)); }),
+    'throw': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(cmd.throwItem(bot, msg)) }),
+    'equip': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(cmd.equipItem(bot, msg)) }),
+    'health': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(`Health: ${ Math.round(bot.health) }`); }),
+    'exp': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(`Exp: ${ bot.experience.points }`); }),
 };  
 
 module.exports = (function() {

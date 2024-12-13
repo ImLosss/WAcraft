@@ -1,268 +1,5 @@
 [
   {
-    "type": "MessageFrom:Minebot",
-    "date": "2024-12-04 / 01:28",
-    "location": "commandHandler.js:71:39",
-    "message": "asda"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:32",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "object",
-    "date": "2024-12-04 / 01:32",
-    "location": "commandHandler.js:52:21",
-    "message": "{\"id\":{\"server\":\"g.us\",\"user\":\"120363355816098681\",\"_serialized\":\"120363355816098681@g.us\"},\"name\":\"Minebot\",\"isReadOnly\":false,\"unreadCount\":0,\"timestamp\":1733246934,\"pinned\":false,\"muteExpiration\":0,\"lastMessage\":{\"_data\":{\"id\":{\"fromMe\":false,\"remote\":\"120363355816098681@g.us\",\"id\":\"3EB017845596F0A068E009\",\"participant\":{\"server\":\"c.us\",\"user\":\"6282192598451\",\"_serialized\":\"6282192598451@c.us\"},\"_serialized\":\"false_120363355816098681@g.us_3EB017845596F0A068E009_6282192598451@c.us\"},\"viewed\":false,\"body\":\"/join\",\"type\":\"chat\",\"t\":1733247158,\"notifyName\":\"Pahri\",\"from\":{\"server\":\"g.us\",\"user\":\"120363355816098681\",\"_serialized\":\"120363355816098681@g.us\"},\"to\":{\"server\":\"c.us\",\"user\":\"62895338890693\",\"_serialized\":\"62895338890693@c.us\"},\"author\":{\"server\":\"c.us\",\"user\":\"6282192598451\",\"_serialized\":\"6282192598451@c.us\"},\"ack\":1,\"invis\":false,\"isNewMsg\":true,\"star\":false,\"kicNotified\":false,\"recvFresh\":true,\"isFromTemplate\":false,\"pollInvalidated\":false,\"isSentCagPollCreation\":false,\"latestEditMsgKey\":null,\"latestEditSenderTimestampMs\":null,\"mentionedJidList\":[],\"groupMentions\":[],\"isEventCanceled\":false,\"eventInvalidated\":false,\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"hasReaction\":false,\"viewMode\":\"VISIBLE\",\"messageSecret\":{\"0\":43,\"1\":135,\"2\":67,\"3\":21,\"4\":206,\"5\":77,\"6\":203,\"7\":102,\"8\":163,\"9\":102,\"10\":154,\"11\":71,\"12\":194,\"13\":234,\"14\":228,\"15\":149,\"16\":174,\"17\":160,\"18\":72,\"19\":47,\"20\":151,\"21\":145,\"22\":104,\"23\":122,\"24\":172,\"25\":38,\"26\":133,\"27\":190,\"28\":63,\"29\":112,\"30\":9,\"31\":96},\"productHeaderImageRejected\":false,\"lastPlaybackProgress\":0,\"isDynamicReplyButtonsMsg\":false,\"isCarouselCard\":false,\"parentMsgId\":null,\"isMdHistoryMsg\":false,\"stickerSentTs\":0,\"isAvatar\":false,\"lastUpdateFromServerTs\":0,\"invokedBotWid\":null,\"bizBotType\":null,\"botResponseTargetId\":null,\"botPluginType\":null,\"botPluginReferenceIndex\":null,\"botPluginSearchProvider\":null,\"botPluginSearchUrl\":null,\"botPluginSearchQuery\":null,\"botPluginMaybeParent\":false,\"botReelPluginThumbnailCdnUrl\":null,\"botMsgBodyType\":null,\"requiresDirectConnection\":false,\"bizContentPlaceholderType\":null,\"hostedBizEncStateMismatch\":false,\"senderOrRecipientAccountTypeHosted\":false,\"placeholderCreatedWhenAccountIsHosted\":false,\"links\":[]},\"id\":\"~lastMessage~_data~id\",\"ack\":1,\"hasMedia\":false,\"body\":\"/join\",\"type\":\"chat\",\"timestamp\":1733247158,\"from\":\"120363355816098681@g.us\",\"to\":\"62895338890693@c.us\",\"author\":\"6282192598451@c.us\",\"deviceType\":\"android\",\"isForwarded\":false,\"forwardingScore\":0,\"isStatus\":false,\"isStarred\":false,\"fromMe\":false,\"hasQuotedMsg\":false,\"hasReaction\":false,\"vCards\":[],\"mentionedIds\":\"~lastMessage~_data~mentionedJidList\",\"groupMentions\":\"~lastMessage~_data~groupMentions\",\"isGif\":false,\"links\":\"~lastMessage~_data~links\"}}"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:32",
-    "location": "commandHandler.js:54:21"
-  },
-  {
-    "type": "MessageFrom:Minebot",
-    "date": "2024-12-04 / 01:32",
-    "location": "commandHandler.js:73:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:32",
-    "location": "commandHandler.js:93:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:33",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:41",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:43",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Minebot",
-    "date": "2024-12-04 / 01:43",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "MessageFrom:Minebot",
-    "date": "2024-12-04 / 01:43",
-    "location": "commandHandler.js:69:39",
-    "message": "silahkan atur IP anda terlebih dahulu, dengan format */setip [ip]*"
-  },
-  {
-    "type": "MessageFrom:Minebot",
-    "date": "2024-12-04 / 01:45",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:45",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:45",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:45",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "object",
-    "date": "2024-12-04 / 01:45",
-    "location": "MineflayerService.js:84:13",
-    "message": "[{\"id\":{\"server\":\"c.us\",\"user\":\"62895338890693\",\"_serialized\":\"62895338890693@c.us\"},\"number\":\"62895338890693\",\"isBusiness\":false,\"isEnterprise\":false,\"name\":\"Heh\",\"pushname\":\"Heh\",\"shortName\":\"Heh\",\"type\":\"in\",\"isMe\":true,\"isUser\":true,\"isGroup\":false,\"isWAContact\":true,\"isMyContact\":true,\"isBlocked\":false},{\"id\":{\"server\":\"c.us\",\"user\":\"6282192598451\",\"_serialized\":\"6282192598451@c.us\"},\"number\":\"6282192598451\",\"isBusiness\":false,\"isEnterprise\":false,\"name\":\"Ryan_Syah\",\"pushname\":\"Pahri\",\"shortName\":\"Ryan_Syah\",\"type\":\"in\",\"isMe\":false,\"isUser\":true,\"isGroup\":false,\"isWAContact\":true,\"isMyContact\":true,\"isBlocked\":false}]"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:47",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:47",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:47",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "object",
-    "date": "2024-12-04 / 01:47",
-    "location": "MineflayerService.js:84:13",
-    "message": "[\"62895338890693@c.us\",\"6282192598451@c.us\"]"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:49",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:49",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:49",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:49",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:50",
-    "location": "commandHandler.js:69:39",
-    "message": "https://chat.whatsapp.com/GXnhvcQfz0e7Vg327JHW8B"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:51",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:51",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:51",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 01:53",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:53",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:53",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:53",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:53",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:53",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:53",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-04 / 01:54",
-    "location": "commandHandler.js:69:39",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-04 / 01:54",
-    "location": "commandHandler.js:89:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2024-12-04 / 22:40",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:HIMADA",
-    "date": "2024-12-04 / 22:40",
-    "location": "commandHandler.js:69:39",
-    "message": "Ok"
-  },
-  {
-    "type": "MessageFrom:HIMADA",
-    "date": "2024-12-04 / 22:40",
-    "location": "commandHandler.js:69:39",
-    "message": "Otw"
-  },
-  {
-    "type": "MessageFrom:HIMADA",
-    "date": "2024-12-04 / 22:40",
-    "location": "commandHandler.js:69:39",
-    "message": "Ok"
-  },
-  {
-    "type": "MessageFrom:HIMADA",
-    "date": "2024-12-04 / 22:40",
-    "location": "commandHandler.js:69:39",
-    "message": "berubah lagi sedng mngetik na wa"
-  },
-  {
-    "type": "MessageFrom:HIMADA",
-    "date": "2024-12-04 / 22:40",
-    "location": "commandHandler.js:69:39",
-    "message": "Maksud"
-  },
-  {
-    "type": "MessageFrom:HIMADA",
-    "date": "2024-12-04 / 22:40",
-    "location": "commandHandler.js:69:39",
-    "message": "Coba mengetik kk"
-  },
-  {
     "type": "MessageFrom:HIMADA",
     "date": "2024-12-04 / 22:40",
     "location": "commandHandler.js:69:39",
@@ -2996,5 +2733,269 @@
     "date": "2024-12-11 / 20:19",
     "location": "commandHandler.js:61:40",
     "message": "/playerlist"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:35",
+    "location": "setupClient.js:30:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:35",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:40",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:40",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:40",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:40",
+    "location": "commandHandler.js:61:40",
+    "message": "/inventory"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:44",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:44",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:44",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:44",
+    "location": "commandHandler.js:61:40",
+    "message": "/inventory"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:44",
+    "location": "commandHandler.js:61:40",
+    "message": "/throw 0"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:44",
+    "location": "commandHandler.js:61:40",
+    "message": "/equip 0"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:45",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:45",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:45",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:45",
+    "location": "commandHandler.js:61:40",
+    "message": "/equip sdf"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:46",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:46",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:46",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:46",
+    "location": "commandHandler.js:61:40",
+    "message": "/login rayajr 440"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:47",
+    "location": "commandHandler.js:61:40",
+    "message": "/login rayajr440"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:47",
+    "location": "commandHandler.js:61:40",
+    "message": "/inventory"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:47",
+    "location": "inventory.js:91:17",
+    "message": "jalan"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:47",
+    "location": "commandHandler.js:61:40",
+    "message": "/equip 0"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:48",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:48",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:48",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:48",
+    "location": "commandHandler.js:61:40",
+    "message": "/inventory"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:48",
+    "location": "inventory.js:91:17",
+    "message": "jalan"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:48",
+    "location": "commandHandler.js:61:40",
+    "message": "/equip df"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:49",
+    "location": "inventory.js:91:17",
+    "message": "jalan"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:49",
+    "location": "commandHandler.js:61:40",
+    "message": "/equip 0"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:49",
+    "location": "commandHandler.js:61:40",
+    "message": "/throw 243"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:49",
+    "location": "commandHandler.js:61:40",
+    "message": "/throw 1"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:57",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:57",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:57",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:57",
+    "location": "commandHandler.js:61:40",
+    "message": "/health"
+  },
+  {
+    "type": "info",
+    "date": "2024-12-13 / 23:58",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:58",
+    "location": "commandHandler.js:61:40",
+    "message": "/join'"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:58",
+    "location": "commandHandler.js:61:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2024-12-13 / 23:58",
+    "location": "commandHandler.js:81:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:59",
+    "location": "commandHandler.js:61:40",
+    "message": "/health"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2024-12-13 / 23:59",
+    "location": "commandHandler.js:61:40",
+    "message": "/exp"
   }
 ]
