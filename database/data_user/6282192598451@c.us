@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -12,7 +12,7 @@
     "ip": "clarity-id.net",
     "username": "shenxx",
     "intervalIds": {
-      "broadcast": 2427
+      "broadcast": null
     }
   },
   {

@@ -1,7 +1,7 @@
 require('module-alias/register');
 const fs = require('fs');
 const console = require('console');
-const { cutVal, getMenu } = require("function/function");
+const { cutVal, getMenu, checkCommandStatus } = require("function/function");
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const cmd = require('command');
 const { withErrorHandling } = require('../app/function/function');
@@ -79,6 +79,7 @@ module.exports = (function() {
 
                         if (prefixFunctions[funcName[0]]) {
                             console.log(value, `cmd:${ funcName[0] }`);
+                            if(!checkCommandStatus(funcName[0])) return msg.reply(`Command */${ funcName[0] }* dinonaktifkan`);
 
                             if(!fs.existsSync(dir_data_user)) {
                                 let data_user = [{

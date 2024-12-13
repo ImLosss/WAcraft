@@ -1,18 +1,17 @@
 require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
-const { withErrorHandling } = require('function/function');
-const { cutVal } = require("function/function");
+const { withErrorHandling, cutVal, checkCommandStatus } = require('function/function');
 const cmd = require('import/CommandImportMineflayer');
 
 const prefixFunctions = {
-    'dc': withErrorHandling((bot, sender, dirUser, chat, msg) => { bot.quit() }),
-    'playerlist': withErrorHandling((bot, sender, dirUser, chat, msg) => cmd.playerOnline(bot, msg)),
-    'inventory': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(cmd.getInventory(bot)); }),
-    'throw': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(cmd.throwItem(bot, msg)) }),
-    'equip': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(cmd.equipItem(bot, msg)) }),
-    'health': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(`Health: ${ Math.round(bot.health) }`); }),
-    'exp': withErrorHandling((bot, sender, dirUser, chat, msg) => { chat.sendMessage(`Exp: ${ bot.experience.points }`); }),
+    'dc': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { bot.quit() }),
+    'playerlist': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.playerOnline(bot, msg)),
+    'inventory': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.getInventory(bot)); }),
+    'throw': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.throwItem(bot, msg)) }),
+    'equip': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.equipItem(bot, msg)) }),
+    'health': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(`Health: ${ Math.round(bot.health) }`); }),
+    'exp': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(`Exp: ${ bot.experience.points }`); }),
 };  
 
 module.exports = (function() {
@@ -30,8 +29,9 @@ module.exports = (function() {
 
             if (prefixFunctions[funcName[0]]) {
                 console.game(value, `cmd:${ funcName[0] }`, sender, 'cmd');
-
-                return prefixFunctions[funcName[0]](bot, sender, dirUser, chat, msg);
+                
+                if(!checkCommandStatus(funcName[0])) return msg.reply(`Command */${ funcName[0] }* dinonaktifkan`);
+                return prefixFunctions[funcName[0]](bot, sender, dirUser, chat, msg, value);
             } else {
                 try {
                     bot.chat(pesan);

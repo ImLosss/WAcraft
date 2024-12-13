@@ -33,7 +33,7 @@ function getInventory(bot) {
         }
     });
 
-    strMsg += `\n\n_Kirim */throw [slot]* untuk buang item yang anda mau. Contoh: /throw 0_\n\nKirim /equip [slot] (destination) untuk menggunakan item yang ada di inventory. Contoh: /equip 0 torso\n*Destination*\n- hand\n- head\n- torso\n- legs\n- feet\n\n*_Note:_*\n_Selalu kirim /inventory untuk cek slot anda sebelum membuang item agar item yang anda buang tidak salah_`;
+    strMsg += `\n\n_Kirim */throw <slot>* untuk buang item yang anda mau. Contoh: /throw 0_\n\nKirim */equip <slot> (destination)* untuk menggunakan item yang ada di inventory. Contoh: /equip 0 torso\n*Destination*\n- hand\n- head\n- torso\n- legs\n- feet\n\n*_Note:_*\n_Selalu kirim /inventory untuk cek slot anda sebelum membuang item agar item yang anda buang tidak salah_`;
 
     return strMsg;
 }
@@ -44,7 +44,7 @@ function throwItem(bot, msg) {
         let slot = msg.body;
         slot = slot.split(' ');
 
-        if(slot.length < 2 || slot.length > 2) return 'Command anda salah kirim kembali dengan format */throw [slot]*';
+        if(slot.length < 2 || slot.length > 2) return 'Command anda salah kirim kembali dengan format */throw <slot>*';
 
         slot = slot[1]
 
@@ -93,7 +93,7 @@ function equipItem(bot, msg) {
         let arrMsg = msg.body;
         arrMsg = arrMsg.split(' ');
 
-        if(arrMsg.length < 2 || arrMsg.length > 3) return 'Command anda salah kirim kembali dengan format\n*/equip [slot] (hand/head/torso/legs/feet)*\n\n_Contoh:_\n_/equip 0 torso_';
+        if(arrMsg.length < 2 || arrMsg.length > 3) return 'Command anda salah kirim kembali dengan format\n*/equip <slot> (hand/head/torso/legs/feet)*\n\n_Contoh:_\n_/equip 0 torso_';
 
         let slot = arrMsg[1]
         dest = arrMsg[2] ? arrMsg[2] : dest;

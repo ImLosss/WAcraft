@@ -85,6 +85,24 @@ function getMenu(dir) {
     }
 }
 
+const checkCommandStatus = (command) => {
+    let commandsData = readJSONFileSync(`./database/client.json`);
+
+    // Mencari command yang namanya mengandung kata kunci dari 'command'
+    let cmd = commandsData["List Command"].find(c => c.name.toLowerCase().includes(command.toLowerCase()));
+    let cmd2 = commandsData["Command InGame"].find(c => c.name.toLowerCase().includes(command.toLowerCase()));
+
+    if (cmd) {
+        return cmd.status;
+    }
+
+    if (cmd2) {
+        return cmd2.status;
+    }
+
+    return true;
+};
+
 async function addWhitelist(msg, client) {
     try {
         let config = fs.readFileSync(`./config.json`, 'utf-8');
@@ -254,5 +272,5 @@ module.exports = {
     withErrorHandling, addBlacklist, 
     addWhitelist, delBlacklist, 
     delWhitelist, maintenance, 
-    update
+    update, checkCommandStatus
 }
