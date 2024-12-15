@@ -940,5 +940,1349 @@
     "date": "2024-12-15 / 13:44",
     "location": "kicked.js:10:25",
     "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:00",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:02",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "Welcome, shenxx to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "Remember to vote"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:06",
+    "location": "messagestr.js:28:21",
+    "message": "You have 2 sites to vote on still!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:07",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:07",
+    "location": "messagestr.js:28:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:07",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:07",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:07",
+    "location": "messagestr.js:28:21",
+    "message": "You are now queued for survival! You are in position 25 of 25.\nType /leavequeue or"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:07",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 25 of 25."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 23 of 25."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 21 of 24."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .HoodieHunter767 #211,871"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 20 of 23."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .CrispyYeti20292 #211,872"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 19 of 24."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Noname54311 #211,873"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .OanipV #211,874"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 17 of 23."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .KhainoGPmcpZ #211,875"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .VagueBlock91216 #211,876"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 17 of 25."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:08",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Amid0987 #211,877"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 16 of 25."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 13 of 25."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 13 of 27."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "You are in position 13 of 28. Estimated time: 1m 5s"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 11 of 26."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .masbro121 #211,878"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 11 of 27."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, Allegrozz #211,879"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:09",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .HamLxy #211,880"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 11 of 29."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 11 of 28."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .SRLdevil #211,881"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .RemoteNine09630 #211,882"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "You are in position 10 of 27. Estimated time: 50 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, MoendSapiii #211,882"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 8 of 26."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .ZETT_772239 #211,882"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 8 of 26."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:10",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 7 of 28."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 6 of 27."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Kidzz_Satoru #211,883"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 5 of 26."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, alpaismyn #211,884"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .sherencihuy #211,885"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .KHAIRI1000 #211,886"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 5 of 30."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .SpikedWeb762583 #211,887"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Akyyyy66 #211,888"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Fzaaa2009 #211,889"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .scalyguardd #211,890"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .NanndaLyn #211,891"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 5 of 30."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Gfdhuwxy54 #211,892"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .tarkimgelo #211,893"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Bibbyzxzz #211,894"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 5 of 30."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Zarci3 #211,895"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Febb77 #211,896"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Commin66790 #211,897"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 5 of 30."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Aqilgood28 #211,898"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:11",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Resistra2607 #211,898"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 5 of 30."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 3 of 28."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .xDARKcxzZ #211,899"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 3 of 29."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "You are in position 3 of 30. Estimated time: 15 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, Zooby_77 #211,900"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .TODOROKI1923783 #211,901"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "Sending you to survival now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 1 of 28."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "+ shenxx is connected. (Java)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "- kunbulhw is disconnected. (Java)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "HEY! You have new commissions from the guild!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "[Fishing Contest] A fishing contest for the largest fish is occurring."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "+ .Leuserr is connected. (Bedrock)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:12",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Leuserr #45,355"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "+ .Dawwkuat0 is connected. (Bedrock)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[75]「 Helper 」 Ratnaa » @.altar24 24k"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[11]「 Wandering 」 .cezhaha » oii"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[7]「 Player 」 .SesepuhGaming99 » rumah buat bersama kah"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[9]「 Legend 」 PeterTzy » [ PeterTzy's Ender Chest ]"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[20]「 Wandering 」 salavador21 » [ Lifesteal V ] wts rate 99%"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[1]「 Player 」 .BayoTimothy » cara main survival gmn"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "[9]「 Legend 」 PeterTzy » Kosong :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "- .altar24 is disconnected. (Bedrock)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "- .PUTRATrexx is disconnected. (Bedrock)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:13",
+    "location": "messagestr.js:28:21",
+    "message": "+ .UcingCrot is connected. (Bedrock)"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:21",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:23",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:25",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:25",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .FrankSatyr58384 #211,980"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Aldoganzz123 #211,981"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Zee_kawai #211,982"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .flanel12 #211,983"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Itsafran #211,984"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:26",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:27",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:27",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, GhJmenz #211,989"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:27",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Mister_mfm #211,990"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:27",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .FireIce886 #211,991"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:27",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .GwadalahRajaMob #211,992"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:28",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:28",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"type\":\"string\",\"value\":\"Lost Connection\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:29",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:29",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .PoppyEwe3248687 #211,999"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:29",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:29",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Uni_Soviet_13 #212,000"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:29",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Lexzyee12345 #212,001"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:30",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Cipin_1562 #212,002"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:30",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Fatimah0906 #212,003"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:30",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .monyetKepising #212,004"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:30",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .PrimFlame857615 #212,005"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:30",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Kanjutbadag1236 #212,006"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:31",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:31",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .DankCoast840141 #212,009"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .PalmarFall22854 #212,048"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "You are now queued for survival! You are in position 26 of 26.\nType /leavequeue or"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:37",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 26 of 26."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "Welcome, shenxx to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:38",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"An internal error occurred in your connection.\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "Welcome, shenxx to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "Remember to vote"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "You have 2 sites to vote on still!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "[-] KATEKIZU"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": " §*kikilsiimut -> ce apakah itu"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:43",
+    "location": "messagestr.js:28:21",
+    "message": "[+] KATEKIZU"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:44",
+    "location": "messagestr.js:28:21",
+    "message": " *wicca -> [Enchanted Book] ni spa mau buat wp dg"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:44",
+    "location": "messagestr.js:28:21",
+    "message": " §*kikilsiimut -> si akmi bikin kejang kejang\\"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "You are now queued for survival! You are in position 39 of 39.\nType /leavequeue or"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 39 of 39."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Ripsann4587 #212,096"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 38 of 38."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .ZHPYR6791 #212,097"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 38 of 38."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:45",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Lutzzz2011 #212,098"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 38 of 38."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .InvalidCone6480 #212,099"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 37 of 39."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .pacctoren #212,100"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .XMengold7252 #212,101"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 35 of 37."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 32 of 36."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "Hey There, .Botaaks #212,102"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:46",
+    "location": "messagestr.js:28:21",
+    "message": "survival is full. You are in position 31 of 36."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "Welcome, shenxx to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "[+] shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "Remember to vote"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "You have 2 sites to vote on still!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": " Player KATEKIZU has just bought Bone Crusher II for 10$ to the auction!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "messagestr.js:28:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:47",
+    "location": "kicked.js:12:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"An internal error occurred in your connection.\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:51",
+    "location": "messagestr.js:28:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:51",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:51",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:51",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"An internal error occurred in your connection.\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:52",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:52",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:52",
+    "location": "messagestr.js:28:21",
+    "message": "[+] vturry"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:52",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"An internal error occurred in your connection.\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 14:59",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:06",
+    "location": "messagestr.js:28:21",
+    "message": "<shenxx> a"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:08",
+    "location": "messagestr.js:28:21",
+    "message": "Your game mode has been updated to Creative Mode"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:12",
+    "location": "messagestr.js:28:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:12",
+    "location": "messagestr.js:28:21",
+    "message": "afkfish<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:12",
+    "location": "messagestr.js:28:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:12",
+    "location": "messagestr.js:28:21",
+    "message": "afkfish on<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:18",
+    "location": "messagestr.js:29:21",
+    "message": "<shenxx> who Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:18",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> Im Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:23",
+    "location": "messagestr.js:29:21",
+    "message": "Losss has made the advancement [Fishy Business]"
   }
 ]

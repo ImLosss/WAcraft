@@ -21,6 +21,7 @@ module.exports = (function() {
             message = msgstr;
             let except = [];
             let dataUser = readJSONFileSync(dirUser);
+            let ip = dataUser[0].ip;
             if (msgstr.includes(`who ${ dataUser[0].username }`)) bot.chat(`Im ${ dataUser[1][ip].realUser }`);
             if(dataUser[0].except != undefined) except = dataUser[0].except;
             if(except.some(pre => msgstr.includes(pre))) return chat.sendMessage(msgstr);

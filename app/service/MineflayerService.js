@@ -55,7 +55,8 @@ async function setUser(msg, sender) {
 }
 
 async function setVer(msg, sender) {
-    let versions = ['1.17', '1.18', '1.19', '1.20'];
+    let config = readJSONFileSync(`./config.json`);
+    let versions = config.versions;
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
     if(!dataUser[0].ip) return msg.reply('Atur ip kamu terlebih dahulu');
@@ -67,7 +68,7 @@ async function setVer(msg, sender) {
 
     let version = pesan[1];
 
-    if(!versions.includes(version)) return msg.reply(`Versi minecraft yang kamu pilih salah. Kirim */setver <version>* untuk mengatur versi.\nContoh: /setver 1.20\nList Version:\n- 1.17\n- 1.18\n- 1.19\n- 1.20`)
+    if(!versions.includes(version)) return msg.reply(`Versi minecraft yang kamu pilih salah. Kirim */setver <version>* untuk mengatur versi.\n*Contoh: /setver 1.20*\n\nList Version:\n${ versions.join(', ') }`)
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setVer <version>*')
     if(!dataUser[1][ip]) dataUser[1][ip] = {};

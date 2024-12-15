@@ -7,6 +7,7 @@ module.exports = (function() {
         bot.once('kicked', (msgK) => {
             try {
                 msgK = (() => { try { return JSON.parse(msgK); } catch { return msgK; } })();
+
                 console.game(`Kicked: ${ JSON.stringify(msgK) }`, sender);
                 if (msgK.text != undefined && msgK.text != '') msg.reply(`Kicked : ${ msgK.text }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.text }`) });
                 if (msgK.translate != undefined) msg.reply(`Kicked : ${ msgK.translate }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.translate }`) });
@@ -17,7 +18,8 @@ module.exports = (function() {
                     })
                     msg.reply(`Kicked : ${ strKick }`).catch(() => { chat.sendMessage(`Kicked : ${ strKick }`) });
                 }
-                if (msgK.value?.text?.value != undefined) msg.reply(`Kicked : ${ msgK.value.text.value }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.value.text.value}`) });
+                if (msgK.value?.text?.value.trim() && msgK.value?.text?.value.trim().startsWith('An internal error')) msg.reply(`Kicked : ${ msgK.value.text.value } Coba turunkan versi minecraft kamu`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.value.text.value}`) });
+                else if (msgK.value?.text?.value != undefined) msg.reply(`Kicked : ${ msgK.value.text.value }`).catch(() => { chat.sendMessage(`Kicked : ${ msgK.value.text.value}`) });
                 bot.quit();
             } catch (e) {
                 console.game(e, sender);

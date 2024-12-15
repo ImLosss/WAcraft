@@ -18,6 +18,7 @@ module.exports = (function() {
                     return;
                 }
                 else if(e == "Error: ETIMEDOUT") { chat.sendMessage('Gagal join ke server...') }
+                else if(e.message.includes('This server is version')) msg.reply(e.message).catch(() => { chat.sendMessage(e.message) });
                 else msg.reply('Disconnect, Coba kembali...').catch(() => { chat.sendMessage('Disconnect, Coba kembali') });
                 if (dataUser[0].status == 'online') bot.quit();
             } catch (e) {

@@ -34,7 +34,7 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
 
     const ip = dataUser[0].ip;
     if(!dataUser[1][ip]) return chat.sendMessage(`Sebelum join ke server, Anda *diwajibkan* untuk mengatur username asli yang anda mainkan(bukan akun alt/afk) di server ${ dataUser[0].ip } terlebih dahulu.\nKirim pesan dengan format:\n*/setRealUser <username_asli>*\n\n_Hal ini diperlukan karena semua user yg join menggunakan bot ini akan memiliki ip yg sama, untuk melihat info akun anda kirim */info*_.`, { linkPreview: false });
-    if(!dataUser[1][ip].version) return chat.sendMessage(`Atur versi minecraft yang ingin kamu mainkan di server ${ dataUser[0].ip }. Kirim */setver <version>* untuk mengatur versi.\nContoh: /setver 1.20\nList Version:\n- 1.17\n- 1.18\n- 1.19\n- 1.20`, { linkPreview: false })
+    if(!dataUser[1][ip].version) return chat.sendMessage(`Atur versi minecraft yang ingin kamu mainkan di server ${ dataUser[0].ip }. Kirim */setver <version>* untuk mengatur versi.\nContoh: /setver 1.20\n\nList Version:\n${ config.versions.join(', ') }`, { linkPreview: false })
     cekAlt(sender);
     
     const bot = mineflayer.createBot({

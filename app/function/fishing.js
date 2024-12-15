@@ -4,7 +4,8 @@ const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { removeFromArray } = require('function/function')
 const { findItemById } = require('service/MineflayerService')
 
-async function fishing(bot, msg, sender) {
+async function fishing(bot, msg, sender, arg) {
+    if (arg == "of" || arg == "off") return afkFishOf(msg, sender);
     const chat = await msg.getChat();
     let timer, timer2, playerCollect;
 
@@ -99,5 +100,5 @@ async function afkFishOf(msg, sender) {
 }
 
 module.exports = {
-    fishing, afkFishOf
+    fishing
 }

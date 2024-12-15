@@ -10,7 +10,7 @@
     "statusRepeat": false,
     "reconnectTime": 0,
     "ip": "srv531927.hstgr.cloud",
-    "username": "shenxx",
+    "username": "Losss",
     "intervalIds": {
       "broadcast": null
     }
@@ -21,7 +21,7 @@
       "alt": [
         "shenxx"
       ],
-      "version": "1.20"
+      "version": "1.21.1"
     },
     "srv531927.hstgr.cloud": {
       "realUser": "Losss",
@@ -29,6 +29,13 @@
         "shenxx"
       ],
       "version": "1.20"
+    },
+    "minegens.id": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ],
+      "version": "1.21.1"
     }
   }
 ]
