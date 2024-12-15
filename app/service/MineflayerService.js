@@ -46,7 +46,7 @@ async function setUser(msg, sender) {
     pesan = pesan.split(' ');
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setUser <username>*')
-    const username = cutVal(pesan, 1);
+    const username = cutVal(msg.body, 1);
     dataUser[0].username = username; 
 
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
@@ -89,7 +89,7 @@ async function setRealUser(msg, sender) {
     pesan = pesan.split(' ');
 
     if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setRealUser <username>*')
-    const username = cutVal(pesan, 1);
+    const username = cutVal(msg.body, 1);
 
     if (dataUser[1] == undefined) dataUser[1] = {};
     if(!dataUser[1][ip]) dataUser[1][ip] = {};
@@ -192,6 +192,11 @@ async function playerOnline(bot, msg) {
     return msg.reply(`*Players Online(${ jml }):*\n\n${ player }`).catch(() => { chat.sendMessage(`*Players Online:*\n\n${ player }`) });
 }
 
+function findItemById(id, bot) {
+    const data = bot.registry.itemsByName;
+    return Object.values(data).find(item => item.id === id) || null;
+}
+
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById
 }

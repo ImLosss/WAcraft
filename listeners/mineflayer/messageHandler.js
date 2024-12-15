@@ -7,6 +7,7 @@ const cmd = require('import/CommandImportMineflayer');
 const prefixFunctions = {
     'dc': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { bot.quit() }),
     'playerlist': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.playerOnline(bot, msg)),
+    'afkfish': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.fishing(bot, msg, sender)),
     'inventory': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.getInventory(bot)); }),
     'throw': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.throwItem(bot, msg)) }),
     'equip': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.equipItem(bot, msg)) }),

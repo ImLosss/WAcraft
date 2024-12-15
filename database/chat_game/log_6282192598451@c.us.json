@@ -916,5 +916,29 @@
     "date": "2024-12-14 / 00:30",
     "location": "messagestr.js:28:21",
     "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 13:40",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 13:42",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 13:43",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 13:44",
+    "location": "kicked.js:10:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.incompatible\",\"with\":[\"1.21.4\"]}"
   }
 ]

@@ -9,7 +9,7 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "ip": "clarity-id.net",
+    "ip": "srv531927.hstgr.cloud",
     "username": "shenxx",
     "intervalIds": {
       "broadcast": null
@@ -17,6 +17,13 @@
   },
   {
     "clarity-id.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ],
+      "version": "1.20"
+    },
+    "srv531927.hstgr.cloud": {
       "realUser": "Losss",
       "alt": [
         "shenxx"

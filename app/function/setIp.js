@@ -5,6 +5,7 @@ const { removeFromArray } = require('function/function')
 
 async function setIp(msg, sender) {
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`)
+    const chat = await msg.getChat();
 
     let pesan = msg.body;
     pesan = pesan.split(' ');
@@ -14,7 +15,7 @@ async function setIp(msg, sender) {
 
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
 
-    return msg.reply(`IP berhasil diatur ke ${ pesan[1] }`);
+    return chat.sendMessage(`IP berhasil diatur ke ${ pesan[1] }`, { linkPreview: false });
 }
 
 module.exports = {
