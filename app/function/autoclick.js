@@ -19,7 +19,6 @@ async function autoRightClick(bot, msg, arg, sender) {
 
     if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */autorightclick <time_in_sec>*');
     let time2 = time * 1000;
-    console.log(time2);
     dataUser[0].autorightclick = true;
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
     chat.sendMessage(`*Berhasil mengaktifkan autorightclick tiap ${ time } Detik*`);
@@ -56,7 +55,6 @@ async function autoLeftClick(bot, msg, arg, sender) {
 
     if(isNaN(time) || time == 0) return msg.reply('Format anda salah kirim kembali dengan format */autoleftclick <time_in_sec>*');
     let time2 = time * 1000;
-    console.log(time2);
     dataUser[0].autoleftclick = true;
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
     chat.sendMessage(`*Berhasil mengaktifkan autoleftclick tiap ${ time } Detik*`);
