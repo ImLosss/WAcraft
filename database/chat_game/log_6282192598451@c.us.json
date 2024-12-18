@@ -2284,5 +2284,281 @@
     "date": "2024-12-15 / 15:23",
     "location": "messagestr.js:29:21",
     "message": "Losss has made the advancement [Fishy Business]"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:34",
+    "location": "messagestr.js:29:21",
+    "message": "Your game mode has been updated to Survival Mode"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:34",
+    "location": "messagestr.js:29:21",
+    "message": "Losss was slain by shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:36",
+    "location": "messagestr.js:29:21",
+    "message": "Losss was slain by shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 15:36",
+    "location": "messagestr.js:29:21",
+    "message": "Losss was slain by shenxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-15 / 16:28",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:06",
+    "location": "messagestr.js:29:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:06",
+    "location": "messagestr.js:29:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:06",
+    "location": "messagestr.js:29:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:06",
+    "location": "messagestr.js:29:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:06",
+    "location": "messagestr.js:29:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:06",
+    "location": "messagestr.js:29:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:09",
+    "location": "messagestr.js:29:21",
+    "message": "[+] Akanee"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:10",
+    "location": "messagestr.js:29:21",
+    "message": "[+] rizer_"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:31",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:31",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:32",
+    "location": "messagestr.js:29:21",
+    "message": "shenxx joined the game"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:33",
+    "location": "messagestr.js:29:21",
+    "message": "shenxx left the game"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:33",
+    "location": "messagestr.js:29:21",
+    "message": "shenxx joined the game"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:33",
+    "location": "messagestr.js:29:21",
+    "message": "<shenxx> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:35",
+    "location": "messagestr.js:29:21",
+    "message": "shenxx left the game"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:37",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.server_shutdown\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:43",
+    "location": "messagestr.js:29:21",
+    "message": "shenxx joined the game"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:43",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:43",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:44",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-18 / 20:44",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:08",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:08",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:10",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:12",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:12",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:14",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:15",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:15",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:17",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:17",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:28",
+    "location": "messagestr.js:29:21",
+    "message": "Losss has made the advancement [Monster Hunter]"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:29",
+    "location": "messagestr.js:29:21",
+    "message": "shenxx has made the advancement [Monster Hunter]"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:35",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess"
+  },
+  {
+    "type": "ingame",
+    "date": "2024-12-19 / 01:35",
+    "location": "messagestr.js:29:21",
+    "message": "<Losss> tess2"
   }
 ]

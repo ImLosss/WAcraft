@@ -2,7 +2,7 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { removeFromArray } = require('function/function');
-const { cutVal } = require("function/function");
+const { cutVal, withErrorHandling } = require("function/function");
 
 async function cekAlt(sender) {
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
@@ -198,6 +198,26 @@ function findItemById(id, bot) {
     return Object.values(data).find(item => item.id === id) || null;
 }
 
+function startAutoCmd(bot, dataUser, chat) {
+    
+    let array = dataUser[0].autocmd;
+    let repeatCmd = 0;
+
+    const repeatInterval = setInterval(() => {
+        try {
+            const command = array[repeatCmd].toLowerCase();
+            chat.sendMessage(`*mengirim pesan ${ command }*`);
+            bot.chat(array[repeatCmd]);
+            repeatCmd +=1;
+            if (repeatCmd == array.length) clearInterval(repeatInterval);
+        } catch (err) { 
+            chat.sendMessage(`Terjadi kesalahan: ${ err.message }`)
+            console.error(err) 
+        }
+    }, 5000);
+
+}
+
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, startAutoCmd
 }

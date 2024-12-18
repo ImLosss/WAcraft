@@ -163,6 +163,7 @@ async function resetDataUser(client) {
                     jsonData[0].afkfish = false;
                     jsonData[0].statusRepeat = false;
                     jsonData[0].reconnectTime = 0;
+                    jsonData[0].intervalIds = {};
                     if(!jsonData[1]) jsonData[1] = {};
                     if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
 

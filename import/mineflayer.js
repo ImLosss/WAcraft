@@ -8,5 +8,6 @@ module.exports = (function() {
         require('mineflayer-listener/login')(client, bot, dirUser, msg, chat, sender);
         require('mineflayer-listener/error')(bot, msg, dirUser, sender);
         require('mineflayer-listener/kicked')(bot, msg, sender);
+        require('mineflayer-listener/health')(bot, msg);
     };
 })();
