@@ -5,7 +5,6 @@ const { removeFromArray } = require('function/function')
 
 async function automsg(bot, msg, arg, sender, chat) {
     if(arg == 'off' || arg == 'of') return automsgof(msg, sender);
-    if(arg.split(' ').length < 1) return msg.reply('Format anda salah kirim kembali dengan format */automsg <time_in_min>*');
     let time = arg;
 
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
@@ -44,6 +43,22 @@ async function automsgof(msg, sender) {
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
 }
 
+async function setAutoMsg(msg, sender) {
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+    if(dataUser[0].automsg == undefined) dataUser[0].automsg = {};
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */setautomsg <message>*')
+    let message = pesan.slice(1, pesan.length);
+    message = message.join(" ");
+    dataUser[0].automsg.message = message;
+
+    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+
+    return msg.reply(`automsg berhasil diatur ke *${ message }*`);
+}
+
 module.exports = {
-    automsg
+    automsg, setAutoMsg
 }

@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -11,13 +11,15 @@
     "reconnectTime": 0,
     "ip": "srv531927.hstgr.cloud",
     "username": "Losss",
-    "intervalIds": {
-      "broadcast": 2322
-    },
+    "intervalIds": {},
     "autocmd": [
       "tess",
       "tess2"
-    ]
+    ],
+    "automsg": {
+      "message": "tess",
+      "status": false
+    }
   },
   {
     "clarity-id.net": {

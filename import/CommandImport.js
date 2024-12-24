@@ -9,6 +9,7 @@ const mineflayerService = require('service/MineflayerService');
 const tellme = require('function/tellme');
 const autocmd = require('function/autocmd');
 const setIp = require('function/setIp');
+const automsg = require('function/automsg');
 
 module.exports = {
     ...utils,
@@ -19,5 +20,6 @@ module.exports = {
     ...mineflayerService,
     ...tellme,
     ...autocmd,
-    ...setIp
+    ...setIp,
+    ...automsg
 };
