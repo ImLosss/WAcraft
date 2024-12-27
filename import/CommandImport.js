@@ -10,6 +10,7 @@ const tellme = require('function/tellme');
 const autocmd = require('function/autocmd');
 const setIp = require('function/setIp');
 const automsg = require('function/automsg');
+const autoReconnect = require('function/autoreconnect');
 
 module.exports = {
     ...utils,
@@ -21,5 +22,6 @@ module.exports = {
     ...tellme,
     ...autocmd,
     ...setIp,
-    ...automsg
+    ...automsg,
+    ...autoReconnect
 };

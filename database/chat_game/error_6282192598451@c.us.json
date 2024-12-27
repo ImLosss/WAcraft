@@ -110,5 +110,12 @@
     "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
     "errorMessage": "read ECONNRESET",
     "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-27 / 13:38",
+    "errorLocation": "    at internalConnectMultiple (node:net:1114:18)",
+    "errorMessage": "",
+    "error": "\nAggregateError\n    at internalConnectMultiple (node:net:1114:18)\n    at afterConnectMultiple (node:net:1667:5)"
   }
 ]

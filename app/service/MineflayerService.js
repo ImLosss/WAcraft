@@ -218,6 +218,39 @@ function startAutoCmd(bot, dataUser, chat) {
 
 }
 
+async function cekInfo(msg, sender) {
+    const chat = await msg.getChat();
+    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+    jsonData = dataUser[1];
+
+    if (jsonData == undefined) return msg.reply('Data kosong');
+    if (Object.keys(jsonData).length === 0) return msg.reply('Data kosong');
+
+    const dataArray = Object.entries(jsonData).map(([key, value]) => ({
+        ip: key,
+        version: value.version ? value.version : 'None',
+        realUser: value.realUser,
+        alt: value.alt
+    }));
+
+    let send = "*Info Akun & List Alt*\n\n"
+    let no = 1;
+    dataArray.map(item => {
+        let listAlt = item.alt;
+        if(listAlt.length > 0) listAlt = listAlt.join(', ');
+        else listAlt = "None";
+
+        send+=`ip: ${ item.ip }\nversion: ${ item.version }\nrealUser: ${ item.realUser }\nalt: ${ listAlt }\n`;
+        if(dataArray.length != no) {
+        send+='-----------------------------------------\n'
+        no+=1;
+        }
+    })
+
+    return chat.sendMessage(send, { linkPreview: false });
+}
+
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, startAutoCmd
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, startAutoCmd, cekInfo
 }

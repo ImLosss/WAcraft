@@ -19,7 +19,8 @@
     "automsg": {
       "message": "tess",
       "status": false
-    }
+    },
+    "autoReconnect": false
   },
   {
     "clarity-id.net": {
