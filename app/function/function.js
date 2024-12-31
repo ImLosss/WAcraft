@@ -239,6 +239,24 @@ async function update(msg) {
     msg.reply(update).catch(() => { chat.sendMessage(update) })
 }
 
+async function bugReport(msg, client, sender) {
+    const chat = await msg.getChat();
+    let pesan = msg.body;
+    pesan = pesan.split(' ');
+
+    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */bugReport <describe_bug>*');
+    pesan = pesan.slice(1, pesan.length);
+    pesan = pesan.join(" ");
+
+    client.sendMessage('6282192598451@c.us', pesan)
+    .then(() => {
+        msg.reply('The report has been succesfully sent, Thank you!').catch(() => { chat.sendMessage('The report has been succesfully sent, Thank you!') })
+    }).catch((e) => {
+        console.log(e);
+        msg.reply('Terjadi kesalahan, coba kembali...').catch(() => { chat.sendMessage('Terjadi kesalahan, coba kembali...')});
+    })
+}
+
 const withErrorHandling = (fn, defaultMsg, bot, defaultChat) => {
     return async (...args) => {
         try {
@@ -267,5 +285,6 @@ module.exports = {
     withErrorHandling, addBlacklist, 
     addWhitelist, delBlacklist, 
     delWhitelist, maintenance, 
-    update, checkCommandStatus
+    update, checkCommandStatus,
+    bugReport
 }

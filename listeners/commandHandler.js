@@ -37,7 +37,7 @@ const prefixFunctions = {
     'setautomsg': withErrorHandling((msg, sender, client, arg) => cmd.setAutoMsg(msg, sender)),
     'autoreconnect': withErrorHandling((msg, sender, client, arg) => cmd.setAutoReconnect(msg, sender, arg)),
     'info': withErrorHandling((msg, sender, client, arg) => cmd.cekInfo(msg, sender)),
-    'bugreport': withErrorHandling((msg, sender, client, arg) => bugReport(msg, client, sender)),
+    'bugreport': withErrorHandling((msg, sender, client, arg) => cmd.bugReport(msg, client, sender)),
     'getinfouser': withErrorHandling((msg, sender, client, arg) => getInfoUser(msg, client)),
 };    
 
