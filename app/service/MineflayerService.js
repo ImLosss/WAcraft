@@ -3,6 +3,8 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { removeFromArray } = require('function/function');
 const { cutVal, withErrorHandling } = require("function/function");
+const fs = require('fs');
+const path = require('path');
 
 async function cekAlt(sender) {
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
@@ -251,6 +253,64 @@ async function cekInfo(msg, sender) {
     return chat.sendMessage(send, { linkPreview: false });
 }
 
+async function getInfoUser(msg, client, arg) {
+    const folderPath = 'database/data_user'; // Ganti dengan path menuju folder Anda
+    
+    let username = arg;
+
+    if(!username) return msg.reply('Command kamu salah, kirim kembali dengan format /getinfouser <username>');
+
+    fs.readdir(folderPath, (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+
+        files.forEach(async (user) => {
+            const filePath = path.join(folderPath, user);
+            const formattedNumber = await client.getFormattedNumber(user);
+        
+            // Baca file JSON
+            fs.readFile(filePath, 'utf8', (err, data) => {
+                if (err) {
+                    console.error(`Error reading file ${user}:`, err);
+                    return;
+                }
+
+                // Ubah data dalam file JSON
+                try {
+                    const jsonData = JSON.parse(data);
+
+                    if(!jsonData[1]) return
+                    if (Object.keys(jsonData).length === 0) return console.log('data Kosong');
+
+                    dataUser = jsonData[1];
+
+                    const dataArray = Object.entries(dataUser).map(([key, value]) => ({
+                        ip: key,
+                        realUser: value.realUser,
+                        alt: value.alt
+                    }));
+                    
+                    let output = dataArray.filter((item) => {
+                        const foundAlt = item.alt.find((listAlt) => listAlt == username);
+                        return foundAlt;
+                    })
+
+                    let send = `WA: ${ formattedNumber }\n`;
+                    output.map((item) => {
+                        altStr = item.alt.join(', ');
+                        send+=`ip: ${ item.ip }\nrealUser: ${ item.realUser }\nalt: ${ altStr }\n`;
+                    })
+                    if (send != `WA: ${ formattedNumber }\n`) return msg.reply(send);
+                } catch (parseErr) {
+                    console.error(parseErr);
+                }
+            });
+        });
+    });
+}
+
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, startAutoCmd, cekInfo
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, startAutoCmd, cekInfo, getInfoUser
 }

@@ -38,7 +38,7 @@ const prefixFunctions = {
     'autoreconnect': withErrorHandling((msg, sender, client, arg) => cmd.setAutoReconnect(msg, sender, arg)),
     'info': withErrorHandling((msg, sender, client, arg) => cmd.cekInfo(msg, sender)),
     'bugreport': withErrorHandling((msg, sender, client, arg) => cmd.bugReport(msg, client, sender)),
-    'getinfouser': withErrorHandling((msg, sender, client, arg) => getInfoUser(msg, client)),
+    'getinfouser': withErrorHandling((msg, sender, client, arg) => cmd.getInfoUser(msg, client, arg)),
 };    
 
 const prefix = ['/'];

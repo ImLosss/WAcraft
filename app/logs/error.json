@@ -1,27 +1,6 @@
 [
   {
     "type": "Error",
-    "date": "2024-12-06 / 21:13",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "dirUse is not defined",
-    "error": "dirUse is not defined\nReferenceError: dirUse is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:11:45\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 21:14",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "dirUse is not defined",
-    "error": "dirUse is not defined\nReferenceError: dirUse is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:11:45\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 21:16",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "dirUse is not defined",
-    "error": "dirUse is not defined\nReferenceError: dirUse is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:11:45\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
-  },
-  {
-    "type": "Error",
     "date": "2024-12-06 / 21:37",
     "errorLocation": "function.js:229:21",
     "errorMessage": "Cannot find module 'D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler'\nRequire stack:\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\mineflayer.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\CommandImport.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\index.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\index.js",
@@ -348,5 +327,26 @@
     "errorLocation": "function.js:247:21",
     "errorMessage": "pesan is not defined",
     "error": "pesan is not defined\nReferenceError: pesan is not defined\n    at Object.setAutoReconnect (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autoreconnect.js:18:50)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:38:74\n    at Object.autoreconnect (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:94:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 18:35",
+    "errorLocation": "function.js:265:21",
+    "errorMessage": "usernae is not defined",
+    "error": "usernae is not defined\nReferenceError: usernae is not defined\n    at Object.getInfoUser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:261:5)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:41:72\n    at Object.getinfouser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:94:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 18:40",
+    "errorLocation": "MineflayerService.js:308:29",
+    "errorMessage": "Unexpected end of JSON input",
+    "error": "Unexpected end of JSON input\nSyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:283:43\n    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 18:42",
+    "errorLocation": "MineflayerService.js:307:29",
+    "errorMessage": "Unexpected end of JSON input",
+    "error": "Unexpected end of JSON input\nSyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:282:43\n    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3)"
   }
 ]
