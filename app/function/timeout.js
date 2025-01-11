@@ -4,9 +4,8 @@ const { readJSONFileSync, writeJSONFileSync } = require('utils');
 
 async function startTimeoutDc(sender, config, chat, bot) {
     let TimeoutDisconnect = config.timeoutDc * 1000 * 60;
-    console.log(TimeoutDisconnect);
     let timeoutDc =  setTimeout(() => {
-        chat.sendMessage('*Tidak terdapat pesan selama 15 menit. Disconnect dari server...*');
+        chat.sendMessage(`*Tidak terdapat pesan selama ${ config.timeoutDc } menit. Disconnect dari server...*`);
         bot.quit();
     }, TimeoutDisconnect);
 
