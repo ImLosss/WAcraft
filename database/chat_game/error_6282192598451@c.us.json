@@ -117,5 +117,47 @@
     "errorLocation": "    at internalConnectMultiple (node:net:1114:18)",
     "errorMessage": "",
     "error": "\nAggregateError\n    at internalConnectMultiple (node:net:1114:18)\n    at afterConnectMultiple (node:net:1667:5)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 23:19",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)",
+    "errorMessage": "connect ETIMEDOUT 153.92.4.128:25565",
+    "error": "connect ETIMEDOUT 153.92.4.128:25565\nError: connect ETIMEDOUT 153.92.4.128:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 23:22",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)",
+    "errorMessage": "connect ETIMEDOUT 153.92.4.128:25565",
+    "error": "connect ETIMEDOUT 153.92.4.128:25565\nError: connect ETIMEDOUT 153.92.4.128:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 23:38",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)",
+    "errorMessage": "connect ETIMEDOUT 153.92.4.128:25565",
+    "error": "connect ETIMEDOUT 153.92.4.128:25565\nError: connect ETIMEDOUT 153.92.4.128:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 23:39",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND adad",
+    "error": "getaddrinfo ENOTFOUND adad\nError: getaddrinfo ENOTFOUND adad\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 23:40",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)",
+    "errorMessage": "connect ETIMEDOUT 153.92.4.128:25565",
+    "error": "connect ETIMEDOUT 153.92.4.128:25565\nError: connect ETIMEDOUT 153.92.4.128:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 23:53",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)"
   }
 ]

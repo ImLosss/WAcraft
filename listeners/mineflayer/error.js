@@ -3,7 +3,7 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 
 module.exports = (function() {
-    return async function(bot, msg, dirUser, sender) {
+    return async function(bot, msg, chat, dirUser, sender) {
         bot.once('error', (e) => {
             try {
                 let dataUser = readJSONFileSync(dirUser);

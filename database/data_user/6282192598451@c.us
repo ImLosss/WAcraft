@@ -1,6 +1,6 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
     "autorightclick": false,
@@ -11,9 +11,7 @@
     "reconnectTime": 0,
     "ip": "srv531927.hstgr.cloud",
     "username": "Losss",
-    "intervalIds": {
-      "broadcast": null
-    },
+    "intervalIds": {},
     "autocmd": [
       "/throw 0",
       "/chat on",
@@ -25,7 +23,7 @@
     },
     "autoReconnect": true,
     "timeoutIds": {
-      "timeoutDc": 34866
+      "timeoutDc": 289127
     }
   },
   {
@@ -49,6 +47,11 @@
         "shenxx"
       ],
       "version": "1.21.1"
+    },
+    "adad": {
+      "realUser": "Losss",
+      "alt": [],
+      "version": "1.20"
     }
   }
 ]

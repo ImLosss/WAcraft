@@ -2,10 +2,11 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
+const { joinServer } = require('controller/MineflayerController');
 const { startBroadcast, stopBroadcast } = require('service/MineflayerService');
 
 module.exports = (function() {
-    return function(client, bot, dirUser, chat, sender, messageListener) {
+    return function(client, bot, dirUser, msg, chat, sender, messageListener) {
         bot.once('end', async () => {
             const numListenersMessageBeforeRemoval = client.listeners('message').length;
             console.log(`Jumlah listener message sebelum dihapus : ${ numListenersMessageBeforeRemoval }`);
@@ -30,23 +31,21 @@ module.exports = (function() {
             if(dataUser[0].automsg != undefined) {
                 dataUser[0].automsg.status = false;
             }
-            
 
-            writeJSONFileSync(dirUser, dataUser);
             stopBroadcast(sender);
 
-            // if(dataUser[0].autoReconnect) {
-            //     dataUser[0].reconnectTime+=1;
-            //     fs.writeFileSync(`./database/data_user/${ sender }`, JSON.stringify(dataUser, null, 2));
-            //     msg.reply(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5)*`).catch(() => { chat.sendMessage(`*Reconnect after 15 seconds... ${ dataUser[0].reconnectTime }*`) })
-            //     setTimeout(() => {
-            //         joinServer(msg, sender, client);
-            //     }, 15000);
-            // } else {
-            //     dataUser[0].chatPublic = true;
-            //     chat.sendMessage('Disconnect');
-            //     writeJSONFileSync(dirUser, dataUser);
-            // }
+            if(dataUser[0].autoReconnect) {
+                dataUser[0].reconnectTime+=1;
+                writeJSONFileSync(dirUser, dataUser);
+                msg.reply(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5)*`).catch(() => { chat.sendMessage(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5*)`) })
+                setTimeout(() => {
+                    joinServer(msg, sender, client);
+                }, 15000);
+            } else {
+                dataUser[0].chatPublic = true;
+                chat.sendMessage('Disconnect');
+                writeJSONFileSync(dirUser, dataUser);
+            }
         })
     };
 })();

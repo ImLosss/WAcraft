@@ -289,6 +289,28 @@ async function getInfoUser(msg, client, arg) {
     });
 }
 
+async function donate(msg, config, sender) {
+    try {
+        const chat = await msg.getChat();
+
+        const name = chat.lastMessage._data.notifyName || 'User';
+        const message = `Hai ${ name }! 👋
+
+    Terima kasih telah menggunakan MinecraftBot! 🎮
+
+    Jika kamu merasa terbantu dengan adanya Bot ini, support dengan cara share/donate. Dukunganmu akan sangat berarti untuk menjaga Bot ini tetap berjalan dan berkembang.
+        
+    https://sociabuzz.com/losss/tribe
+
+Terima kasih atas perhatian dan dukunganmu! 💖`;
+
+        chat.sendMessage(message, { linkPreview: true });
+    } catch (err) {
+        console.log(`Terjadi kesalahan saat mengirim pesan donasi :\n${ err }`);
+    }
+    
+}
+
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, cekInfo, getInfoUser
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, cekInfo, getInfoUser, donate
 }

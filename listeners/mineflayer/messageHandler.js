@@ -19,7 +19,7 @@ const prefixFunctions = {
 };  
 
 module.exports = (function() {
-    return function(client, bot, dirUser, chat, sender) {
+    return function(client, bot, dirUser, msg, chat, sender) {
         const messageListener = async (msg) => {
             if(msg.from != sender) return;
 
@@ -48,6 +48,6 @@ module.exports = (function() {
 
         client.addListener('message', messageListener);
 
-        require('mineflayer-listener/end')(client, bot, dirUser, chat, sender, messageListener);
+        require('mineflayer-listener/end')(client, bot, dirUser, msg, chat, sender, messageListener);
     };
 })();

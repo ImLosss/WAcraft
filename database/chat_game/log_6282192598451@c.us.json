@@ -2944,5 +2944,29 @@
     "date": "2025-01-11 / 22:37",
     "location": "messagestr.js:26:21",
     "message": "chat of<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-11 / 23:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.server_shutdown\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-11 / 23:18",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.server_shutdown\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-11 / 23:18",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.server_shutdown\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-11 / 23:22",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"translate\":\"multiplayer.disconnect.server_shutdown\"}"
   }
 ]

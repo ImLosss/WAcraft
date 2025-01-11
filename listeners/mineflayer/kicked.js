@@ -3,7 +3,7 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 
 module.exports = (function() {
-    return async function(bot, msg, sender) {
+    return async function(bot, msg, chat, sender) {
         bot.once('kicked', (msgK) => {
             try {
                 msgK = (() => { try { return JSON.parse(msgK); } catch { return msgK; } })();

@@ -3,7 +3,7 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
 const { startAutoCmd } = require('function/autocmd');
-const { startBroadcast } = require('service/MineflayerService');
+const { startBroadcast, donate } = require('service/MineflayerService');
 
 module.exports = (function() {
     return function(client, bot, dirUser, msg, chat, sender) {
@@ -13,6 +13,8 @@ module.exports = (function() {
             let config = readJSONFileSync('config.json');
             let dataUser = readJSONFileSync(dirUser);
 
+            if(dataUser[0].reconnectTime == 0 && config.donate) donate(msg, config, sender);
+
             dataUser[0].status = "online";
             dataUser[0].reconnectTime = 0;
             writeJSONFileSync(dirUser, dataUser);
@@ -21,7 +23,7 @@ module.exports = (function() {
 
             startBroadcast(sender, config, chat);
 
-            require('mineflayer-listener/messageHandler')(client, bot, dirUser, chat, sender);
+            require('mineflayer-listener/messageHandler')(client, bot, dirUser, msg, chat, sender);
         }, msg, bot))
     };
 })();
