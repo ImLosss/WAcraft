@@ -2,6 +2,7 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
+const { stopTimeoutDc } = require('function/timeout');
 const { joinServer } = require('controller/MineflayerController');
 const { startBroadcast, stopBroadcast } = require('service/MineflayerService');
 
@@ -26,6 +27,7 @@ module.exports = (function() {
             dataUser[0].afkfish = false;
             dataUser[0].statusRepeat = false;
             dataUser[0].intervalIds = {};
+            dataUser[0].timeoutIds = {};
             if(!dataUser[1]) dataUser[1] = {};
             if (dataUser[0].automsg != undefined) dataUser[0].automsg.status = false;
             if(dataUser[0].automsg != undefined) {
@@ -33,6 +35,7 @@ module.exports = (function() {
             }
 
             stopBroadcast(sender);
+            stopTimeoutDc(sender);
 
             if(dataUser[0].autoReconnect) {
                 dataUser[0].reconnectTime+=1;

@@ -2968,5 +2968,29 @@
     "date": "2025-01-11 / 23:22",
     "location": "kicked.js:11:25",
     "message": "Kicked: {\"translate\":\"multiplayer.disconnect.server_shutdown\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 01:13",
+    "location": "messagestr.js:27:21",
+    "message": "chat on<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 01:13",
+    "location": "messagestr.js:27:21",
+    "message": "<Losss> asda"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 01:13",
+    "location": "messagestr.js:27:21",
+    "message": "<Losss> dsfsdf"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 01:14",
+    "location": "messagestr.js:27:21",
+    "message": "<Losss> sdfdsf"
   }
 ]

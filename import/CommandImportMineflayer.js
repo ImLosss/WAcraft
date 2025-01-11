@@ -6,6 +6,7 @@ const inventory = require('function/inventory');
 const fishing = require('function/fishing');
 const autoclick = require('function/autoclick');
 const automsg = require('function/automsg');
+const findBlock = require('function/finder');
 
 module.exports = {
     ...utils,
@@ -13,5 +14,6 @@ module.exports = {
     ...inventory,
     ...fishing,
     ...autoclick,
-    ...automsg
+    ...automsg,
+    ...findBlock
 };

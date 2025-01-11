@@ -1,6 +1,6 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
     "status": "offline",
     "autorightclick": false,
@@ -21,10 +21,8 @@
       "message": "tess",
       "status": false
     },
-    "autoReconnect": true,
-    "timeoutIds": {
-      "timeoutDc": 289127
-    }
+    "autoReconnect": false,
+    "timeoutIds": {}
   },
   {
     "clarity-id.net": {
