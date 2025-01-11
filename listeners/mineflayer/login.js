@@ -2,7 +2,8 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
-const { startBroadcast, startAutoCmd } = require('service/MineflayerService');
+const { startAutoCmd } = require('function/autocmd');
+const { startBroadcast } = require('service/MineflayerService');
 
 module.exports = (function() {
     return function(client, bot, dirUser, msg, chat, sender) {
@@ -16,7 +17,7 @@ module.exports = (function() {
             dataUser[0].reconnectTime = 0;
             writeJSONFileSync(dirUser, dataUser);
 
-            if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) startAutoCmd(bot, dataUser, chat);
+            if(dataUser[0].autocmd != undefined && dataUser[0].autocmd.length > 0) startAutoCmd(bot, dataUser, dirUser, sender, msg, chat, client);
 
             startBroadcast(sender, config, chat);
 

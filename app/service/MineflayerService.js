@@ -25,20 +25,18 @@ async function cekAlt(sender) {
     }
 }
 
-async function chatPublic(msg, sender) {
+async function chatPublic(msg, sender, arg) {
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
-    let pesan = msg.body;
-    pesan = pesan.split(' ');
+    const chat = await msg.getChat();
 
-    if(pesan.length < 2) return msg.reply('Format kamu salah, kirim kembali dengan format */chat <on/of>*')
-    if(pesan[1] == 'off' || pesan[1] == 'of') dataUser[0].chatPublic = false; 
-    else if(pesan[1] == 'on') dataUser[0].chatPublic = true; 
+    if(arg == 'off' || arg == 'of') dataUser[0].chatPublic = false; 
+    else if(arg == 'on') dataUser[0].chatPublic = true; 
     else return msg.reply('Format kamu salah, kirim kembali dengan format */chat <on/of>*')
 
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
 
-    return msg.reply('Pengaturan berhasil diubah');
+    return chat.sendMessage('Pengaturan berhasil diubah');
 }
 
 async function setUser(msg, sender) {
@@ -200,26 +198,6 @@ function findItemById(id, bot) {
     return Object.values(data).find(item => item.id === id) || null;
 }
 
-function startAutoCmd(bot, dataUser, chat) {
-    
-    let array = dataUser[0].autocmd;
-    let repeatCmd = 0;
-
-    const repeatInterval = setInterval(() => {
-        try {
-            const command = array[repeatCmd].toLowerCase();
-            chat.sendMessage(`*mengirim pesan ${ command }*`);
-            bot.chat(array[repeatCmd]);
-            repeatCmd +=1;
-            if (repeatCmd == array.length) clearInterval(repeatInterval);
-        } catch (err) { 
-            chat.sendMessage(`Terjadi kesalahan: ${ err.message }`)
-            console.error(err) 
-        }
-    }, 5000);
-
-}
-
 async function cekInfo(msg, sender) {
     const chat = await msg.getChat();
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
@@ -312,5 +290,5 @@ async function getInfoUser(msg, client, arg) {
 }
 
 module.exports = {
-    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, startAutoCmd, cekInfo, getInfoUser
+    cekAlt, injectTitle, startBroadcast, stopBroadcast, cekMember, disconnect, chatPublic, setVer, setUser, setRealUser, playerOnline, findItemById, cekInfo, getInfoUser
 }

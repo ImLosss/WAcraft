@@ -2,21 +2,18 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
+const { startTimeoutDc, stopTimeoutDc } = require('function/timeout');
 
 module.exports = (function() {
-    return function(bot, dirUser, msg, chat, sender) {
-        let message, timeoutDc;
+    return function(bot, dirUser, msg, chat, sender, config) {
+        let message;
         bot.on('messagestr', withErrorHandling(async (msgstr) => {
             if(msgstr.trim().length == 0 || message == msgstr) return;
     
             msgstr = msgstr.trim();
-    
-            // menambah timeout untuk disconnect jika tidak terdapat aktivitas
-            clearTimeout(timeoutDc);
-            timeoutDc =  setTimeout(() => {
-                chat.sendMessage('*Tidak terdapat pesan selama 15 menit. Disconnect dari server...*');
-                bot.quit();
-            }, 1000*60*15);
+            
+            stopTimeoutDc(sender);
+            startTimeoutDc(sender, config, chat, bot);
     
             message = msgstr;
             let except = [];

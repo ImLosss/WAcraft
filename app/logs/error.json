@@ -1,216 +1,6 @@
 [
   {
     "type": "Error",
-    "date": "2024-12-06 / 21:37",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "Cannot find module 'D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler'\nRequire stack:\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\mineflayer.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\CommandImport.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\index.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\index.js",
-    "error": "Cannot find module 'D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler'\nRequire stack:\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\mineflayer.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\CommandImport.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\index.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\index.js\nError: Cannot find module 'D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler'\nRequire stack:\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\mineflayer.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\CommandImport.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\import\\index.js\n- D:\\Dokumenku\\Pemrograman\\Node\\minebot\\index.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)\n    at Module._resolveFilename (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\module-alias\\index.js:49:29)\n    at Module._load (node:internal/modules/cjs/loader:901:27)\n    at Module.require (node:internal/modules/cjs/loader:1115:19)\n    at require (node:internal/modules/helpers:130:18)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:18:13\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 21:39",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "disconnect is not defined",
-    "error": "disconnect is not defined\nReferenceError: disconnect is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:24:59\n    at Object.dc (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 22:19",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "cmd.disconnect is not a function",
-    "error": "cmd.disconnect is not a function\nTypeError: cmd.disconnect is not a function\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:24:63\n    at Object.dc (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 22:21",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "cmd.disconnect is not a function",
-    "error": "cmd.disconnect is not a function\nTypeError: cmd.disconnect is not a function\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:24:63\n    at Object.dc (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 22:23",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "writeJSONFileSync is not defined",
-    "error": "writeJSONFileSync is not defined\nReferenceError: writeJSONFileSync is not defined\n    at Object.disconnect (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:256:5)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:24:63\n    at Object.dc (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 22:59",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "cektellme is not defined",
-    "error": "cektellme is not defined\nReferenceError: cektellme is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:25:66\n    at Object.cektellme (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-06 / 22:59",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "Cannot read properties of undefined (reading 'except')",
-    "error": "Cannot read properties of undefined (reading 'except')\nTypeError: Cannot read properties of undefined (reading 'except')\n    at Object.cektellme (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:106:20)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:25:70\n    at Object.cektellme (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 18:30",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "autocmd is not defined",
-    "error": "autocmd is not defined\nReferenceError: autocmd is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:29:64\n    at Object.autocmd (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:90:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 18:43",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "chatPublic is not defined",
-    "error": "chatPublic is not defined\nReferenceError: chatPublic is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:31:61\n    at Object.chat (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 18:50",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53",
-    "error": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\nError: Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 18:50",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53",
-    "error": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\nError: Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:140:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:141:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yH/r/G7huFhw2JYN.js:143:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 19:00",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "Cannot read properties of undefined (reading 'clarity-id.net')",
-    "error": "Cannot read properties of undefined (reading 'clarity-id.net')\nTypeError: Cannot read properties of undefined (reading 'clarity-id.net')\n    at Object.setVer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:73:20)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:33:67\n    at Object.setver (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 19:00",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "Cannot read properties of undefined (reading 'clarity-id.net')",
-    "error": "Cannot read properties of undefined (reading 'clarity-id.net')\nTypeError: Cannot read properties of undefined (reading 'clarity-id.net')\n    at Object.setVer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:73:20)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:33:67\n    at Object.setver (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 19:06",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "setRealUser is not defined",
-    "error": "setRealUser is not defined\nReferenceError: setRealUser is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:37:68\n    at Object.setrealuser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:91:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-11 / 20:19",
-    "errorLocation": "function.js:229:21",
-    "errorMessage": "msg is not defined",
-    "error": "msg is not defined\nReferenceError: msg is not defined\n    at Object.playerOnline (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:184:18)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler.js:10:78\n    at Object.playerlist (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:227:19)\n    at Client.messageListener (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler.js:29:52)\n    at Client.emit (node:events:526:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:425:18\n    at CDPPage._CDPPage_onBindingCalled (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Page.js:2462:30)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Page.js:160:100\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\third_party\\mitt\\index.js:3:232\n    at Array.map (<anonymous>)\n    at Object.emit (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\third_party\\mitt\\index.js:3:216)\n    at CDPSessionImpl.emit (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\EventEmitter.js:87:22)\n    at CDPSessionImpl._onMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:350:18)\n    at Connection.onMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:156:25)\n    at WebSocket.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\NodeWebSocketTransport.js:45:32)\n    at WebSocket.onMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\ws\\lib\\event-target.js:199:18)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 13:06",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "chat is not defined",
-    "error": "chat is not defined\nReferenceError: chat is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:32:72\n    at Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:93:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 13:11",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:139:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:140:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:142:909)\n    at pptr://__puppeteer_evaluation_script__:2:53",
-    "error": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:139:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:140:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:142:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\nError: Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:139:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:140:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:142:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 13:11",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:139:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:140:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:142:909)\n    at pptr://__puppeteer_evaluation_script__:2:53",
-    "error": "Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:139:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:140:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:142:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\nError: Evaluation failed: TypeError: a.match is not a function\n    at Object.c [as validateAndGetParts] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:139:1685)\n    at new a (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:140:1429)\n    at Object.o [as createWid] (https://static.whatsapp.net/rsrc.php/v4/yC/r/EkiYExpmtfW.js:142:909)\n    at pptr://__puppeteer_evaluation_script__:2:53\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.setIp (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\setIp.js:18:12)\n    at async Object.setip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 13:13",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "value.split is not a function",
-    "error": "value.split is not a function\nTypeError: value.split is not a function\n    at cutVal (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:9:25)\n    at Object.setRealUser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:92:22)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:35:72\n    at Object.setrealuser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:93:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 13:15",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "value.split is not a function",
-    "error": "value.split is not a function\nTypeError: value.split is not a function\n    at cutVal (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:9:25)\n    at Object.setUser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:49:22)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:34:68\n    at Object.setuser (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:93:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:00",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21",
-    "error": "unsupported protocol version: 1.21\nError: unsupported protocol version: 1.21\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:02",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21.4",
-    "error": "unsupported protocol version: 1.21.4\nError: unsupported protocol version: 1.21.4\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:03",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21.3",
-    "error": "unsupported protocol version: 1.21.3\nError: unsupported protocol version: 1.21.3\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:04",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21.3",
-    "error": "unsupported protocol version: 1.21.3\nError: unsupported protocol version: 1.21.3\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:05",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21",
-    "error": "unsupported protocol version: 1.21\nError: unsupported protocol version: 1.21\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:23",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21.3",
-    "error": "unsupported protocol version: 1.21.3\nError: unsupported protocol version: 1.21.3\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:23",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21.2",
-    "error": "unsupported protocol version: 1.21.2\nError: unsupported protocol version: 1.21.2\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:23",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "unsupported protocol version: 1.21.2",
-    "error": "unsupported protocol version: 1.21.2\nError: unsupported protocol version: 1.21.2\n    at Object.createClient (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\createClient.js:30:22)\n    at Object.createBot (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\loader.js:99:35)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\controller\\MineflayerController.js:40:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.joinServer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)\n    at async Object.join (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:13)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 14:36",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "Cannot read properties of undefined (reading 'includes')",
-    "error": "Cannot read properties of undefined (reading 'includes')\nTypeError: Cannot read properties of undefined (reading 'includes')\n    at Object.setVer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:71:18)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:33:67\n    at Object.setver (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\commandHandler.js:93:64)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-15 / 15:16",
-    "errorLocation": "function.js:247:21",
-    "errorMessage": "ip is not defined",
-    "error": "ip is not defined\nReferenceError: ip is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messagestr.js:24:95\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\chat.js:131:9)\n    at Client.emit (node:events:514:28)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client\\chat.js:203:14)\n    at Client.emit (node:events:514:28)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
-  },
-  {
-    "type": "Error",
     "date": "2024-12-15 / 16:14",
     "errorLocation": "function.js:247:21",
     "errorMessage": "cha is not defined",
@@ -348,5 +138,215 @@
     "errorLocation": "MineflayerService.js:307:29",
     "errorMessage": "Unexpected end of JSON input",
     "error": "Unexpected end of JSON input\nSyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:282:43\n    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 18:57",
+    "errorLocation": "function.js:265:21",
+    "errorMessage": "startAutoCmd is not a function",
+    "error": "startAutoCmd is not a function\nTypeError: startAutoCmd is not a function\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:19:84\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:49",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "pesan is not defined",
+    "error": "pesan is not defined\nReferenceError: pesan is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:76:34)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:49",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "pesan is not defined",
+    "error": "pesan is not defined\nReferenceError: pesan is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:76:34)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:50",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:50",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:51",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:51",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:52",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:52",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:55",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 19:55",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:02",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:02",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:03",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:03",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:06",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:06",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:07",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:07",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:11",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:11",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:12",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:12",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:15",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2024-12-31 / 20:15",
+    "errorLocation": "autocmd.js:96:21",
+    "errorMessage": "prefixFunctions is not defined",
+    "error": "prefixFunctions is not defined\nReferenceError: prefixFunctions is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:78:13)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 22:01",
+    "errorLocation": "autocmd.js:99:21",
+    "errorMessage": "checkCommandStatus is not defined",
+    "error": "checkCommandStatus is not defined\nReferenceError: checkCommandStatus is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:84:17)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 22:30",
+    "errorLocation": "inventory.js:126:17",
+    "errorMessage": "Cannot read properties of undefined (reading 'split')",
+    "error": "Cannot read properties of undefined (reading 'split')\nTypeError: Cannot read properties of undefined (reading 'split')\n    at Object.equipItem (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\inventory.js:90:25)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:15:107\n    at Object.equip (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:19)\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:85:49)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 22:37",
+    "errorLocation": "function.js:265:21",
+    "errorMessage": "cmd.chatPublic is not a function",
+    "error": "cmd.chatPublic is not a function\nTypeError: cmd.chatPublic is not a function\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:18:87\n    at Object.chat (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:19)\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:85:49)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 22:37",
+    "errorLocation": "function.js:265:21",
+    "errorMessage": "cmd.chatPublic is not a function",
+    "error": "cmd.chatPublic is not a function\nTypeError: cmd.chatPublic is not a function\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:18:87\n    at Object.chat (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:19)\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\autocmd.js:85:49)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-11 / 22:59",
+    "errorLocation": "function.js:265:21",
+    "errorMessage": "Evaluation failed: Error: Could not get the quoted message.\n    at new Error (<anonymous>:6:31)\n    at window.WWebJS.sendMessage (pptr://__puppeteer_evaluation_script__:48:23)\n    at async pptr://__puppeteer_evaluation_script__:10:25",
+    "error": "Evaluation failed: Error: Could not get the quoted message.\n    at new Error (<anonymous>:6:31)\n    at window.WWebJS.sendMessage (pptr://__puppeteer_evaluation_script__:48:23)\n    at async pptr://__puppeteer_evaluation_script__:10:25\nError: Evaluation failed: Error: Could not get the quoted message.\n    at new Error (<anonymous>:6:31)\n    at window.WWebJS.sendMessage (pptr://__puppeteer_evaluation_script__:48:23)\n    at async pptr://__puppeteer_evaluation_script__:10:25\n    at ExecutionContext._ExecutionContext_evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:229:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ExecutionContext.evaluate (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ExecutionContext.js:107:16)\n    at async Client.sendMessage (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\whatsapp-web.js\\src\\Client.js:935:28)\n    at async Object.chat (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:13)"
   }
 ]

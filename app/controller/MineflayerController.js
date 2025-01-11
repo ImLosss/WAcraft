@@ -45,7 +45,7 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
     })
 
     injectTitle(bot);
-    require('import/mineflayer')(client, bot, dirUser, msg, chat, sender)
+    require('import/mineflayer')(client, bot, dirUser, msg, chat, sender, config)
 })
 
 module.exports = {

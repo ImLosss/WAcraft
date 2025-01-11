@@ -1,6 +1,6 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
     "status": "offline",
     "autorightclick": false,
@@ -11,16 +11,22 @@
     "reconnectTime": 0,
     "ip": "srv531927.hstgr.cloud",
     "username": "Losss",
-    "intervalIds": {},
+    "intervalIds": {
+      "broadcast": null
+    },
     "autocmd": [
-      "tess",
-      "tess2"
+      "/throw 0",
+      "/chat on",
+      "/chat off"
     ],
     "automsg": {
       "message": "tess",
       "status": false
     },
-    "autoReconnect": false
+    "autoReconnect": true,
+    "timeoutIds": {
+      "timeoutDc": 34866
+    }
   },
   {
     "clarity-id.net": {

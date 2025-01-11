@@ -38,15 +38,10 @@ function getInventory(bot) {
     return strMsg;
 }
 
-function throwItem(bot, msg) {
+function throwItem(bot, msg, arg) {
     try {
 
-        let slot = msg.body;
-        slot = slot.split(' ');
-
-        if(slot.length < 2 || slot.length > 2) return 'Command anda salah kirim kembali dengan format */throw <slot>*';
-
-        slot = slot[1]
+        let slot = arg;
 
         if(!Number.isInteger(Number(slot))) return 'Masukkan nomor slot yang benar, _contoh: /throw 3_';
 
@@ -86,19 +81,18 @@ function throwItem(bot, msg) {
     }
 }
 
-function equipItem(bot, msg) {
+function equipItem(bot, msg, arg) {
     try {
         let destinations = ['hand', 'head', 'torso', 'legs', 'feet'];
         let dest = 'hand';
-        let arrMsg = msg.body;
+        let arrMsg = arg;
+        console.log(arg);
         arrMsg = arrMsg.split(' ');
 
-        if(arrMsg.length < 2 || arrMsg.length > 3) return 'Command anda salah kirim kembali dengan format\n*/equip <slot> (hand/head/torso/legs/feet)*\n\n_Contoh:_\n_/equip 0 torso_';
+        let slot = arrMsg[0]
+        dest = arrMsg[1] ? arrMsg[1] : dest;
 
-        let slot = arrMsg[1]
-        dest = arrMsg[2] ? arrMsg[2] : dest;
-
-        if(!destinations.includes(dest)) return `Destination kamu salah\n${ arrMsg[0] } ${ arrMsg[1] } ~${ arrMsg[2] }~\n\nDestination:\n- hand\n- head\n- torso\n- legs\n- feet`;
+        if(!destinations.includes(dest)) return `Destination kamu salah\n/equip ${ arrMsg[0] } ~${ arrMsg[1] }~\n\nDestination:\n- hand\n- head\n- torso\n- legs\n- feet`;
 
         if(!Number.isInteger(Number(slot))) return 'Masukkan nomor slot yang benar, _contoh: /equip 3 head_';
 
@@ -129,7 +123,7 @@ function equipItem(bot, msg) {
 
         return `Berhasil equip ${ name } di ${ dest }`;
     } catch (err) {
-        console.log('Error ketika equip item: ' . err)
+        console.error(err)
 
         return 'Terjadi kesalahan';
     }

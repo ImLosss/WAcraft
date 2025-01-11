@@ -7,7 +7,6 @@ const { startBroadcast, stopBroadcast } = require('service/MineflayerService');
 module.exports = (function() {
     return function(client, bot, dirUser, chat, sender, messageListener) {
         bot.once('end', async () => {
-            chat.sendMessage('Disconnect');
             const numListenersMessageBeforeRemoval = client.listeners('message').length;
             console.log(`Jumlah listener message sebelum dihapus : ${ numListenersMessageBeforeRemoval }`);
             try{
@@ -25,9 +24,13 @@ module.exports = (function() {
             dataUser[0].afkfarm = false;
             dataUser[0].afkfish = false;
             dataUser[0].statusRepeat = false;
+            dataUser[0].intervalIds = {};
+            if(!dataUser[1]) dataUser[1] = {};
+            if (dataUser[0].automsg != undefined) dataUser[0].automsg.status = false;
             if(dataUser[0].automsg != undefined) {
                 dataUser[0].automsg.status = false;
             }
+            
 
             writeJSONFileSync(dirUser, dataUser);
             stopBroadcast(sender);

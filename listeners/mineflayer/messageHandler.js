@@ -12,8 +12,8 @@ const prefixFunctions = {
     'autoleftclick': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.autoLeftClick(bot, msg, value, sender)),
     'automsg': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.automsg(bot, msg, value, sender, chat)),
     'inventory': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.getInventory(bot)); }),
-    'throw': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.throwItem(bot, msg)) }),
-    'equip': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.equipItem(bot, msg)) }),
+    'throw': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.throwItem(bot, msg, value)) }),
+    'equip': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.equipItem(bot, msg, value)) }),
     'health': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(`Health: ${ Math.round(bot.health) }`); }),
     'exp': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(`Exp: ${ bot.experience.points }`); }),
 };  

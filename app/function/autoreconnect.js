@@ -7,8 +7,6 @@ const { cutVal, withErrorHandling } = require("function/function");
 async function setAutoReconnect(msg, sender, arg) { 
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
-    console.log(arg);
-
     if(arg != 'off' && arg != 'of' && arg != 'on') return msg.reply('Format kamu salah, kirim kembali dengan format */autoReconnect <on/off>*')
     if(arg == 'on') dataUser[0].autoReconnect = true; 
     else if(arg == 'of' || arg == 'off') dataUser[0].autoReconnect = false; 
