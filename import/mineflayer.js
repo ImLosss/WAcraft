@@ -9,5 +9,6 @@ module.exports = (function() {
         require('mineflayer-listener/error')(bot, msg, chat, dirUser, sender);
         require('mineflayer-listener/kicked')(bot, msg, chat, sender);
         require('mineflayer-listener/health')(bot, msg);
+        require('mineflayer-listener/reconnect')(client, bot, dirUser, msg, chat, sender);
     };
 })();

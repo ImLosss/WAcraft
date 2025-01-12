@@ -28,6 +28,7 @@ module.exports = (function() {
             dataUser[0].statusRepeat = false;
             dataUser[0].intervalIds = {};
             dataUser[0].timeoutIds = {};
+            dataUser[0].chatPublic = true;
             if(!dataUser[1]) dataUser[1] = {};
             if (dataUser[0].automsg != undefined) dataUser[0].automsg.status = false;
             if(dataUser[0].automsg != undefined) {
@@ -36,19 +37,9 @@ module.exports = (function() {
 
             stopBroadcast(sender);
             stopTimeoutDc(sender);
-
-            if(dataUser[0].autoReconnect) {
-                dataUser[0].reconnectTime+=1;
-                writeJSONFileSync(dirUser, dataUser);
-                msg.reply(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5)*`).catch(() => { chat.sendMessage(`*Reconnect after 15 seconds... (${ dataUser[0].reconnectTime }/5*)`) })
-                setTimeout(() => {
-                    joinServer(msg, sender, client);
-                }, 15000);
-            } else {
-                dataUser[0].chatPublic = true;
-                chat.sendMessage('Disconnect');
-                writeJSONFileSync(dirUser, dataUser);
-            }
+            
+            chat.sendMessage('Disconnect');
+            writeJSONFileSync(dirUser, dataUser);
         })
     };
 })();
