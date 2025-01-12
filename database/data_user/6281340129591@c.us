@@ -19,7 +19,9 @@
     "automsg": {
       "message": "/sell all",
       "status": false
-    }
+    },
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "claritynetwork.net": {

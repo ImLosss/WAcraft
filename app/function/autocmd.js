@@ -69,6 +69,9 @@ function startAutoCmd(bot, dataUser, dirUser, sender, msg, chat, client) {
 
     const repeatInterval = setInterval(() => {
         try {
+            let dataUser = readJSONFileSync(dirUser);
+
+            if(dataUser[0].status == 'offline') return clearInterval(repeatInterval);
             const pesan = array[repeatCmd];
             const command = pesan.toLowerCase();
             const text = command.toLowerCase() || '';

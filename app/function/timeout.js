@@ -1,31 +1,38 @@
 require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
+const fs = require('fs');
 
-async function startTimeoutDc(sender, config, chat, bot) {
+function startTimeoutDc(sender, config, chat, bot) {
     let TimeoutDisconnect = config.timeoutDc * 1000 * 60;
     let timeoutDc =  setTimeout(() => {
         chat.sendMessage(`*Tidak terdapat pesan selama ${ config.timeoutDc } menit. Disconnect dari server...*`);
         bot.quit();
     }, TimeoutDisconnect);
 
-    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+    if(!fs.existsSync(`./database/timeout/${ sender }`)) {
+        let dataTimeout = {};
+        writeJSONFileSync(`./database/timeout/${ sender }`, dataTimeout)
+    }
+
+    let dataTimeout = readJSONFileSync(`./database/timeout/${ sender }`);
 
     const timeoutId = Number(timeoutDc);
 
-    if(!dataUser[0].timeoutIds) dataUser[0].timeoutIds = {}
-
-    dataUser[0].timeoutIds.timeoutDc = timeoutId;
+    dataTimeout.timeoutId = timeoutId;
 
     // Simpan ID interval ke file JSON
-    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+    writeJSONFileSync(`./database/timeout/${ sender }`, dataTimeout);
+
+    return timeoutId;
 }
 
-async function stopTimeoutDc(sender) {
-    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
-    clearInterval(dataUser[0].intervalIds.broadcast);
-    dataUser[0].intervalIds.broadcast = null;
-    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+async function stopTimeoutDc(sender, timeoutId) {
+    let dataTimeout = readJSONFileSync(`./database/timeout/${ sender }`);
+    if(!timeoutId) timeoutId = dataTimeout.timeoutId;
+    clearTimeout(timeoutId);
+    dataTimeout.timeoutId = null;
+    writeJSONFileSync(`./database/timeout/${ sender }`, dataTimeout);
 }
 
 module.exports = {

@@ -15,7 +15,9 @@
     "automsg": {
       "message": "/sell all",
       "status": false
-    }
+    },
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "minegens.id": {

@@ -15,7 +15,9 @@
       "/login SM120205",
       "/server tycoon"
     ],
-    "username": "SapiMan"
+    "username": "SapiMan",
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "claritynetwork.net": {

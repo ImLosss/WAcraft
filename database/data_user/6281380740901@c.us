@@ -27,7 +27,9 @@
     "automsg": {
       "message": "/feed",
       "status": false
-    }
+    },
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "[play.claritynetwork.net]": {

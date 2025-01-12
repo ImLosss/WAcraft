@@ -10,7 +10,9 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "minegens.id": {

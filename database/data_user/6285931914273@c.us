@@ -11,7 +11,9 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoReconnect": true
+    "autoReconnect": true,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "dezeL000988.aternos.me:13248": {

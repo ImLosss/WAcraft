@@ -20,7 +20,9 @@
     ],
     "autoReconnect": true,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {}
 ]

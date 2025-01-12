@@ -2,14 +2,14 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "kaiser5636",
     "ip": "Clarity-id.net",
     "autorightclick": false,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autoReconnect": true,
     "autocmd": [
@@ -20,8 +20,10 @@
     ],
     "automsg": {
       "message": "/feed",
-      "status": true
-    }
+      "status": false
+    },
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "Claritynetwork.id": {

@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "nowezki",
     "ip": "play.clarity-id.net",
     "autorightclick": false,
@@ -29,7 +29,7 @@
       "Archery",
       "Skill"
     ],
-    "statusRepeat": true,
+    "statusRepeat": false,
     "autoReconnect": true,
     "autocmd": [
       "/login pras2009",
@@ -40,12 +40,14 @@
       "/autoleftclick 1"
     ],
     "reconnectTime": 0,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "automsg": {
       "message": "/xpbottle",
-      "status": true
+      "status": false
     },
-    "afkArcher": false
+    "afkArcher": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "claritynetwork.net": {

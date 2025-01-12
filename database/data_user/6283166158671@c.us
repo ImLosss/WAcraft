@@ -19,7 +19,9 @@
       "/server smp"
     ],
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "claritynetwork.net": {

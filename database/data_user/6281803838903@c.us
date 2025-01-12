@@ -13,7 +13,9 @@
     "reconnectTime": 0,
     "except": [
       "London_"
-    ]
+    ],
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "play.xetapixel.net": {

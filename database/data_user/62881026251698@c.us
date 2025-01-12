@@ -1,14 +1,14 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "play.clarity-id.net",
     "username": "royalti",
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autorightclick": false,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autoReconnect": false,
@@ -20,11 +20,13 @@
     ],
     "automsg": {
       "message": "/xpbottle",
-      "status": true
+      "status": false
     },
     "except": [
       "obtained"
-    ]
+    ],
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "play.clarity-id.net": {

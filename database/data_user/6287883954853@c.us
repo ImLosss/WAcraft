@@ -1,15 +1,15 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "Uvuvwey",
     "ip": "mc.aetherium.fun",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "autoReconnect": true,
     "autocmd": [
@@ -21,7 +21,9 @@
       "message": "/xpbottle",
       "status": false
     },
-    "afkArcher": false
+    "afkArcher": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "[claritynetwork.net]": {

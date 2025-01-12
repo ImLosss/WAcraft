@@ -1,14 +1,14 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "clarity-id.net",
     "autorightclick": false,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
     "username": "Newt",
     "autocmd": [
@@ -16,7 +16,9 @@
       "/server SMP",
       "/autoleftclick 1"
     ],
-    "autoReconnect": true
+    "autoReconnect": true,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "clarity-id.net": {

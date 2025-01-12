@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "play.clarity-id.net",
     "username": "Zinxx",
     "autorightclick": false,
@@ -39,11 +39,13 @@
     ],
     "automsg": {
       "message": "/xpbottle",
-      "status": true
+      "status": false
     },
-    "statusRepeat": true,
+    "statusRepeat": false,
     "reconnectTime": 0,
-    "autoleftclick": true
+    "autoleftclick": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "claritynetwork.net": {

@@ -51,7 +51,9 @@
     ],
     "autoReconnect": false,
     "reconnectTime": 0,
-    "autoleftclick": false
+    "autoleftclick": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "play.claritynetwork.net": {

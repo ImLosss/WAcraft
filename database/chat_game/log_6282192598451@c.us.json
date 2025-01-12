@@ -1,0 +1,926 @@
+[
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:05",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:06",
+    "location": "messagestr.js:26:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:09",
+    "location": "messagestr.js:26:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:14",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:15",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:16",
+    "location": "messagestr.js:27:21",
+    "message": "a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:20",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:21",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:23",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:34",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:37",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:38",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:38",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:38",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:38",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:38",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:38",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:39",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:40",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "[+] Losss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "Welcome, Losss to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:42",
+    "location": "messagestr.js:26:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "The specified server survival does not exist."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:52",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:54",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "The specified server survival does not exist."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:55",
+    "location": "messagestr.js:28:21",
+    "message": "The specified server survival does not exist."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "The specified server survival does not exist."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-12 / 23:59",
+    "location": "messagestr.js:28:21",
+    "message": "[»] You are already logged!"
+  }
+]

@@ -18,7 +18,9 @@
     "statusRepeat": false,
     "reconnectTime": 0,
     "ip": "play.claritynetwork.net",
-    "autoReconnect": false
+    "autoReconnect": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "play.claritynetwork.net": {

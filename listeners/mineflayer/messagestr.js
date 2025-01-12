@@ -7,13 +7,14 @@ const { startTimeoutDc, stopTimeoutDc } = require('function/timeout');
 module.exports = (function() {
     return function(bot, dirUser, msg, chat, sender, config) {
         let message;
+        let timeoutDc;
         bot.on('messagestr', withErrorHandling(async (msgstr) => {
             if(msgstr.trim().length == 0 || message == msgstr) return;
     
             msgstr = msgstr.trim();
             
-            stopTimeoutDc(sender);
-            startTimeoutDc(sender, config, chat, bot);
+            stopTimeoutDc(sender, timeoutDc);
+            timeoutDc = startTimeoutDc(sender, config, chat, bot);
     
             message = msgstr;
             let except = [];

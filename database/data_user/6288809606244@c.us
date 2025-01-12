@@ -10,7 +10,9 @@
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
-    "afkfish": false
+    "afkfish": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "srv531927.hstgr.cloud": {
