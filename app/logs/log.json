@@ -1,167 +1,5 @@
 [
   {
-    "type": "MessageFrom:+62 821-9259-8451",
-    "date": "2024-12-31 / 20:11",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-31 / 20:11",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:+62 821-9259-8451",
-    "date": "2024-12-31 / 20:11",
-    "location": "commandHandler.js:62:40",
-    "message": "a"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:11",
-    "location": "timeout.js:7:13",
-    "message": 15
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:11",
-    "location": "timeout.js:8:13",
-    "message": null
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:11",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:11",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:12",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:12",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-31 / 20:12",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:12",
-    "location": "commandHandler.js:62:40",
-    "message": "a"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:12",
-    "location": "timeout.js:7:13",
-    "message": 15
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:12",
-    "location": "timeout.js:8:13",
-    "message": null
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:12",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:12",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:14",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:14",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-31 / 20:14",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:15",
-    "location": "commandHandler.js:62:40",
-    "message": "a"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:15",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:15",
-    "location": "commandHandler.js:62:40",
-    "message": "sada"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:15",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:15",
-    "location": "commandHandler.js:62:40",
-    "message": "asasdfdfsdfs"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:15",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:15",
-    "location": "commandHandler.js:62:40",
-    "message": "yahahaha"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:15",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:21",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
     "type": "info",
     "date": "2024-12-31 / 20:30",
     "location": "end.js:11:21",
@@ -2993,6 +2831,357 @@
   {
     "type": "cmd:join",
     "date": "2025-01-12 / 18:00",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:26",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:26",
+    "location": "commandHandler.js:62:40",
+    "message": "/ri update terjemahkan semua baris 1-166 renegade immortal episode 71 berikut ke indonesia sesuai dengan gaya bahasa yang telah kamu pelajari:\n1\n00:00:08,800 --> 00:00:09,319\n我记住你了曾牛\n\n2\n00:00:11,520 --> 00:00:13,199\n我们朱雀星再见\n\n3\n00:00:13,600 --> 00:00:13,919\n你走不得\n\n4\n00:00:15,240 --> 00:00:16,559\n虽说没杀死此女\n\n5\n00:00:17,280 --> 00:00:18,319\n但有这手臂在\n\n6\n00:00:18,800 --> 00:00:20,719\n有无数个方法可以对其诅咒\n\n7\n00:00:21,440 --> 00:00:23,679\n真正能横渡虚空离开此地的办法\n\n8\n00:00:23,920 --> 00:00:25,479\n只有叱虎的星罗盘\n\n9\n00:00:26,720 --> 00:00:27,559\n有什么东西\n\n10\n00:00:28,240 --> 00:00:28,719\n要来了\n\n11\n00:00:30,560 --> 00:00:31,519\n问鼎\n\n12\n00:00:32,160 --> 00:00:33,719\n这是我的第一个礼物\n\n13\n00:00:34,120 --> 00:00:35,319\n问鼎之晶\n\n14\n00:00:37,280 --> 00:00:38,759\n我送你的第二个礼物\n\n15\n00:00:39,200 --> 00:00:40,519\n便是此人\n\n16\n00:00:41,920 --> 00:00:43,719\n守护本君两千余年\n\n17\n00:00:44,560 --> 00:00:45,039\n你\n\n18\n00:00:45,760 --> 00:00:46,439\n有功\n\n19\n00:00:48,240 --> 00:00:50,239\n今日封你为仙剑之魂\n\n20\n00:00:51,680 --> 00:00:52,879\n滋养万年后\n\n21\n00:00:54,080 --> 00:00:55,319\n名列仙尊\n\n22\n00:01:02,440 --> 00:01:04,359\n守护本君两千余年\n\n23\n00:01:05,560 --> 00:01:06,319\n你\n\n24\n00:01:06,760 --> 00:01:07,639\n有功\n\n25\n00:01:08,520 --> 00:01:10,559\n今日封你为仙剑之魂\n\n26\n00:01:11,320 --> 00:01:12,639\n滋养万年后\n\n27\n00:01:13,200 --> 00:01:14,639\n名列仙尊\n\n28\n00:01:45,520 --> 00:01:47,519\n雨之仙剑出世了\n\n29\n00:01:47,960 --> 00:01:48,919\n有了此物\n\n30\n00:01:48,920 --> 00:01:51,039\n定能让天墨星更进一步\n\n31\n00:01:51,240 --> 00:01:54,119\n就是不知这是第几剑\n\n32\n00:01:58,040 --> 00:01:59,319\n仙剑\n\n33\n00:02:00,120 --> 00:02:03,399\n待老夫以仙兽之魂操控此剑\n\n34\n00:02:03,960 --> 00:02:07,439\n天运星终是囊中之物\n\n35\n00:02:30,720 --> 00:02:31,479\n叱虎兄\n\n36\n00:02:31,720 --> 00:02:32,439\n星罗盘\n\n37\n00:02:44,000 --> 00:02:45,319\n幸亏曾兄机敏\n\n38\n00:02:45,800 --> 00:02:47,079\n我们暂时脱险\n\n39\n00:02:47,840 --> 00:02:49,319\n但这罗盘已然受损\n\n40\n00:02:49,800 --> 00:02:52,119\n恐怕不足以供我们横渡虚空了\n\n41\n00:02:52,760 --> 00:02:54,119\n星罗盘\n\n42\n00:02:54,680 --> 00:02:56,239\n巨魔族重宝\n\n43\n00:02:57,920 --> 00:02:59,039\n可惜\n\n44\n00:02:59,520 --> 00:03:01,279\n只是一个残次品\n\n45\n00:03:03,640 --> 00:03:04,399\n曾牛\n\n46\n00:03:04,920 --> 00:03:06,359\n你若跟老夫走\n\n47\n00:03:07,240 --> 00:03:09,879\n老夫保你平安回到朱雀星\n\n48\n00:03:10,880 --> 00:03:11,679\n如何\n\n49\n00:03:20,560 --> 00:03:22,159\n老夫三魂之上\n\n50\n00:03:22,160 --> 00:03:23,599\n还有第四魂\n\n51\n00:03:23,720 --> 00:03:26,319\n就在老夫身边的棺材之\n\n52\n00:03:28,240 --> 00:03:30,479\n周佚前辈不曾提到过这第四魂\n\n53\n00:03:31,080 --> 00:03:31,959\n此事不知真假\n\n54\n00:03:34,760 --> 00:03:35,959\n前辈所说这些\n\n55\n00:03:36,320 --> 00:03:37,479\n怕是另有目的\n\n56\n00:03:38,120 --> 00:03:39,639\n你心中已然知道\n\n57\n00:03:40,040 --> 00:03:41,519\n问鼎大能所下封印\n\n58\n00:03:41,800 --> 00:03:43,759\n根本不是我能解开的\n\n59\n00:03:51,680 --> 00:03:52,639\n好\n\n60\n00:03:52,920 --> 00:03:54,319\n有胆识\n\n61\n00:03:54,640 --> 00:03:56,879\n不愧是周佚选择之人\n\n62\n00:03:57,080 --> 00:03:59,159\n那便跟老夫走一趟吧\n\n63\n00:03:59,720 --> 00:04:00,759\n奴印不稳\n\n64\n00:04:01,040 --> 00:04:02,359\n宝塔克制\n\n65\n00:04:05,480 --> 00:04:06,279\n孙泰\n\n66\n00:04:07,000 --> 00:04:09,239\n这宝塔上是周佚前辈所留意境\n\n67\n00:04:09,720 --> 00:04:11,439\n乃是专克你之物\n\n68\n00:04:13,920 --> 00:04:15,079\n周佚\n\n69\n00:04:15,320 --> 00:04:16,479\n你们户阴宗\n\n70\n00:04:16,720 --> 00:04:18,199\n在下也有所了解\n\n71\n00:04:18,920 --> 00:04:20,479\n那棺材之内的尸愧\n\n72\n00:04:21,120 --> 00:04:23,039\n想必是别人的魂魄吧\n\n73\n00:04:24,480 --> 00:04:26,119\n你那所谓的第四魂\n\n74\n00:04:26,360 --> 00:04:28,159\n不过残魂而\n\n75\n00:04:29,040 --> 00:04:31,839\n老夫今日不跟你这小儿一般见识\n\n76\n00:04:34,400 --> 00:04:35,519\n他能被吓退\n\n77\n00:04:36,360 --> 00:04:38,399\n想必那第四魂真是残魂\n\n78\n00:04:38,920 --> 00:04:40,399\n他冒不起这个险\n\n79\n00:04:43,360 --> 00:04:44,159\n曾兄\n\n80\n00:04:44,680 --> 00:04:46,079\n那孙泰修为极高\n\n81\n00:04:46,440 --> 00:04:48,039\n日后还得多加小心啊\n\n82\n00:04:49,280 --> 00:04:50,039\n无妨\n\n83\n00:04:50,520 --> 00:04:52,199\n周佚前辈先前传音叮嘱\n\n84\n00:04:52,600 --> 00:04:53,839\n留此人有大用\n\n85\n00:04:54,320 --> 00:04:56,879\n否则刚才我便已让他四魂尽灭\n\n86\n00:05:03,520 --> 00:05:05,639\n这小辈杀不得禁不得\n\n87\n00:05:05,880 --> 00:05:06,999\n真是麻烦\n\n88\n00:05:09,520 --> 00:05:11,919\n就是不知周佚所说的大用\n\n89\n00:05:12,200 --> 00:05:13,879\n又是指的什么\n\n90\n00:05:21,240 --> 00:05:21,879\n曾兄\n\n91\n00:05:22,280 --> 00:05:23,199\n罗盘已毁\n\n92\n00:05:23,360 --> 00:05:24,239\n往后的路\n\n93\n00:05:24,440 --> 00:05:26,079\n只能靠我们自己飞了\n\n94\n00:05:26,480 --> 00:05:27,239\n叱虎兄\n\n95\n00:05:27,800 --> 00:05:28,719\n这星罗盘\n\n96\n00:05:28,800 --> 00:05:29,759\n你只带了一个\n\n97\n00:05:30,720 --> 00:05:31,759\n这等宝物\n\n98\n00:05:32,120 --> 00:05:33,479\n乃是无数年前\n\n99\n00:05:33,720 --> 00:05:35,999\n巨魔族迁至朱雀星时带来的\n\n100\n00:05:36,400 --> 00:05:37,879\n如今毁在我手里\n\n101\n00:05:38,520 --> 00:05:39,839\n就算安然回去\n\n102\n00:05:40,120 --> 00:05:40,879\n也定要受罚\n\n103\n00:05:43,280 --> 00:05:44,039\n叱虎兄\n\n104\n00:05:44,720 --> 00:05:45,559\n不瞒你说\n\n105\n00:05:46,200 --> 00:05:47,559\n这星罗盘我会修复\n\n106\n00:05:49,720 --> 00:05:51,839\n但修复星罗盘所需代价极大\n\n107\n00:05:52,480 --> 00:05:53,679\n若是成功修复\n\n108\n00:05:54,280 --> 00:05:55,919\n这罗盘需归我所有\n\n109\n00:05:57,080 --> 00:05:58,199\n这\n\n110\n00:06:00,160 --> 00:06:00,919\n罢了\n\n111\n00:06:01,640 --> 00:06:02,999\n叱虎兄实在为难\n\n112\n00:06:03,480 --> 00:06:04,599\n在下也会修复\n\n113\n00:06:05,120 --> 00:06:07,079\n权当交下叱虎兄这个朋友\n\n114\n00:06:07,440 --> 00:06:08,439\n此话当真\n\n115\n00:06:08,920 --> 00:06:09,679\n当真\n\n116\n00:06:10,800 --> 00:06:13,119\n只是日后曾某若要借星罗盘一用\n\n117\n00:06:13,560 --> 00:06:15,599\n叱虎兄可不要拒绝\n\n118\n00:06:18,240 --> 00:06:20,519\n以我族内那些老家伙的性子\n\n119\n00:06:20,600 --> 00:06:22,519\n将来断然不会轻易借出\n\n120\n00:06:22,960 --> 00:06:23,919\n所幸今日\n\n121\n00:06:24,400 --> 00:06:25,439\n直接送你\n\n122\n00:06:31,320 --> 00:06:32,039\n曾兄\n\n123\n00:06:32,440 --> 00:06:34,599\n这罗盘归你了\n\n124\n00:06:36,480 --> 00:06:37,439\n那在下谢过\n\n125\n00:06:42,920 --> 00:06:44,759\n还请叱虎兄为我护法\n\n126\n00:06:56,400 --> 00:06:57,719\n按照古神记忆\n\n127\n00:06:58,520 --> 00:07:01,039\n星罗盘便是此物打造\n\n128\n00:07:12,760 --> 00:07:13,919\n这曾牛\n\n129\n00:07:13,960 --> 00:07:16,239\n胆色超群修为惊人\n\n130\n00:07:16,440 --> 00:07:18,799\n更是得到了周佚的问鼎之晶\n\n131\n00:07:19,120 --> 00:07:20,719\n与其真心结交\n\n132\n00:07:21,120 --> 00:07:23,959\n日后对我族定然有所帮助\n\n133\n00:07:40,240 --> 00:07:40,919\n曾兄\n\n134\n00:07:41,320 --> 00:07:42,719\n可是修复好了\n\n135\n00:07:43,360 --> 00:07:45,759\n横渡虚空应当没有问题\n\n136\n00:07:52,880 --> 00:07:53,839\n雨之二剑\n\n137\n00:08:02,440 --> 00:08:03,999\n若是仙界仍在\n\n138\n00:08:04,520 --> 00:08:05,799\n去洗仙池一泡\n\n139\n00:08:06,360 --> 00:08:08,319\n你元神只要不灭都可恢复\n\n140\n00:08:09,600 --> 00:08:11,639\n但如今要你恢复元神\n\n141\n00:08:12,600 --> 00:08:14,319\n只靠一把雨之仙剑\n\n142\n00:08:14,960 --> 00:08:15,679\n不够\n\n143\n00:08:17,200 --> 00:08:18,079\n婷儿\n\n144\n00:08:18,520 --> 00:08:19,679\n你这又是何必\n\n145\n00:08:20,320 --> 00:08:22,119\n这几千年的仙气积累\n\n146\n00:08:22,200 --> 00:08:23,999\n你想全部耗费一空不成\n\n147\n00:08:24,720 --> 00:08:25,999\n我不让你死\n\n148\n00:08:26,280 --> 00:08:27,519\n你便不能死\n\n149\n00:08:28,520 --> 00:08:29,119\n还有\n\n150\n00:08:30,520 --> 00:08:31,919\n我不叫婷儿\n\n151\n00:08:34,919 --> 00:08:35,918\n是了\n\n152\n00:08:36,919 --> 00:08:38,519\n你不是婷儿\n\n153\n00:08:39,840 --> 00:08:41,879\n我本就想起了一切\n\n154\n00:08:43,640 --> 00:08:44,479\n不过\n\n155\n00:08:46,680 --> 00:08:47,839\n婷儿这个名字\n\n156\n00:08:49,920 --> 00:08:50,879\n很喜欢\n\n157\n00:09:02,840 --> 00:09:03,479\n来了\n\n158\n00:09:10,360 --> 00:09:11,159\n那是\n\n159\n00:09:12,920 --> 00:09:13,959\n仙剑\n\n160\n00:09:21,040 --> 00:09:22,239\n这是从何处来啊\n\n161\n00:09:58,440 --> 00:09:59,039\n仙剑\n\n162\n00:10:03,440 --> 00:10:04,679\n看来真的有仙剑\n\n163\n00:10:10,120 --> 00:10:10,719\n婷儿\n\n164\n00:10:10,880 --> 00:10:12,639\n三把仙剑已然足够\n\n165\n00:10:13,240 --> 00:10:13,919\n不够\n\n166\n00:10:14,440 --> 00:10:17,639\n四把仙剑的剑魂才可万无一失"
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:26",
+    "location": "commandHandler.js:62:40",
+    "message": "/ri lanjutkan terjemahan renegade immortal episode 71 berikut baris 167-272 sesuai dengan gaya bahasa yang telah kamu pelajari: \n167\n00:10:38,040 --> 00:10:38,839\n麒麟仙兽\n\n168\n00:10:39,480 --> 00:10:40,999\n大罗剑宗的护山神兽\n\n169\n00:10:42,200 --> 00:10:44,119\n此兽是剑尊凌天候的至宝\n\n170\n00:10:44,320 --> 00:10:45,119\n难道\n\n171\n00:10:45,400 --> 00:10:46,839\n恭迎师尊\n\n172\n00:11:02,280 --> 00:11:03,519\n仅仅是看上一眼\n\n173\n00:11:03,520 --> 00:11:04,879\n便会被剑意所伤\n\n174\n00:11:05,480 --> 00:11:06,759\n这老者的修为\n\n175\n00:11:07,160 --> 00:11:08,319\n恐怕通天\n\n176\n00:11:09,320 --> 00:11:11,519\n阁下可是仙人\n\n177\n00:11:12,080 --> 00:11:12,839\n仙人\n\n178\n00:11:13,240 --> 00:11:14,119\n这怎么可能\n\n179\n00:11:15,440 --> 00:11:16,719\n即便真是仙人\n\n180\n00:11:17,000 --> 00:11:18,799\n也未必是凌天候的对手\n\n181\n00:11:20,080 --> 00:11:20,599\n退下\n\n182\n00:11:23,160 --> 00:11:25,119\n仙界早已破灭\n\n183\n00:11:25,160 --> 00:11:26,879\n你若真是仙\n\n184\n00:11:27,040 --> 00:11:30,119\n老夫今日便干一回斌仙之事\n\n185\n00:11:33,240 --> 00:11:34,119\n孽畜\n\n186\n00:11:34,640 --> 00:11:35,919\n当年你的先祖\n\n187\n00:11:36,120 --> 00:11:38,719\n尚且不敢在本君面前如此造次\n\n188\n00:11:39,120 --> 00:11:40,399\n仙界碎灭\n\n189\n00:11:40,920 --> 00:11:43,759\n难道你的传承记忆也丧失了吗\n\n190\n00:11:54,840 --> 00:11:57,599\n原来是一只没有得到传承的次兽\n\n191\n00:12:03,960 --> 00:12:04,879\n想起来了\n\n192\n00:12:07,920 --> 00:12:08,719\n罢了\n\n193\n00:12:09,320 --> 00:12:10,359\n仙界不在\n\n194\n00:12:10,920 --> 00:12:13,119\n我惩罚你又有何用\n\n195\n00:13:08,200 --> 00:13:08,879\n只一击\n\n196\n00:13:09,080 --> 00:13:10,639\n剑尊就被灭了两剑\n\n197\n00:13:11,320 --> 00:13:12,679\n这女仙着实厉害\n\n198\n00:13:12,880 --> 00:13:13,999\n这就是仙人威能啊\n\n199\n00:13:14,000 --> 00:13:15,719\n一指毁我两剑\n\n200\n00:13:16,120 --> 00:13:18,159\n即便天运子也做不到\n\n201\n00:13:18,960 --> 00:13:20,679\n此女自称本君\n\n202\n00:13:21,320 --> 00:13:23,759\n莫非是仙君不成\n\n203\n00:13:24,320 --> 00:13:28,079\n那今日这仙剑定是取不到了\n\n204\n00:13:30,600 --> 00:13:31,239\n不对\n\n205\n00:13:31,760 --> 00:13:33,279\n按仙界律法\n\n206\n00:13:33,400 --> 00:13:35,159\n应当诛灭元神才对\n\n207\n00:13:35,720 --> 00:13:37,079\n她并未杀我\n\n208\n00:13:37,680 --> 00:13:39,119\n或许不是不想\n\n209\n00:13:39,520 --> 00:13:40,959\n而是不能\n\n210\n00:13:51,240 --> 00:13:52,679\n仙君威能\n\n211\n00:13:52,960 --> 00:13:53,639\n在下今日还想讨教一番\n\n212\n00:14:00,640 --> 00:14:01,359\n婷儿\n\n213\n00:14:32,400 --> 00:14:33,239\n仙人\n\n214\n00:14:33,240 --> 00:14:34,639\n不过如此\n\n215\n00:14:37,640 --> 00:14:38,519\n死气\n\n216\n00:14:39,240 --> 00:14:41,359\n仙君的生机已经不多\n\n217\n00:14:43,880 --> 00:14:47,279\n这仙剑还是交给老夫来用吧\n\n218\n00:14:58,560 --> 00:14:59,239\n婷儿\n\n219\n00:14:59,680 --> 00:15:00,799\n让我出去吧\n\n220\n00:15:01,080 --> 00:15:02,519\n仙气若是全部用完\n\n221\n00:15:02,520 --> 00:15:04,239\n你恐怕再无苏醒之日\n\n222\n00:15:05,560 --> 00:15:06,839\n你不能出去\n\n223\n00:15:26,120 --> 00:15:26,879\n剑魂\n\n224\n00:15:50,480 --> 00:15:51,719\n天运子\n\n225\n00:15:52,000 --> 00:15:53,599\n你若阻我取剑\n\n226\n00:15:53,960 --> 00:15:55,479\n今后你我两派\n\n227\n00:15:55,840 --> 00:15:57,479\n再血战千年\n\n228\n00:15:59,720 --> 00:16:01,599\n老夫天运子\n\n229\n00:16:02,520 --> 00:16:04,239\n今日结个善缘吧\n\n230\n00:16:05,240 --> 00:16:07,599\n仙剑有缘者得之\n\n231\n00:16:08,080 --> 00:16:09,279\n你若得到\n\n232\n00:16:09,640 --> 00:16:11,119\n自是有缘\n\n233\n00:16:15,280 --> 00:16:16,159\n天墨子\n\n234\n00:16:26,120 --> 00:16:27,159\n四把仙剑\n\n235\n00:16:27,160 --> 00:16:28,639\n我天墨子不贪\n\n236\n00:16:28,800 --> 00:16:29,759\n只取一把\n\n237\n00:16:30,040 --> 00:16:30,759\n告辞\n\n238\n00:16:32,320 --> 00:16:34,359\n你敢抢我大罗剑宗之物\n\n239\n00:16:34,640 --> 00:16:36,439\n等我屠你天墨星吧\n\n240\n00:16:36,760 --> 00:16:38,079\n恭候大驾\n\n241\n00:16:53,640 --> 00:16:54,399\n这剑\n\n242\n00:16:54,600 --> 00:16:55,599\n给你就是\n\n243\n00:16:55,800 --> 00:16:57,799\n但剑魂我要取走\n\n244\n00:17:04,839 --> 00:17:06,519\n此剑归我\n\n245\n00:17:07,880 --> 00:17:09,719\n仙剑没了剑魂\n\n246\n00:17:10,079 --> 00:17:12,318\n终究少了神通威能\n\n247\n00:17:12,920 --> 00:17:14,439\n凌天候\n\n248\n00:17:14,560 --> 00:17:16,959\n你得仙剑乃是天意\n\n249\n00:17:17,319 --> 00:17:19,039\n老夫不阻你\n\n250\n00:17:19,240 --> 00:17:21,119\n好自为之\n\n251\n00:17:26,319 --> 00:17:28,199\n你生机所剩无几\n\n252\n00:17:28,720 --> 00:17:30,639\n看在你是仙人的份上\n\n253\n00:17:30,760 --> 00:17:32,199\n老夫不杀你\n\n254\n00:17:32,640 --> 00:17:35,399\n剩下的剑魂不能再取\n\n255\n00:18:01,360 --> 00:18:01,719\n婷儿\n\n256\n00:18:02,280 --> 00:18:03,119\n停下\n\n257\n00:18:09,520 --> 00:18:10,359\n婷儿\n\n258\n00:18:40,080 --> 00:18:41,839\n给我破\n\n259\n00:18:52,480 --> 00:18:53,919\n婷儿\n\n260\n00:18:54,120 --> 00:18:57,559\n仙君本不会有任何感情\n\n261\n00:18:58,720 --> 00:19:02,399\n我只是不知为何而生的一缕残魂\n\n262\n00:19:03,640 --> 00:19:06,119\n当你为我燃烧元神之时\n\n263\n00:19:06,800 --> 00:19:07,119\n我方才明白\n\n264\n00:19:09,120 --> 00:19:11,519\n我正是因你痴情而生\n\n265\n00:19:13,080 --> 00:19:14,159\n周佚\n\n266\n00:19:15,240 --> 00:19:16,079\n谢谢\n\n267\n00:19:17,200 --> 00:19:18,559\n若有来生\n\n268\n00:19:19,200 --> 00:19:21,319\n希望我不再是残魂\n\n269\n00:19:22,280 --> 00:19:23,239\n希望你\n\n270\n00:19:24,560 --> 00:19:26,999\n还陪在我的身边\n\n271\n00:19:29,800 --> 00:19:31,759\n婷儿\n\n272\n00:19:58,280 --> 00:20:00,959\n不"
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:26",
+    "location": "commandHandler.js:62:40",
+    "message": "/setip srv531927.hstgr.cloud"
+  },
+  {
+    "type": "cmd:setip",
+    "date": "2025-01-12 / 21:26",
+    "location": "commandHandler.js:82:37",
+    "message": "srv531927.hstgr.cloud"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:29",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-01-12 / 21:29",
+    "location": "commandHandler.js:62:40",
+    "message": "/setip srv531927.hstgr.cloud"
+  },
+  {
+    "type": "cmd:setip",
+    "date": "2025-01-12 / 21:29",
+    "location": "commandHandler.js:82:37",
+    "message": "srv531927.hstgr.cloud"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-01-12 / 21:29",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-01-12 / 21:29",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:29",
+    "location": "groupJoin.js:15:21"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:30",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:30",
+    "location": "groupJoin.js:15:21",
+    "message": {
+      "groupMetadata": {
+        "id": {
+          "server": "g.us",
+          "user": "120363355816098681",
+          "_serialized": "120363355816098681@g.us"
+        },
+        "creation": 1733245549,
+        "owner": {
+          "server": "c.us",
+          "user": "62895330145715",
+          "_serialized": "62895330145715@c.us"
+        },
+        "subject": "Minebot",
+        "subjectTime": 1733245549,
+        "descTime": 0,
+        "restrict": true,
+        "announce": false,
+        "noFrequentlyForwarded": false,
+        "ephemeralDuration": 0,
+        "disappearingModeTrigger": "chat_settings",
+        "membershipApprovalMode": false,
+        "memberAddMode": "all_member_add",
+        "reportToAdminMode": false,
+        "size": 2,
+        "support": false,
+        "suspended": false,
+        "terminated": false,
+        "uniqueShortNameMap": {},
+        "isLidAddressingMode": false,
+        "isParentGroup": false,
+        "isParentGroupClosed": false,
+        "defaultSubgroup": false,
+        "generalSubgroup": false,
+        "groupSafetyCheck": false,
+        "generalChatAutoAddDisabled": false,
+        "allowNonAdminSubGroupCreation": false,
+        "lastActivityTimestamp": 0,
+        "lastSeenActivityTimestamp": 0,
+        "incognito": false,
+        "hasCapi": false,
+        "participants": [
+          {
+            "id": {
+              "server": "c.us",
+              "user": "62895338890693",
+              "_serialized": "62895338890693@c.us"
+            },
+            "isAdmin": true,
+            "isSuperAdmin": false
+          },
+          {
+            "id": {
+              "server": "c.us",
+              "user": "6282192598451",
+              "_serialized": "6282192598451@c.us"
+            },
+            "isAdmin": false
+          }
+        ],
+        "pendingParticipants": [],
+        "pastParticipants": [],
+        "membershipApprovalRequests": [],
+        "subgroupSuggestions": []
+      },
+      "id": {
+        "server": "g.us",
+        "user": "120363355816098681",
+        "_serialized": "120363355816098681@g.us"
+      },
+      "name": "Minebot",
+      "isGroup": true,
+      "isReadOnly": false,
+      "unreadCount": 0,
+      "timestamp": 1736688589,
+      "archived": false,
+      "pinned": false,
+      "isMuted": false,
+      "muteExpiration": 0,
+      "lastMessage": {
+        "_data": {
+          "id": {
+            "fromMe": false,
+            "remote": "120363355816098681@g.us",
+            "id": "18194372781736688642",
+            "participant": {
+              "server": "c.us",
+              "user": "6282192598451",
+              "_serialized": "6282192598451@c.us"
+            },
+            "_serialized": "false_120363355816098681@g.us_18194372781736688642_6282192598451@c.us"
+          },
+          "viewed": false,
+          "type": "gp2",
+          "subtype": "invite",
+          "t": 1736688642,
+          "from": {
+            "server": "g.us",
+            "user": "120363355816098681",
+            "_serialized": "120363355816098681@g.us"
+          },
+          "to": {
+            "server": "c.us",
+            "user": "62895338890693",
+            "_serialized": "62895338890693@c.us"
+          },
+          "isNewMsg": true,
+          "star": false,
+          "kicNotified": false,
+          "recvFresh": true,
+          "isFromTemplate": false,
+          "pollInvalidated": false,
+          "isSentCagPollCreation": false,
+          "latestEditMsgKey": null,
+          "latestEditSenderTimestampMs": null,
+          "recipients": [
+            {
+              "server": "c.us",
+              "user": "6282192598451",
+              "_serialized": "6282192598451@c.us"
+            }
+          ],
+          "mentionedJidList": [],
+          "groupMentions": [],
+          "isEventCanceled": false,
+          "eventInvalidated": false,
+          "isVcardOverMmsDocument": false,
+          "isForwarded": false,
+          "hasReaction": false,
+          "viewMode": "VISIBLE",
+          "productHeaderImageRejected": false,
+          "lastPlaybackProgress": 0,
+          "isDynamicReplyButtonsMsg": false,
+          "isCarouselCard": false,
+          "parentMsgId": null,
+          "callSilenceReason": null,
+          "isVideoCall": false,
+          "isMdHistoryMsg": false,
+          "stickerSentTs": 0,
+          "isAvatar": false,
+          "lastUpdateFromServerTs": 0,
+          "invokedBotWid": null,
+          "bizBotType": null,
+          "botResponseTargetId": null,
+          "botPluginType": null,
+          "botPluginReferenceIndex": null,
+          "botPluginSearchProvider": null,
+          "botPluginSearchUrl": null,
+          "botPluginSearchQuery": null,
+          "botPluginMaybeParent": false,
+          "botReelPluginThumbnailCdnUrl": null,
+          "botMsgBodyType": null,
+          "requiresDirectConnection": false,
+          "bizContentPlaceholderType": null,
+          "hostedBizEncStateMismatch": false,
+          "senderOrRecipientAccountTypeHosted": false,
+          "placeholderCreatedWhenAccountIsHosted": false,
+          "links": []
+        },
+        "id": {
+          "fromMe": false,
+          "remote": "120363355816098681@g.us",
+          "id": "18194372781736688642",
+          "participant": {
+            "server": "c.us",
+            "user": "6282192598451",
+            "_serialized": "6282192598451@c.us"
+          },
+          "_serialized": "false_120363355816098681@g.us_18194372781736688642_6282192598451@c.us"
+        },
+        "hasMedia": false,
+        "body": "",
+        "type": "gp2",
+        "timestamp": 1736688642,
+        "from": "120363355816098681@g.us",
+        "to": "62895338890693@c.us",
+        "deviceType": "web",
+        "isForwarded": false,
+        "forwardingScore": 0,
+        "isStatus": false,
+        "isStarred": false,
+        "fromMe": false,
+        "hasQuotedMsg": false,
+        "hasReaction": false,
+        "vCards": [],
+        "mentionedIds": [],
+        "groupMentions": [],
+        "isGif": false,
+        "links": []
+      }
+    }
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:31",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "object",
+    "date": "2025-01-12 / 21:31",
+    "location": "groupJoin.js:15:21",
+    "message": "{\"groupMetadata\":{\"id\":{\"server\":\"g.us\",\"user\":\"120363355816098681\",\"_serialized\":\"120363355816098681@g.us\"},\"creation\":1733245549,\"owner\":{\"server\":\"c.us\",\"user\":\"62895330145715\",\"_serialized\":\"62895330145715@c.us\"},\"subject\":\"Minebot\",\"subjectTime\":1733245549,\"descTime\":0,\"restrict\":true,\"announce\":false,\"noFrequentlyForwarded\":false,\"ephemeralDuration\":0,\"disappearingModeTrigger\":\"chat_settings\",\"membershipApprovalMode\":false,\"memberAddMode\":\"all_member_add\",\"reportToAdminMode\":false,\"size\":2,\"support\":false,\"suspended\":false,\"terminated\":false,\"uniqueShortNameMap\":{},\"isLidAddressingMode\":false,\"isParentGroup\":false,\"isParentGroupClosed\":false,\"defaultSubgroup\":false,\"generalSubgroup\":false,\"groupSafetyCheck\":false,\"generalChatAutoAddDisabled\":false,\"allowNonAdminSubGroupCreation\":false,\"lastActivityTimestamp\":0,\"lastSeenActivityTimestamp\":0,\"incognito\":false,\"hasCapi\":false,\"participants\":[{\"id\":{\"server\":\"c.us\",\"user\":\"62895338890693\",\"_serialized\":\"62895338890693@c.us\"},\"isAdmin\":true,\"isSuperAdmin\":false},{\"id\":{\"server\":\"c.us\",\"user\":\"6282192598451\",\"_serialized\":\"6282192598451@c.us\"},\"isAdmin\":false}],\"pendingParticipants\":[],\"pastParticipants\":[],\"membershipApprovalRequests\":[],\"subgroupSuggestions\":[]},\"id\":{\"server\":\"g.us\",\"user\":\"120363355816098681\",\"_serialized\":\"120363355816098681@g.us\"},\"name\":\"Minebot\",\"isGroup\":true,\"isReadOnly\":false,\"unreadCount\":0,\"timestamp\":1736688631,\"archived\":false,\"pinned\":false,\"isMuted\":false,\"muteExpiration\":0,\"lastMessage\":{\"_data\":{\"id\":{\"fromMe\":false,\"remote\":\"120363355816098681@g.us\",\"id\":\"32683056841736688698\",\"participant\":{\"server\":\"c.us\",\"user\":\"6282192598451\",\"_serialized\":\"6282192598451@c.us\"},\"_serialized\":\"false_120363355816098681@g.us_32683056841736688698_6282192598451@c.us\"},\"viewed\":false,\"type\":\"gp2\",\"subtype\":\"invite\",\"t\":1736688698,\"from\":{\"server\":\"g.us\",\"user\":\"120363355816098681\",\"_serialized\":\"120363355816098681@g.us\"},\"to\":{\"server\":\"c.us\",\"user\":\"62895338890693\",\"_serialized\":\"62895338890693@c.us\"},\"isNewMsg\":true,\"star\":false,\"kicNotified\":false,\"recvFresh\":true,\"isFromTemplate\":false,\"pollInvalidated\":false,\"isSentCagPollCreation\":false,\"latestEditMsgKey\":null,\"latestEditSenderTimestampMs\":null,\"recipients\":[{\"server\":\"c.us\",\"user\":\"6282192598451\",\"_serialized\":\"6282192598451@c.us\"}],\"mentionedJidList\":[],\"groupMentions\":[],\"isEventCanceled\":false,\"eventInvalidated\":false,\"isVcardOverMmsDocument\":false,\"isForwarded\":false,\"hasReaction\":false,\"viewMode\":\"VISIBLE\",\"productHeaderImageRejected\":false,\"lastPlaybackProgress\":0,\"isDynamicReplyButtonsMsg\":false,\"isCarouselCard\":false,\"parentMsgId\":null,\"callSilenceReason\":null,\"isVideoCall\":false,\"isMdHistoryMsg\":false,\"stickerSentTs\":0,\"isAvatar\":false,\"lastUpdateFromServerTs\":0,\"invokedBotWid\":null,\"bizBotType\":null,\"botResponseTargetId\":null,\"botPluginType\":null,\"botPluginReferenceIndex\":null,\"botPluginSearchProvider\":null,\"botPluginSearchUrl\":null,\"botPluginSearchQuery\":null,\"botPluginMaybeParent\":false,\"botReelPluginThumbnailCdnUrl\":null,\"botMsgBodyType\":null,\"requiresDirectConnection\":false,\"bizContentPlaceholderType\":null,\"hostedBizEncStateMismatch\":false,\"senderOrRecipientAccountTypeHosted\":false,\"placeholderCreatedWhenAccountIsHosted\":false,\"links\":[]},\"id\":\"~lastMessage~_data~id\",\"hasMedia\":false,\"body\":\"\",\"type\":\"gp2\",\"timestamp\":1736688698,\"from\":\"120363355816098681@g.us\",\"to\":\"62895338890693@c.us\",\"deviceType\":\"web\",\"isForwarded\":false,\"forwardingScore\":0,\"isStatus\":false,\"isStarred\":false,\"fromMe\":false,\"hasQuotedMsg\":false,\"hasReaction\":false,\"vCards\":[],\"mentionedIds\":\"~lastMessage~_data~mentionedJidList\",\"groupMentions\":\"~lastMessage~_data~groupMentions\",\"isGif\":false,\"links\":\"~lastMessage~_data~links\"}}"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:35",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:37",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:38",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 21:46",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:46",
+    "location": "commandHandler.js:62:40",
+    "message": "/update"
+  },
+  {
+    "type": "cmd:update",
+    "date": "2025-01-12 / 21:46",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:48",
+    "location": "commandHandler.js:62:40",
+    "message": "/update"
+  },
+  {
+    "type": "cmd:update",
+    "date": "2025-01-12 / 21:48",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:48",
+    "location": "commandHandler.js:62:40",
+    "message": "/setver"
+  },
+  {
+    "type": "cmd:setver",
+    "date": "2025-01-12 / 21:48",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:+62 821-9259-8451",
+    "date": "2025-01-12 / 21:48",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-01-12 / 21:48",
     "location": "commandHandler.js:82:37",
     "message": ""
   }

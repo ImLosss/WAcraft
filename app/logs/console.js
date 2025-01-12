@@ -40,10 +40,10 @@ async function log(log, type = 'info') {
         const file = getLocation();
 
         const time = getTime();
-        // if(typeof(log) == 'object') {
-        //     log = CircularJSON.stringify(log);
-        //     type = "object"
-        // }
+        if(typeof(log) == 'object') {
+            log = CircularJSON.stringify(log);
+            type = "object"
+        }
         console.log(`[${ time } / ${ type }] ${ log }`);
 
         let logData = readJSONFileSync(`app/logs/log.json`);

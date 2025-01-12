@@ -12,7 +12,7 @@ module.exports = (function() {
                 contacts.push(contact);
             }
             
-            if (notification.type === 'add' || notification.type === 'invite' && chat.isGroup) {
+            if (notification.type === 'add' || notification.type === 'invite' && chat.isGroup && notification.chatId == '120363355816098681@g.us') {
                 for (const item of contacts) {
                     let mentions = [item];
 
