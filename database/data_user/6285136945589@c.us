@@ -1,0 +1,28 @@
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "status": "online",
+    "ip": "clarity-id.net",
+    "autorightclick": false,
+    "autoleftclick": true,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": true,
+    "reconnectTime": 0,
+    "username": "Newt",
+    "autocmd": [
+      "/login rian123",
+      "/server SMP",
+      "/autoleftclick 1"
+    ],
+    "autoReconnect": true
+  },
+  {
+    "clarity-id.net": {
+      "version": "1.20",
+      "realUser": "Newt",
+      "alt": []
+    }
+  }
+]

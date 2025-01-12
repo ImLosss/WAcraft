@@ -1,0 +1,33 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "autorightclick": false,
+    "ip": "z",
+    "username": "vayne",
+    "automsg": {
+      "message": "/ec",
+      "status": false
+    },
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "autocmd": [
+      "/login afkaja",
+      "/survival",
+      "/automsg 2"
+    ],
+    "autoReconnect": true,
+    "reconnectTime": 0,
+    "autoleftclick": false
+  },
+  {
+    "kzn.my.id": {
+      "realUser": "Kidsyy",
+      "alt": [
+        "vayne"
+      ]
+    }
+  }
+]

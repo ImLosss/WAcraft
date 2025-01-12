@@ -1,0 +1,21 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "minegens.id",
+    "username": "Morphyy777",
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autoleftclick": false
+  },
+  {
+    "minegens.id": {
+      "realUser": "Morphyy777",
+      "alt": []
+    }
+  }
+]

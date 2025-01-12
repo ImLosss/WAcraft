@@ -1,0 +1,38 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "claritynetwork.net",
+    "username": "suburan",
+    "autorightclick": false,
+    "automsg": {
+      "message": "/feed",
+      "status": false
+    },
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "autoReconnect": false,
+    "autocmd": [
+      "/login loli123",
+      "/server smp"
+    ],
+    "reconnectTime": 0,
+    "autoleftclick": false
+  },
+  {
+    "claritynetwork.net": {
+      "realUser": "suburan",
+      "alt": [
+        "ClaraMon",
+        "suburan"
+      ],
+      "version": "1.20"
+    },
+    "kratosmc.us": {
+      "realUser": "ClaraMon",
+      "alt": []
+    }
+  }
+]

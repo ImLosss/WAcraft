@@ -1,5 +1,7 @@
+require('module-alias/register');
 const fs = require('fs');
 const path = require('path');
+const { deleteFile } = require('function/utils');
 
 resetDataUser();
 
@@ -26,6 +28,8 @@ async function resetDataUser() {
                 try {
                     const jsonData = JSON.parse(data);
 
+                    if(!jsonData[0].ip) return deleteFile(filePath);
+
                     jsonData[0].status = 'offline'; 
                     jsonData[0].chatPublic = true;
                     jsonData[0].autorightclick = false;
@@ -34,6 +38,8 @@ async function resetDataUser() {
                     jsonData[0].afkfish = false;
                     jsonData[0].statusRepeat = false;
                     jsonData[0].reconnectTime = 0;
+                    jsonData[0].intervalIds = {};
+                    jsonData[0].timeoutIds = {};
                     if(!jsonData[1]) jsonData[1] = {};
                     if (jsonData[0].automsg != undefined) jsonData[0].automsg.status = false;
 

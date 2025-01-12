@@ -1,0 +1,36 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "Horm",
+    "ip": "claritynetwork.net",
+    "statusRepeat": false,
+    "autocmd": [
+      "/login rimbun",
+      "/server survival",
+      "/home afk"
+    ],
+    "autoReconnect": true,
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "reconnectTime": 0,
+    "autoleftclick": false
+  },
+  {
+    "play.claritynetwork.net": {
+      "realUser": "qxeraa",
+      "alt": [
+        "Horm"
+      ]
+    },
+    "claritynetwork.net": {
+      "realUser": "oryuu_",
+      "alt": [
+        "qxeraa",
+        "Horm"
+      ]
+    }
+  }
+]

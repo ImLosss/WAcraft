@@ -1,0 +1,35 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "play.clarity-id.net",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "username": "mweheh",
+    "autoReconnect": false,
+    "automsg": {
+      "message": "/sell all",
+      "status": false
+    }
+  },
+  {
+    "minegens.id": {
+      "version": "1.20",
+      "alt": [
+        "mweheh"
+      ]
+    },
+    "play.clarity-id.net": {
+      "realUser": "Losss",
+      "alt": [
+        "mweheh"
+      ],
+      "version": "1.20"
+    }
+  }
+]

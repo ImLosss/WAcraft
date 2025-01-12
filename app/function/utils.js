@@ -153,6 +153,8 @@ async function resetDataUser(client) {
                 try {
                     const jsonData = JSON.parse(data);
 
+                    if(!jsonData[0].ip) return deleteFile(filePath);
+
                     if(jsonData[0].status == 'online') client.sendMessage(file, '_*Bot restarted*_');
 
                     jsonData[0].status = 'offline'; 

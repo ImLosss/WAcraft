@@ -1,0 +1,24 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "claritynetwork.net",
+    "username": "nowezki",
+    "except": [
+      "[me ->",
+      "me]->"
+    ],
+    "automsg": {
+      "message": "/feed",
+      "status": false
+    },
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autoleftclick": false
+  },
+  {}
+]

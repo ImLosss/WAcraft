@@ -1,0 +1,30 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "ip": "minegens.id",
+    "autoReconnect": true,
+    "autocmd": [
+      "/login SM120205",
+      "/server tycoon"
+    ],
+    "username": "SapiMan"
+  },
+  {
+    "claritynetwork.net": {
+      "realUser": "Sipaaa",
+      "alt": []
+    },
+    "minegens.id": {
+      "realUser": "SapiMan",
+      "alt": []
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "lobster.aternos.host:14042",
+    "username": "London_",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "except": [
+      "London_"
+    ]
+  },
+  {
+    "play.xetapixel.net": {
+      "realUser": "Extacys",
+      "alt": [
+        "London_"
+      ],
+      "version": "1.20"
+    },
+    "supremeslimefun.aternos.me:14042": {
+      "realUser": "Extacys",
+      "alt": [
+        "London_"
+      ],
+      "version": "1.20"
+    },
+    "lobster.aternos.host:14042": {
+      "realUser": "Extacys",
+      "alt": [
+        "London_"
+      ],
+      "version": "1.20"
+    }
+  }
+]

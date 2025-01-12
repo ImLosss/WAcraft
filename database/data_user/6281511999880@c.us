@@ -1,0 +1,42 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "Anakecil",
+    "ip": "play.clarity-id.net",
+    "autoReconnect": true,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autocmd": [
+      "/login hanugreenda",
+      "/server smp"
+    ],
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "except": [
+      "memanggilmu",
+      "ItzAbhylKunz"
+    ]
+  },
+  {
+    "play.xetapixel.net": {
+      "realUser": "Anakecil",
+      "alt": [
+        "TimedOut",
+        "Anakecil",
+        "ItzAbhylKunz"
+      ],
+      "version": "1.20"
+    },
+    "play.clarity-id.net": {
+      "realUser": "ItzAbhylKunz",
+      "alt": [
+        "Anakecil"
+      ],
+      "version": "1.20"
+    }
+  }
+]

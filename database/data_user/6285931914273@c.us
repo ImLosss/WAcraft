@@ -1,0 +1,32 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "botiy",
+    "ip": "play.xetapixel.net",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autoReconnect": true
+  },
+  {
+    "dezeL000988.aternos.me:13248": {
+      "realUser": "FVCU7690",
+      "alt": [
+        "botiy"
+      ],
+      "version": "1.20"
+    },
+    "play.xetapixel.net": {
+      "realUser": "FVCU7690",
+      "alt": [
+        "botiy"
+      ],
+      "version": "1.20"
+    }
+  }
+]

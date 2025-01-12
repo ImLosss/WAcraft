@@ -1,0 +1,47 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "online",
+    "username": "kaiser5636",
+    "ip": "Clarity-id.net",
+    "autorightclick": false,
+    "autoleftclick": true,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": true,
+    "reconnectTime": 0,
+    "autoReconnect": true,
+    "autocmd": [
+      "/login azfara09",
+      "/server smp",
+      "/autoleftclick 1",
+      "/automsg 1"
+    ],
+    "automsg": {
+      "message": "/feed",
+      "status": true
+    }
+  },
+  {
+    "Claritynetwork.id": {
+      "realUser": "kaiser5636",
+      "alt": [],
+      "version": "1.20"
+    },
+    "Play.Claritynetwork.net": {
+      "realUser": "Newt",
+      "alt": [
+        "kaiser5636"
+      ],
+      "version": "1.20"
+    },
+    "Clarity-id.net": {
+      "realUser": "kaiser5636",
+      "alt": [
+        "Newt"
+      ],
+      "version": "1.20"
+    }
+  }
+]

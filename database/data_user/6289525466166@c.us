@@ -1,0 +1,90 @@
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "status": "online",
+    "username": "nowezki",
+    "ip": "play.clarity-id.net",
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "except": [
+      "Xon",
+      "xon, nez",
+      "SHI >",
+      "Klvv",
+      "PLR",
+      "DPR",
+      "PKI",
+      "[XPBottle]",
+      "W4R",
+      "EOD",
+      "Doukto",
+      "WTB",
+      "locked",
+      "PRC",
+      "Balance",
+      "point",
+      "Vote",
+      "Archery",
+      "Skill"
+    ],
+    "statusRepeat": true,
+    "autoReconnect": true,
+    "autocmd": [
+      "/login pras2009",
+      "/chat off",
+      "/server smp",
+      "/automsg 15",
+      "/afkarchery on",
+      "/autoleftclick 1"
+    ],
+    "reconnectTime": 0,
+    "autoleftclick": true,
+    "automsg": {
+      "message": "/xpbottle",
+      "status": true
+    },
+    "afkArcher": false
+  },
+  {
+    "claritynetwork.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki",
+        "Klvv",
+        "MieAyam"
+      ],
+      "version": "1.20"
+    },
+    "159.65.247.79:2012": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
+    },
+    "play.xetapixel.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
+    },
+    "66.118.234.150": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
+    },
+    "play.clarity-id.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki",
+        "Klvv"
+      ],
+      "version": "1.20"
+    }
+  }
+]

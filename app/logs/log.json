@@ -1,47 +1,5 @@
 [
   {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:07",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2024-12-31 / 20:07",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2024-12-31 / 20:07",
-    "location": "commandHandler.js:62:40",
-    "message": "a"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:07",
-    "location": "timeout.js:7:13",
-    "message": null
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:07",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:07",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "info",
-    "date": "2024-12-31 / 20:10",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
     "type": "MessageFrom:+62 821-9259-8451",
     "date": "2024-12-31 / 20:11",
     "location": "commandHandler.js:62:40",
@@ -2995,5 +2953,47 @@
     "date": "2025-01-12 / 01:24",
     "location": "end.js:17:25",
     "message": "Jumlah listener message setelah dihapus : 1"
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 17:58",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:",
+    "date": "2025-01-12 / 17:58",
+    "location": "commandHandler.js:62:40",
+    "message": "awan pink eppgbm dulu. semoga nd jd awan gelap susah akses😁"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-01-12 / 17:59",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-01-12 / 17:59",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-01-12 / 17:59",
+    "location": "setupClient.js:37:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-01-12 / 18:00",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-01-12 / 18:00",
+    "location": "commandHandler.js:82:37",
+    "message": ""
   }
 ]

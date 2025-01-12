@@ -1,0 +1,48 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "Blounam",
+    "autocmd": [
+      "/login gibigibi",
+      "/server oneblock"
+    ],
+    "ip": "kalwi.id",
+    "statusRepeat": false,
+    "reconnectTime": 0,
+    "autoleftclick": false,
+    "autorightclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "autoReconnect": false,
+    "automsg": {
+      "message": "/sell all",
+      "status": false
+    }
+  },
+  {
+    "claritynetwork.net": {
+      "realUser": "Mieyamin",
+      "alt": [
+        "MieAyam"
+      ],
+      "version": "1.20"
+    },
+    "clarity-id.net": {
+      "realUser": "Mieyamin",
+      "alt": [
+        "MieAyam"
+      ],
+      "version": "1.20"
+    },
+    "kalwi.id": {
+      "realUser": "Mieyamin",
+      "alt": [
+        "MieAyam",
+        "Blounam"
+      ],
+      "version": "1.20"
+    }
+  }
+]

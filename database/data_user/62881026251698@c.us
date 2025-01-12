@@ -1,0 +1,36 @@
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "status": "online",
+    "ip": "play.clarity-id.net",
+    "username": "royalti",
+    "statusRepeat": true,
+    "reconnectTime": 0,
+    "autorightclick": false,
+    "autoleftclick": true,
+    "afkfarm": false,
+    "afkfish": false,
+    "autoReconnect": false,
+    "autocmd": [
+      "/login ray123",
+      "/server smp",
+      "/sell all",
+      "/autoleftclick 1"
+    ],
+    "automsg": {
+      "message": "/xpbottle",
+      "status": true
+    },
+    "except": [
+      "obtained"
+    ]
+  },
+  {
+    "play.clarity-id.net": {
+      "realUser": "royalti",
+      "alt": [],
+      "version": "1.20"
+    }
+  }
+]
