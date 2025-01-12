@@ -9,7 +9,7 @@
   "versions": ["1.17", "1.18", "1.19", "1.20", "1.21.1"],
   "donate": true,
   "joinGroup": true,
-  "timeoutDc": 1,
+  "timeoutDc": 15,
   "broadcast": {
     "status": true,
     "message": [
