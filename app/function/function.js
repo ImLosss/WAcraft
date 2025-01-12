@@ -57,6 +57,7 @@ function getMenu(dir) {
 
                 if(dataUser[0]?.ip) {
                     const ip = dataUser[0].ip;
+                    if(!dataUser[1][ip]) dataUser[1][ip] = {};
                     str += `\n╟────「 *Information* 」`;
                     str += `\n║ Server: ${ip}`;
                     str += `\n║ Version: ${ dataUser[1][ip].version ? dataUser[1][ip].version : 'None'}`;
