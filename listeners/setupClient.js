@@ -4,6 +4,7 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const console = require('console');
 const { resetDataUser } = require('utils');
+const { backup } = require('controller/BackupController')
 
 module.exports = (function() {
     return function(client) {
@@ -47,7 +48,7 @@ module.exports = (function() {
         // Fungsi yang akan dijalankan setiap jam
         async function intervalBackup() {
             console.log('Daily backup');
-            await backup_database('database', 'database.zip', client);
+            await backup('database', 'database.zip', client);
         }
         
         setInterval(() => {

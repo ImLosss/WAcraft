@@ -6,7 +6,7 @@ const path = require('path');
 const { MessageMedia } = require('whatsapp-web.js');
 const fs = require('fs');
 
-const backup = withErrorHandling(async (msg, sourceFolderPath, outputFilePath, client) => {
+const backup = withErrorHandling(async (sourceFolderPath, outputFilePath, client) => {
     const output = fs.createWriteStream(outputFilePath);
     const archive = archiver('zip', { zlib: { level: 9 } });
     

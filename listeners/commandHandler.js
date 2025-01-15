@@ -7,7 +7,7 @@ const cmd = require('command');
 const { withErrorHandling } = require('../app/function/function');
 
 const prefixFunctionsAdmin = {
-    'backup': withErrorHandling((msg, sender, client, arg) => cmd.backup(msg, 'database', 'database.zip', client)),
+    'backup': withErrorHandling((msg, sender, client, arg) => cmd.backup('database', 'database.zip', client)),
     'sendmsg': withErrorHandling((msg, sender, client, arg) => cmd.sendMsg(msg, client, arg)),
     'sendupdate': withErrorHandling((msg, sender, client, arg) => cmd.sendUpdate(msg, client)),
     'sendmsgall': withErrorHandling((msg, sender, client, arg) => cmd.sendMsgAll(msg, client, arg)),
