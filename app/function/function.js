@@ -274,8 +274,8 @@ const withErrorHandling = (fn, defaultMsg, bot, defaultChat) => {
             if(bot) bot.quit();
 
             try {
-                if (msg) chat.sendMessage(`Terjadi kesalahan: ${err.message}`);
-                else if(chat) chat.sendMessage(`Terjadi kesalahan: ${err.message}`);
+                if(chat) chat.sendMessage(`Terjadi kesalahan: ${err.message}`);
+                else if (msg) chat.sendMessage(`Terjadi kesalahan: ${err.message}`);
                 else console.error(err);
             } catch (err) { console.error(err); }
         }
