@@ -13,7 +13,7 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
     const chat = await msg.getChat();
     const dirUser = `./database/data_user/${ sender }`
 
-    if(chat.isGroup) return msg.reply('Fitur hanya bisa digunakan di private Chat');
+    if(chat.isGroup) return chat.sendMessage('Fitur hanya bisa digunakan di private Chat');
 
     let dataUser = readJSONFileSync(dirUser);
     let config = readJSONFileSync(`./config.json`);
@@ -24,8 +24,8 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
     }
 
     if(dataUser[0].status == 'online') return chat.sendMessage('Anda sedang Online, kirim /dc untuk disconnect');
-    if(dataUser[0].ip == undefined) return msg.reply('silahkan atur IP anda terlebih dahulu, dengan format */setip <ip>*');
-    if(dataUser[0].username == undefined) return msg.reply('silahkan atur username anda terlebih dahulu, dengan format */setuser <username>*');
+    if(dataUser[0].ip == undefined) return chat.sendMessage('silahkan atur IP anda terlebih dahulu, dengan format */setip <ip>*');
+    if(dataUser[0].username == undefined) return chat.sendMessage('silahkan atur username anda terlebih dahulu, dengan format */setuser <username>*');
     if(dataUser[0].reconnectTime >= 5) {
         dataUser[0].reconnectTime = 0;
         writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);

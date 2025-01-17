@@ -48,7 +48,7 @@ module.exports = (function() {
         // Fungsi yang akan dijalankan setiap jam
         async function intervalBackup() {
             console.log('Daily backup');
-            await backup('database', 'database.zip', client);
+            backup('database', 'database.zip', client);
         }
         
         setInterval(() => {
