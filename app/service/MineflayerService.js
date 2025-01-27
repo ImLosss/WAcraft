@@ -5,6 +5,7 @@ const { removeFromArray } = require('function/function');
 const { cutVal, withErrorHandling } = require("function/function");
 const fs = require('fs');
 const path = require('path');
+const cache = require('cache');
 
 async function cekAlt(sender) {
     let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
@@ -151,23 +152,15 @@ async function startBroadcast(sender, config, chat) {
         }
     }, repeatTimeoutBroadcast);
 
-    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
-
     const intervalId = Number(repeatIntervalBroadcast);
 
-    if(!dataUser[0].intervalIds) dataUser[0].intervalIds = {}
-
-    dataUser[0].intervalIds.broadcast = intervalId;
-
-    // Simpan ID interval ke file JSON
-    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+    cache.set(`broadcast${ sender }`, intervalId);
 }
 
 async function stopBroadcast(sender) {
-    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
-    clearInterval(dataUser[0].intervalIds.broadcast);
-    dataUser[0].intervalIds.broadcast = null;
-    writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+    let intervalId = cache.get(`broadcast${ sender }`);
+    clearInterval(intervalId);
+    cache.del(`broadcast${ sender }`)
 }
 
 async function cekMember(client, sender) {

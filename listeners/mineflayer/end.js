@@ -31,8 +31,6 @@ module.exports = (function() {
             dataUser[0].afkfarm = false;
             dataUser[0].afkfish = false;
             dataUser[0].statusRepeat = false;
-            dataUser[0].intervalIds = {};
-            dataUser[0].timeoutIds = {};
             if(!dataUser[1]) dataUser[1] = {};
             if (dataUser[0].automsg != undefined) dataUser[0].automsg.status = false;
             if(dataUser[0].automsg != undefined) {
