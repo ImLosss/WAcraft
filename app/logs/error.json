@@ -2,20 +2,6 @@
   {
     "type": "Error",
     "date": "2024-12-18 / 20:06",
-    "errorLocation": "MineflayerService.js:215:21",
-    "errorMessage": "repeatCmd is not defined",
-    "error": "repeatCmd is not defined\nReferenceError: repeatCmd is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:208:35)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-18 / 20:06",
-    "errorLocation": "MineflayerService.js:215:21",
-    "errorMessage": "repeatCmd is not defined",
-    "error": "repeatCmd is not defined\nReferenceError: repeatCmd is not defined\n    at Timeout._onTimeout (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:208:35)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2024-12-18 / 20:06",
     "errorLocation": "function.js:247:21",
     "errorMessage": "dataUse is not defined",
     "error": "dataUse is not defined\nReferenceError: dataUse is not defined\n    at startAutoCmd (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\service\\MineflayerService.js:203:17)\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:19:84\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:245:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
@@ -348,5 +334,19 @@
     "errorLocation": "function.js:265:21",
     "errorMessage": "donate is not defined",
     "error": "donate is not defined\nReferenceError: donate is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:16:65\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:263:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)\n    at _write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-27 / 21:08",
+    "errorLocation": "function.js:266:21",
+    "errorMessage": "caches is not defined",
+    "error": "caches is not defined\nReferenceError: caches is not defined\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\messageHandler.js:53:9\n    at D:\\Dokumenku\\Pemrograman\\Node\\minebot\\listeners\\mineflayer\\login.js:26:58\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:264:19)\n    at Object.onceWrapper (node:events:628:28)\n    at EventEmitter.emit (node:events:526:35)\n    at Client.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\mineflayer\\lib\\plugins\\game.js:95:9)\n    at Client.emit (node:events:526:35)\n    at emitPacket (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:83:12)\n    at FullPacketParser.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\minecraft-protocol\\src\\client.js:112:9)\n    at FullPacketParser.emit (node:events:514:28)\n    at addChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:321:12)\n    at readableAddChunk (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:298:9)\n    at Readable.push (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\readable.js:244:10)\n    at FullPacketParser._transform (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\protodef\\src\\serializer.js:89:10)\n    at Transform._write (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\transform.js:153:8)\n    at writeOrBuffer (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\node_modules\\readable-stream\\lib\\internal\\streams\\writable.js:334:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-01-27 / 21:08",
+    "errorLocation": "function.js:280:37",
+    "errorMessage": "Cannot read properties of undefined (reading 'sendMessage')",
+    "error": "Cannot read properties of undefined (reading 'sendMessage')\nTypeError: Cannot read properties of undefined (reading 'sendMessage')\n    at EventEmitter.<anonymous> (D:\\Dokumenku\\Pemrograman\\Node\\minebot\\app\\function\\function.js:278:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
   }
 ]

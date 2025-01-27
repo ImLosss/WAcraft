@@ -3,6 +3,7 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling, cutVal, checkCommandStatus } = require('function/function');
 const cmd = require('import/CommandImportMineflayer');
+const cache = require('cache');
 
 const prefixFunctions = {
     'dc': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { bot.quit() }),
@@ -50,6 +51,6 @@ module.exports = (function() {
 
         client.addListener('message', messageListener);
 
-        require('mineflayer-listener/end')(client, bot, dirUser, msg, chat, sender, messageListener);
+        cache.set(`messageListener${ sender }`, messageListener);
     };
 })();

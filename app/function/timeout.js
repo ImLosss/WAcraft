@@ -2,6 +2,7 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const fs = require('fs');
+const cache = require('cache');
 
 function startTimeoutDc(sender, config, chat, bot) {
     let TimeoutDisconnect = config.timeoutDc * 1000 * 60;
@@ -15,24 +16,17 @@ function startTimeoutDc(sender, config, chat, bot) {
         writeJSONFileSync(`./database/timeout/${ sender }`, dataTimeout)
     }
 
-    let dataTimeout = readJSONFileSync(`./database/timeout/${ sender }`);
-
     const timeoutId = Number(timeoutDc);
 
-    dataTimeout.timeoutId = timeoutId;
-
-    // Simpan ID interval ke file JSON
-    writeJSONFileSync(`./database/timeout/${ sender }`, dataTimeout);
+    cache.set(`timeoutDc${ sender }`, timeoutId);
 
     return timeoutId;
 }
 
-async function stopTimeoutDc(sender, timeoutId) {
-    let dataTimeout = readJSONFileSync(`./database/timeout/${ sender }`);
-    if(!timeoutId) timeoutId = dataTimeout.timeoutId;
+async function stopTimeoutDc(sender) {
+    const timeoutId = cache.get(`timeoutDc${ sender }`);
+    cache.del(`timeoutDc${ sender }`);
     clearTimeout(timeoutId);
-    dataTimeout.timeoutId = null;
-    writeJSONFileSync(`./database/timeout/${ sender }`, dataTimeout);
 }
 
 module.exports = {
