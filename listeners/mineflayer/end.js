@@ -38,7 +38,9 @@ module.exports = (function() {
             }
 
             stopBroadcast(sender);
-            stopTimeoutDc(sender);
+            setTimeout(() => {
+                stopTimeoutDc(sender);
+            }, 3000);
 
             if(dataUser[0].autoReconnect) {
                 dataUser[0].reconnectTime+=1;
