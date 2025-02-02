@@ -40,7 +40,7 @@ module.exports = (function() {
             stopBroadcast(sender);
             setTimeout(() => {
                 stopTimeoutDc(sender);
-            }, 3000);
+            }, 2000);
 
             if(dataUser[0].autoReconnect) {
                 dataUser[0].reconnectTime+=1;
