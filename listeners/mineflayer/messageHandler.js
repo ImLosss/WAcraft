@@ -9,6 +9,7 @@ const prefixFunctions = {
     'dc': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { bot.quit() }),
     'playerlist': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.playerOnline(bot, msg)),
     'afkfish': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.fishing(bot, msg, sender, value)),
+    'afkarcher': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.archer(bot, msg, value, sender)),
     'autorightclick': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.autoRightClick(bot, msg, value, sender)),
     'autoleftclick': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.autoLeftClick(bot, msg, value, sender)),
     'automsg': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.automsg(bot, msg, value, sender, chat)),

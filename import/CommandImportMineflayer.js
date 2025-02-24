@@ -5,6 +5,7 @@ const mineflayerService = require('service/MineflayerService');
 const inventory = require('function/inventory');
 const fishing = require('function/fishing');
 const autoclick = require('function/autoclick');
+const afkarcher = require('function/afkarcher');
 const automsg = require('function/automsg');
 const findBlock = require('function/finder');
 
@@ -15,5 +16,6 @@ module.exports = {
     ...fishing,
     ...autoclick,
     ...automsg,
-    ...findBlock
+    ...findBlock,
+    ...afkarcher
 };
