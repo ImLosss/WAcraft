@@ -29,19 +29,19 @@ async function archer(bot, msg, pesan, sender) {
 
     chat.sendMessage('AfkArcher berhasil diaktifkan');
 
-    timer = setInterval(() => {
+    timer = setInterval(async () => {
         let dataUser = readJSONFileSync(`./database/data_user/${ sender }`)
 
         if(!dataUser[0].afkArcher) clearInterval(timer);
+        try {
+            await bot.equip(bot.registry.itemsByName.arrow.id, 'hand')
+            await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
+        } catch (err) {
+            chat.sendMessage('Tidak menemukan Bow/Arrow di Inventory');
+            return archerOf(bot, msg, sender)
+        }
         bot.activateItem();
         setTimeout(async () => {
-            try {
-                // await bot.equip(bot.registry.itemsByName.arrow.id, 'hand')
-                await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
-            } catch (err) {
-                chat.sendMessage('Tidak menemukan Bow/Arrow di Inventory');
-                return archerOf(bot, msg, sender)
-            }
             const entity = bot.nearestEntity(entity => {
                 if (!entity.type) return;
                 const type = entity.type;
