@@ -2,7 +2,7 @@ require('module-alias/register');
 const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling } = require('function/function');
-const { stopTimeoutDc } = require('function/timeout');
+const { stopTimeoutDc, stopTimeoutChat } = require('function/timeout');
 const { joinServer } = require('controller/MineflayerController');
 const { startBroadcast, stopBroadcast } = require('service/MineflayerService');
 const cache = require('cache');
@@ -40,6 +40,7 @@ module.exports = (function() {
             stopBroadcast(sender);
             setTimeout(() => {
                 stopTimeoutDc(sender);
+                stopTimeoutChat(sender);
             }, 2000);
 
             if(dataUser[0].autoReconnect) {
