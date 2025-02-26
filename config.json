@@ -10,6 +10,7 @@
   "donate": true,
   "joinGroup": true,
   "timeoutDc": 15,
+  "timeoutChat": 60,
   "broadcast": {
     "status": true,
     "message": [

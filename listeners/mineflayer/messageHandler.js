@@ -3,6 +3,7 @@ const console = require('console');
 const { readJSONFileSync, writeJSONFileSync } = require('utils');
 const { withErrorHandling, cutVal, checkCommandStatus } = require('function/function');
 const cmd = require('import/CommandImportMineflayer');
+const { startTimeoutChat, stopTimeoutChat } = require('function/timeout');
 const cache = require('cache');
 
 const prefixFunctions = {
@@ -23,9 +24,13 @@ const prefixFunctions = {
 };  
 
 module.exports = (function() {
-    return function(client, bot, dirUser, msg, chat, sender) {
+    return function(client, bot, dirUser, msg, chat, sender, config) {
+        startTimeoutChat(sender, config, chat, bot);
         const messageListener = async (msg) => {
             if(msg.from != sender) return;
+
+            stopTimeoutChat(sender);
+            startTimeoutChat(sender, config, chat, bot);
 
             let pesan = msg.body;
 

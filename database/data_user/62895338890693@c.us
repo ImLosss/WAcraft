@@ -10,7 +10,7 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "username": "mweheh",
+    "username": "Ned",
     "autoReconnect": false,
     "automsg": {
       "message": "/sell all",
@@ -29,7 +29,8 @@
     "play.clarity-id.net": {
       "realUser": "Losss",
       "alt": [
-        "mweheh"
+        "mweheh",
+        "Ned"
       ],
       "version": "1.20"
     }

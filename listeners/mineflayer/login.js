@@ -23,7 +23,7 @@ module.exports = (function() {
 
             startBroadcast(sender, config, chat);
 
-            require('mineflayer-listener/messageHandler')(client, bot, dirUser, msg, chat, sender);
+            require('mineflayer-listener/messageHandler')(client, bot, dirUser, msg, chat, sender, config);
         }, msg, bot))
     };
 })();

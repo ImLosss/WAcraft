@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.clarity-id.net",
-    "username": "Losss",
+    "ip": "minegens.id",
+    "username": "shenxx",
     "automsg": {
       "message": "/repair",
       "status": false
@@ -44,7 +44,6 @@
     "autocmd": [
       "/login 040103",
       "/server survival",
-      "/automsg 2",
       "/dp",
       "/dd",
       "/afkfish on"
@@ -52,7 +51,9 @@
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false,
-    "intervalIds": {},
+    "intervalIds": {
+      "broadcast": 6421
+    },
     "timeoutIds": {}
   },
   {
@@ -83,7 +84,8 @@
         "Losssesss",
         "shandy",
         "raph"
-      ]
+      ],
+      "version": "1.20"
     },
     "play.luckynetwork.net": {
       "realUser": "Losss",

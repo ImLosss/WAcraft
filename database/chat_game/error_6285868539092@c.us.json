@@ -1,0 +1,37 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-02-24 / 15:03",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.37:25565",
+    "error": "connect ETIMEDOUT 45.59.168.37:25565\nError: connect ETIMEDOUT 45.59.168.37:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-24 / 15:05",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.37:25565",
+    "error": "connect ETIMEDOUT 45.59.168.37:25565\nError: connect ETIMEDOUT 45.59.168.37:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-24 / 15:07",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.37:25565",
+    "error": "connect ETIMEDOUT 45.59.168.37:25565\nError: connect ETIMEDOUT 45.59.168.37:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-24 / 15:10",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.37:25565",
+    "error": "connect ETIMEDOUT 45.59.168.37:25565\nError: connect ETIMEDOUT 45.59.168.37:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-26 / 08:27",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  }
+]

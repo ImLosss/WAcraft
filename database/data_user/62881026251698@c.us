@@ -2,21 +2,20 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "play.clarity-id.net",
     "username": "royalti",
     "statusRepeat": false,
     "reconnectTime": 0,
     "autorightclick": false,
-    "autoleftclick": false,
+    "autoleftclick": true,
     "afkfarm": false,
     "afkfish": false,
     "autoReconnect": false,
     "autocmd": [
       "/login ray123",
-      "/server smp",
       "/sell all",
-      "/autoleftclick 1"
+      "/server survival"
     ],
     "automsg": {
       "message": "/xpbottle",

@@ -1,0 +1,230 @@
+[
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:52",
+    "location": "messagestr.js:27:21",
+    "message": "[»] Hi on Minecraft Server Network! Here you have useful commands:\n\n  » /unregister <password>\n  » /changepassword <current-password> <new-password>\n  » /createpassword <password>\n  » /premium <password>\n  » /cracked <password>\n  » /startsession\n  » /destroysession\n  » /changeemailaddress <password> <email-address>\n  » /recoverypassword <email-address>"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:52",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:53",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:53",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:54",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:54",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:54",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:55",
+    "location": "messagestr.js:27:21",
+    "message": "Usage: /island coop <player-name>"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:55",
+    "location": "messagestr.js:27:21",
+    "message": "You don't have an island."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:55",
+    "location": "messagestr.js:27:21",
+    "message": "+ Aseppp1 is connected. (Java)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:55",
+    "location": "messagestr.js:27:21",
+    "message": "You don't have an island."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:55",
+    "location": "messagestr.js:27:21",
+    "message": "+ Algip is connected. (Java)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 06:55",
+    "location": "messagestr.js:27:21",
+    "message": "You've been connected to lobby"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "AlwiNation » You are not allowed to pvp here."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "AlwiNation » You are not allowed to pvp here."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 15:50",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 15:50",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-09 / 15:50",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Zinxx"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Zinxx to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE www.claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER claritynetwork.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD discord.gg/dVRd7mndQa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:51",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:53",
+    "location": "messagestr.js:27:21",
+    "message": "Teleport request accepted."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:53",
+    "location": "messagestr.js:27:21",
+    "message": "Error: You do not have a pending request."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:53",
+    "location": "messagestr.js:27:21",
+    "message": "To cancel this request, type /tpacancel."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-22 / 14:53",
+    "location": "messagestr.js:27:21",
+    "message": "lupa lagi cmd lands akwakw"
+  }
+]

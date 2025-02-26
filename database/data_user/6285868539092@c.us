@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "username": "kaiser5636",
     "ip": "Clarity-id.net",
     "autorightclick": false,
@@ -14,13 +14,13 @@
     "autoReconnect": true,
     "autocmd": [
       "/login azfara09",
-      "/server smp",
-      "/autoleftclick 1",
+      "/server survival",
+      "/feed",
       "/automsg 1"
     ],
     "automsg": {
       "message": "/feed",
-      "status": false
+      "status": true
     },
     "intervalIds": {},
     "timeoutIds": {}

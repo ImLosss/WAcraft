@@ -1,0 +1,806 @@
+[
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-27 / 22:32",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-28 / 09:17",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-28 / 13:18",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-28 / 21:49",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-28 / 22:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-29 / 15:33",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-29 / 16:43",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-29 / 16:59",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-30 / 04:17",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-30 / 04:18",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-30 / 04:28",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-30 / 17:16",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-31 / 07:00",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-31 / 18:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-31 / 20:09",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-01-31 / 20:24",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-01 / 09:00",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-01 / 22:00",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-02 / 00:36",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-03 / 00:37",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-03 / 16:32",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-04 / 14:31",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289673966655@c.us",
+    "date": "2025-02-09 / 06:52",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289673966655@c.us",
+    "date": "2025-02-09 / 06:54",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289673966655@c.us",
+    "date": "2025-02-09 / 07:58",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289673966655@c.us",
+    "date": "2025-02-09 / 08:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289673966655@c.us",
+    "date": "2025-02-09 / 15:50",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 12:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 16:06",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 16:08",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 16:12",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 16:37",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 16:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 17:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 17:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 17:15",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 17:18",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-13 / 17:19",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-14 / 09:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-14 / 15:09",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-14 / 16:22",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-14 / 23:35",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-15 / 22:31",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 01:22",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 02:25",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 02:27",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 02:30",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 02:35",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 14:31",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:00",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:03",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:08",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:11",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:26",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:30",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 18:34",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 21:10",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 21:12",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 21:17",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 22:01",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 22:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 22:06",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 22:13",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 22:30",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 22:46",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:07",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:23",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:28",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:52",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:54",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-16 / 23:56",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 01:08",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 01:13",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 01:15",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 01:16",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 15:57",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 15:59",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:01",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:04",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:07",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:21",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:52",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:57",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 16:58",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 17:19",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 17:58",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 19:21",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 19:32",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 19:37",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 19:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 21:52",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 23:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 23:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 23:10",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-17 / 23:13",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 00:03",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 10:56",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 17:53",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:28",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:30",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:49",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:50",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:52",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:53",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:54",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:56",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:57",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-18 / 23:59",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-19 / 00:01",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-19 / 00:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-19 / 00:50",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-19 / 01:51",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-20 / 07:18",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-21 / 06:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289525466166@c.us",
+    "date": "2025-02-22 / 14:38",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289673966655@c.us",
+    "date": "2025-02-22 / 14:51",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6289525466166@c.us",
+    "date": "2025-02-22 / 16:29",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-23 / 11:26",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-24 / 05:16",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-24 / 13:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-24 / 13:41",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-24 / 23:25",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-24 / 23:27",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-25 / 10:21",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-25 / 20:53",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-25 / 20:54",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-25 / 22:16",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-25 / 22:32",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-26 / 08:28",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-26 / 09:56",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "6287883954853@c.us",
+    "date": "2025-02-26 / 11:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  }
+]

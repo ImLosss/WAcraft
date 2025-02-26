@@ -16,7 +16,7 @@
       "/server SMP",
       "/autoleftclick 1"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "intervalIds": {},
     "timeoutIds": {}
   },

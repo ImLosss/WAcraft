@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "Uvuvwey",
+    "username": "Dra1s",
     "ip": "mc.aetherium.fun",
     "autorightclick": false,
     "autoleftclick": false,
@@ -11,9 +11,9 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
-      "/login HappyHoliday.00_",
+      "/login YogyaKartA.00_",
       "/chat off",
       "/server rpg"
     ],
@@ -46,6 +46,13 @@
       "version": "1.20"
     },
     "mc.aetherium.fun": {
+      "realUser": "Dra1s",
+      "alt": [
+        "Uvuvwey"
+      ],
+      "version": "1.20"
+    },
+    "noesantara.xyz": {
       "realUser": "Dra1s",
       "alt": [
         "Uvuvwey"

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-02-25 / 21:45",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND Tarvisuummc.mc-play.xyz",
+    "error": "getaddrinfo ENOTFOUND Tarvisuummc.mc-play.xyz\nError: getaddrinfo ENOTFOUND Tarvisuummc.mc-play.xyz\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  }
+]

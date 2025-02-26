@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.clarity-id.net",
+    "ip": "clarity-id.net",
     "username": "Zinxx",
     "autorightclick": false,
     "afkfarm": false,
@@ -14,9 +14,10 @@
       "/server smp",
       "/acidisland",
       "/automsg 5",
-      "/autoleftclick 1"
+      "/autoleftclick 1",
+      "/server skyblock"
     ],
-    "autoReconnect": true,
+    "autoReconnect": false,
     "except": [
       "xon",
       "SHI",
@@ -79,6 +80,32 @@
       "version": "1.20"
     },
     "play.clarity-id.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "Zinxx"
+      ],
+      "version": "1.20"
+    },
+    "alwination.id": {
+      "version": "1.20",
+      "alt": [
+        "Zinxx"
+      ]
+    },
+    "80.88.90.202:7000": {
+      "version": "1.20",
+      "alt": [
+        "Zinxx"
+      ]
+    },
+    "80.88.90.202": {
+      "realUser": "Xonezka",
+      "alt": [
+        "Zinxx"
+      ],
+      "version": "1.20"
+    },
+    "clarity-id.net": {
       "realUser": "Xonezka",
       "alt": [
         "Zinxx"

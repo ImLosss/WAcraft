@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "username": "nowezki",
-    "ip": "play.clarity-id.net",
+    "ip": "Tarvisiummc.mc-play.xyz",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -30,14 +30,14 @@
       "Skill"
     ],
     "statusRepeat": false,
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
       "/login pras2009",
       "/chat off",
       "/server smp",
       "/automsg 15",
       "/afkarchery on",
-      "/autoleftclick 1"
+      "/server survival"
     ],
     "reconnectTime": 0,
     "autoleftclick": false,
@@ -87,6 +87,20 @@
         "Klvv"
       ],
       "version": "1.20"
+    },
+    "Tarvisiummc.mc-play.xyz": {
+      "version": "1.21.1",
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ]
+    },
+    "Tarvisuummc.mc-play.xyz": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.21.1"
     }
   }
 ]

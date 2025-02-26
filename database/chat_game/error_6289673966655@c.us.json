@@ -1,0 +1,37 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-02-15 / 20:27",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND 80.88.90.202:7000",
+    "error": "getaddrinfo ENOTFOUND 80.88.90.202:7000\nError: getaddrinfo ENOTFOUND 80.88.90.202:7000\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-15 / 20:31",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 80.88.90.202:25565",
+    "error": "connect ETIMEDOUT 80.88.90.202:25565\nError: connect ETIMEDOUT 80.88.90.202:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-15 / 20:31",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 80.88.90.202:25565",
+    "error": "connect ETIMEDOUT 80.88.90.202:25565\nError: connect ETIMEDOUT 80.88.90.202:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-15 / 20:32",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 80.88.90.202:25565",
+    "error": "connect ETIMEDOUT 80.88.90.202:25565\nError: connect ETIMEDOUT 80.88.90.202:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-15 / 20:48",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND 80.88.90.202:7000",
+    "error": "getaddrinfo ENOTFOUND 80.88.90.202:7000\nError: getaddrinfo ENOTFOUND 80.88.90.202:7000\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  }
+]

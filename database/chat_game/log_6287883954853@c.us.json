@@ -1,0 +1,2486 @@
+[
+  {
+    "type": "ingame",
+    "date": "2025-01-27 / 22:32",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-27 / 22:32",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-27 / 22:32",
+    "location": "messagestr.js:27:21",
+    "message": "Logged in!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-27 / 22:32",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-27 / 22:32",
+    "location": "messagestr.js:27:21",
+    "message": "+ Uvuvwey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-27 / 22:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁112【TheRules】ᴋɪɴɢ ROGUE Fanda ➼ cukup?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-28 / 21:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-29 / 15:32",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-29 / 16:42",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-30 / 04:26",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"Proxy shutting down.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-30 / 04:27",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"Unable to connect\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-30 / 04:27",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"Unable to connect\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-30 / 17:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-31 / 18:02",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-01-31 / 20:08",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-01 / 09:00",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-01 / 22:00",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-03 / 00:36",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-03 / 00:37",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-03 / 00:37",
+    "location": "messagestr.js:27:21",
+    "message": "Logged in!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-03 / 00:37",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-03 / 00:37",
+    "location": "messagestr.js:27:21",
+    "message": "+ Uvuvwey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-03 / 16:31",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-04 / 14:31",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "Logged in!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome to NOESANTARA NETWORK"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "WEB → https://linktr.ee/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 12:05",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD → https://discord.gg/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 16:06",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 16:08",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 16:12",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 16:37",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 16:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 17:04",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"Proxy shutting down.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 17:05",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 17:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 17:18",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-13 / 17:18",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 09:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 16:21",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "Logged in!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome to NOESANTARA NETWORK"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "WEB → https://linktr.ee/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-14 / 23:35",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD → https://discord.gg/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 21:45",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "Logged in!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome to NOESANTARA NETWORK"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "WEB → https://linktr.ee/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-15 / 22:31",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD → https://discord.gg/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 02:27",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 02:30",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ gk:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "* NazzAntiKroco is no longer AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] minta akses di wart ini dra1s"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ loh gk ad pak ketu qim.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ malass:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ loh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ rank tiktok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:32",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] akun yg mana?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:32",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] akun yg Dra1s, atau ga gua yg claim aja? nnti tak kasih akses pada ?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:33",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:33",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] dah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:33",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] ohh itu yg claim putra yg chest lu ganti aja jd claim lu ken, udah bisa claim 150k block kan"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ [[ CUSTOM ENCHANT ] Fabled Magic Dust] sell"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] mkdnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ brp?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ 500k"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] kan claim wart ada sebagian putra yg claim, nah dijadiin 1 aja claim lu sm putra biar ga beda claim"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ 36k aja :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:34",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:35",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] qim ga beli pack valentine? mayan tuh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:35",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:35",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] apa tuh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:35",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 58x items, 73x creatures and 55x projectiles!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:35",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ iron ny hans"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:35",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] promo valentine deng maksudnya, jd misal beli Pack Porphyrus harga 70k beli berdua patungan jadi 35k perorang dpt pack yg sama"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] kalo mau beli ajakin siapa coba di tim yg mau beli pack atau beli yg lain"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] jadi satu orang dpt 1 pack masing2?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:37",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] iya dpt 1pack masing2 dgn harga segitu, mayan tuh murah bgt jdnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:37",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ dh gw nak gacha."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:37",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ ikutt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:37",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> PutragnzMc1] server msh drop ga?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:38",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:38",
+    "location": "messagestr.js:27:21",
+    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ bgus"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:38",
+    "location": "messagestr.js:27:21",
+    "message": "[PutragnzMc1 -> me] udah ga"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:38",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] nanti deh tak pikir2 mager juga topup alfa jauh bet:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:38",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> PutragnzMc1] coba ajakin qim beli promo valentine put di qim lg mikir2 tuh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:38",
+    "location": "messagestr.js:27:21",
+    "message": "* NazzAntiKroco is now AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:39",
+    "location": "messagestr.js:27:21",
+    "message": "[PutragnzMc1 -> me] sekarang tanggal brp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:39",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:39",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:39",
+    "location": "messagestr.js:27:21",
+    "message": "* NazzAntiKroco is no longer AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:39",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:39",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> PutragnzMc1] tgl 16 knp tuh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "[PutragnzMc1 -> me] dh habis promo sampai tanggal 15"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "You have 30 seconds to solve for: `✗`"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "❅ + ❅ + ❅ = 60"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "♫ + ♫ + ♫ = 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "❅ + ♫ + ✗ = 71"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 22x items, 82x creatures and 59x projectiles!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> PutragnzMc1] yah coba aja tanya barz siapa tau bisa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "30s have passed! The variable game is now over!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:40",
+    "location": "messagestr.js:27:21",
+    "message": "The correct answer was 26!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] tdi blang ap drais?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ [[ CUSTOM ENCHANT ] Defender I x2] sell"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] lupa wkwkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:41",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] yuhu gacha villager gasi wkwkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:42",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] ini abis gacha:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:42",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] sama gw,tdi putra sruh jual farm"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:42",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:42",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:42",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ hmmm"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:42",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] gua lg ga on pc nnti siang aja gua jualin farm"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "❁5【】 WARGA lukaplazz2 ➼ ubi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] udah jam segini baru 4 yang bagus isi nya:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] butuh bet repairer jir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] sama"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] oiya, akun alt gua pindahin ke sebelah salah 1 breeding nya deh trus tanemin lg wortel nya qim"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] lg vallo ini mah:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "Player PutragnzMc1 just won [ CUSTOM ENCHANT ] godarmor I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] gua on dr hp jir ini wkwkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] wortel yang dimana"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:44",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] tak pkek laptop ke?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "7/18 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "lukaplazz2 has made the advancement [Sweet Dreams]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] dua dua nya kah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ [PutragnzMc1's Inventory] jlk bgt kontol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 43x items, 90x creatures and 40x projectiles!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] coba minta tim yg punya atau ga mintol cariin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ dapet ap emg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "lukaplazz2 has made the advancement [Acquire Hardware]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:45",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] 1 aja qim soalnya cm ke render 11 block dr akun alt jd di pepetin aja akun alt nya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ bow ny sni 1 put:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] iya udh mati laptop nya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ farm"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "[Qim -> me] ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "Player Qim just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "Player Qim just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "Sentolop Qim has made the advancement [Acquire Hardware]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "Sentolop Qim has made the advancement [Diamonds!]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ ah males ny gw ni"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Qim] woke tengki"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ke warden Hans."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ udh tanam smua kmrn kenak rb ap lah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "Player Qim just won ZONK!! from PUSAKA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ke tanem aja entar"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ pftt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:46",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ke chest bawa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ kmrn malem rb 2x cuy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ kebawa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ [sᴘɪʀɪᴛ ʙʀᴇᴀᴋᴇʀ ʙᴏᴡ]:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "[DrakenTod -> me] lah mokad knp?:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ tukar sama hoe :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ jual itu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> DrakenTod] ya tak matiin laa udah seminggu ga mati wkwkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "7/19 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:47",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ gk gua suka bow:v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "Sentolop Qim has reached the goal [Sky's the Limit]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ buat gw sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ hehe"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "❁6【Sentolop】 WARGA Qim ➼ put ada wortel gk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ takde"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "Logged in!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome to NOESANTARA NETWORK"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "WEB → https://linktr.ee/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 14:31",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD → https://discord.gg/noesantara"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 18:05",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 21:17",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 22:30",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 23:27",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 23:40",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 23:52",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 23:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-16 / 23:56",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 01:12",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 01:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 01:16",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 15:56",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 16:02",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 16:04",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 16:21",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 16:51",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 17:19",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 17:58",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 19:20",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 19:31",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 19:36",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 19:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 19:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 23:04",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 23:05",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 23:09",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-17 / 23:12",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-18 / 10:55",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-18 / 17:53",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-18 / 23:28",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-19 / 00:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-19 / 01:51",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 07:17",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【AmboiAmboi】 WARGA ThisHamm ➼ assasin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁197【TheRules】ʟᴏᴠᴇʀ AETHERIX Broni ➼ deger"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁93【ElCactus】 WARGA Rexx_Calleum ➼ pistol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "❁390【Queen】ʟᴏᴠᴇʀ ༺✨ᴀᴅᴍɪɴ✨༻ Kiara ➼ dager"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "--==Fighting Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "1. .TheBroEzzGOD - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "2. Dra1s - 92"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "3. Jugimaa - 91"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "4. Yumeko - 90"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "5. zetatata777 - 86"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "6. UbiiEmCe - 84"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "7. SannneewwZ - 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "8. ArdG - 66"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "9. NoeManKun - 52"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:31",
+    "location": "messagestr.js:27:21",
+    "message": "10. DenoAstra - 51"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁248【CONTINENT】 !!! AFK !!! || WAYANG || LECI ➼ mo afk defese dulu adios"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Broadcast] TEBAK ATMIN DAPET APA SKRG!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ [/info yang jual spawner Golem]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁465【Astaroth】ꜰᴇᴍᴀʟᴇ ♀ WARGA Jugimaa ➼ doombringer axe"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁107【】 WARGA NothingZen ➼ dagger of zep"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁100【TheRules】ᴍᴀʟᴇ ♂ WARGA .Dante094k ➼ doom v3"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ warior"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【AmboiAmboi】 WARGA ThisHamm ➼ summoner"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁184【Sentolop】 PRIME pradi ➼ sun"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "Player Kiara just won [ sᴇɴᴊᴀᴛᴀ ʟᴇɢᴇɴᴅ ] Dagger of Zephyr from NUSANTARA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁107【】 WARGA NothingZen ➼ naaaa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁197【TheRules】ʟᴏᴠᴇʀ AETHERIX Broni ➼ anjay bener"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> Kiara] sytche"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁390【Queen】ʟᴏᴠᴇʀ ༺✨ᴀᴅᴍɪɴ✨༻ Kiara ➼ nah siapa td pertama"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁107【】 WARGA NothingZen ➼ gw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ banyak bet key mu kiar"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "+ ur_chappiee MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁93【ElCactus】 WARGA Rexx_Calleum ➼ aku"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁100【TheRules】ᴍᴀʟᴇ ♂ WARGA .Dante094k ➼ zen"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:32",
+    "location": "messagestr.js:27:21",
+    "message": "❁390【Queen】ʟᴏᴠᴇʀ ༺✨ᴀᴅᴍɪɴ✨༻ Kiara ➼ nothingzen"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁107【】 WARGA NothingZen ➼ iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "[Broadcast] TEBAK ATMIN DAPET APA SKRG!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁107【】 WARGA NothingZen ➼ anjir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁465【Astaroth】ꜰᴇᴍᴀʟᴇ ♀ WARGA Jugimaa ➼ doombringer axe"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁87【AmboiAmboi】 WARGA ThisHamm ➼ Dagger"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ [sᴘɪʀɪᴛ ʙʀᴇᴀᴋᴇʀ ᴘɪᴄᴋᴀxᴇ] sell"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "❁107【】 WARGA NothingZen ➼ pistol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-20 / 16:33",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "--==Fighting Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "1. Dra1s - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "2. .TheBroEzzGOD - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "3. Yumeko - 97"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "4. Jugimaa - 92"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "5. zetatata777 - 86"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "6. UbiiEmCe - 86"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "7. SannneewwZ - 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "8. ArdG - 70"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "9. NoeManKun - 52"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:48",
+    "location": "messagestr.js:27:21",
+    "message": "10. DenoAstra - 51"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:49",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 30 seconds to solve: `35746 + 70767`"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:49",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:49",
+    "location": "messagestr.js:27:21",
+    "message": "Kenno_113 was slain by Piglin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-21 / 06:49",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-23 / 10:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"Proxy shutting down.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 05:16",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 13:40",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 13:40",
+    "location": "messagestr.js:27:21",
+    "message": "Logging in..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 13:40",
+    "location": "messagestr.js:27:21",
+    "message": "Wrong password!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 13:41",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 23:25",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-24 / 23:27",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-25 / 10:21",
+    "location": "messagestr.js:27:21",
+    "message": "Please login using: /login <password> [2fa_code]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "▪ READ THE RULES"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "IKUTI SEMUA PERATURAN YANG ADA DI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "BERSIKAP RAMAH LAH KEPADA SESAMA PLAYER!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "➥ noesantara.xyz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "You have new ally requests do /team ally to view them"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 14 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "+ Dra1s MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "30s have passed! The random game is now over!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "The correct answer was ogNMOU!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ohw chest kyk gini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "God mode disabled."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ iya nyari simpel"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "God mode enabled."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "Set fly mode enabled for Dra1s."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "- aillychan MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ bangke wartnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 90x items, 112x creatures and 490x projectiles!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ini golem ngestack gpp?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁282【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ dah ya kil"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ampe 84k"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁282【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ aku mau afk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ oke"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ aman itu bg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "❁282【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ bay muach"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ nambah terus wkwkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "--==Archery Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "1. Jugimaa - 89"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "2. .TheBroEzzGOD - 73"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "3. Yumeko - 68"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "4. Aikory - 67"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "5. SannneewwZ - 62"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "6. Dra1s - 59"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "7. CANFANPAN - 55"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "8. ArdG - 51"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "9. .Dany1236705 - 50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "10. Leciii - 48"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ tadi ke klir 40k an iron"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 14 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ kalo abis dpt banyak sih itu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ makasih bg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ini apaan afk fishing?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ gatau draken"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "[me -> PutragnzMc1] itu minta draken atau canfna jualin aja iron"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ [ᴠᴀʟᴇɴᴛɪɴᴇ sᴡᴏʀᴅ] sell"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ klo mo gacor afk fishingnya di laut"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ cari yg ada rumput laut"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ change rate lootnya lebih bagus"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ gatau draken yg buat"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ yudh i wanna balik"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ anjir 5m gak tuh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ adios"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ini masih tergantung ama wart sih bg lec"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ bocill dulu beli 10m bg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ aku males kalo wart wkwkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "+ aillychan MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁207【TheRules】ʟᴏᴠᴇʀ AETHERIX Broni ➼ oiya kah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ skrng aku dominan ke iron"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ iy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ya sm\" capek sih"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ tpi iron tinggal jual ajh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ kalo wart harus panen terus jual lgi kerja 2x"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ klo iron mah enk tinggal tunggu penuh wkwkwk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ iya tpi capek sellnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "--==All Skills Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "1. Jugimaa - 554"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "2. SannneewwZ - 479"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "3. Yumeko - 469"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "4. Leciii - 437"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "5. CANFANPAN - 420"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "6. .Dany1236705 - 337"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "7. .TheBroEzzGOD - 321"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "8. strawky - 320"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "9. Dra1s - 299"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:57",
+    "location": "messagestr.js:27:21",
+    "message": "10. ArdG - 298"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "--==Archery Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "1. Jugimaa - 90"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "2. .TheBroEzzGOD - 73"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "3. Yumeko - 68"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "4. Aikory - 67"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "5. SannneewwZ - 62"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "6. Dra1s - 59"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "7. CANFANPAN - 56"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "8. ArdG - 51"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "9. .Dany1236705 - 50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "10. Leciii - 48"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:58",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 14 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 09:59",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 10:00",
+    "location": "messagestr.js:27:21",
+    "message": "* Broni is no longer AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 10:00",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 10:01",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 14 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 10:01",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 10:01",
+    "location": "messagestr.js:27:21",
+    "message": "Azziza420 was obliterated by a sonically-charged shriek"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 10:01",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  }
+]
