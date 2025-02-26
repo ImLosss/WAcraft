@@ -38,6 +38,7 @@ async function archer(bot, msg, pesan, sender) {
             await bot.equip(bot.registry.itemsByName.bow.id, 'hand')
         } catch (err) {
             chat.sendMessage('Tidak menemukan Bow/Arrow di Inventory');
+            clearInterval(timer);
             return archerOf(bot, msg, sender)
         }
         bot.activateItem();
