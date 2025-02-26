@@ -31,7 +31,7 @@ function startTimeoutChat(sender, config, chat, bot) {
         if(dataUser[0].chatPublic) {
             dataUser[0].chatPublic = false; 
             writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
-            chat.sendMessage(`*Tidak terdapat pesan yang dikirim selama ${ config.timeoutChat } jam, mematikan chat untuk menghindari spam bot. Kirim _/chat on_ untuk menyalakan chat kembali...*\n\n_Note:_\n_pesan yang dikirim ke chat ini akan tetap dikirim ke game meskipun chat telah dimatikan_`)
+            chat.sendMessage(`*Tidak terdapat pesan yang dikirim selama ${ config.timeoutChat } menit, mematikan chat untuk menghindari spam bot. Kirim _/chat on_ untuk menyalakan chat kembali...*\n\n_Note:_\n_pesan yang dikirim ke chat ini akan tetap dikirim ke game meskipun chat telah dimatikan_`)
             .then(() => {
                 chat.sendMessage('*Anda dapat menggunakan fitur filter chat agar tetap dapat menerima pesan saat chat diatur ke of (_/tellme <pesan>_)*\n\nContoh:\n*_/tellme Obtained_*');
             });

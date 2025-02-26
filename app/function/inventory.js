@@ -130,5 +130,5 @@ function equipItem(bot, msg, arg) {
 }
 
 module.exports = {
-    getInventory, throwItem, equipItem, getInventoryByName
+    getInventory, throwItem, equipItem
 }
