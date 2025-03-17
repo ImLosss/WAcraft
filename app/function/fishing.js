@@ -79,8 +79,9 @@ async function reset(bot) {
         const nonNullCount = bot.inventory.slots.filter(item => item !== null).length;
         const maxinv = bot.inventory.inventoryEnd - bot.inventory.inventoryStart;
         setTimeout(async () => {
-            if (maxinv == nonNullCount) bot.setQuickBarSlot(1);
-            else await bot.unequip("hand");
+            // if (maxinv == nonNullCount) bot.setQuickBarSlot(1);
+            // else await bot.unequip("hand");
+            bot.setQuickBarSlot(1);
         }, 500);
         setTimeout(() => {
             if (maxinv == nonNullCount) bot.setQuickBarSlot(2);
