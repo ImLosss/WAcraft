@@ -1,3002 +1,3002 @@
 [
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:40",
     "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 9s"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:41",
     "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 8s"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:41",
     "location": "messagestr.js:27:21",
-    "message": "Hey royalti, 3 reward(s) are waiting for you! (Click here)"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:41",
     "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 7s"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:42",
     "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 6s"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:42",
     "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 5s"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:13",
+    "date": "2025-04-28 / 07:42",
     "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 4s"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:14",
+    "date": "2025-04-28 / 07:43",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:43",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:43",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:43",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:44",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:44",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:44",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:45",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:45",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:45",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:46",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:46",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:46",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:46",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:49",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:49",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:49",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:49",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:50",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:50",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:50",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:51",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:51",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:51",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:52",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:52",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:52",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:52",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:53",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:53",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:53",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:54",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:54",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:54",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:55",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:56",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:57",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:58",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 07:59",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:00",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:01",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:02",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:03",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:03",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:03",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:04",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:04",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:04",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:04",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:05",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:05",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:05",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:06",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:06",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:06",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:07",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:07",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:07",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:07",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:08",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:08",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:08",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:09",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:09",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:09",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:10",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:10",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:10",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:10",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:11",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:11",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:11",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:12",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:12",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:12",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:13",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:13",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:13",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:13",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:14",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:14",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:14",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:15",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:15",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:15",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:16",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:16",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:16",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:16",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:17",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:17",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:17",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:18",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:18",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:18",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:19",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:19",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:19",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:19",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:20",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:20",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:20",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:21",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:21",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:21",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:22",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:22",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:22",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:22",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:23",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:23",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:23",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:24",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:24",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:24",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:25",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:25",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:25",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:25",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:26",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:26",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:26",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:27",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:27",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:27",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-28 / 08:28",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
     "message": "[+] royalti"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
     "message": "Welcome, royalti to the server"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:14",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
+    "message": "SERVER IP: play.zerlegends.xyz"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:14",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
+    "message": "WEBSTORE: https://zer.idnet.my.id/"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:14",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
+    "message": "DISCORD: https://discord.gg/zerlegends"
   },
   {
     "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "[»] You are already logged!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "You do not have access to that command."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": " Member royalti has just joined."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 4s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "You have no new mail."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "You still have daily quests to complete !"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 3s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 2s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:14",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m 1s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Request sent to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 5m"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Hey royalti, 3 reward(s) are waiting for you! (Click here)"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 59s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 58s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 57s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 56s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 55s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 54s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 53s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 52s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 51s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 50s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Teleporting to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "rayfanzzz accepted your teleport request."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 2 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 49s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 48s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 48s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 47s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 46s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 45s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 44s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 43s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 42s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 41s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 40s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 39s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 38s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 37s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Flight meter: 4m 36s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": " Your flight was disabled!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "Request sent to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:15",
-    "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "rayfanzzz accepted your teleport request."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "Teleporting to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 2 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": " Boss Zombie King telah respawn di Dungeon I!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": " Ryuji_Fos_INA telah mengalahkan Boss Zombie King!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": " PvP is not allowed here!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:16",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": " PvP is not allowed here!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": " PvP is not allowed here!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": " PvP is not allowed here!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": " PvP is not allowed here!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 19:17",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "Welcome, royalti to the server"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 21:42",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Welcome, royalti to the server"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
     "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:19",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:19",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:19",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
-    "message": "You do not have access to that command."
+    "message": "▪ Welcome back to Server Name  royalti! ▪"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:19",
+    "date": "2025-04-30 / 11:28",
     "location": "messagestr.js:27:21",
-    "message": " Member royalti has just joined."
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:19",
+    "date": "2025-04-30 / 11:28",
+    "location": "messagestr.js:27:21",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:28",
+    "location": "messagestr.js:27:21",
+    "message": "ᴘʟᴀʏ.ꜱᴇʀᴠᴇʀ.ɴᴇᴛ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:28",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴄʜᴏᴏꜱɪɴɢ ᴜꜱ,"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:28",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴏᴏᴅ ʟᴜᴄᴋ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:28",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅɪꜱᴄᴏʀᴅ.ɢɢ/ꜱᴇʀᴠᴇʀ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: -_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: tuh percaya kan :)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: duduk sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: nah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:29",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: [Magnet III x1] bagus?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: ilang Naknya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: tolong gw masuk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: gak tahu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "SHI_BASE: Hi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:30",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: pake tpa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: acc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: hai"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: tolong"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: wkwk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: tolong"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[ShadowArmy]  ukasyahaqil7: ada yg jual key gk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:31",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: key apa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[ShadowArmy]  ukasyahaqil7: imperoir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: scc joo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: acc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: gw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: hehehe"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: yey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[ShadowArmy]  ukasyahaqil7: punya brp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: yey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: kocak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:32",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: yey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: awokawok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: acc gw mau keluar"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: mantap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:33",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: gw punya sulap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: gojoo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: ?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: sini ikut gw mau sulap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:34",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: sabr"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: kenapa skin lu ganti?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: Made sini duduk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: gw ada sulap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: tolong"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "[ShadowArmy]  ukasyahaqil7: maap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:35",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:36",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: made"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:36",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:36",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:36",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:36",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: tolong Made pls"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: 3 kn?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: nah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: udh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "[ShadowArmy]  ukasyahaqil7: oky"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:37",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: acc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:38",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: mana made"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:38",
+    "location": "messagestr.js:27:21",
+    "message": "[ShadowArmy]  ukasyahaqil7: ec"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:38",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:38",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:38",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:38",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:39",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: Made di sini ada sl ubi gk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:39",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:39",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:39",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:40",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:40",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:40",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: acc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: cara naik gimna"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:41",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: terbang :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:42",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: -_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:42",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:42",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:42",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:43",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:43",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:43",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:44",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: ayo ke atas"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:44",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:44",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:44",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:44",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:45",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  MadeIndra5721: sini tpa gua udah di atas"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:45",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:45",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:45",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:46",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:46",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:46",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:47",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:47",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:47",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:47",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:48",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: dia afk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:48",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: -_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:48",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: setengah darah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:48",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:48",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 11:48",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
     "message": "[+] royalti"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "You have no new mail."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "You have new daily quests to complete !"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Hey royalti, 3 reward(s) are waiting for you! (Click here)"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Request sent to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "rayfanzzz accepted your teleport request."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Teleporting to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 2 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:19",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:20",
-    "location": "messagestr.js:27:21",
-    "message": "Use the /back command to return to your death point."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:20",
-    "location": "messagestr.js:27:21",
-    "message": "royalti was slain by Magma Cube"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
     "message": "Welcome, royalti to the server"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:21",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
+    "message": "SERVER IP: play.zerlegends.xyz"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:21",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
+    "message": "WEBSTORE: https://zer.idnet.my.id/"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:21",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
+    "message": "DISCORD: https://discord.gg/zerlegends"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "[»] You are already logged!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "You do not have access to that command."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": " Member royalti has just joined."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "You have no new mail."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "You still have daily quests to complete !"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "Hey royalti, 3 reward(s) are waiting for you! (Click here)"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "Request sent to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:21",
-    "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:22",
-    "location": "messagestr.js:27:21",
-    "message": "rayfanzzz accepted your teleport request."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:22",
-    "location": "messagestr.js:27:21",
-    "message": "Teleporting to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:22",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 2 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:22",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:22",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:22",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "Welcome, royalti to the server"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:32",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
     "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:32",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:32",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "You do not have access to that command."
+    "message": "▪ Welcome back to Server Name  royalti! ▪"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": " Member royalti has just joined."
+    "message": ""
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "[+] royalti"
+    "message": "ᴘʟᴀʏ.ꜱᴇʀᴠᴇʀ.ɴᴇᴛ"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "You have no new mail."
+    "message": "ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴄʜᴏᴏꜱɪɴɢ ᴜꜱ,"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "You still have daily quests to complete !"
+    "message": "ɢᴏᴏᴅ ʟᴜᴄᴋ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
+    "message": "ᴅɪꜱᴄᴏʀᴅ.ɢɢ/ꜱᴇʀᴠᴇʀ"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:05",
     "location": "messagestr.js:27:21",
-    "message": "Hey royalti, 3 reward(s) are waiting for you! (Click here)"
+    "message": "[Etelwyn]  MadeIndra5721: kemarin ada ini gak di base gaming?"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:06",
     "location": "messagestr.js:27:21",
-    "message": "[-] *Gacor"
+    "message": "[RedProtect] PvP is not allowed here!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
+    "date": "2025-04-30 / 12:06",
     "location": "messagestr.js:27:21",
-    "message": "Request sent to rayfanzzz."
+    "message": " Unknown command. Type \"/help\" for help."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "rayfanzzz accepted your teleport request."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "Teleporting to rayfanzzz."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 2 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "Use the /back command to return to your death point."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "royalti was slain by Magma Cube"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:33",
-    "location": "messagestr.js:27:21",
-    "message": "[+] *Gacor"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
     "message": "[+] royalti"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
-    "location": "messagestr.js:27:21",
-    "message": "+                                +"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
     "message": "Welcome, royalti to the server"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
+    "message": "SERVER IP: play.zerlegends.xyz"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
+    "message": "WEBSTORE: https://zer.idnet.my.id/"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
+    "message": "DISCORD: https://discord.gg/zerlegends"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": "+                                +"
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": "[»] You are already logged!"
+    "message": "▪ Welcome back to Server Name  royalti! ▪"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": "You do not have access to that command."
+    "message": ""
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
     "location": "messagestr.js:27:21",
-    "message": " Member royalti has just joined."
+    "message": "ᴘʟᴀʏ.ꜱᴇʀᴠᴇʀ.ɴᴇᴛ"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:12",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴄʜᴏᴏꜱɪɴɢ ᴜꜱ,"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:12",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴏᴏᴅ ʟᴜᴄᴋ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:12",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅɪꜱᴄᴏʀᴅ.ɢɢ/ꜱᴇʀᴠᴇʀ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:12",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:13",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:13",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:13",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:14",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:14",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:14",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:14",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:15",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:15",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:15",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:16",
+    "location": "messagestr.js:27:21",
+    "message": "[RedProtect] PvP is not allowed here!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:16",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:16",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:16",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "[Etelwyn]  edisi: gojo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "[ShinyStars]  Gojoo: apa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "----------------------------------------\n Skill Level Up Defense III➜IV\n\n Rewards:\n  +1✦ Toughness\n  +1❤ Health\n  Ability Unlock Mob Master\n      Reduce incoming damage from mobs by 2%\n----------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:24",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:24",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:24",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:24",
+    "location": "messagestr.js:27:21",
+    "message": "SHI_BASE: Hi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Mobcoin Summary"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "in the last 60 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "you have earned 0 mobcoins!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
     "message": "[+] royalti"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "You have no new mail."
+    "message": "Welcome, royalti to the server"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "You still have daily quests to complete !"
+    "message": "SERVER IP: play.zerlegends.xyz"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
+    "message": "WEBSTORE: https://zer.idnet.my.id/"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
+    "message": "DISCORD: https://discord.gg/zerlegends"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "Hey royalti, 3 reward(s) are waiting for you! (Click here)"
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "Request sent to rayfanzzz."
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:34",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:35",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "rayfanzzz accepted your teleport request."
+    "message": "▪ Welcome back to Server Name  royalti! ▪"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:35",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "Teleporting to rayfanzzz."
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:35",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 2 seconds. Don't move."
+    "message": ""
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:35",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
+    "message": "ᴘʟᴀʏ.ꜱᴇʀᴠᴇʀ.ɴᴇᴛ"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:35",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴄʜᴏᴏꜱɪɴɢ ᴜꜱ,"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:35",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "ɢᴏᴏᴅ ʟᴜᴄᴋ ᴀɴᴅ ʜᴀᴠᴇ ꜰᴜɴ!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:36",
+    "date": "2025-04-30 / 12:31",
     "location": "messagestr.js:27:21",
-    "message": "[-] *Gacor"
+    "message": "ᴅɪꜱᴄᴏʀᴅ.ɢɢ/ꜱᴇʀᴠᴇʀ"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:36",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[twilight]  KAK_NIAA: ap"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:36",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[+] *Gacor"
+    "message": "[Etelwyn]  MadeIndra5721: lu dapet ini dari mana?"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:36",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[twilight]  KAK_NIAA: mn"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:37",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[-] *Gacor"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:37",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:37",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[+] *Gacor"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:37",
+    "date": "2025-04-30 / 12:32",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:37",
+    "date": "2025-04-30 / 12:33",
     "location": "messagestr.js:27:21",
-    "message": "ChriZz collected his hours reward!"
+    "message": "[twilight]  KAK_NIAA: sbr disekolah gw"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:37",
+    "date": "2025-04-30 / 12:33",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:38",
+    "date": "2025-04-30 / 12:33",
     "location": "messagestr.js:27:21",
-    "message": "[-] *Gacor"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:38",
+    "date": "2025-04-30 / 12:33",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:38",
+    "date": "2025-04-30 / 12:34",
     "location": "messagestr.js:27:21",
-    "message": "[+] *Gacor"
+    "message": "[twilight]  KAK_NIAA: s r disekolah lagi study"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:39",
+    "date": "2025-04-30 / 12:34",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[Etelwyn]  MadeIndra5721: ye"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:39",
+    "date": "2025-04-30 / 12:34",
     "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:39",
+    "date": "2025-04-30 / 12:34",
     "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:39",
+    "date": "2025-04-30 / 12:34",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:40",
+    "date": "2025-04-30 / 12:34",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "[twilight]  KAK_NIAA: knp tadi made"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:40",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[Etelwyn]  MadeIndra5721: ini dapet dimana?"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:45",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "[twilight]  KAK_NIAA: base foyui ktu dlaet"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:45",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[Etelwyn]  MadeIndra5721: boong"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:50",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "[twilight]  KAK_NIAA: ssrius"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:50",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[Etelwyn]  MadeIndra5721: jangan berbohong nia"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:55",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:55",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:55",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[-] ~kaiser5636"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:55",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:56",
+    "date": "2025-04-30 / 12:35",
     "location": "messagestr.js:27:21",
-    "message": "[+] *Louis"
+    "message": "[twilight]  KAK_NIAA: kan memaren foyui ancurin base ini trus gw ambil base foyui dibawah ad beacon ama fiamond"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:56",
+    "date": "2025-04-30 / 12:36",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[twilight]  KAK_NIAA: soalnya ad ysng nrmu base foyui kemaren sih edsii ama ikan"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:59",
+    "date": "2025-04-30 / 12:36",
     "location": "messagestr.js:27:21",
-    "message": "* *Gacor is now AFK."
+    "message": "[Etelwyn]  MadeIndra5721: lu jujur atau ku bunuh lu sekarang?"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:59",
+    "date": "2025-04-30 / 12:36",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:59",
+    "date": "2025-04-30 / 12:36",
     "location": "messagestr.js:27:21",
-    "message": "* *Gacor is no longer AFK."
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 08:59",
+    "date": "2025-04-30 / 12:36",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:00",
+    "date": "2025-04-30 / 12:37",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "[Etelwyn]  MadeIndra5721: soalnya pas banget disaat beacon di base yuna hilang disini juga ada beacon dan edisi mengaku bahwa beacon ini baru ada disini"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:00",
+    "date": "2025-04-30 / 12:37",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "[twilight]  KAK_NIAA: g tau sbr disrkolsh"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:01",
+    "date": "2025-04-30 / 12:37",
     "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
+    "message": "[Etelwyn]  MadeIndra5721: cuba lu jujur aja deh nia"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:01",
+    "date": "2025-04-30 / 12:37",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:01",
+    "date": "2025-04-30 / 12:37",
     "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:01",
+    "date": "2025-04-30 / 12:37",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:01",
+    "date": "2025-04-30 / 12:38",
     "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:01",
+    "date": "2025-04-30 / 12:38",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:02",
+    "date": "2025-04-30 / 12:38",
     "location": "messagestr.js:27:21",
-    "message": "There were no Tickets sold."
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:03",
+    "date": "2025-04-30 / 12:38",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:05",
+    "date": "2025-04-30 / 12:39",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:05",
+    "date": "2025-04-30 / 12:39",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:09",
+    "date": "2025-04-30 / 12:39",
     "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:09",
+    "date": "2025-04-30 / 12:40",
     "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:09",
+    "date": "2025-04-30 / 12:40",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:10",
+    "date": "2025-04-30 / 12:40",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:10",
+    "date": "2025-04-30 / 12:41",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:11",
+    "date": "2025-04-30 / 12:41",
     "location": "messagestr.js:27:21",
-    "message": "ChriZz was killed by Elder Guardian using magic"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:11",
+    "date": "2025-04-30 / 12:41",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:15",
+    "date": "2025-04-30 / 12:41",
     "location": "messagestr.js:27:21",
-    "message": "『W2B』  *Gacor -> x ad yg mau beli ocean monumen ?"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:15",
+    "date": "2025-04-30 / 12:42",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:15",
+    "date": "2025-04-30 / 12:42",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:15",
+    "date": "2025-04-30 / 12:42",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:20",
+    "date": "2025-04-30 / 12:43",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:20",
+    "date": "2025-04-30 / 12:43",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:22",
+    "date": "2025-04-30 / 12:43",
     "location": "messagestr.js:27:21",
-    "message": "[Discord] [Owner] Kino » beli ocean monumen gk tu :moyai:"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:22",
+    "date": "2025-04-30 / 12:44",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:23",
+    "date": "2025-04-30 / 12:44",
     "location": "messagestr.js:27:21",
-    "message": "ChriZz tried to swim in lava"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:23",
+    "date": "2025-04-30 / 12:44",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:25",
+    "date": "2025-04-30 / 12:44",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:25",
+    "date": "2025-04-30 / 12:45",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:28",
+    "date": "2025-04-30 / 12:45",
     "location": "messagestr.js:27:21",
-    "message": " PvP is not allowed here!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:28",
+    "date": "2025-04-30 / 12:45",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:30",
+    "date": "2025-04-30 / 12:46",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:30",
+    "date": "2025-04-30 / 12:46",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:34",
+    "date": "2025-04-30 / 12:46",
     "location": "messagestr.js:27:21",
-    "message": "ChriZz tried to swim in lava"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:34",
+    "date": "2025-04-30 / 12:47",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:35",
+    "date": "2025-04-30 / 12:47",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:35",
+    "date": "2025-04-30 / 12:47",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:39",
+    "date": "2025-04-30 / 12:47",
     "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:39",
+    "date": "2025-04-30 / 12:48",
     "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:39",
+    "date": "2025-04-30 / 12:48",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:40",
+    "date": "2025-04-30 / 12:48",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:40",
+    "date": "2025-04-30 / 12:49",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:45",
+    "date": "2025-04-30 / 12:49",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:45",
+    "date": "2025-04-30 / 12:49",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:50",
+    "date": "2025-04-30 / 12:50",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:50",
+    "date": "2025-04-30 / 12:50",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:52",
+    "date": "2025-04-30 / 12:50",
     "location": "messagestr.js:27:21",
-    "message": "ciwaLvy has made the advancement [Getting an Upgrade]"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:52",
+    "date": "2025-04-30 / 12:50",
     "location": "messagestr.js:27:21",
-    "message": "[+] ciwaLvy"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:52",
+    "date": "2025-04-30 / 12:51",
     "location": "messagestr.js:27:21",
-    "message": " Selamat bergabung ciwaLvy pendatang baru ke #2,903!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:52",
+    "date": "2025-04-30 / 12:51",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:54",
+    "date": "2025-04-30 / 12:51",
     "location": "messagestr.js:27:21",
-    "message": "[-] ciwaLvy"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:54",
+    "date": "2025-04-30 / 12:52",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:55",
+    "date": "2025-04-30 / 12:52",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:55",
+    "date": "2025-04-30 / 12:52",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:56",
+    "date": "2025-04-30 / 12:53",
     "location": "messagestr.js:27:21",
-    "message": "[+] ciwaLvy"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:56",
+    "date": "2025-04-30 / 12:53",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:56",
+    "date": "2025-04-30 / 12:53",
     "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Getting an Upgrade]"
+    "message": "you have earned 0 mobcoins!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:56",
+    "date": "2025-04-30 / 12:53",
     "location": "messagestr.js:27:21",
-    "message": "[+] ellyouth"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:56",
+    "date": "2025-04-30 / 12:54",
     "location": "messagestr.js:27:21",
-    "message": " Selamat bergabung ellyouth pendatang baru ke #2,904!"
+    "message": "Mobcoin Summary"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:56",
+    "date": "2025-04-30 / 12:54",
     "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "in the last 60 seconds"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:59",
+    "date": "2025-04-30 / 12:54",
     "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Monster Hunter]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 09:59",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:00",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:00",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy was blown up by Creeper"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth was shot by Skeleton"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:02",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz was shot by Skeleton"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:02",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:03",
-    "location": "messagestr.js:27:21",
-    "message": "There were no Tickets sold."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:03",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:05",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth was blown up by Creeper"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:05",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy has made the advancement [Monster Hunter]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:07",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy was shot by Skeleton"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:07",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:09",
-    "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:09",
-    "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:09",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Stone Age]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy has made the advancement [Stone Age]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "[-] ciwaLvy"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:10",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:11",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:12",
-    "location": "messagestr.js:27:21",
-    "message": "[-] ellyouth"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:12",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:12",
-    "location": "messagestr.js:27:21",
-    "message": "[+] ellyouth"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:12",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:13",
-    "location": "messagestr.js:27:21",
-    "message": "[-] ellyouth"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:13",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:15",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:15",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:17",
-    "location": "messagestr.js:27:21",
-    "message": "[Discord] [Investor] Lilith676 (replying to Survival) » Dah ada 3"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:17",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:20",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:20",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:23",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz was shot by Skeleton"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:23",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:26",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:26",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:31",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:31",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:33",
-    "location": "messagestr.js:27:21",
-    "message": "* SuperNovaRPG is no longer AFK."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:33",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:35",
-    "location": "messagestr.js:27:21",
-    "message": "『W2B』  *Gacor -> cara dpt capture gmna guys ?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:35",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:36",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:36",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:36",
-    "location": "messagestr.js:27:21",
-    "message": "khar has made the advancement [Getting an Upgrade]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:36",
-    "location": "messagestr.js:27:21",
-    "message": "[+] khar"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:36",
-    "location": "messagestr.js:27:21",
-    "message": " Selamat bergabung khar pendatang baru ke #2,905!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:36",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:38",
-    "location": "messagestr.js:27:21",
-    "message": "* SuperNovaRPG is now AFK."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:39",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:39",
-    "location": "messagestr.js:27:21",
-    "message": "khar has made the advancement [Stone Age]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:39",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:39",
-    "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:39",
-    "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:39",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "[+] ciwaLvy"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "[+] *celeng"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz has made the advancement [Who is Cutting Onions?]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:41",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:42",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz was doomed to fall by Ghast"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:42",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:42",
-    "location": "messagestr.js:27:21",
-    "message": "khar was shot by Skeleton"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:42",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:44",
-    "location": "messagestr.js:27:21",
-    "message": "[-] khar"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:44",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:46",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:46",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:49",
-    "location": "messagestr.js:27:21",
-    "message": "Azlyne has made the advancement [Into Fire]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:49",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:49",
-    "location": "messagestr.js:27:21",
-    "message": "Azlyne has made the advancement [We Need to Go Deeper]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:49",
-    "location": "messagestr.js:27:21",
-    "message": "Azlyne has made the advancement [Those Were the Days]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:49",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:50",
-    "location": "messagestr.js:27:21",
-    "message": "[+] ellyouth"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:50",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:51",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:51",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:51",
-    "location": "messagestr.js:27:21",
-    "message": "[+] ketawakarir"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:51",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:52",
-    "location": "messagestr.js:27:21",
-    "message": "  Azlyne -> ad yg make voice chat?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:52",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:52",
-    "location": "messagestr.js:27:21",
-    "message": "  Azlyne -> apa ChriZz"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:52",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:52",
-    "location": "messagestr.js:27:21",
-    "message": "『W2B』  *Gacor -> bisa /repair ?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:52",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "  Azlyne -> spertinya untuk rank mvp belum bsa repair"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "『W2B』  *Gacor -> owalh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "* *celeng is now AFK."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "  Azlyne -> btr relog"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "* *celeng is no longer AFK."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:53",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:54",
-    "location": "messagestr.js:27:21",
-    "message": "[-] Azlyne"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:54",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:55",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz was slain by Piglin Brute"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:55",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:55",
-    "location": "messagestr.js:27:21",
-    "message": "『W2B』  *Gacor -> owalh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:55",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:56",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:56",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:56",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz has made the advancement [Oh Shiny]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:56",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:57",
-    "location": "messagestr.js:27:21",
-    "message": " Player fannan_azka has added Oak planks for 104.000$ to the auction!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:57",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:57",
-    "location": "messagestr.js:27:21",
-    "message": " Player ketawakarir has just bought Oak planks for 104.000$ to the auction!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:57",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:57",
-    "location": "messagestr.js:27:21",
-    "message": "『GBF』  Akanee -> bruh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:57",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:58",
-    "location": "messagestr.js:27:21",
-    "message": "[-] ketawakarir"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:58",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:59",
-    "location": "messagestr.js:27:21",
-    "message": "[+] .PutragnzMc1"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:59",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:59",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> tes"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 10:59",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> afk semua?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy was slain by Iron Golem"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth was slain by Iron Golem"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy has made the advancement [Acquire Hardware]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:00",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Acquire Hardware]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> [xpbottle]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Sweet Dreams]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "You earned $10 for 60 minutes online time!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:01",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:02",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> pada afk kh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:02",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:02",
-    "location": "messagestr.js:27:21",
-    "message": "[Discord] [Player] P » Harusnya, kebykan org on cuman afk..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:02",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "There were no Tickets sold."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> ada yg jual fly"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "『GBF』  Akanee -> belum on yg jual"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "ChriZz has made the advancement [Spooky Scary Skeleton]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:03",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> siapa yg jual"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "[-] fannan_azka"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Isn't It Iron Pick]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> [invetory]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:04",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> [Air]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "[+] Kino"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> [.PutragnzMc1's Inventory]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "  .PutragnzMc1 -> buat apa yg xp segitu"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy has made the advancement [Isn't It Iron Pick]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:05",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:06",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:06",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": "[+] *celeng"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": " Boss Zombie King telah respawn di Dungeon I!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": ".PutragnzMc1 was slain by Zombie King Lv.2"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": "[-] .PutragnzMc1"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:07",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:08",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth has made the advancement [Hot Stuff]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:08",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:08",
-    "location": "messagestr.js:27:21",
-    "message": "ellyouth burned to death"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:08",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:09",
-    "location": "messagestr.js:27:21",
-    "message": "Remember to vote"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:09",
-    "location": "messagestr.js:27:21",
-    "message": "You have 2 sites to vote on still!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:09",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:10",
-    "location": "messagestr.js:27:21",
-    "message": "[-] ellyouth"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:10",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:10",
-    "location": "messagestr.js:27:21",
-    "message": "[-] fannan_azka"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:10",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:11",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] First Strike Dealt!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:11",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:11",
-    "location": "messagestr.js:27:21",
-    "message": "ciwaLvy has made the advancement [Hot Stuff]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:11",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:12",
-    "location": "messagestr.js:27:21",
-    "message": "[+] CreepyMaster13"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 11:12",
-    "location": "messagestr.js:27:21",
-    "message": "[Skills] Enemy Bleeding!"
+    "message": "you have earned 0 mobcoins!"
   }
 ]

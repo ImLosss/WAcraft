@@ -1,11 +1,5 @@
 [
   {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:33",
-    "location": "commandHandler.js:62:40",
-    "message": "/dc"
-  },
-  {
     "type": "cmd:dc",
     "date": "2025-01-11 / 22:33",
     "location": "commandHandler.js:82:37",
@@ -3177,5 +3171,11 @@
     "date": "2025-01-27 / 21:38",
     "location": "end.js:22:25",
     "message": "Jumlah listener message setelah dihapus : 1"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-10 / 17:53",
+    "location": "setupClient.js:31:29",
+    "message": "QR code successfully saved as qrcode.png"
   }
 ]

@@ -33,5 +33,33 @@
     "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
     "errorMessage": "client timed out after 30000 milliseconds",
     "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-27 / 11:02",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.17:25565",
+    "error": "connect ETIMEDOUT 45.59.168.17:25565\nError: connect ETIMEDOUT 45.59.168.17:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-27 / 11:05",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.17:25565",
+    "error": "connect ETIMEDOUT 45.59.168.17:25565\nError: connect ETIMEDOUT 45.59.168.17:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-27 / 11:06",
+    "errorLocation": "    at Client.<anonymous> (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/versionChecking.js:27:26)",
+    "errorMessage": "This server is version 1.8.8, you are using version 1.20, please specify the correct version in the options.",
+    "error": "This server is version 1.8.8, you are using version 1.20, please specify the correct version in the options.\nError: This server is version 1.8.8, you are using version 1.20, please specify the correct version in the options.\n    at Client.<anonymous> (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/versionChecking.js:27:26)\n    at Client.emit (node:events:531:35)\n    at emitPacket (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client.js:83:12)\n    at FullPacketParser.<anonymous> (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client.js:112:9)\n    at FullPacketParser.emit (node:events:519:28)\n    at addChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at FullPacketParser._transform (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/serializer.js:89:10)\n    at Transform._write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)\n    at Writable.write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:286:10)\n    at Splitter.ondata (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Splitter.emit (node:events:519:28)\n    at addChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-27 / 11:08",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 45.59.168.17:25565",
+    "error": "connect ETIMEDOUT 45.59.168.17:25565\nError: connect ETIMEDOUT 45.59.168.17:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
   }
 ]

@@ -1,0 +1,31 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "username": "Jakindomi",
+    "ip": "zeraphinesmp.xyz",
+    "autocmd": [
+      "/login <Jaki1234>",
+      "/warp afk"
+    ],
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0
+  },
+  {
+    "<zeraphinesmp.xyz>": {
+      "version": "1.20",
+      "realUser": "Jakindomi",
+      "alt": []
+    },
+    "zeraphinesmp.xyz": {
+      "realUser": "Jakindomi",
+      "alt": [],
+      "version": "1.20"
+    }
+  }
+]

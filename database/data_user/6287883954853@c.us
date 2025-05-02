@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "Dra1s",
-    "ip": "mc.aetherium.fun",
+    "username": "Uvuvwey",
+    "ip": "play.hyperxz.id",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -14,14 +14,13 @@
     "autoReconnect": false,
     "autocmd": [
       "/login YogyaKartA.00_",
-      "/chat off",
-      "/server rpg"
+      "/server SURVIVALEGEND"
     ],
     "automsg": {
       "message": "/xpbottle",
       "status": false
     },
-    "afkArcher": false,
+    "afkArcher": true,
     "intervalIds": {},
     "timeoutIds": {}
   },
@@ -58,6 +57,14 @@
         "Uvuvwey"
       ],
       "version": "1.20"
+    },
+    "play.hyperxz.id": {
+      "realUser": "Drra1s",
+      "alt": [
+        "Dra1s",
+        "Uvuvwey"
+      ],
+      "version": "1.21.1"
     }
   }
 ]

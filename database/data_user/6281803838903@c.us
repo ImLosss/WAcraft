@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "lobster.aternos.host:14042",
-    "username": "London_",
+    "ip": "play.xetapixel.net",
+    "username": "Extacys",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -21,7 +21,9 @@
     "play.xetapixel.net": {
       "realUser": "Extacys",
       "alt": [
-        "London_"
+        "London_",
+        "32exemond",
+        "ZiroAfkGen"
       ],
       "version": "1.20"
     },

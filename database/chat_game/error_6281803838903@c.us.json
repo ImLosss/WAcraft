@@ -1,0 +1,51 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-04-14 / 21:44",
+    "errorLocation": "    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 90536052",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 90536052\nError: Read error for undefined : array size is abnormally large, not reading: 90536052\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1082:47)\n    at Object.entityMetadataEntry (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1185:9)\n    at Object.entityMetadata (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1193:47)\n    at Object.packet_entity_metadata (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3388:73)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4194:70)\n    at packet (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-14 / 21:45",
+    "errorLocation": "    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 90536052",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 90536052\nError: Read error for undefined : array size is abnormally large, not reading: 90536052\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1082:47)\n    at Object.entityMetadataEntry (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1185:9)\n    at Object.entityMetadata (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1193:47)\n    at Object.packet_entity_metadata (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3388:73)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4194:70)\n    at packet (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-15 / 05:03",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-16 / 12:06",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-16 / 14:25",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-25 / 19:48",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-26 / 08:18",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  }
+]

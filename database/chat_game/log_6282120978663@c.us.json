@@ -1,0 +1,98 @@
+[
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:21",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:21",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:21",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:21",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:22",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:22",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:22",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:22",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:23",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:23",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:25",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:25",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:25",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:25",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  }
+]

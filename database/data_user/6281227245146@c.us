@@ -3,13 +3,13 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "goret",
+    "username": "Terkayang",
     "except": [
       "Obtained"
     ],
     "autocmd": [
-      "/login 12345",
-      "/server smp"
+      "/login jembut123",
+      "/server survival"
     ],
     "autorightclick": false,
     "autoleftclick": false,
@@ -17,7 +17,7 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "ip": "play.claritynetwork.net",
+    "ip": "play.clarity-id.net",
     "autoReconnect": false,
     "intervalIds": {},
     "timeoutIds": {}
@@ -30,6 +30,11 @@
         "Jade77",
         "goret"
       ]
+    },
+    "play.clarity-id.net": {
+      "realUser": "Terkayang",
+      "alt": [],
+      "version": "1.20"
     }
   }
 ]

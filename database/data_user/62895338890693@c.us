@@ -3,14 +3,14 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.clarity-id.net",
+    "ip": "node3.gsicloudid.biz.id",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "username": "Ned",
+    "username": "shenxx",
     "autoReconnect": false,
     "automsg": {
       "message": "/sell all",
@@ -23,7 +23,8 @@
     "minegens.id": {
       "version": "1.20",
       "alt": [
-        "mweheh"
+        "mweheh",
+        "shenxx"
       ]
     },
     "play.clarity-id.net": {
@@ -31,6 +32,20 @@
       "alt": [
         "mweheh",
         "Ned"
+      ],
+      "version": "1.20"
+    },
+    "node3.gsicloudid.biz.id": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ],
+      "version": "1.20"
+    },
+    "1.20": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
       ],
       "version": "1.20"
     }

@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "online",
-    "ip": "play.clarity-id.net",
+    "ip": "play.zerlegends.xyz",
     "username": "royalti",
     "statusRepeat": false,
     "reconnectTime": 0,
@@ -14,8 +14,8 @@
     "autoReconnect": false,
     "autocmd": [
       "/login ray123",
-      "/sell all",
-      "/server survival"
+      "/server survivalrpg",
+      "/autoleftclick 1"
     ],
     "automsg": {
       "message": "/xpbottle",
@@ -31,6 +31,33 @@
     "play.clarity-id.net": {
       "realUser": "royalti",
       "alt": [],
+      "version": "1.20"
+    },
+    "Skomda.aternos.me": {
+      "realUser": "royalti",
+      "alt": [],
+      "version": "1.21.1"
+    },
+    "play.zerlegends.xyz": {
+      "realUser": "royalti",
+      "alt": [
+        "royalti"
+      ],
+      "version": "1.20"
+    },
+    "zeraphinesmp.xyz": {
+      "version": "1.20",
+      "alt": [
+        "royalti"
+      ]
+    },
+    "zeraphinesmp.my.id": {
+      "version": "1.20",
+      "alt": [
+        "royalti"
+      ]
+    },
+    "minehive.id": {
       "version": "1.20"
     }
   }

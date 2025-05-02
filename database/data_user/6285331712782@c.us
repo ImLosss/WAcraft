@@ -1,0 +1,24 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "play.xetapixel.net",
+    "username": "London_",
+    "reconnectTime": 0,
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false
+  },
+  {
+    "play.xetapixel.net": {
+      "realUser": "Extacys",
+      "alt": [
+        "London_"
+      ],
+      "version": "1.20"
+    }
+  }
+]

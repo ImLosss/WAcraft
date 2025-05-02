@@ -130,5 +130,41 @@
     "date": "2025-02-25 / 21:46",
     "location": "kicked.js:11:25",
     "message": "Kicked: {\"text\":\"\",\"extra\":[\"Invalid state for Bedrock, please rejoin\"]}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 14:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"You are not logged into your Minecraft account. If you are logged into your Minecraft account, try restarting your Minecraft client.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 14:23",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 14:23",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 14:23",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 14:23",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 14:23",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
   }
 ]

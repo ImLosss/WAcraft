@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "minegens.id",
-    "username": "shenxx",
+    "ip": "play.crispymc.net",
+    "username": "Ned",
     "automsg": {
       "message": "/repair",
       "status": false
@@ -54,7 +54,8 @@
     "intervalIds": {
       "broadcast": 6421
     },
-    "timeoutIds": {}
+    "timeoutIds": {},
+    "afkArcher": false
   },
   {
     "play.claritynetwork.net": {
@@ -150,6 +151,22 @@
     "play.clarity-id.net": {
       "realUser": "Losss",
       "alt": [],
+      "version": "1.20"
+    },
+    "srv531927.hstgr.cloud": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx"
+      ],
+      "version": "1.20"
+    },
+    "play.crispymc.net": {
+      "realUser": "Losss",
+      "alt": [
+        "shenxx",
+        "Shinz_0002",
+        "Ned"
+      ],
       "version": "1.20"
     }
   }

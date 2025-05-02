@@ -1,0 +1,140 @@
+[
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to CaveBlock now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "������ London_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:24",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:25",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to CaveBlock now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:25",
+    "location": "messagestr.js:27:21",
+    "message": "������ London_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:25",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:25",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:25",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to CaveBlock now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "������ London_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to CaveBlock now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "🌑 London_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "[۞] Flying is disabled in this world."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-24 / 23:26",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  }
+]

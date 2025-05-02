@@ -1666,5 +1666,467 @@
     "date": "2025-02-06 / 23:23",
     "location": "messagestr.js:27:21",
     "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "login 040103<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "server survival<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "dp<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:51",
+    "location": "messagestr.js:27:21",
+    "message": "dd<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "login 040103<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "server survival<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "dp<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "dd<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:56",
+    "location": "messagestr.js:27:21",
+    "message": "shenxx has made the advancement [Take Aim]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 11:57",
+    "location": "messagestr.js:27:21",
+    "message": "shenxx was killed"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "login 040103<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "server survival<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "dp<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "dd<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "login 040103<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "server survival<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "dp<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:29",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:29",
+    "location": "messagestr.js:27:21",
+    "message": "dd<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:32",
+    "location": "messagestr.js:27:21",
+    "message": "shenxx was killed"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "login 040103<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "server survival<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "dp<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:37",
+    "location": "messagestr.js:27:21",
+    "message": "dd<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:38",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-26 / 12:38",
+    "location": "messagestr.js:27:21",
+    "message": "maintenance of<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:10",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:11",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:11",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:11",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:11",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:11",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:13",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:13",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:13",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:13",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:13",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:13",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"extra\":{\"type\":\"list\",\"value\":{\"type\":\"compound\",\"value\":[{\"bold\":{\"type\":\"byte\",\"value\":1},\"color\":{\"type\":\"string\",\"value\":\"gold\"},\"text\":{\"type\":\"string\",\"value\":\"YUI \"}},{\"bold\":{\"type\":\"byte\",\"value\":1},\"color\":{\"type\":\"string\",\"value\":\"dark_gray\"},\"text\":{\"type\":\"string\",\"value\":\"» \"}},{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"You failed to connect to the server, please try again in a few seconds!\"}}]}},\"text\":{\"type\":\"string\",\"value\":\"\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:18",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-08 / 10:18",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-10 / 01:52",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-10 / 01:53",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-11 / 13:22",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-11 / 13:22",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-12 / 10:01",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-12 / 10:01",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-16 / 16:37",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-16 / 16:37",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-16 / 16:57",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Verifying your account..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-16 / 16:57",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
   }
 ]

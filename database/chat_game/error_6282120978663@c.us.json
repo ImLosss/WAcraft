@@ -1,0 +1,23 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-04-08 / 10:22",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-08 / 10:22",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-08 / 10:23",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
+  }
+]

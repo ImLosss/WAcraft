@@ -1,0 +1,16 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-03-25 / 15:10",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 1.0.0.20:25565",
+    "error": "connect ETIMEDOUT 1.0.0.20:25565\nError: connect ETIMEDOUT 1.0.0.20:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-25 / 15:10",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 103.59.160.189:25565",
+    "error": "connect ETIMEDOUT 103.59.160.189:25565\nError: connect ETIMEDOUT 103.59.160.189:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  }
+]

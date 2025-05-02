@@ -1,286 +1,6 @@
 [
   {
     "type": "Error",
-    "date": "2025-02-16 / 22:04",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 22:06",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 22:12",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 22:30",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 23:07",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 23:27",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 23:52",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 23:54",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-16 / 23:56",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 01:07",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 01:16",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 15:56",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 15:58",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:00",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:02",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:04",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:07",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:21",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:51",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:56",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 16:58",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 17:19",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-17 / 21:52",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 00:03",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:28",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:29",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:45",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:48",
-    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
-    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
-    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:50",
-    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
-    "errorMessage": "read ECONNRESET",
-    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:51",
-    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
-    "errorMessage": "read ECONNRESET",
-    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:53",
-    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
-    "errorMessage": "read ECONNRESET",
-    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:54",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:55",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:56",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-18 / 23:58",
-    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
-    "errorMessage": "read ECONNRESET",
-    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-19 / 00:00",
-    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
-    "errorMessage": "read ECONNRESET",
-    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-19 / 00:02",
-    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:161:15)",
-    "errorMessage": "write EPIPE",
-    "error": "write EPIPE\nError: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:953:11)\n    at Socket._write (node:net:965:8)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at Writable.write (node:internal/streams/writable:502:10)\n    at Framer.ondata (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:519:28)\n    at addChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-21 / 06:31",
-    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
-    "errorMessage": "client timed out after 30000 milliseconds",
-    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-21 / 06:34",
-    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
-    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
-    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
-  },
-  {
-    "type": "Error",
-    "date": "2025-02-21 / 06:36",
-    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
-    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
-    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
-  },
-  {
-    "type": "Error",
     "date": "2025-02-21 / 06:39",
     "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
     "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
@@ -348,5 +68,285 @@
     "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
     "errorMessage": "client timed out after 30000 milliseconds",
     "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-27 / 20:58",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-02-28 / 10:15",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:161:15)",
+    "errorMessage": "write EPIPE",
+    "error": "write EPIPE\nError: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:953:11)\n    at Socket._write (node:net:965:8)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at Writable.write (node:internal/streams/writable:502:10)\n    at Framer.ondata (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:519:28)\n    at addChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-01 / 23:07",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-01 / 23:41",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-02 / 00:43",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-02 / 02:15",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-02 / 04:17",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-02 / 19:00",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:161:15)",
+    "errorMessage": "write EPIPE",
+    "error": "write EPIPE\nError: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:953:11)\n    at Socket._write (node:net:965:8)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at Writable.write (node:internal/streams/writable:502:10)\n    at Framer.ondata (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:519:28)\n    at addChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-03 / 00:18",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-03 / 17:58",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-03 / 19:49",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 09:37",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 09:38",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 09:39",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 09:39",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 09:40",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 10:24",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 10:25",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 10:25",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 10:26",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 10:26",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 11:43",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 11:44",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 11:44",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 11:44",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-04 / 11:45",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect EHOSTUNREACH 95.173.218.251:25565",
+    "error": "connect EHOSTUNREACH 95.173.218.251:25565\nError: connect EHOSTUNREACH 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-05 / 06:37",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-05 / 06:40",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
+    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-05 / 06:43",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
+    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-05 / 06:45",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
+    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-05 / 06:48",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
+    "errorMessage": "connect ETIMEDOUT 95.173.218.251:25565",
+    "error": "connect ETIMEDOUT 95.173.218.251:25565\nError: connect ETIMEDOUT 95.173.218.251:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-06 / 08:00",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-06 / 21:28",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-07 / 12:30",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-08 / 10:51",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:161:15)",
+    "errorMessage": "write EPIPE",
+    "error": "write EPIPE\nError: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:161:15)\n    at writeGeneric (node:internal/stream_base_commons:152:3)\n    at Socket._writeGeneric (node:net:953:11)\n    at Socket._write (node:net:965:8)\n    at writeOrBuffer (node:internal/streams/writable:564:12)\n    at _write (node:internal/streams/writable:493:10)\n    at Writable.write (node:internal/streams/writable:502:10)\n    at Framer.ondata (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:519:28)\n    at addChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-08 / 21:39",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-03-09 / 02:18",
+    "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-01 / 12:31",
+    "errorLocation": "    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1634888543",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1634888543\nError: Read error for undefined : array size is abnormally large, not reading: 1634888543\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at Object.ingredient (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:998:32)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4010:52)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4015:21)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4020:19)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4024:17)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4065:13)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-01 / 12:32",
+    "errorLocation": "    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1634888543",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1634888543\nError: Read error for undefined : array size is abnormally large, not reading: 1634888543\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at Object.ingredient (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:998:32)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4010:52)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4015:21)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4020:19)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4024:17)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4065:13)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-01 / 12:34",
+    "errorLocation": "    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1634888543",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1634888543\nError: Read error for undefined : array size is abnormally large, not reading: 1634888543\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at Object.ingredient (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:998:32)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4010:52)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4015:21)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4020:19)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4024:17)\n    at eval (eval at compile (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4065:13)"
   }
 ]

@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "username": "kaiser5636",
     "ip": "Clarity-id.net",
     "autorightclick": false,
@@ -11,7 +11,7 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
       "/login azfara09",
       "/server survival",
@@ -20,7 +20,7 @@
     ],
     "automsg": {
       "message": "/feed",
-      "status": true
+      "status": false
     },
     "intervalIds": {},
     "timeoutIds": {}
@@ -43,7 +43,7 @@
       "alt": [
         "Newt"
       ],
-      "version": "1.20"
+      "version": "1.21.1"
     }
   }
 ]

@@ -1,0 +1,37 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-04-03 / 17:53",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND claritynetwork.net",
+    "error": "getaddrinfo ENOTFOUND claritynetwork.net\nError: getaddrinfo ENOTFOUND claritynetwork.net\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-03 / 17:53",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND claritynetwork.net",
+    "error": "getaddrinfo ENOTFOUND claritynetwork.net\nError: getaddrinfo ENOTFOUND claritynetwork.net\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-03 / 17:53",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND claritynetwork.net",
+    "error": "getaddrinfo ENOTFOUND claritynetwork.net\nError: getaddrinfo ENOTFOUND claritynetwork.net\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-03 / 17:54",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND claritynetwork.net",
+    "error": "getaddrinfo ENOTFOUND claritynetwork.net\nError: getaddrinfo ENOTFOUND claritynetwork.net\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-04-03 / 17:54",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND claritynetwork.net",
+    "error": "getaddrinfo ENOTFOUND claritynetwork.net\nError: getaddrinfo ENOTFOUND claritynetwork.net\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  }
+]

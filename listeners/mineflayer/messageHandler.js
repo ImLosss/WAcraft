@@ -41,7 +41,7 @@ module.exports = (function() {
             const value = cutVal(pesan, 1);
 
             if (prefixFunctions[funcName[0]]) {
-                console.game(value, `cmd:${ funcName[0] }`, sender, 'cmd');
+                console.game(value, sender, `cmd:${ funcName[0] }`);
                 
                 if(!checkCommandStatus(funcName[0])) return msg.reply(`Command */${ funcName[0] }* dinonaktifkan`);
                 return prefixFunctions[funcName[0]](bot, sender, dirUser, chat, msg, value);

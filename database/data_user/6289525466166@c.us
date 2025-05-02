@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "nowezki",
-    "ip": "Tarvisiummc.mc-play.xyz",
+    "username": "Xonezka",
+    "ip": "clarity-id.net",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -101,6 +101,13 @@
         "nowezki"
       ],
       "version": "1.21.1"
+    },
+    "clarity-id.net": {
+      "version": "1.21.1",
+      "alt": [
+        "Klvv",
+        "Xonezka"
+      ]
     }
   }
 ]

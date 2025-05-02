@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "claritynetwork.net",
-    "username": "TheRosses",
+    "ip": "ajaj",
+    "username": "Ned",
     "except": [
       "tes"
     ],
@@ -24,5 +24,16 @@
     "intervalIds": {},
     "timeoutIds": {}
   },
-  {}
+  {
+    "play.crispymc.net": {
+      "version": "1.20",
+      "alt": [
+        "Ned"
+      ]
+    },
+    "ssijdi": {
+      "realUser": "xnnk",
+      "alt": []
+    }
+  }
 ]

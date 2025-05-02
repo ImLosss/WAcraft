@@ -1,2486 +1,3002 @@
 [
   {
     "type": "ingame",
-    "date": "2025-01-27 / 22:32",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
+    "message": "❁408【Sentolop】!!AFK!! || Oceans || UbiiPituber ➼ jirr baru masuk minta uang"
   },
   {
     "type": "ingame",
-    "date": "2025-01-27 / 22:32",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Logging in..."
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-01-27 / 22:32",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Logged in!"
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ yg ce lu gacha jadiin dust"
   },
   {
     "type": "ingame",
-    "date": "2025-01-27 / 22:32",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 0 votes."
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-01-27 / 22:32",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "+ Uvuvwey"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-01-27 / 22:32",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "❁112【TheRules】ᴋɪɴɢ ROGUE Fanda ➼ cukup?"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-01-28 / 21:49",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-29 / 15:32",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-29 / 16:42",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-30 / 04:26",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"text\":\"Proxy shutting down.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-30 / 04:27",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"text\":\"Unable to connect\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-30 / 04:27",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"text\":\"Unable to connect\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-30 / 17:15",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-31 / 18:02",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-01-31 / 20:08",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-01 / 09:00",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-01 / 22:00",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-03 / 00:36",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-03 / 00:37",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Logging in..."
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ buat up ratenya"
   },
   {
     "type": "ingame",
-    "date": "2025-02-03 / 00:37",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Logged in!"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-03 / 00:37",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 0 votes."
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ ce yg lu gacha tadi jadiin dust biar up ratenya"
   },
   {
     "type": "ingame",
-    "date": "2025-02-03 / 00:37",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "+ Uvuvwey"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-03 / 16:31",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-04 / 14:31",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 12:05",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ ok"
   },
   {
     "type": "ingame",
-    "date": "2025-02-13 / 12:05",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Logging in..."
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-13 / 12:05",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "Logged in!"
+    "message": "* veyalter is now AFK."
   },
   {
     "type": "ingame",
-    "date": "2025-02-13 / 12:05",
-    "location": "messagestr.js:27:21",
-    "message": "Welcome to NOESANTARA NETWORK"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 12:05",
-    "location": "messagestr.js:27:21",
-    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 12:05",
-    "location": "messagestr.js:27:21",
-    "message": "WEB → https://linktr.ee/noesantara"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 12:05",
-    "location": "messagestr.js:27:21",
-    "message": "DISCORD → https://discord.gg/noesantara"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 16:06",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 16:08",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 16:12",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 16:37",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 16:39",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 17:04",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"text\":\"Proxy shutting down.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 17:05",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 17:15",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 17:18",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-13 / 17:18",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 09:39",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 16:21",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "Logging in..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "Logged in!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "Welcome to NOESANTARA NETWORK"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "WEB → https://linktr.ee/noesantara"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-14 / 23:35",
-    "location": "messagestr.js:27:21",
-    "message": "DISCORD → https://discord.gg/noesantara"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 21:45",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "Logging in..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "Logged in!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "Welcome to NOESANTARA NETWORK"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "WEB → https://linktr.ee/noesantara"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-15 / 22:31",
-    "location": "messagestr.js:27:21",
-    "message": "DISCORD → https://discord.gg/noesantara"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 02:27",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 02:30",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ gk:v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "* NazzAntiKroco is no longer AFK."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] minta akses di wart ini dra1s"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ loh gk ad pak ketu qim.."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ malass:v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ loh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:31",
-    "location": "messagestr.js:27:21",
-    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ rank tiktok"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:32",
-    "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] akun yg mana?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:32",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] akun yg Dra1s, atau ga gua yg claim aja? nnti tak kasih akses pada ?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:33",
-    "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 0 votes."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:33",
-    "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] dah"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:33",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] ohh itu yg claim putra yg chest lu ganti aja jd claim lu ken, udah bisa claim 150k block kan"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ [[ CUSTOM ENCHANT ] Fabled Magic Dust] sell"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:34",
-    "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] mkdnya"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:34",
-    "location": "messagestr.js:27:21",
-    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ brp?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:34",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:34",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ 500k"
+    "message": "❁151【zero】ᴍᴀʟᴇ ♂ ROGUE jecxzs ➼ [jecxzs's Inventory] wts"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:34",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] kan claim wart ada sebagian putra yg claim, nah dijadiin 1 aja claim lu sm putra biar ga beda claim"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:34",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "❁87【CONTINENT】 PRIME .Dany1236705 ➼ 36k aja :v"
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:34",
+    "date": "2025-03-07 / 12:17",
     "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ :v"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:34",
+    "date": "2025-03-07 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:17",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:35",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] qim ga beli pack valentine? mayan tuh"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:35",
+    "date": "2025-03-07 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "❁197【Mahoraga】ᴋɪɴɢ WARGA KemZ ➼ wadoh ngeleg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:35",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] apa tuh"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:35",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 58x items, 73x creatures and 55x projectiles!"
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 33x items, 119x creatures and 18x projectiles!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:35",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ iron ny hans"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:35",
+    "date": "2025-03-07 / 12:18",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] promo valentine deng maksudnya, jd misal beli Pack Porphyrus harga 70k beli berdua patungan jadi 35k perorang dpt pack yg sama"
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ weh rex"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:36",
+    "date": "2025-03-07 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:18",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ ga ngeh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ traw [inv"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Azziza420 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ nak liat"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ [strawky's Inventory]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:19",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁197【Mahoraga】ᴋɪɴɢ WARGA KemZ ➼ gatot ada 2 bngst"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ basic aja sebenernya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁197【Mahoraga】ᴋɪɴɢ WARGA KemZ ➼ sini wak enak ni"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ lah knp lu pay gw 50m"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ jir wak mayan tuh cenya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ gapapa sikit duit lu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ makasi loh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
     "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:36",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] kalo mau beli ajakin siapa coba di tim yg mau beli pack atau beli yg lain"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:36",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] jadi satu orang dpt 1 pack masing2?"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:37",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] iya dpt 1pack masing2 dgn harga segitu, mayan tuh murah bgt jdnya"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:37",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ dh gw nak gacha."
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:37",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ ikutt"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:37",
+    "date": "2025-03-07 / 12:20",
     "location": "messagestr.js:27:21",
-    "message": "[me -> PutragnzMc1] server msh drop ga?"
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ sans"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:38",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ :v"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:38",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ bgus"
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ [[ CUSTOM ENCHANT ] Implants III]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:38",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "[PutragnzMc1 -> me] udah ga"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:38",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] nanti deh tak pikir2 mager juga topup alfa jauh bet:v"
+    "message": "+ ubii_alt MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:38",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "[me -> PutragnzMc1] coba ajakin qim beli promo valentine put di qim lg mikir2 tuh"
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ anjay"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:38",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "* NazzAntiKroco is now AFK."
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:39",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "[PutragnzMc1 -> me] sekarang tanggal brp"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:39",
+    "date": "2025-03-07 / 12:21",
     "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 0 votes."
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:39",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "+ HnaRay MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:21",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ halo hnaray"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ veynata dh gw bnuh biar gw dpt xp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁41【ElCactus】ꜰᴇᴍᴀʟᴇ ♀ WARGA HnaRay ➼ halooo strawky"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "+ Haris20788 MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ wkwkwk jir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁122【】 AETHERIX Haris20788 ➼ a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ gk cnda"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:22",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:39",
+    "date": "2025-03-07 / 12:22",
     "location": "messagestr.js:27:21",
-    "message": "* NazzAntiKroco is no longer AFK."
+    "message": "ElCactus Rexx_Calleum has made the advancement [Into Fire]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:39",
+    "date": "2025-03-07 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ masuk kedalem farmnya aja yakan, ntar lu yg dapet exp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:39",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "[me -> PutragnzMc1] tgl 16 knp tuh"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "[PutragnzMc1 -> me] dh habis promo sampai tanggal 15"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "You have 30 seconds to solve for: `✗`"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "❅ + ❅ + ❅ = 60"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
-    "location": "messagestr.js:27:21",
-    "message": "♫ + ♫ + ♫ = 75"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:40",
-    "location": "messagestr.js:27:21",
-    "message": "❅ + ♫ + ✗ = 71"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 22x items, 82x creatures and 59x projectiles!"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "[me -> PutragnzMc1] yah coba aja tanya barz siapa tau bisa"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 31x items, 200x creatures and 17x projectiles!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ ga gacor ce ny ttp laper"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:40",
-    "location": "messagestr.js:27:21",
-    "message": "✓ ✯ CHAT GAMES ✯ ✓"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:40",
-    "location": "messagestr.js:27:21",
-    "message": "30s have passed! The variable game is now over!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:40",
-    "location": "messagestr.js:27:21",
-    "message": "The correct answer was 26!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] tdi blang ap drais?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ [[ CUSTOM ENCHANT ] Defender I x2] sell"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] lupa wkwkw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:41",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] yuhu gacha villager gasi wkwkw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:42",
-    "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] ini abis gacha:v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:42",
-    "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] sama gw,tdi putra sruh jual farm"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:42",
-    "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:42",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
     "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:42",
+    "date": "2025-03-07 / 12:23",
     "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ hmmm"
+    "message": "You just blocked 0 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:42",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] gua lg ga on pc nnti siang aja gua jualin farm"
+    "message": "❁366【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ deff dah naik baru enak"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "❁5【】 WARGA lukaplazz2 ➼ ubi"
+    "message": "+ leci_farm MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ udh 13"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "❁214【ElCactus】 SENTINEL FormalBaker2204 ➼ tainjir ntr gw psg beacon regeneration dh"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] udah jam segini baru 4 yang bagus isi nya:v"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] butuh bet repairer jir"
+    "message": "- FormalBaker2204 MENINGALKAN SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "- Haris20788 MENINGALKAN SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] sama"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:43",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:24",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] oiya, akun alt gua pindahin ke sebelah salah 1 breeding nya deh trus tanemin lg wortel nya qim"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:25",
     "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] lg vallo ini mah:v"
+    "message": "You just blocked 0 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:25",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:25",
     "location": "messagestr.js:27:21",
-    "message": "Player PutragnzMc1 just won [ CUSTOM ENCHANT ] godarmor I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:25",
     "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] gua on dr hp jir ini wkwkw"
+    "message": "+ .Mas_G48 MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴍᴀɴᴛʀᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "- .DapinArya MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "You have 30 seconds to write out the word: `Sky`"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:25",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ for"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ Sjy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ Skyu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Rexx_Calleum was the fastest to write out `Sky` (18.0s) and got a prize!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "- .Mas_G48 MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "* ubii_alt is now AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ [BroniBearr's Inventory] @UbiiEmCe :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won ZONK!! from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Player Drabuz just won [ CUSTOM ENCHANT ] Wings I from MANTRA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:26",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "BroniBearr is now selling an [ CUSTOM ENCHANT ] Wings I x1 for $3,000,000! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ traw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "+ .Mas_G48 MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "BroniBearr is now selling an [ CUSTOM ENCHANT ] Wings I x1 for $3,000,000! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "BroniBearr is now selling an [ CUSTOM ENCHANT ] Wings I x1 for $4,000,000! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "BroniBearr is now selling an [ CUSTOM ENCHANT ] Wings I x1 for $4,000,000! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "+ .FARID3598 MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "+ rasya MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ @strawky oi nak pinjam sl"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:27",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] wortel yang dimana"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:44",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "BroniBearr is now selling an [ CUSTOM ENCHANT ] Wings I x1 for 500,000 XP! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "+ Haris20788 MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:27",
+    "location": "messagestr.js:27:21",
+    "message": "BroniBearr is now selling an [ CUSTOM ENCHANT ] Wings I x1 for 500,000 XP! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "- NoxxPojav MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] tak pkek laptop ke?"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
-    "location": "messagestr.js:27:21",
-    "message": "7/18 players sleeping"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:45",
-    "location": "messagestr.js:27:21",
-    "message": "lukaplazz2 has made the advancement [Sweet Dreams]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:45",
-    "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 0 votes."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:45",
-    "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] dua dua nya kah"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ [PutragnzMc1's Inventory] jlk bgt kontol"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 43x items, 90x creatures and 40x projectiles!"
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 60x items, 207x creatures and 20x projectiles!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] coba minta tim yg punya atau ga mintol cariin"
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ [Warden Spawner] :V 5 key"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:28",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] ok"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ dapet ap emg"
+    "message": "❁68【zero】 1 ORDAL 1 rasya ➼ kok ganti armor mu"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "lukaplazz2 has made the advancement [Acquire Hardware]"
+    "message": "- .WoodsRacer94000 MENINGALKAN SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:45",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] 1 aja qim soalnya cm ke render 11 block dr akun alt jd di pepetin aja akun alt nya"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ bow ny sni 1 put:v"
+    "message": "* leci_farm is now AFK."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] iya udh mati laptop nya"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ farm"
+    "message": "❁151【zero】ᴍᴀʟᴇ ♂ ROGUE jecxzs ➼ hhe iya"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "[Qim -> me] ok"
+    "message": "+ NoxxPojav MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "Player Qim just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "Player Qim just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "+ HTML MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "Sentolop Qim has made the advancement [Acquire Hardware]"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "Sentolop Qim has made the advancement [Diamonds!]"
+    "message": "+ .Mas_G48 MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ ah males ny gw ni"
+    "message": "+ VelVel MEMASUKI SERVER"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Qim] woke tengki"
+    "message": "❁68【zero】 1 ORDAL 1 rasya ➼ ohh yaudah aku mau bikin base besar"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ke warden Hans."
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ udh tanam smua kmrn kenak rb ap lah"
+    "message": "❁367【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ scythe gua lupa diambil jir di tim echest"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:46",
-    "location": "messagestr.js:27:21",
-    "message": "Player Qim just won ZONK!! from PUSAKA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:46",
-    "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ke tanem aja entar"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:46",
-    "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ pftt"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:46",
-    "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ke chest bawa"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "❁109【Sentolop】 TIKTOK DrakenTod ➼ kmrn malem rb 2x cuy"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ kebawa"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ [sᴘɪʀɪᴛ ʙʀᴇᴀᴋᴇʀ ʙᴏᴡ]:v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "[DrakenTod -> me] lah mokad knp?:v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ tukar sama hoe :v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ jual itu"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> DrakenTod] ya tak matiin laa udah seminggu ga mati wkwkw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "7/19 players sleeping"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:47",
-    "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ gk gua suka bow:v"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:48",
-    "location": "messagestr.js:27:21",
-    "message": "Sentolop Qim has reached the goal [Sky's the Limit]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:48",
-    "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ buat gw sini"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 04:48",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
     "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:48",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ :v"
+    "message": "❁151【zero】ᴍᴀʟᴇ ♂ ROGUE jecxzs ➼ wokee"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:48",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁88【CONTINENT】 PRIME .Dany1236705 ➼ hehe"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:48",
+    "date": "2025-03-07 / 12:29",
     "location": "messagestr.js:27:21",
-    "message": "❁6【Sentolop】 WARGA Qim ➼ put ada wortel gk"
+    "message": "❁367【ElCactus】ɴᴇᴍᴇꜱɪꜱ || MYTHIC+ || BaekHyunWoo ➼ ilang"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:48",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
-    "message": "❁119【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ takde"
+    "message": "You just blocked 0.8 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 04:48",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ hayo"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.8 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:30",
+    "location": "messagestr.js:27:21",
+    "message": "❁196【ElCactus】 WARGA Rexx_Calleum ➼ yg glutony nak ppipnjam"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "Please login using: /login <password> [2fa_code]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "Logging in..."
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "Logged in!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "Welcome to NOESANTARA NETWORK"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "TIKTOK → https://www.tiktok.com/@noesantara_network"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "WEB → https://linktr.ee/noesantara"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 14:31",
+    "date": "2025-03-07 / 12:30",
     "location": "messagestr.js:27:21",
     "message": "DISCORD → https://discord.gg/noesantara"
   },
   {
     "type": "ingame",
-    "date": "2025-02-16 / 18:05",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 21:17",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 22:30",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 23:27",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 23:40",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 23:52",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 23:54",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-16 / 23:56",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 01:12",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 01:15",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 01:16",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 15:56",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 16:02",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 16:04",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 16:21",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 16:51",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 17:19",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 17:58",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 19:20",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 19:31",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 19:36",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 19:39",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 19:39",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 23:04",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 23:05",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 23:09",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-17 / 23:12",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-18 / 10:55",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"Server closed\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-18 / 17:53",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-18 / 23:28",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Your connection to \"},{\"text\":\"rpg\"},{\"text\":\" encountered a problem.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-19 / 00:49",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-19 / 01:51",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 07:17",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"red\",\"text\":\"An internal server connection error occurred.\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 13:30",
     "location": "messagestr.js:27:21",
-    "message": "❁87【AmboiAmboi】 WARGA ThisHamm ➼ assasin"
+    "message": "--==Defense Leaderboard==--"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 13:30",
     "location": "messagestr.js:27:21",
-    "message": "❁197【TheRules】ʟᴏᴠᴇʀ AETHERIX Broni ➼ deger"
+    "message": "1. Jugimaa - 100"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "2. Bocillll - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "3. UbiiEmCe - 89"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "4. Dra1s - 88"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "5. .TheBroEzzGOD - 82"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "6. CANFANPAN - 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "7. Yumeko - 70"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "8. Dava177 - 66"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "9. SannneewwZ - 66"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "10. Leciii - 60"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.7 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "KingOfMoon has voted for us on MinecraftPocket-Servers.com and was rewarded with Coin 250 and 1 Key Vote!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.7 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
+    "location": "messagestr.js:27:21",
+    "message": "Player KingOfMoon just won ɴᴜsᴀɴᴛᴀʀᴀ ᴋᴇʏ from VOTE CREATES!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 13:30",
     "location": "messagestr.js:27:21",
     "message": "Unknown command. Type \"/help\" for help."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:41",
     "location": "messagestr.js:27:21",
-    "message": "❁93【ElCactus】 WARGA Rexx_Calleum ➼ pistol"
+    "message": "❁374【TheRules】ʟᴏᴠᴇʀ AETHERIX Moemec ➼ u mau join team gue ga"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:41",
     "location": "messagestr.js:27:21",
-    "message": "❁390【Queen】ʟᴏᴠᴇʀ ༺✨ᴀᴅᴍɪɴ✨༻ Kiara ➼ dager"
+    "message": "❁330【CONTINENT】ʟᴏᴠᴇʀ AETHERIX SungJinWoo ➼ kasih aku sw ×3"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:41",
     "location": "messagestr.js:27:21",
-    "message": "--==Fighting Leaderboard==--"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "1. .TheBroEzzGOD - 100"
+    "message": "--==Defense Leaderboard==--"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "2. Dra1s - 92"
+    "message": "1. Jugimaa - 100"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "3. Jugimaa - 91"
+    "message": "2. Bocillll - 100"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "4. Yumeko - 90"
+    "message": "3. Dra1s - 92"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "5. zetatata777 - 86"
+    "message": "4. UbiiEmCe - 91"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "6. UbiiEmCe - 84"
+    "message": "5. .TheBroEzzGOD - 83"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "7. SannneewwZ - 75"
+    "message": "6. CANFANPAN - 75"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "8. ArdG - 66"
+    "message": "7. Yumeko - 70"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "9. NoeManKun - 52"
+    "message": "8. Dava177 - 67"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:31",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "10. DenoAstra - 51"
+    "message": "9. SannneewwZ - 66"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁248【CONTINENT】 !!! AFK !!! || WAYANG || LECI ➼ mo afk defese dulu adios"
+    "message": "10. Leciii - 64"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "[Broadcast] TEBAK ATMIN DAPET APA SKRG!"
+    "message": "❁330【CONTINENT】ʟᴏᴠᴇʀ AETHERIX SungJinWoo ➼ tak bantai baltop"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ [/info yang jual spawner Golem]"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁465【Astaroth】ꜰᴇᴍᴀʟᴇ ♀ WARGA Jugimaa ➼ doombringer axe"
+    "message": "MAIJI has reached the goal [Sky's the Limit]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁107【】 WARGA NothingZen ➼ dagger of zep"
+    "message": "❁330【CONTINENT】ʟᴏᴠᴇʀ AETHERIX SungJinWoo ➼ kalo ga mager"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁100【TheRules】ᴍᴀʟᴇ ♂ WARGA .Dante094k ➼ doom v3"
+    "message": "❁560【CONTINENT】 !!! AFK !!! || WAYANG || LECI ➼ ewe sapi dulu sana"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ warior"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁87【AmboiAmboi】 WARGA ThisHamm ➼ summoner"
+    "message": "❁57【TheShadow】 WARGA KingOfMoon ➼ team apa?"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁184【Sentolop】 PRIME pradi ➼ sun"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "Player Kiara just won [ sᴇɴᴊᴀᴛᴀ ʟᴇɢᴇɴᴅ ] Dagger of Zephyr from NUSANTARA CREATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "❁374【TheRules】ʟᴏᴠᴇʀ AETHERIX Moemec ➼ team"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁107【】 WARGA NothingZen ➼ naaaa"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁197【TheRules】ʟᴏᴠᴇʀ AETHERIX Broni ➼ anjay bener"
+    "message": "❁57【TheShadow】 WARGA KingOfMoon ➼ boleh"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "[me -> Kiara] sytche"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "❁390【Queen】ʟᴏᴠᴇʀ ༺✨ᴀᴅᴍɪɴ✨༻ Kiara ➼ nah siapa td pertama"
+    "message": "❁330【CONTINENT】ʟᴏᴠᴇʀ AETHERIX SungJinWoo ➼ ihh"
   },
   {
     "type": "ingame",
-    "date": "2025-02-20 / 16:32",
-    "location": "messagestr.js:27:21",
-    "message": "❁107【】 WARGA NothingZen ➼ gw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:32",
-    "location": "messagestr.js:27:21",
-    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ banyak bet key mu kiar"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:32",
-    "location": "messagestr.js:27:21",
-    "message": "+ ur_chappiee MEMASUKI SERVER"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:32",
-    "location": "messagestr.js:27:21",
-    "message": "❁93【ElCactus】 WARGA Rexx_Calleum ➼ aku"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:32",
-    "location": "messagestr.js:27:21",
-    "message": "❁100【TheRules】ᴍᴀʟᴇ ♂ WARGA .Dante094k ➼ zen"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:32",
-    "location": "messagestr.js:27:21",
-    "message": "❁390【Queen】ʟᴏᴠᴇʀ ༺✨ᴀᴅᴍɪɴ✨༻ Kiara ➼ nothingzen"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁107【】 WARGA NothingZen ➼ iya"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "[Broadcast] TEBAK ATMIN DAPET APA SKRG!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁107【】 WARGA NothingZen ➼ anjir"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁465【Astaroth】ꜰᴇᴍᴀʟᴇ ♀ WARGA Jugimaa ➼ doombringer axe"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁87【AmboiAmboi】 WARGA ThisHamm ➼ Dagger"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁203【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ [sᴘɪʀɪᴛ ʙʀᴇᴀᴋᴇʀ ᴘɪᴄᴋᴀxᴇ] sell"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "❁107【】 WARGA NothingZen ➼ pistol"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-20 / 16:33",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "--==Fighting Leaderboard==--"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "1. Dra1s - 100"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "2. .TheBroEzzGOD - 100"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "3. Yumeko - 97"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "4. Jugimaa - 92"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "5. zetatata777 - 86"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "6. UbiiEmCe - 86"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "7. SannneewwZ - 75"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "8. ArdG - 70"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "9. NoeManKun - 52"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:48",
-    "location": "messagestr.js:27:21",
-    "message": "10. DenoAstra - 51"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:49",
-    "location": "messagestr.js:27:21",
-    "message": "✓ ✯ CHAT GAMES ✯ ✓"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:49",
-    "location": "messagestr.js:27:21",
-    "message": "You have 30 seconds to solve: `35746 + 70767`"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:49",
-    "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 0 votes."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:49",
-    "location": "messagestr.js:27:21",
-    "message": "Kenno_113 was slain by Piglin"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-21 / 06:49",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-23 / 10:23",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"text\":\"Proxy shutting down.\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 05:16",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"extra\":[{\"text\":\"null\"}],\"text\":\"You have been kicked from the server for the following reason: \"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 13:40",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 13:40",
-    "location": "messagestr.js:27:21",
-    "message": "Logging in..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 13:40",
-    "location": "messagestr.js:27:21",
-    "message": "Wrong password!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 13:41",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 23:25",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-24 / 23:27",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-25 / 10:21",
-    "location": "messagestr.js:27:21",
-    "message": "Please login using: /login <password> [2fa_code]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "▪ READ THE RULES"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "IKUTI SEMUA PERATURAN YANG ADA DI SERVER"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "BERSIKAP RAMAH LAH KEPADA SESAMA PLAYER!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "➥ noesantara.xyz"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "You have new ally requests do /team ally to view them"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 14 votes."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "+ Dra1s MEMASUKI SERVER"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "✓ ✯ CHAT GAMES ✯ ✓"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "30s have passed! The random game is now over!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:55",
-    "location": "messagestr.js:27:21",
-    "message": "The correct answer was ogNMOU!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ohw chest kyk gini"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "God mode disabled."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ iya nyari simpel"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "God mode enabled."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "Set fly mode enabled for Dra1s."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "- aillychan MENINGALKAN SERVER"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ bangke wartnya"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:56",
-    "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 90x items, 112x creatures and 490x projectiles!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ini golem ngestack gpp?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁282【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ dah ya kil"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ampe 84k"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁282【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ aku mau afk"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ oke"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ aman itu bg"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:57",
-    "location": "messagestr.js:27:21",
-    "message": "❁282【Sentolop】ᴍᴀʟᴇ ♂ WARGA Dava177 ➼ bay muach"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ nambah terus wkwkw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "--==Archery Leaderboard==--"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "1. Jugimaa - 89"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "2. .TheBroEzzGOD - 73"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "3. Yumeko - 68"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "4. Aikory - 67"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "5. SannneewwZ - 62"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "6. Dra1s - 59"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "7. CANFANPAN - 55"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "8. ArdG - 51"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "9. .Dany1236705 - 50"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "10. Leciii - 48"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ tadi ke klir 40k an iron"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 14 votes."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ kalo abis dpt banyak sih itu"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ makasih bg"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:58",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ini apaan afk fishing?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ gatau draken"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> PutragnzMc1] itu minta draken atau canfna jualin aja iron"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ [ᴠᴀʟᴇɴᴛɪɴᴇ sᴡᴏʀᴅ] sell"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ klo mo gacor afk fishingnya di laut"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ cari yg ada rumput laut"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ change rate lootnya lebih bagus"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ gatau draken yg buat"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ yudh i wanna balik"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ anjir 5m gak tuh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 07:59",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ adios"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ ini masih tergantung ama wart sih bg lec"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ bocill dulu beli 10m bg"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ aku males kalo wart wkwkw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "+ aillychan MEMASUKI SERVER"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁207【TheRules】ʟᴏᴠᴇʀ AETHERIX Broni ➼ oiya kah"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ skrng aku dominan ke iron"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁209【Sentolop】 WARGA VkikilExc ➼ iy"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ ya sm\" capek sih"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ tpi iron tinggal jual ajh"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ kalo wart harus panen terus jual lgi kerja 2x"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:00",
-    "location": "messagestr.js:27:21",
-    "message": "❁198【Sentolop】ᴍᴀʟᴇ ♂ WARGA PutragnzMc1 ➼ klo iron mah enk tinggal tunggu penuh wkwkwk"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:01",
-    "location": "messagestr.js:27:21",
-    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:01",
-    "location": "messagestr.js:27:21",
-    "message": "❁437【CONTINENT】 !!! SULTAN !!! || WAYANG || Sinleci ➼ iya tpi capek sellnya"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 08:01",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
     "message": "--==All Skills Leaderboard==--"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "1. Jugimaa - 554"
+    "message": "1. Jugimaa - 685"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "2. SannneewwZ - 479"
+    "message": "2. Yumeko - 568"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "3. Yumeko - 469"
+    "message": "3. SannneewwZ - 562"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "4. Leciii - 437"
+    "message": "4. Leciii - 560"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "5. CANFANPAN - 420"
+    "message": "5. CANFANPAN - 453"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "6. .Dany1236705 - 337"
+    "message": "6. .Dany1236705 - 449"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "7. .TheBroEzzGOD - 321"
+    "message": "7. Dra1s - 431"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "8. strawky - 320"
+    "message": "8. UbiiEmCe - 414"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "9. Dra1s - 299"
+    "message": "9. strawky - 380"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:57",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "10. ArdG - 298"
+    "message": "10. liemzio - 374"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "--==Archery Leaderboard==--"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "1. Jugimaa - 90"
+    "message": "❁330【CONTINENT】ʟᴏᴠᴇʀ AETHERIX SungJinWoo ➼ eweewe"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "2. .TheBroEzzGOD - 73"
+    "message": "Player Yuhuuuyyy just won ᴘᴜsᴀᴋᴀ ᴋᴇʏ from DEWATA CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "3. Yumeko - 68"
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "4. Aikory - 67"
+    "message": "You have 30 seconds to solve for: `✗`"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "5. SannneewwZ - 62"
+    "message": "❅ + ❅ + ❅ = 60"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "6. Dra1s - 59"
+    "message": "✯ + ✯ + ✯ = 30"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "7. CANFANPAN - 56"
+    "message": "❅ + ✯ + ✗ = 75"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "8. ArdG - 51"
+    "message": "❁330【CONTINENT】ʟᴏᴠᴇʀ AETHERIX SungJinWoo ➼ iyuh"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "9. .Dany1236705 - 50"
+    "message": "You just blocked 0.7 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "10. Leciii - 48"
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:58",
+    "date": "2025-03-07 / 21:42",
     "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 14 votes."
+    "message": "LizerAcxel was the fastest to get `45` (10.1s) and got a prize!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 09:59",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.7 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "❁560【CONTINENT】 !!! AFK !!! || WAYANG || LECI ➼ adios na afk lgi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "--==Excavation Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "1. Leciii - 35"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "2. DrakenTod - 27"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "3. Dava177 - 26"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "4. liemzio - 25"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "5. SannneewwZ - 24"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "6. Dra1s - 24"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "7. Semzz10_10 - 24"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "8. UbiiEmCe - 23"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "9. just - 22"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "10. Jugimaa - 22"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.7 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:42",
+    "location": "messagestr.js:27:21",
+    "message": "❁57【TheShadow】 WARGA KingOfMoon ➼ kemana ni"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:43",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.7 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:43",
+    "location": "messagestr.js:27:21",
+    "message": "- ARDISAY MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:43",
+    "location": "messagestr.js:27:21",
+    "message": "- goyy01 MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:43",
+    "location": "messagestr.js:27:21",
+    "message": "* adITYAKAN is no longer AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:43",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.7 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-07 / 21:43",
     "location": "messagestr.js:27:21",
     "message": "Unknown command. Type \"/help\" for help."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 10:00",
+    "date": "2025-03-08 / 04:36",
     "location": "messagestr.js:27:21",
-    "message": "* Broni is no longer AFK."
+    "message": "You just blocked 0.6 damage."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 10:00",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "--==Defense Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "1. Jugimaa - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "2. Bocillll - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "3. UbiiEmCe - 94"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "4. Dra1s - 94"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "5. .TheBroEzzGOD - 84"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "6. CANFANPAN - 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "7. Yumeko - 70"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "8. Leciii - 68"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "9. Dava177 - 67"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "10. SannneewwZ - 66"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "✓ ✯ CHAT GAMES ✯ ✓"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "You have 30 seconds to fill in the word: `_iam__d`"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 5 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "❁11【】 WARGA PakJull ➼ diamond"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "[⚡NOESANTARA CLEANER⚡] Successfully removed 48x items, 166x creatures and 380x projectiles!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 04:36",
     "location": "messagestr.js:27:21",
     "message": "Unknown command. Type \"/help\" for help."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 10:01",
+    "date": "2025-03-08 / 10:14",
     "location": "messagestr.js:27:21",
-    "message": "Don't forget to vote for us! You currently have 14 votes."
+    "message": "Don't forget to vote for us! You currently have 0 votes."
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 10:01",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "--==Defense Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "1. Jugimaa - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "2. Bocillll - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "3. UbiiEmCe - 98"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "4. Dra1s - 97"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "5. .TheBroEzzGOD - 85"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "6. CANFANPAN - 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "7. Leciii - 71"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "8. Yumeko - 70"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "9. SannneewwZ - 67"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:14",
+    "location": "messagestr.js:27:21",
+    "message": "10. Dava177 - 67"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "--==All Skills Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "1. Jugimaa - 685"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "2. Leciii - 570"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "3. Yumeko - 568"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "4. SannneewwZ - 563"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "5. .Dany1236705 - 461"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "6. CANFANPAN - 453"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "7. Dra1s - 444"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "8. UbiiEmCe - 427"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "9. strawky - 391"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "10. liemzio - 377"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "❁79【CONTINENT】ꜰᴇᴍᴀʟᴇ ♀ AETHERIX Cihuyyyy ➼ makasi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "❁79【CONTINENT】ꜰᴇᴍᴀʟᴇ ♀ AETHERIX Cihuyyyy ➼ mau ku ambil semua ce nya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "* .fly1196 is no longer AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "+ Rea MEMASUKI SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ lumayan tu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ gas"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:15",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "- Rea MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "❁79【CONTINENT】ꜰᴇᴍᴀʟᴇ ♀ AETHERIX Cihuyyyy ➼ ini gimana cara kau jualin nya??"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ oiya mu gak ikut event kah ?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "❁226【TheRules】ʟᴏᴠᴇʀ AETHERIX Drabuz ➼ yang pvp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 10:16",
+    "location": "messagestr.js:27:21",
+    "message": "❁79【CONTINENT】ꜰᴇᴍᴀʟᴇ ♀ AETHERIX Cihuyyyy ➼ lu??"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:58",
+    "location": "messagestr.js:27:21",
+    "message": "decentcheese709 is now selling an ᴄʀɪᴍꜱᴏɴ ꜱᴛᴀʀ ꜱʜᴀʀᴅ x1 for $1,500,000! (/ah)!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:58",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:58",
+    "location": "messagestr.js:27:21",
+    "message": "❁9【】 WARGA .Dhanizxy ➼ kalo mau beli sl kn pake coin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:58",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁9【】 WARGA .Dhanizxy ➼ trus beli sl nya ke sapa?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "- luyz MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁212【Mahoraga】ᴋɪɴɢ WARGA KemZ ➼ [/cs]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "* ubii_alt is now AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "❁95【ElCactus】ᴍᴀʟᴇ ♂ WARGA veynata ➼ cara bid di auction house kek mana?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 11:59",
+    "location": "messagestr.js:27:21",
+    "message": "- leci_farm MENINGALKAN SERVER"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-08 / 21:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "--==Defense Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "1. Dra1s - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "2. Jugimaa - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "3. Bocillll - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "4. UbiiEmCe - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "5. .TheBroEzzGOD - 86"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "6. CANFANPAN - 75"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "7. Leciii - 74"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "8. Yumeko - 70"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "9. SannneewwZ - 68"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "10. Dava177 - 67"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "❁0【】 WARGA JejeCmiwiw ➼ suara gua kedengeran ga?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:16",
+    "location": "messagestr.js:27:21",
+    "message": "❁41【Netral】 WARGA Beyy_ ➼ wak ada yg tau end portal gk wak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "❁101【ElCactus】ᴍᴀʟᴇ ♂ WARGA veynata ➼ farmnya straw semua"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.5 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "❁337【Abyss】ʟᴏᴠᴇʀ ABYSSMAL ArdG ➼ tp sini Beyy_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "❁101【ElCactus】ᴍᴀʟᴇ ♂ WARGA veynata ➼ @Beyy_ gatau, kemaren tp ke @Leeah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "You just blocked 0.6 damage."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-09 / 02:17",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "--==Fishing Leaderboard==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "1. badutmiksyu - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "2. .Dany1236705 - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "3. SannneewwZ - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "4. strawky - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "5. Jugimaa - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "6. liemzio - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "7. Leciii - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "8. NoeManKun - 100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "9. Yumeko - 99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:45",
+    "location": "messagestr.js:27:21",
+    "message": "10. UbiiEmCe - 89"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "--==Fishing Leaderboard(Page 3)==--"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "21. ArdG - 59"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "22. cleber3465 - 57"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "23. Yuhuuuyyy - 55"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "24. just - 53"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "25. .DenZyy26 - 49"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "26. Dra1s - 49"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "27. KemZ - 48"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "28. Froamy - 44"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "29. jon20 - 43"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "30. Abiyyu_Aja - 42"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-03-14 / 09:46",
     "location": "messagestr.js:27:21",
     "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 60 seconds the server will be cleared of entities and items!"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 10:01",
+    "date": "2025-03-14 / 09:47",
     "location": "messagestr.js:27:21",
-    "message": "Azziza420 was obliterated by a sonically-charged shriek"
+    "message": "❁11【ElCactus】 WARGA BuildersZS ➼ min bantu pasangin dirt pake kapak kayu yg bisa / /"
   },
   {
     "type": "ingame",
-    "date": "2025-02-26 / 10:01",
+    "date": "2025-03-14 / 09:47",
     "location": "messagestr.js:27:21",
-    "message": "Unknown command. Type \"/help\" for help."
+    "message": "[⚡NOESANTARA CLEANER⚡] Warning! In 30 seconds the server will be cleared of entities and items!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:22",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:22",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"You entered the incorrect password.\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:23",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"type\":\"compound\",\"value\":{\"color\":{\"type\":\"string\",\"value\":\"red\"},\"text\":{\"type\":\"string\",\"value\":\"You entered the incorrect password.\"}}}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "You have successfully logged."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:28",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:32",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:32",
+    "location": "messagestr.js:27:21",
+    "message": "Your login session has been continued."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:32",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:34",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:34",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:34",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:34",
+    "location": "messagestr.js:27:21",
+    "message": "You have successfully logged."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-04-01 / 12:34",
+    "location": "messagestr.js:27:21",
+    "message": "Just playing: Selamat menunaikan ibadah puasa - HyperXz"
   }
 ]

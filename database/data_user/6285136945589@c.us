@@ -13,8 +13,8 @@
     "username": "Newt",
     "autocmd": [
       "/login rian123",
-      "/server SMP",
-      "/autoleftclick 1"
+      "/autoleftclick 1",
+      "/server survival"
     ],
     "autoReconnect": false,
     "intervalIds": {},
@@ -22,7 +22,7 @@
   },
   {
     "clarity-id.net": {
-      "version": "1.20",
+      "version": "1.21.1",
       "realUser": "Newt",
       "alt": []
     }

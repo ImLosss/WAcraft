@@ -9,7 +9,7 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "ip": "minegens.id",
+    "ip": "play.clarity-id.net",
     "autoReconnect": true,
     "autocmd": [
       "/login SM120205",
@@ -21,12 +21,18 @@
   },
   {
     "claritynetwork.net": {
-      "realUser": "Sipaaa",
-      "alt": []
+      "realUser": "SapiMan",
+      "alt": [],
+      "version": "1.21.1"
     },
     "minegens.id": {
       "realUser": "SapiMan",
       "alt": []
+    },
+    "play.clarity-id.net": {
+      "realUser": "SapiMan",
+      "alt": [],
+      "version": "1.21.1"
     }
   }
 ]

@@ -4,13 +4,13 @@
     "chatPrivate": true,
     "status": "offline",
     "username": "Anakecil",
-    "ip": "play.clarity-id.net",
+    "ip": "xetapixel.net",
     "autoReconnect": true,
     "statusRepeat": false,
     "reconnectTime": 0,
     "autocmd": [
       "/login hanugreenda",
-      "/server smp"
+      "/acidisland"
     ],
     "autorightclick": false,
     "autoleftclick": false,
@@ -34,6 +34,27 @@
       "version": "1.20"
     },
     "play.clarity-id.net": {
+      "realUser": "ItzAbhylKunz",
+      "alt": [
+        "Anakecil"
+      ],
+      "version": "1.20"
+    },
+    "play.wayangsmp.com": {
+      "realUser": "ItzAbhylKunz",
+      "alt": [
+        "ItzAbhylKunz"
+      ],
+      "version": "1.20"
+    },
+    "xetapixel.com": {
+      "realUser": "ItzAbhylKunz",
+      "alt": [
+        "Anakecil"
+      ],
+      "version": "1.20"
+    },
+    "xetapixel.net": {
       "realUser": "ItzAbhylKunz",
       "alt": [
         "Anakecil"

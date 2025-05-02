@@ -418,5 +418,413 @@
     "date": "2025-02-22 / 17:04",
     "location": "messagestr.js:27:21",
     "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"extra\":[{\"text\":\"Unable to connect to \"},{\"text\":\"Lobby\"},{\"text\":\": \"},{\"text\":\"Outdated client! Please use 1.20.4\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "The specified server SMP does not exist."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "Unable to connect you to Survival. Please try again later."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:35",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "Unable to connect you to Survival. Please try again later."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to Lobby.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "You are already connected to this server!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "Unable to connect you to Survival. Please try again later."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:36",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "[+] kaiser5636"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "[-] kaiser5636"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "Unable to connect you to Survival. Please try again later."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:37",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:38",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "Unable to connect you to Survival. Please try again later."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "[+] Newt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome, Newt to the server"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE store.clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "IP SERVER clarity-id.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD https://discord.gg/HY5mqr642e"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "[+] kaiser5636"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-02-28 / 14:39",
+    "location": "messagestr.js:27:21",
+    "message": "[-] kaiser5636"
   }
 ]

@@ -1,0 +1,21 @@
+[
+  {
+    "chatPublic": true,
+    "chatPrivate": true,
+    "status": "offline",
+    "ip": "<node3.gsicloudid.biz.id>",
+    "username": "<MieKuahPedas>",
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false,
+    "reconnectTime": 0
+  },
+  {
+    "<node3.gsicloudid.biz.id>": {
+      "realUser": "<MieKuahPedas>",
+      "alt": []
+    }
+  }
+]
