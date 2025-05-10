@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "blastsmp.xyz",
     "username": "Monyetelek",
     "autoReconnect": true,
@@ -11,9 +11,7 @@
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "statusRepeat": false
   },
   {
     "blastsmp.xyz": {

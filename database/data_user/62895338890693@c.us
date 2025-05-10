@@ -3,14 +3,14 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "minegens.id",
+    "ip": "srv531927.hstgr.cloud",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "username": "shenxx",
+    "username": "Ned",
     "autoReconnect": false,
     "automsg": {
       "message": "/sell all",
@@ -46,6 +46,13 @@
       "realUser": "Losss",
       "alt": [
         "shenxx"
+      ],
+      "version": "1.20"
+    },
+    "srv531927.hstgr.cloud": {
+      "realUser": "Losss",
+      "alt": [
+        "Ned"
       ],
       "version": "1.20"
     }

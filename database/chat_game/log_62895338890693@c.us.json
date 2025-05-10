@@ -1,60 +1,6 @@
 [
   {
     "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "Nessz12 has made the advancement [Getting an Upgrade]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "[+] Nessz12"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": " Selamat bergabung Nessz12 pendatang baru ke #2,860!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "dimasukkin di bet"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "klo gk bisa, berarti chipny udh ngurang"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "2 2 nya?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "ini survival barunya?"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "kalian mau taruhan brp"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "[+] Miee"
-  },
-  {
-    "type": "ingame",
     "date": "2025-02-22 / 15:27",
     "location": "messagestr.js:27:21",
     "message": "iya Nessz12"
@@ -2997,6 +2943,60 @@
     "type": "cmd:dc",
     "date": "2025-05-02 / 11:01",
     "location": "messageHandler.js:44:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-10 / 15:33",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "cmd:throw",
+    "date": "2025-05-10 / 15:34",
+    "location": "messageHandler.js:47:25",
+    "message": "3"
+  },
+  {
+    "type": "cmd:throw",
+    "date": "2025-05-10 / 15:34",
+    "location": "messageHandler.js:47:25",
+    "message": "01"
+  },
+  {
+    "type": "cmd:throw",
+    "date": "2025-05-10 / 15:34",
+    "location": "messageHandler.js:47:25",
+    "message": "3hshs"
+  },
+  {
+    "type": "cmd:throw",
+    "date": "2025-05-10 / 15:34",
+    "location": "messageHandler.js:47:25",
+    "message": "2"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-10 / 15:34",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:29",
+    "location": "messagestr.js:27:21",
+    "message": "Losss joined the game"
+  },
+  {
+    "type": "cmd:afkfish",
+    "date": "2025-05-11 / 01:31",
+    "location": "messageHandler.js:47:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-11 / 01:33",
+    "location": "messageHandler.js:47:25",
     "message": ""
   }
 ]

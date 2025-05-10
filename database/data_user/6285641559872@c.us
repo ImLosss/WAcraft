@@ -2,19 +2,21 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "offline",
-    "ip": "<node3.gsicloudid.biz.id>",
-    "username": "<MieKuahPedas>",
+    "status": "online",
+    "ip": "blastsmp.xyz",
+    "username": "leley",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "autoReconnect": true
   },
   {
-    "<node3.gsicloudid.biz.id>": {
-      "realUser": "<MieKuahPedas>",
+    "blastsmp.xyz": {
+      "version": "1.20",
+      "realUser": "leley",
       "alt": []
     }
   }

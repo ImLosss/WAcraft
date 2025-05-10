@@ -1,10 +1,10 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
+    "status": "online",
     "ip": "play.xetapixel.net",
-    "username": "Extacys",
+    "username": "London_",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -25,7 +25,7 @@
         "32exemond",
         "ZiroAfkGen"
       ],
-      "version": "1.20"
+      "version": "1.21.1"
     },
     "supremeslimefun.aternos.me:14042": {
       "realUser": "Extacys",
