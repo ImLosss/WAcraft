@@ -3,12 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "Jakindomi",
-    "ip": "zeraphinesmp.xyz",
-    "autocmd": [
-      "/login <Jaki1234>",
-      "/warp afk"
-    ],
+    "username": "uriel",
+    "ip": "Blastsmp.xyz",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -17,14 +13,17 @@
     "reconnectTime": 0
   },
   {
-    "<zeraphinesmp.xyz>": {
+    "<Blastsmp.xyz>": {
       "version": "1.20",
-      "realUser": "Jakindomi",
-      "alt": []
+      "alt": [
+        "<adrielgunawan>"
+      ]
     },
-    "zeraphinesmp.xyz": {
-      "realUser": "Jakindomi",
-      "alt": [],
+    "Blastsmp.xyz": {
+      "realUser": "adrielgunawan",
+      "alt": [
+        "uriel"
+      ],
       "version": "1.20"
     }
   }

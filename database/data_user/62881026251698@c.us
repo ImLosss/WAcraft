@@ -1,21 +1,22 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
-    "ip": "play.zerlegends.xyz",
+    "status": "online",
+    "ip": "blastsmp.xyz",
     "username": "royalti",
     "statusRepeat": false,
     "reconnectTime": 0,
     "autorightclick": false,
-    "autoleftclick": false,
+    "autoleftclick": true,
     "afkfarm": false,
     "afkfish": false,
-    "autoReconnect": false,
+    "autoReconnect": true,
     "autocmd": [
       "/login ray123",
       "/server survivalrpg",
-      "/autoleftclick 1"
+      "/autoleftclick 1",
+      "/sit"
     ],
     "automsg": {
       "message": "/xpbottle",
@@ -59,6 +60,24 @@
     },
     "minehive.id": {
       "version": "1.20"
+    },
+    "play.heavenlegends.my.id": {
+      "version": "1.20",
+      "alt": [
+        "royalti"
+      ]
+    },
+    "play.heavenlegends.xyz": {
+      "version": "1.20",
+      "alt": [
+        "royalti"
+      ]
+    },
+    "blastsmp.xyz": {
+      "version": "1.20",
+      "alt": [
+        "royalti"
+      ]
     }
   }
 ]

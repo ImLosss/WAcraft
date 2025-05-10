@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ingame",
+    "date": "2025-05-10 / 01:26",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"You failed the premium challenge. Please rejoin the server.\"}],\"text\":\"\"}"
+  }
+]

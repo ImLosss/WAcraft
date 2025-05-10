@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "minegens.id",
-    "username": "shenxxx",
+    "ip": "play.crispymc.net",
+    "username": "Ned",
     "automsg": {
       "message": "/repair",
       "status": false
@@ -51,7 +51,9 @@
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false,
-    "intervalIds": {},
+    "intervalIds": {
+      "broadcast": 6421
+    },
     "timeoutIds": {},
     "afkArcher": false
   },
@@ -82,8 +84,7 @@
         "shenxx",
         "Losssesss",
         "shandy",
-        "raph",
-        "shenxxx"
+        "raph"
       ],
       "version": "1.20"
     },

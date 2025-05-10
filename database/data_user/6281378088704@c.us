@@ -1,0 +1,23 @@
+[
+  {
+    "chatPublic": false,
+    "chatPrivate": true,
+    "status": "online",
+    "ip": "blastsmp.xyz",
+    "username": "Monyetelek",
+    "autoReconnect": true,
+    "reconnectTime": 0,
+    "autorightclick": false,
+    "autoleftclick": false,
+    "afkfarm": false,
+    "afkfish": false,
+    "statusRepeat": false
+  },
+  {
+    "blastsmp.xyz": {
+      "version": "1.20",
+      "realUser": "Monyetelek",
+      "alt": []
+    }
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "Error",
+    "date": "2025-05-10 / 01:18",
+    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+    "errorMessage": "getaddrinfo ENOTFOUND <Blastsmp.xyz>",
+    "error": "getaddrinfo ENOTFOUND <Blastsmp.xyz>\nError: getaddrinfo ENOTFOUND <Blastsmp.xyz>\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  }
+]

@@ -81,7 +81,7 @@ function startAutoCmd(bot, dataUser, dirUser, sender, msg, chat, client) {
             const value = cutVal(command, 1);
 
             if (prefixFunctions[funcName[0]]) {
-                console.game(value, `cmd:${ funcName[0] }`, sender, 'cmd');
+                console.game(value, sender, 'cmd');
                 
                 if(!checkCommandStatus(funcName[0])) chat.sendMessage(`Command */${ funcName[0] }* dinonaktifkan`);
                 else {

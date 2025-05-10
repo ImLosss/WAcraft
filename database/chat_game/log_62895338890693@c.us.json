@@ -1,18 +1,6 @@
 [
   {
     "type": "ingame",
-    "date": "2025-02-22 / 15:25",
-    "location": "messagestr.js:27:21",
-    "message": "[+] irfan"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:26",
-    "location": "messagestr.js:27:21",
-    "message": "tic tac toe bg"
-  },
-  {
-    "type": "ingame",
     "date": "2025-02-22 / 15:26",
     "location": "messagestr.js:27:21",
     "message": "Nessz12 has made the advancement [Getting an Upgrade]"
@@ -2998,5 +2986,17 @@
     "date": "2025-03-25 / 15:06",
     "location": "messagestr.js:27:21",
     "message": "Hey There, .Rajagaming2123 #322,384"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-02 / 11:01",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-02 / 11:01",
+    "location": "messageHandler.js:44:25",
+    "message": ""
   }
 ]

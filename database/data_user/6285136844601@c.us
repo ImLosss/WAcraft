@@ -1,22 +1,33 @@
 [
   {
-    "chatPublic": true,
+    "chatPublic": false,
     "chatPrivate": true,
-    "status": "offline",
-    "ip": "<premium8.alstore.space:25574>",
-    "username": "<MOONNND>",
+    "status": "online",
+    "ip": "blastsmp.xyz",
+    "username": "patin",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "autocmd": [
+      "/login <272008>"
+    ],
+    "autoReconnect": true
   },
   {
     "<premium8.alstore.space:25574>": {
-      "version": "1.20"
+      "version": "1.20",
+      "realUser": "patin",
+      "alt": []
+    },
+    "blastsmp.xyz": {
+      "version": "1.20",
+      "alt": [
+        "patin"
+      ],
+      "realUser": "<patin>"
     }
   }
 ]
