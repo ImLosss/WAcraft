@@ -1,14 +1,14 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "blastsmp.xyz",
     "username": "royalti",
     "statusRepeat": false,
     "reconnectTime": 0,
     "autorightclick": false,
-    "autoleftclick": true,
+    "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autoReconnect": true,

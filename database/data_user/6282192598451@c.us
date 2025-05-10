@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.crispymc.net",
+    "ip": "srv531927.hstgr.cloud",
     "username": "Ned",
     "automsg": {
       "message": "/repair",
@@ -51,9 +51,7 @@
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false,
-    "intervalIds": {
-      "broadcast": 6421
-    },
+    "intervalIds": {},
     "timeoutIds": {},
     "afkArcher": false
   },
@@ -156,7 +154,8 @@
     "srv531927.hstgr.cloud": {
       "realUser": "Losss",
       "alt": [
-        "shenxx"
+        "shenxx",
+        "Ned"
       ],
       "version": "1.20"
     },

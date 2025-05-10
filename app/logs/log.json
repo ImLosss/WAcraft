@@ -1,114 +1,6 @@
 [
   {
     "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:62:40",
-    "message": "/dc"
-  },
-  {
-    "type": "cmd:dc",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat of"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:82:37",
-    "message": "of"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:62:40",
-    "message": "/autoreconnect on"
-  },
-  {
-    "type": "cmd:autoreconnect",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:82:37",
-    "message": "on"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:62:40",
-    "message": "/dc"
-  },
-  {
-    "type": "cmd:dc",
-    "date": "2025-01-11 / 23:01",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:01",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
     "date": "2025-01-11 / 23:03",
     "location": "commandHandler.js:62:40",
     "message": "/afkfish on"
@@ -3172,5 +3064,113 @@
     "date": "2025-05-10 / 15:24",
     "location": "end.js:22:25",
     "message": "Jumlah listener message setelah dihapus : 1"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-11 / 01:37",
+    "location": "setupClient.js:31:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-11 / 01:37",
+    "location": "setupClient.js:31:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-11 / 01:38",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:38",
+    "location": "commandHandler.js:62:40",
+    "message": "/setip srv531927.hstgr.cloud"
+  },
+  {
+    "type": "cmd:setip",
+    "date": "2025-05-11 / 01:38",
+    "location": "commandHandler.js:82:37",
+    "message": "srv531927.hstgr.cloud"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:38",
+    "location": "commandHandler.js:62:40",
+    "message": "/setuser Ned"
+  },
+  {
+    "type": "cmd:setuser",
+    "date": "2025-05-11 / 01:38",
+    "location": "commandHandler.js:82:37",
+    "message": "Ned"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:38",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-11 / 01:38",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:39",
+    "location": "commandHandler.js:62:40",
+    "message": "/afkfish on"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:39",
+    "location": "commandHandler.js:62:40",
+    "message": "/afkfish of"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-11 / 01:39",
+    "location": "fishing.js:62:21",
+    "message": "Fishing cancelled"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:39",
+    "location": "commandHandler.js:62:40",
+    "message": "/inventory"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:39",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 03"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-11 / 01:40",
+    "location": "end.js:17:21",
+    "message": "Jumlah listener message sebelum dihapus : 2"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-11 / 01:40",
+    "location": "end.js:22:25",
+    "message": "Jumlah listener message setelah dihapus : 1"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-11 / 01:40",
+    "location": "commandHandler.js:62:40",
+    "message": "/dc"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-11 / 01:40",
+    "location": "commandHandler.js:82:37",
+    "message": ""
   }
 ]

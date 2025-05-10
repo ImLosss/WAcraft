@@ -33,10 +33,10 @@ async function fishing(bot, msg, sender, arg) {
         }
     }, 3000);
 
-    startFishing()
-
     dataUser[0].afkfish = true;
     writeJSONFileSync(`./database/data_user/${ sender }`, dataUser);
+
+    startFishing()
 
     async function startFishing () {
         clearTimeout(timer);

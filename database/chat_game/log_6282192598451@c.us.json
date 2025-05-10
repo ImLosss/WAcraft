@@ -2128,5 +2128,95 @@
     "date": "2025-04-16 / 16:57",
     "location": "kicked.js:11:25",
     "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "login 040103<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "server survival<--[HERE]"
+  },
+  {
+    "type": "cmd:afkfish",
+    "date": "2025-05-11 / 01:39",
+    "location": "messageHandler.js:47:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "dp<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "dd<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 01:39",
+    "location": "messagestr.js:27:21",
+    "message": "Ned has made the advancement [Fishy Business]"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-05-11 / 01:39",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:afkfish",
+    "date": "2025-05-11 / 01:39",
+    "location": "messageHandler.js:47:25",
+    "message": "of"
+  },
+  {
+    "type": "cmd:inventory",
+    "date": "2025-05-11 / 01:39",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:throw",
+    "date": "2025-05-11 / 01:39",
+    "location": "messageHandler.js:47:25",
+    "message": "03"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-11 / 01:40",
+    "location": "messageHandler.js:47:25",
+    "message": ""
   }
 ]

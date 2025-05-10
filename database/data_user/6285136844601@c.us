@@ -1,8 +1,8 @@
 [
   {
-    "chatPublic": false,
+    "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "blastsmp.xyz",
     "username": "patin",
     "autorightclick": false,
@@ -14,7 +14,9 @@
     "autocmd": [
       "/login <272008>"
     ],
-    "autoReconnect": true
+    "autoReconnect": true,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "<premium8.alstore.space:25574>": {
