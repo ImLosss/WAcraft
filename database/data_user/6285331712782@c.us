@@ -10,7 +10,9 @@
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false
+    "statusRepeat": false,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "play.xetapixel.net": {

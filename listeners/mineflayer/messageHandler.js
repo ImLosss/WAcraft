@@ -16,7 +16,10 @@ const prefixFunctions = {
     'automsg': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.automsg(bot, msg, value, sender, chat)),
     'find': withErrorHandling((bot, sender, dirUser, chat, msg, value) => cmd.findBlock(bot, msg, value)),
     'inventory': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.getInventory(bot)); }),
-    'throw': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.throwItem(bot, msg, value)) }),
+    'throw': withErrorHandling(async (bot, sender, dirUser, chat, msg, value) => {
+        const response = await cmd.throwItem(bot, msg, value); // Tunggu hasil dari throwItem
+        chat.sendMessage(response);
+    }),
     'equip': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(cmd.equipItem(bot, msg, value)) }),
     'ping': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(`*Ping:* ${ bot.player.ping }`); }),
     'health': withErrorHandling((bot, sender, dirUser, chat, msg, value) => { chat.sendMessage(`Health: ${ Math.round(bot.health) }`); }),

@@ -1,377 +1,5 @@
 [
   {
-    "type": "cmd:dc",
-    "date": "2025-01-11 / 22:33",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:33",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:33",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:35",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:35",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 22:35",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:35",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat of"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:35",
-    "location": "commandHandler.js:82:37",
-    "message": "of"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:35",
-    "location": "commandHandler.js:62:40",
-    "message": "/dc"
-  },
-  {
-    "type": "cmd:dc",
-    "date": "2025-01-11 / 22:35",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:35",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:35",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:36",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat on"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:36",
-    "location": "commandHandler.js:82:37",
-    "message": "on"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:37",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:62:40",
-    "message": "/autocmd /chat on"
-  },
-  {
-    "type": "cmd:autocmd",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:82:37",
-    "message": "/chat on"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:62:40",
-    "message": "/autocmd /chat off"
-  },
-  {
-    "type": "cmd:autocmd",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:82:37",
-    "message": "/chat off"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat on"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:82:37",
-    "message": "on"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:37",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:37",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat of"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:37",
-    "location": "commandHandler.js:82:37",
-    "message": "of"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:37",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:37",
-    "location": "timeout.js:7:13",
-    "message": 900000
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:38",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:38",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat on"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:38",
-    "location": "commandHandler.js:82:37",
-    "message": "on"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:38",
-    "location": "MineflayerService.js:33:13",
-    "message": "on"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:44",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:+62 821-9259-8451",
-    "date": "2025-01-11 / 22:45",
-    "location": "commandHandler.js:62:40",
-    "message": "/autoreconnect on"
-  },
-  {
-    "type": "cmd:autoreconnect",
-    "date": "2025-01-11 / 22:45",
-    "location": "commandHandler.js:82:37",
-    "message": "on"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:45",
-    "location": "autoreconnect.js:10:13",
-    "message": "on"
-  },
-  {
-    "type": "MessageFrom:+62 821-9259-8451",
-    "date": "2025-01-11 / 22:52",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat of"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:52",
-    "location": "commandHandler.js:82:37",
-    "message": "of"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:53",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:54",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:54",
-    "location": "commandHandler.js:62:40",
-    "message": "/chat of"
-  },
-  {
-    "type": "cmd:chat",
-    "date": "2025-01-11 / 22:54",
-    "location": "commandHandler.js:82:37",
-    "message": "of"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:54",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 22:54",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:55",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:55",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:55",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:56",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 22:56",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:57",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:57",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 22:57",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:59",
-    "location": "commandHandler.js:62:40",
-    "message": "/dc"
-  },
-  {
-    "type": "cmd:dc",
-    "date": "2025-01-11 / 22:59",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:59",
-    "location": "end.js:11:21",
-    "message": "Jumlah listener message sebelum dihapus : 2"
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 22:59",
-    "location": "end.js:15:25",
-    "message": "Jumlah listener message setelah dihapus : 1"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 22:59",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 22:59",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
-    "type": "info",
-    "date": "2025-01-11 / 23:00",
-    "location": "setupClient.js:37:21",
-    "message": "Client is ready!"
-  },
-  {
-    "type": "MessageFrom:Ryan_Syah",
-    "date": "2025-01-11 / 23:00",
-    "location": "commandHandler.js:62:40",
-    "message": "/join"
-  },
-  {
-    "type": "cmd:join",
-    "date": "2025-01-11 / 23:00",
-    "location": "commandHandler.js:82:37",
-    "message": ""
-  },
-  {
     "type": "MessageFrom:Ryan_Syah",
     "date": "2025-01-11 / 23:01",
     "location": "commandHandler.js:62:40",
@@ -3177,5 +2805,372 @@
     "date": "2025-04-10 / 17:53",
     "location": "setupClient.js:31:29",
     "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:12",
+    "location": "setupClient.js:31:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:12",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/menu"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:13",
+    "location": "end.js:17:21",
+    "message": "Jumlah listener message sebelum dihapus : 1"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:13",
+    "location": "end.js:24:25",
+    "message": "Gagal hapus listener : TypeError [ERR_INVALID_ARG_TYPE]: The \"listener\" argument must be of type function. Received undefined"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/setip minegens.id"
+  },
+  {
+    "type": "cmd:setip",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:82:37",
+    "message": "minegens.id"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/setuser shenxxx"
+  },
+  {
+    "type": "cmd:setuser",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:82:37",
+    "message": "shenxxx"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/inventory"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 2"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:13",
+    "location": "inventory.js:78:17"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:13",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 02"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:14",
+    "location": "inventory.js:78:17"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:14",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 01"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:16",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:16",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:16",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:16",
+    "location": "inventory.js:78:17"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:16",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 01"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:16",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 55"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:16",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw sadad"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:17",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:17",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:17",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:17",
+    "location": "inventory.js:51:17",
+    "message": "022"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:17",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 022"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:17",
+    "location": "inventory.js:51:17",
+    "message": "01"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:17",
+    "location": "inventory.js:79:17"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:17",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 01"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:19",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:19",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:19",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:19",
+    "location": "inventory.js:51:17",
+    "message": "01"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:19",
+    "location": "inventory.js:79:17"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:19",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 01"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:20",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:20",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:20",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:20",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 01"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:20",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw ada"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:20",
+    "location": "inventory.js:51:17",
+    "message": "5"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:20",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 5"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:20",
+    "location": "inventory.js:51:17",
+    "message": "1"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:20",
+    "location": "commandHandler.js:62:40",
+    "message": "/throw 1"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:23",
+    "location": "setupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:23",
+    "location": "end.js:17:21",
+    "message": "Jumlah listener message sebelum dihapus : 1"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:23",
+    "location": "end.js:24:25",
+    "message": "Gagal hapus listener : TypeError [ERR_INVALID_ARG_TYPE]: The \"listener\" argument must be of type function. Received undefined"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:62:40",
+    "message": "/afkfish on"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:62:40",
+    "message": "/join"
+  },
+  {
+    "type": "cmd:join",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:62:40",
+    "message": "/afkfish on"
+  },
+  {
+    "type": "MessageFrom:Ryan_Syah",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:62:40",
+    "message": "/dc"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-10 / 15:23",
+    "location": "commandHandler.js:82:37",
+    "message": ""
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:24",
+    "location": "end.js:17:21",
+    "message": "Jumlah listener message sebelum dihapus : 2"
+  },
+  {
+    "type": "info",
+    "date": "2025-05-10 / 15:24",
+    "location": "end.js:22:25",
+    "message": "Jumlah listener message setelah dihapus : 1"
   }
 ]

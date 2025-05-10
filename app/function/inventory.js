@@ -38,20 +38,21 @@ function getInventory(bot) {
     return strMsg;
 }
 
-function throwItem(bot, msg, arg) {
+async function throwItem(bot, msg, arg) {
     try {
 
         let slot = arg;
 
-        if(!Number.isInteger(Number(slot))) return 'Masukkan nomor slot yang benar, _contoh: /throw 3_';
-
+        if (!/^\d+$/.test(arg) || /^0\d+$/.test(arg)) return 'Masukkan nomor slot yang benar, _contoh: /throw 3_';
+        
         let items = bot.inventory.slots.filter((item) => { return item != undefined });
 
         if(items.length == 0) return 'Inventory kosong';
+        console.log(slot);
         if(slot > (items.length - 1) || slot < 0) return 'Mohon masukkan slot yang valid!';
 
         const item = items[slot];
-        bot.tossStack(item);
+        await bot.tossStack(item);
 
         let name = '';
         try {
@@ -77,7 +78,7 @@ function throwItem(bot, msg, arg) {
     } catch (err) {
         console.log('Error ketika membuang item: ' . err)
 
-        return 'Terjadi kesalahan';
+        return 'Terjadi kesalahan, coba lagi';
     }
 }
 

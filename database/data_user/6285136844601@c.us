@@ -10,7 +10,9 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "<premium8.alstore.space:25574>": {
