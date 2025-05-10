@@ -7,9 +7,9 @@ const { findItemById } = require('service/MineflayerService')
 async function fishing(bot, msg, sender, arg) {
     if (arg == "of" || arg == "off") return afkFishOf(msg, sender);
     const chat = await msg.getChat();
-    let timer, timer2, playerCollect;
+    let timer, timer2, playerCollect, dataUser;
 
-    let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+    dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
     if(dataUser[0].afkfish) return msg.reply('afkFish masih aktif, nonaktifkan dengan cara kirim pesan /afkfish of').catch(() => { chat.sendMessage('afkFish masih aktif, nonaktifkan dengan cara kirim pesan /afkfish of') });
 
@@ -22,11 +22,11 @@ async function fishing(bot, msg, sender, arg) {
     chat.sendMessage('*Mulai memancing*');
 
     timer2 = setInterval(() => {
-        let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+        dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
         if(!dataUser[0].afkfish) {
             clearInterval(timer2);
-            clearInterval(timer);
+            clearTimeout(timer);
             bot.removeListener('playerCollect', playerCollect);
             reset(bot);
             chat.sendMessage('*Memancing dihentikan*');
@@ -40,6 +40,8 @@ async function fishing(bot, msg, sender, arg) {
 
     async function startFishing () {
         clearTimeout(timer);
+
+        if(!dataUser[0].afkfish) return
     
         try {
             await reset(bot);
