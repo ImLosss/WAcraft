@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer');
-const ProxyAgent = require('proxy-agent');
+const { ProxyAgent } = require('proxy-agent'); // Correctly import ProxyAgent
 const { exec } = require('child_process');
 
 const SERVER_HOST = 'server.minecraft.com'; // Ganti dengan IP/host server kamu
@@ -8,7 +8,7 @@ const TOTAL_BOTS = 5; // Jumlah bot yang ingin dijalankan
 
 function createBot(index) {
   const username = `Bot_Tor_${index}_${Math.floor(Math.random() * 1000)}`;
-  const agent = new ProxyAgent('socks5://127.0.0.1:9050');
+  const agent = ProxyAgent('socks5://127.0.0.1:9050'); // Use ProxyAgent as a function
 
   const bot = mineflayer.createBot({
     host: SERVER_HOST,
