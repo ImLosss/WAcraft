@@ -6,14 +6,17 @@ RUN apt-get update && apt-get install -y wget gnupg && \
     wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
     sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list' && \
     apt-get update && apt-get install -y google-chrome-stable && \
-    tor && \
-    procps && \
-    net-tools && \
-    curl && \
     rm -rf /var/lib/apt/lists/*
 
-# Salin file konfigurasi Tor
-COPY torrc /etc/tor/torrc
+# Install Tor
+RUN apt-get update && apt-get install -y tor && \
+    rm -rf /var/lib/apt/lists/*
+
+# Configure Tor
+RUN echo "SOCKSPort 0.0.0.0:9050" >> /etc/tor/torrc
+
+# Start Tor as a background service
+RUN mkdir -p /var/run/tor && chown debian-tor:debian-tor /var/run/tor
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -28,7 +31,7 @@ RUN npm install
 COPY . .
 
 # Expose the port your application runs on (if applicable)
-EXPOSE 3000 9050
+EXPOSE 3000
 
-# Jalankan Tor & Node.js
-CMD tor & node index.js
+# Command to run your application
+CMD service tor start && node index.js

@@ -7,9 +7,9 @@ services:
       dockerfile: Dockerfile
     container_name: minebot
     ports:
-      - "3000:3000"
-      - "9050:9050"
+      - "3000:3000" # Map port 3000 on the host to port 3000 in the container
+      - "9050:9050" # Expose Tor SOCKS port
     volumes:
-      - .:/app
+      - .:/app # Mount the current directory to /app in the container
     stdin_open: true
     tty: true
