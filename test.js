@@ -8,7 +8,7 @@ const TOTAL_BOTS = 5; // Jumlah bot yang ingin dijalankan
 
 function createBot(index) {
   const username = `Bot_Tor_${index}_${Math.floor(Math.random() * 1000)}`;
-  const agent = ProxyAgent('socks5://127.0.0.1:9050'); // Use ProxyAgent as a function
+  const agent = new ProxyAgent('socks5://127.0.0.1:9050'); // Use 'new' to create an instance
 
   const bot = mineflayer.createBot({
     host: SERVER_HOST,
