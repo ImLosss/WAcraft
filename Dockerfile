@@ -8,16 +8,6 @@ RUN apt-get update && apt-get install -y wget gnupg && \
     apt-get update && apt-get install -y google-chrome-stable && \
     rm -rf /var/lib/apt/lists/*
 
-# Install Tor
-RUN apt-get update && apt-get install -y tor && \
-    rm -rf /var/lib/apt/lists/*
-
-# Configure Tor
-RUN echo "SOCKSPort 0.0.0.0:9050" >> /etc/tor/torrc
-
-# Start Tor as a background service
-RUN mkdir -p /var/run/tor && chown debian-tor:debian-tor /var/run/tor
-
 # Set the working directory inside the container
 WORKDIR /app
 
@@ -34,4 +24,4 @@ COPY . .
 EXPOSE 3000
 
 # Command to run your application
-CMD service tor start && node index.js
+CMD ["node", "index.js"]
