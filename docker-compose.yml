@@ -7,8 +7,9 @@ services:
       dockerfile: Dockerfile
     container_name: minebot
     ports:
-      - "3000:3000" # Map port 3000 on the host to port 3000 in the container
+      - "3000:3000"
+      - "9050:9050"
     volumes:
-      - .:/app # Mount the current directory to /app in the container
+      - .:/app
     stdin_open: true
     tty: true
