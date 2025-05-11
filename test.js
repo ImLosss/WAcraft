@@ -2,12 +2,12 @@ const mineflayer = require('mineflayer');
 const { ProxyAgent } = require('proxy-agent'); // Correctly import ProxyAgent
 const { exec } = require('child_process');
 
-const SERVER_HOST = 'server.minecraft.com'; // Ganti dengan IP/host server kamu
+const SERVER_HOST = 'blastsmp.xyz'; // Ganti dengan IP/host server kamu
 const SERVER_PORT = 25565;
-const TOTAL_BOTS = 5; // Jumlah bot yang ingin dijalankan
+const TOTAL_BOTS = 3; // Jumlah bot yang ingin dijalankan
 
 function createBot(index) {
-  const username = `Bot_Tor_${index}_${Math.floor(Math.random() * 1000)}`;
+  const username = `lossess_${index}_${Math.floor(Math.random() * 1000)}`;
   const agent = new ProxyAgent('socks5://127.0.0.1:9050'); // Use 'new' to create an instance
 
   const bot = mineflayer.createBot({
