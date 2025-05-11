@@ -4,3 +4,4 @@ config.json
 .wwebjs_cache
 qrcode.png
 database.zip
+test/*
