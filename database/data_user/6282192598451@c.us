@@ -51,9 +51,7 @@
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false,
-    "intervalIds": {
-      "broadcast": 6421
-    },
+    "intervalIds": {},
     "timeoutIds": {},
     "afkArcher": false
   },

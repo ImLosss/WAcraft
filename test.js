@@ -41,6 +41,10 @@ function createBot(index) {
   bot.on('error', (err) => {
     console.error(`[${username}] Error:`, err.message);
   });
+
+  bot.on('kicked', (msg) => {
+    console.log(`[${username}] kicked:`, msg);
+  });
 }
 
 // Ganti IP Tor (meminta identitas baru)

@@ -14,7 +14,9 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "reconnectTime": 0
+    "reconnectTime": 0,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "<zeraphinesmp.xyz>": {

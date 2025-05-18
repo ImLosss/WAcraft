@@ -2,7 +2,7 @@
   {
     "chatPublic": true,
     "chatPrivate": true,
-    "status": "online",
+    "status": "offline",
     "ip": "blastsmp.xyz",
     "username": "leley",
     "autorightclick": false,
@@ -11,7 +11,9 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoReconnect": true
+    "autoReconnect": true,
+    "intervalIds": {},
+    "timeoutIds": {}
   },
   {
     "blastsmp.xyz": {
