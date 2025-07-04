@@ -8,6 +8,7 @@ async function fishing(bot, msg, sender, arg) {
     if (arg == "of" || arg == "off") return afkFishOf(msg, sender);
     const chat = await msg.getChat();
     let timer, timer2, playerCollect, dataUser;
+    let resetTime = 0;
 
     dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
@@ -44,6 +45,7 @@ async function fishing(bot, msg, sender, arg) {
         dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
 
         if(!dataUser[0].afkfish) return
+        if(resetTime >= 10) return afkFishOf(msg, sender);
     
         try {
             await reset(bot);
@@ -55,6 +57,7 @@ async function fishing(bot, msg, sender, arg) {
       
         timer = setTimeout(() => {
             chat.sendMessage('*Tidak mendapat apapun dalam 1 menit, memancing kembali...*');
+            resetTime+=1;
             return startFishing();
         }, 60000);
       
@@ -67,9 +70,12 @@ async function fishing(bot, msg, sender, arg) {
 
     playerCollect = async (player, entity) => {
         if(entity.type == "orb") {
+            resetTime = 0;
             startFishing()
         } else if (entity.type == "other" && entity.metadata && entity.metadata[8] && entity.metadata[8].itemId) {
             let dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
+            resetTime = 0;
             const itemId = entity.metadata[8].itemId;
             const find = findItemById(itemId, bot);
             if(dataUser[0].chatPublic) chat.sendMessage(`*Catch ${ find.displayName }*`)
