@@ -42,7 +42,44 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
         username: dataUser[0].username, 
         auth: 'offline',
         version: dataUser[1][ip].version,
+        "mapDownloader-outputDir": filePathMap
     })
+
+    const filePathMap = `database/map/${ sender }`;
+
+    watcherDirMap = fs.watch(filePathMap, (eventType, filename) => {
+            if (eventType === 'change') {
+                console.log('file changed');
+                const dir = `${ filePathMap }/map_000000.png`;
+                try {
+                    const media = MessageMedia.fromFilePath(dir);
+                    chat.sendMessage(media).catch((err) => { chat.sendMessage('Error ketika mengirim file image map') });
+                } catch (err) {
+                    console.log('Error sending image map: ' . err)
+                }
+
+                setTimeout(() => {
+                    fs.readdir(filePathMap, (err, files) => {
+                        if (err) {
+                            console.error('Error reading directory:', err);
+                            return;
+                        }
+                
+                        files.forEach(file => {
+                            const filePath = path.join(filePathMap, file);
+                
+                            fs.unlink(filePath, err => {
+                                if (err) {
+                                    console.error('Error deleting file:', filePath, err);
+                                } else {
+                                    console.log('File deleted:', filePath);
+                                }
+                            });
+                        });
+                    });
+                }, 5000);
+            }
+        });
 
     injectTitle(bot);
     require('import/mineflayer')(client, bot, dirUser, msg, chat, sender, config)
