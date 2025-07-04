@@ -38,7 +38,11 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
     cekAlt(sender);
     
     const filePathMap = `database/map/${ sender }`;
-    
+
+    if(!fs.existsSync(filePathMap)) {
+        fs.mkdirSync(filePathMap);
+    }
+
     const bot = mineflayer.createBot({
         host: ip, 
         username: dataUser[0].username, 
