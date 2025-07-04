@@ -11,9 +11,7 @@
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "statusRepeat": false,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "statusRepeat": false
   },
   {
     "blastsmp.xyz": {

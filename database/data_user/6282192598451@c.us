@@ -3,7 +3,7 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.crispymc.net",
+    "ip": "play.xetapixel.net",
     "username": "Ned",
     "automsg": {
       "message": "/repair",
@@ -51,7 +51,9 @@
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false,
-    "intervalIds": {},
+    "intervalIds": {
+      "broadcast": 6421
+    },
     "timeoutIds": {},
     "afkArcher": false
   },
@@ -163,6 +165,13 @@
       "alt": [
         "shenxx",
         "Shinz_0002",
+        "Ned"
+      ],
+      "version": "1.20"
+    },
+    "play.xetapixel.net": {
+      "realUser": "shenxxx",
+      "alt": [
         "Ned"
       ],
       "version": "1.20"

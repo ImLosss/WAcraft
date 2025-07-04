@@ -19,5 +19,12 @@
     "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)",
     "errorMessage": "read ECONNRESET",
     "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-06-03 / 00:33",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
   }
 ]

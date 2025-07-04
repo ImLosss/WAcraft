@@ -47,5 +47,26 @@
     "errorLocation": "    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
     "errorMessage": "client timed out after 30000 milliseconds",
     "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/home/losss/web/wabot.websiteku.help/public_html/minebot/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-05-14 / 23:03",
+    "errorLocation": "    at boundsError (node:internal/buffer:88:9)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : The value of \"offset\" is out of range. It must be >= 0 and <= 42214. Received -599476637",
+    "error": "Deserialization error for play.toClient : Read error for undefined : The value of \"offset\" is out of range. It must be >= 0 and <= 42214. Received -599476637\nRangeError [ERR_OUT_OF_RANGE]: Read error for undefined : The value of \"offset\" is out of range. It must be >= 0 and <= 42214. Received -599476637\n    at boundsError (node:internal/buffer:88:9)\n    at Buffer.readInt8 (node:internal/buffer:426:5)\n    at Object.readBool [as bool] (/root/hest/node_modules/protodef/src/datatypes/utils.js:132:24)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:812:29)\n    at Object.BookPage (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:818:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:439:44)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:444:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:447:13)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-05-15 / 23:20",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-05-22 / 11:58",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
   }
 ]

@@ -11,8 +11,18 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "autocmd": [
+      "/login raziel/24",
+      "[/login raziel/24]"
+    ],
+    "except": [
+      "/login raziel/24",
+      "/register raziel/24 raziel/24"
+    ],
+    "automsg": {
+      "message": "/login raziel/24",
+      "status": false
+    }
   },
   {
     "<Blastsmp.xyz>": {

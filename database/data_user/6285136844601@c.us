@@ -4,7 +4,7 @@
     "chatPrivate": true,
     "status": "offline",
     "ip": "blastsmp.xyz",
-    "username": "patin",
+    "username": "nutnut",
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
@@ -14,9 +14,7 @@
     "autocmd": [
       "/login <272008>"
     ],
-    "autoReconnect": true,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "autoReconnect": true
   },
   {
     "<premium8.alstore.space:25574>": {
@@ -29,7 +27,7 @@
       "alt": [
         "patin"
       ],
-      "realUser": "patin"
+      "realUser": "nutnut"
     }
   }
 ]

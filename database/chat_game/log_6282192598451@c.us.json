@@ -2128,5 +2128,137 @@
     "date": "2025-04-16 / 16:57",
     "location": "kicked.js:11:25",
     "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"gold\",\"text\":\"YUI \"},{\"bold\":true,\"color\":\"dark_gray\",\"text\":\"» \"},{\"color\":\"red\",\"text\":\"You failed to connect to the server, please try again in a few seconds!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "[>] Ned"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome to the server Ned"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "WEBSITE crispymc.net"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "DISCORD crispymc.net/dc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "WHATSAPP crispymc.net/wa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "VOTE crispymc.net/vote1"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "VOTE2 crispymc.net/vote2"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "Selamat Bermain"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:33",
+    "location": "messagestr.js:27:21",
+    "message": "▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:34",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5 sites to vote on still!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:34",
+    "location": "messagestr.js:27:21",
+    "message": "Remember to vote"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:34",
+    "location": "messagestr.js:27:21",
+    "message": "YUI » Password salah! Lupa password? silahkan join Discord: bit.ly/vipz-dc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:34",
+    "location": "messagestr.js:27:21",
+    "message": "[>] .GatheredLoki221"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:34",
+    "location": "messagestr.js:27:21",
+    "message": "[>] .Second9274"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-06-03 / 00:34",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:36",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"dark_gray\",\"text\":\"« \"},{\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"color\":\"#A538FF\",\"text\":\"e\"},{\"color\":\"#8D54FF\",\"text\":\"t\"},{\"color\":\"#7670FF\",\"text\":\"a\"},{\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"color\":\"#47A7FF\",\"text\":\"i\"},{\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"color\":\"#18DFFF\",\"text\":\"e\"},{\"color\":\"#00FBFF\",\"text\":\"l \"},{\"color\":\"dark_gray\",\"text\":\"»\\n\"},{\"color\":\"gray\",\"text\":\"\\n\"},{\"bold\":true,\"color\":\"dark_red\",\"text\":\"HARAP DI BACA TERLEBIH DAHULU CATATAN DIBAWAH\\n\"},{\"color\":\"gray\",\"text\":\"\\n\"},{\"color\":\"white\",\"text\":\"Koneksi Anda telah dianalisis!\\n\"},{\"color\":\"gray\",\"text\":\"------------------------------------\\n\\n\"},{\"color\":\"red\",\"text\":\"IP Anda terblokir oleh sistem AntiBot.\\n\\n\"},{\"color\":\"gray\",\"text\":\"------------------------------------\\n\"},{\"color\":\"white\",\"text\":\"Jika Ingin Bermain Harap Captcha Terlebih Dahulu!\\n \"},{\"color\":\"white\",\"text\":\"Silahkan Buka Google Dan Ketik :\\n\"},{\"color\":\"yellow\",\"text\":\"www.notbot.es\\n\"},{\"color\":\"aqua\",\"text\":\"^\\n\"},{\"color\":\"aqua\",\"text\":\"|\\n\"},{\"color\":\"aqua\",\"text\":\"Ketik Di Google Atau Browser\"}],\"text\":\"\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:36",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"dark_gray\",\"text\":\"« \"},{\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"color\":\"#A538FF\",\"text\":\"e\"},{\"color\":\"#8D54FF\",\"text\":\"t\"},{\"color\":\"#7670FF\",\"text\":\"a\"},{\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"color\":\"#47A7FF\",\"text\":\"i\"},{\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"color\":\"#18DFFF\",\"text\":\"e\"},{\"color\":\"#00FBFF\",\"text\":\"l \"},{\"color\":\"dark_gray\",\"text\":\"»\\n\"},{\"color\":\"gray\",\"text\":\"\\n\"},{\"bold\":true,\"color\":\"dark_red\",\"text\":\"HARAP DI BACA TERLEBIH DAHULU CATATAN DIBAWAH\\n\"},{\"color\":\"gray\",\"text\":\"\\n\"},{\"color\":\"white\",\"text\":\"Koneksi Anda telah dianalisis!\\n\"},{\"color\":\"gray\",\"text\":\"------------------------------------\\n\\n\"},{\"color\":\"red\",\"text\":\"IP Anda terblokir oleh sistem AntiBot.\\n\\n\"},{\"color\":\"gray\",\"text\":\"------------------------------------\\n\"},{\"color\":\"white\",\"text\":\"Jika Ingin Bermain Harap Captcha Terlebih Dahulu!\\n \"},{\"color\":\"white\",\"text\":\"Silahkan Buka Google Dan Ketik :\\n\"},{\"color\":\"yellow\",\"text\":\"www.notbot.es\\n\"},{\"color\":\"aqua\",\"text\":\"^\\n\"},{\"color\":\"aqua\",\"text\":\"|\\n\"},{\"color\":\"aqua\",\"text\":\"Ketik Di Google Atau Browser\"}],\"text\":\"\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-03 / 00:36",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"extra\":[{\"color\":\"dark_gray\",\"text\":\"« \"},{\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"color\":\"#A538FF\",\"text\":\"e\"},{\"color\":\"#8D54FF\",\"text\":\"t\"},{\"color\":\"#7670FF\",\"text\":\"a\"},{\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"color\":\"#47A7FF\",\"text\":\"i\"},{\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"color\":\"#18DFFF\",\"text\":\"e\"},{\"color\":\"#00FBFF\",\"text\":\"l \"},{\"color\":\"dark_gray\",\"text\":\"»\\n\"},{\"color\":\"gray\",\"text\":\"\\n\"},{\"bold\":true,\"color\":\"dark_red\",\"text\":\"HARAP DI BACA TERLEBIH DAHULU CATATAN DIBAWAH\\n\"},{\"color\":\"gray\",\"text\":\"\\n\"},{\"color\":\"white\",\"text\":\"Koneksi Anda telah dianalisis!\\n\"},{\"color\":\"gray\",\"text\":\"------------------------------------\\n\\n\"},{\"color\":\"red\",\"text\":\"IP Anda terblokir oleh sistem AntiBot.\\n\\n\"},{\"color\":\"gray\",\"text\":\"------------------------------------\\n\"},{\"color\":\"white\",\"text\":\"Jika Ingin Bermain Harap Captcha Terlebih Dahulu!\\n \"},{\"color\":\"white\",\"text\":\"Silahkan Buka Google Dan Ketik :\\n\"},{\"color\":\"yellow\",\"text\":\"www.notbot.es\\n\"},{\"color\":\"aqua\",\"text\":\"^\\n\"},{\"color\":\"aqua\",\"text\":\"|\\n\"},{\"color\":\"aqua\",\"text\":\"Ketik Di Google Atau Browser\"}],\"text\":\"\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-04 / 08:24",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are not registered!"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-04 / 08:24",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-04 / 08:25",
+    "location": "messageHandler.js:47:25",
+    "message": ""
   }
 ]

@@ -1,1166 +1,3002 @@
 [
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:07",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"This player is already online.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:07",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"This player is already online.\"}],\"text\":\"\"}"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:07",
+    "date": "2025-05-25 / 04:47",
     "location": "messagestr.js:27:21",
-    "message": "ꜱᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ʙʟᴀꜱᴛ ᴍᴄ."
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:07",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
-    "message": "Use the command /login <password>."
+    "message": "soryyu"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:07",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
-    "message": "You have 5999999 seconds to login."
+    "message": "Player ᴍᴇᴍʙᴇ just won Bottle from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:07",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
-    "message": "You have 5999998 seconds to login."
+    "message": ":3"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:07",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
-    "message": "You have 5999997 seconds to login."
+    "message": ":33"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:07",
-    "location": "messagestr.js:27:21",
-    "message": "You have 5999996 seconds to login."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:07",
-    "location": "messagestr.js:27:21",
-    "message": "You have 5999995 seconds to login."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:07",
-    "location": "messagestr.js:27:21",
-    "message": "You have successfully logged."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "Request sent to ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command, use /help for further help."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:08",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:09",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
     "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:09",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 92 ᴇɴᴛɪᴛɪᴇs!"
+    "message": "Rey jagain bntr"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
+    "date": "2025-05-25 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 121 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "var var var var"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Sin Of Giyas from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "okok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "wtf"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:48",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
     "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
     "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
     "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
+    "date": "2025-05-25 / 04:48",
     "location": "messagestr.js:27:21",
     "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
+    "date": "2025-05-25 / 04:49",
     "location": "messagestr.js:27:21",
-    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano has requested that you teleport to them."
+    "message": "aku nak mining"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
+    "date": "2025-05-25 / 04:49",
     "location": "messagestr.js:27:21",
-    "message": "To teleport, type /tpaccept."
+    "message": "oke"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:10",
-    "location": "messagestr.js:27:21",
-    "message": "To deny this request, type /tpdeny."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:10",
-    "location": "messagestr.js:27:21",
-    "message": "This request will timeout after 120 seconds."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:10",
-    "location": "messagestr.js:27:21",
-    "message": "Teleport request accepted."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:10",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 5 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano has requested that you teleport to them."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "To teleport, type /tpaccept."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "To deny this request, type /tpdeny."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "This request will timeout after 120 seconds."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "Teleport request accepted."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 5 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:11",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "cmd:afkfish",
-    "date": "2025-05-11 / 01:11",
-    "location": "messageHandler.js:47:25",
-    "message": "on"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "Thank you for participating!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "You don't have permission to do that!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "Kyuuru just claim Kill Level 1 (/levels)"
-  },
-  {
-    "type": "cmd:ping",
-    "date": "2025-05-11 / 01:12",
-    "location": "messageHandler.js:47:25",
-    "message": ""
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Enchanted from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "cmd:afkfish",
-    "date": "2025-05-11 / 01:12",
-    "location": "messageHandler.js:47:25",
-    "message": "off"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano has requested that you teleport to them."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "To teleport, type /tpaccept."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "To deny this request, type /tpdeny."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:12",
-    "location": "messagestr.js:27:21",
-    "message": "This request will timeout after 120 seconds."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:13",
-    "location": "messagestr.js:27:21",
-    "message": "Teleport request accepted."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:13",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation will commence in 5 seconds. Don't move."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:13",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Envy from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:13",
-    "location": "messagestr.js:27:21",
-    "message": "Teleportation commencing..."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:13",
-    "location": "messagestr.js:27:21",
-    "message": "[GSit] You can't sit right now!"
-  },
-  {
-    "type": "cmd:inventory",
-    "date": "2025-05-11 / 01:13",
-    "location": "messageHandler.js:47:25",
-    "message": ""
-  },
-  {
-    "type": "cmd:equip",
-    "date": "2025-05-11 / 01:13",
-    "location": "messageHandler.js:47:25",
-    "message": "1"
-  },
-  {
-    "type": "cmd:equip",
-    "date": "2025-05-11 / 01:13",
-    "location": "messageHandler.js:47:25",
-    "message": "0"
-  },
-  {
-    "type": "cmd:afkfish",
-    "date": "2025-05-11 / 01:13",
-    "location": "messageHandler.js:47:25",
-    "message": "on"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Sin Of Giyas from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Enchanted from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Sin Of Giyas from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Sin Of Giyas from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:14",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Enchanted from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:15",
-    "location": "messagestr.js:27:21",
-    "message": "Unknown command, use /help for further help."
-  },
-  {
-    "type": "cmd:afkfish",
-    "date": "2025-05-11 / 01:15",
-    "location": "messageHandler.js:47:25",
-    "message": "off"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴍᴇᴍʙᴇ just won Doombringer from XOLO!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:16",
-    "location": "messagestr.js:27:21",
-    "message": "oiii"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:17",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:17",
-    "location": "messagestr.js:27:21",
-    "message": "ada yg open member ga we"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:17",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 78 ᴇɴᴛɪᴛɪᴇs!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:17",
-    "location": "messagestr.js:27:21",
-    "message": "a"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:17",
-    "location": "messagestr.js:27:21",
-    "message": "p"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:17",
-    "location": "messagestr.js:27:21",
-    "message": "shiroel gay"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Avarice from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "shiroelsexxxx"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> ᴍᴇᴍʙᴇʀ ShirooelX] woi"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴋɪɴɢ OmegaOnTop just won Envy from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "[me -> ᴍᴇᴍʙᴇʀ ShirooelX] woi"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "kyuuru boy"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:18",
-    "location": "messagestr.js:27:21",
-    "message": "[BLAST WARNING] HARAP tunggu 1 detik sebelum ngetik again."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "ongkak"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "ongkak npc"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "ha"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "tpa gw"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:20",
-    "location": "messagestr.js:27:21",
-    "message": "wet lagi gscha"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:22",
-    "location": "messagestr.js:27:21",
-    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:22",
-    "location": "messagestr.js:27:21",
-    "message": "Thank you for participating!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:22",
-    "location": "messagestr.js:27:21",
-    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:22",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:22",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:22",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:23",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴍᴇᴍʙᴇ just won Monk from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "knp"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:24",
-    "location": "messagestr.js:27:21",
-    "message": "lutzz has made the advancement [Ice Bucket Challenge]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:25",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 145 ᴇɴᴛɪᴛɪᴇs!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:26",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:26",
-    "location": "messagestr.js:27:21",
-    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:26",
-    "location": "messagestr.js:27:21",
-    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:26",
-    "location": "messagestr.js:27:21",
-    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:26",
-    "location": "messagestr.js:27:21",
-    "message": "Combat narendraa was slain by Armor Stand"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:27",
-    "location": "messagestr.js:27:21",
-    "message": "tmn"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:27",
-    "location": "messagestr.js:27:21",
-    "message": "tmn kontol"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:28",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:28",
-    "location": "messagestr.js:27:21",
-    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:28",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:30",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:30",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:30",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:30",
-    "location": "messagestr.js:27:21",
-    "message": "Player ᴍᴇᴍʙᴇ just won Enchanted from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:31",
-    "location": "messagestr.js:27:21",
-    "message": "Combat _ongkak_npc was slain by Combat narendraa using [Modal Gale]"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:31",
-    "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:31",
-    "location": "messagestr.js:27:21",
-    "message": "mNaa"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "Thank you for participating!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
-    "location": "messagestr.js:27:21",
-    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:32",
+    "date": "2025-05-25 / 04:49",
     "location": "messagestr.js:27:21",
     "message": "ok"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:32",
+    "date": "2025-05-25 / 04:49",
     "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
-  },
-  {
-    "type": "cmd:inventory",
-    "date": "2025-05-11 / 01:32",
-    "location": "messageHandler.js:47:25",
-    "message": ""
+    "message": "sini ku jagain"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:32",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "iron kan"
+    "message": "thanks"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:32",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 55 ᴇɴᴛɪᴛɪᴇs!"
+    "message": "oke"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:32",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "kalo iron mah gacha aja:v"
+    "message": "y"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:33",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "ongkak"
+    "message": "yang ada dm bt dong"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:33",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "sl mu"
+    "message": "ren"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:33",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "Combat MoonZv2 was slain by Combat ShirooelX"
+    "message": "hoh"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+    "message": "mau nanyak 1 soalan"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+    "message": "tapi jangan marah"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+    "message": "apa soalan yang ngesalin gw bunuh lu"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+    "message": "jangan kill gua"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "Combat ShirooelX was slain by Combat MoonZv2"
+    "message": "yaudah gak jadi"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
-    "message": "Combat MoonZv2 was slain by Combat rshelleyy"
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:34",
-    "location": "messagestr.js:27:21",
-    "message": "Combat MoonZv2 was slain by Armor Stand"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:34",
-    "location": "messagestr.js:27:21",
-    "message": "Combat ShirooelX was slain by Combat MoonZv2"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:34",
-    "location": "messagestr.js:27:21",
-    "message": "Combat MoonZv2 was slain by Combat rshelleyy"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:35",
-    "location": "messagestr.js:27:21",
-    "message": "ada yg open member ga abang"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:35",
-    "location": "messagestr.js:27:21",
-    "message": "atau ga tempat mancing mau mancing soal nya naikin skill"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:35",
-    "location": "messagestr.js:27:21",
-    "message": "Omega sahara fell from a high place"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
     "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
     "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:50",
     "location": "messagestr.js:27:21",
     "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:51",
     "location": "messagestr.js:27:21",
-    "message": "Omega sahara fell from a high place"
+    "message": "yaelah setipis kertas sabaran nya"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:51",
     "location": "messagestr.js:27:21",
-    "message": "ada yang mau perang kaga"
+    "message": "diem"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:51",
     "location": "messagestr.js:27:21",
-    "message": "gas hiko"
+    "message": "okok"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:51",
     "location": "messagestr.js:27:21",
-    "message": "himo mati konyol akuh"
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:36",
+    "date": "2025-05-25 / 04:51",
     "location": "messagestr.js:27:21",
-    "message": "no kontrak doom v3 ku di ambil oranga ajg"
+    "message": "wkwkwk"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:37",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
-    "message": "bagi sl bang"
+    "message": "1 hit"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:37",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
-    "message": "Unknown command, use /help for further help."
+    "message": "Combat Reyy was slain by Combat narendraa using [ᴇɴᴠʏᴏᴜꜱ ᴡʜɪꜱᴘᴇʀ ᴇᴠᴏ]"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
-    "message": "himomemek"
+    "message": "byee"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:52",
+    "location": "messagestr.js:27:21",
+    "message": "astagfirullah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:52",
+    "location": "messagestr.js:27:21",
+    "message": "wmwkkw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:52",
+    "location": "messagestr.js:27:21",
+    "message": "sorry :)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
     "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
     "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
     "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:52",
     "location": "messagestr.js:27:21",
-    "message": "warp pvp"
+    "message": "santaii"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:53",
     "location": "messagestr.js:27:21",
-    "message": "warp pvp himo"
+    "message": "ah pegel"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:53",
     "location": "messagestr.js:27:21",
-    "message": "gw wasit"
+    "message": "wkwkkw thanks"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:53",
     "location": "messagestr.js:27:21",
-    "message": "ashinah"
+    "message": "ren gw mo of"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:38",
+    "date": "2025-05-25 / 04:53",
     "location": "messagestr.js:27:21",
-    "message": "Player ᴍᴇᴍʙᴇ just won Doom Evo from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "okok"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:39",
+    "date": "2025-05-25 / 04:53",
     "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+    "message": "byeeee"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:53",
     "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+    "message": "byee"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:53",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:54",
+    "location": "messagestr.js:27:21",
+    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:54",
+    "location": "messagestr.js:27:21",
+    "message": "Thank you for participating!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:54",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:54",
+    "location": "messagestr.js:27:21",
+    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:54",
     "location": "messagestr.js:27:21",
     "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:54",
     "location": "messagestr.js:27:21",
     "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:54",
     "location": "messagestr.js:27:21",
     "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:54",
     "location": "messagestr.js:27:21",
     "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:55",
     "location": "messagestr.js:27:21",
-    "message": "Combat _The_abuzz was slain by Combat MoonZv2"
+    "message": "lah"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:55",
     "location": "messagestr.js:27:21",
-    "message": "Player ᴍᴇᴍʙᴇ just won Cosmo Chestplate from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+    "message": "@Reyy"
   },
   {
     "type": "ingame",
-    "date": "2025-05-11 / 01:40",
+    "date": "2025-05-25 / 04:55",
     "location": "messagestr.js:27:21",
-    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 132 ᴇɴᴛɪᴛɪᴇs!"
+    "message": "ngilang"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:55",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:55",
+    "location": "messagestr.js:27:21",
+    "message": "dia off"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:55",
+    "location": "messagestr.js:27:21",
+    "message": "zero coba sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:55",
+    "location": "messagestr.js:27:21",
+    "message": "bntr"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:55",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:55",
+    "location": "messagestr.js:27:21",
+    "message": "aku lagi gacha"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "ilham ilmu hitam"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 101 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "_Barnplayer2 kamu emg di manaa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:56",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "di goa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "_Barnplayer2 ka.u dimana"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "di g o a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "oh ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Bottle from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "aku nak bg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Bottle from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Ravenouse from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Ravenouse from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won pride 2/4 from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "ini ada yang gunain ilham cuy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "keren"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:57",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:58",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:58",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:58",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:59",
+    "location": "messagestr.js:27:21",
+    "message": "teriman barn"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:59",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Azazel from Maximum Crate Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:59",
+    "location": "messagestr.js:27:21",
+    "message": "ilham cuy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:59",
+    "location": "messagestr.js:27:21",
+    "message": "gelapnyooo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:59",
+    "location": "messagestr.js:27:21",
+    "message": "nih ilham"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 04:59",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "[Broadcast] HALO"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "aku gunain. ilham anjay :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "halo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "HALO"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "Hai"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Pride Stage 1 from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Sloth from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "acc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "ulang"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "jangandi tempat gelap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "di pukul xombi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:00",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "di sini ae"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Ravenouse from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "woke"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "tenang"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "ada aku"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "kemarin aku mining 5 menit dapat segini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:01",
+    "location": "messagestr.js:27:21",
+    "message": "mayan itu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "maling"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "eh sory"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "minjem"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "aman"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "minjem apaan --_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "gw butuh bntr ntar gw balikin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "oh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "minjem ya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:02",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:03",
+    "location": "messagestr.js:27:21",
+    "message": "zombo kontol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:03",
+    "location": "messagestr.js:27:21",
+    "message": "ty"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:03",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:03",
+    "location": "messagestr.js:27:21",
+    "message": "sama sama"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:03",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 124 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:03",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "_Barnplayer2 ka.u dimana"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "ini loh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "Thank you for participating!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:04",
+    "location": "messagestr.js:27:21",
+    "message": "owh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:05",
+    "location": "messagestr.js:27:21",
+    "message": "ini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:05",
+    "location": "messagestr.js:27:21",
+    "message": "sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:05",
+    "location": "messagestr.js:27:21",
+    "message": "amakaih banyak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:05",
+    "location": "messagestr.js:27:21",
+    "message": "ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:05",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "mau tes demeg gk kamu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "boleh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Doom Evo from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "pakek senjata kamu atau senjata aku"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Bottle from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "senjata aku aja"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:06",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:07",
+    "location": "messagestr.js:27:21",
+    "message": "langsung combo aja"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:07",
+    "location": "messagestr.js:27:21",
+    "message": "ulti aku pakek senjata gauntlet of king"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:07",
+    "location": "messagestr.js:27:21",
+    "message": "ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "berapa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "8"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "sakit"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "sekarang senjata aku ya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:08",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:09",
+    "location": "messagestr.js:27:21",
+    "message": "wah banyak bgt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:09",
+    "location": "messagestr.js:27:21",
+    "message": "aku boleh pinjam gk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:09",
+    "location": "messagestr.js:27:21",
+    "message": "boleh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:09",
+    "location": "messagestr.js:27:21",
+    "message": "aku pinjam sl ini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:09",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "sakit gl"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "sakit gk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "sakit wok ngurang 2"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "buset 4"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "mingir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Envy from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "akiu ilg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:10",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "tes sl aku ya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "atai senjata"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "Combat _Barnplayer2 was slain by Combat ZeroModeCihuyy using [Katana of Frost]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "eh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "kok mati"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 128 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "buset"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "si i"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:11",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:12",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:12",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:12",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:12",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:12",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:13",
+    "location": "messagestr.js:27:21",
+    "message": "eh soryyy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:13",
+    "location": "messagestr.js:27:21",
+    "message": "iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "bentar nak gacha"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "itu kunci mu kamu kasih kwe enderchest aja"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "ec"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "Thank you for participating!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:14",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:15",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:16",
+    "location": "messagestr.js:27:21",
+    "message": "_Barnplayer2 udh belum"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:16",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:16",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:16",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:17",
+    "location": "messagestr.js:27:21",
+    "message": "eh maap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:17",
+    "location": "messagestr.js:27:21",
+    "message": "iy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:17",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "alamak kobo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:18",
+    "location": "messagestr.js:27:21",
+    "message": "awokawok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:19",
+    "location": "messagestr.js:27:21",
+    "message": "maap ya aku mau bantu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:19",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 99 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:19",
+    "location": "messagestr.js:27:21",
+    "message": "iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:19",
+    "location": "messagestr.js:27:21",
+    "message": "kobo : jawa jawa jawa -_-"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:19",
+    "location": "messagestr.js:27:21",
+    "message": "kobo apa ya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "seingat ku kobo dah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "eh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "yah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "ancur"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "ini base .."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:20",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:21",
+    "location": "messagestr.js:27:21",
+    "message": "gk tau si aku"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:21",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:22",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:22",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:22",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:23",
+    "location": "messagestr.js:27:21",
+    "message": "coba kamu srang aku"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:23",
+    "location": "messagestr.js:27:21",
+    "message": "kamu juga kena demeg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:23",
+    "location": "messagestr.js:27:21",
+    "message": "ada thorns . __"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:23",
+    "location": "messagestr.js:27:21",
+    "message": "iy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:23",
+    "location": "messagestr.js:27:21",
+    "message": "di bagian mana aja"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:23",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "celana sepau baju kepala"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "sepatu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "semua nya ya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "coba tes ulti"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "Thank you for participating!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:24",
+    "location": "messagestr.js:27:21",
+    "message": "kamu kelas brp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:25",
+    "location": "messagestr.js:27:21",
+    "message": "8"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:25",
+    "location": "messagestr.js:27:21",
+    "message": "oh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:25",
+    "location": "messagestr.js:27:21",
+    "message": "tes ulti"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:25",
+    "location": "messagestr.js:27:21",
+    "message": "berapa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:25",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "gk ada demeg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "kamu ada tempat agility"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "gk ada"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "bntr"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "ooo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 90 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:26",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Doom Evo from Vote Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "bntr ya ada yg msg org rusuh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "eh sory"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "iya untung cuman dash"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "gk mau gw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:27",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Enchanted from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "males raid base"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "eh maaap yaaa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "iya iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:28",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "kalo malam atau subuh gua iya iya in"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "soryyyyy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "lagi malas mikir aja soalnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "klao siang"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "nah beda cerita suka ada payay soalnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "klo siang"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:29",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "emg payay knp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "yoko rusuh niki panas to yo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:30",
+    "location": "messagestr.js:27:21",
+    "message": "gua kira siapa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:31",
+    "location": "messagestr.js:27:21",
+    "message": "ternyata kuda"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:31",
+    "location": "messagestr.js:27:21",
+    "message": "soryyy"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:31",
+    "location": "messagestr.js:27:21",
+    "message": "iya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:31",
+    "location": "messagestr.js:27:21",
+    "message": "nak explore dulu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:31",
+    "location": "messagestr.js:27:21",
+    "message": "okeh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:32",
+    "location": "messagestr.js:27:21",
+    "message": "trydent sky enak nih"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:32",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:32",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:32",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀᴘᴀᴛᴋᴀɴ ᴠᴏᴛᴇ ᴋᴇʏ ᴅᴇɴɢᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ᴠᴏᴛᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:32",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴊᴜɢᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍʙᴀɴᴛᴜ ᴘᴇʀᴋᴇᴍʙᴀɴɢᴀɴ sᴇʀᴠᴇʀ ᴋɪᴛᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:33",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:33",
+    "location": "messagestr.js:27:21",
+    "message": "simpel nih bg cara renang di bedrock"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:33",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "beliin honeycoomb"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "napa keluar"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "apaan"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "gpp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 79 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "gajadi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "Congratulations! You've been awarded a key as part of our Key All event!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "Thank you for participating!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "Crates » You recieved x2 of ʀᴇᴡᴀʀᴅ_ᴋᴇʏ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:34",
+    "location": "messagestr.js:27:21",
+    "message": "napa keluar dc-_-"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "gw kaget karna tiba tiba ade lu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "oi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "nape"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "siapa ada deger v1 kontrak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "napa keluar dc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "oke otw ke dc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:35",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Gauntlet from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won pride 2/4 from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Avarice from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Ravenouse from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "-_-"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "@ZeroModeCihuyy nemu base ini tapi kecil"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won pride 2/4 from Boper Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "teriman"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "Shinnzy gk cape shin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "terima"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "gak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "dah biasa ._."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "kek nya dari tadi malem lu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 05:36",
+    "location": "messagestr.js:27:21",
+    "message": "lah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "im back"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "sek"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "ngenteni 60d"
+  },
+  {
+    "type": "cmd:playerlist",
+    "date": "2025-05-25 / 17:43",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "133 gas"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "wadahek"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "bt in wukong kontrak ke kontrak lain"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "WOKAWOKAOWK"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "anjg sacred lance nya taro ke trash aja dap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:43",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "gausah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "langsung sayap wok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "bcot zylen"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "mau gw kasi ke tmn gw"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "lah knp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "nyileh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "jelek njing"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 181 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "newbie yg mau sl tpa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "tp\" mulu kontol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "sekkk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "gw rapihin ya sl nya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "newbie ya bg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "kan mau liat"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "itu snowysky rank aapa anjr"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "di tab diatas nicol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:44",
+    "location": "messagestr.js:27:21",
+    "message": "king"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:45",
+    "location": "messagestr.js:27:21",
+    "message": "bang aku newbiee"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:45",
+    "location": "messagestr.js:27:21",
+    "message": "iri lu minentigers"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:45",
+    "location": "messagestr.js:27:21",
+    "message": "ada newbie cik"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:45",
+    "location": "messagestr.js:27:21",
+    "message": "mo liat naon"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 17:45",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command, use /help for further help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-25 / 19:28",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"Server is restarting. Please rejoin!\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ꜱᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ʙʟᴀꜱᴛ ᴍᴄ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   _Afatar1516 ⮕ siapa ada team"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999999 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀʀᴛɪᴄ VenularIsland20 ⮕ udh ada"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\n                         Support center text!\n                               Center text\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀʀᴛɪᴄ VenularIsland20 ⮕ 0"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   _Yanzlah2811 ⮕ yaudh balikin sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴋɪɴɢ   _Ardhianzzz8544 ⮕ nyoh au ws ndwe ndol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀʀᴛɪᴄ VenularIsland20 ⮕ 0,5 per hit"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   DelGanzz ⮕ k"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "You have successfully logged."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "makek egap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "balikin the"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "right"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "siapapun info team pls"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Arcana Codex Evo from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Chaos Staff from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Pride Stage 1 from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Ravenous from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Doom Evo Sword from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Avarice Evo from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴠɪᴄᴛᴏ just won Pride Stage 0 from BRUTAL CRATE!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Request sent to ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "To cancel this request, type /tpacancel."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "dash"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "mksh kingg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano accepted your teleport request."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Teleporting to ᴠɪᴄᴛᴏʀɪᴜᴍ LaExtrano."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Teleportation will commence in 5 seconds. Don't move."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "ok ok ok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "shift right"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-26 / 18:04",
+    "location": "messagestr.js:27:21",
+    "message": "Teleportation commencing..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-27 / 01:01",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"Server is restarting. Please rejoin!\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "ꜱᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ʙʟᴀꜱᴛ ᴍᴄ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999999 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "You have successfully logged."
+  },
+  {
+    "type": "cmd:playerlist",
+    "date": "2025-05-28 / 19:13",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴋɪɴɢ Odolah199 just won Bottle from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "sepenting itu kah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Bottle from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "yang ambil sejata aku balikin lah pelis"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "spirit greataxe itu ap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "dc"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:13",
+    "location": "messagestr.js:27:21",
+    "message": "diem kontol"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:14",
+    "location": "messagestr.js:27:21",
+    "message": "sini bg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:14",
+    "location": "messagestr.js:27:21",
+    "message": "gc"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-28 / 19:14",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "ꜱᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ʙʟᴀꜱᴛ ᴍᴄ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴅɪᴀ   _UnsealedBison25 ⮕ kan ada yg kontrak doang ama kontrak stage"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999999 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "ᴇʟᴄᴜᴄɪᴘɪʀɪɴɢ   ꜰɪꜱʜᴇʀᴍᴀɴ  🎣 RenatoIWNL ⮕ kontrak stage ya kontrak langsung wkwkwk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Sin Of Giyas from KEYALL!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999998 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "-----------------------------------------------------\nSupport sound\nAlso support you can create custom placeholder like this: Example!\n-----------------------------------------------------"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-28 / 19:43",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴅɪᴀ   _UnsealedBison25 ⮕ oh"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-28 / 19:43",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "ꜱᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ʙʟᴀꜱᴛ ᴍᴄ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "Use the command /login <password>."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999999 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999998 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "ᴋɪɴɢ  ɢʀᴇɴɪɴᴊᴀ _Snowysky256 ⮕ chestplatenya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999997 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999996 seconds to login."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "You have successfully logged."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "udh itu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "kroco gitu yudha fahri himo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "lah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "itu apny"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-06-01 / 14:20",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 453 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-06-01 / 14:20",
+    "location": "messageHandler.js:47:25",
+    "message": ""
   }
 ]

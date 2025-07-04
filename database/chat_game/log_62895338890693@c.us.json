@@ -3,24 +3,6 @@
     "type": "ingame",
     "date": "2025-02-22 / 15:27",
     "location": "messagestr.js:27:21",
-    "message": "iya Nessz12"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:27",
-    "location": "messagestr.js:27:21",
-    "message": "pada cepet bet 12jt duitnya"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:27",
-    "location": "messagestr.js:27:21",
-    "message": "masukkin"
-  },
-  {
-    "type": "ingame",
-    "date": "2025-02-22 / 15:27",
-    "location": "messagestr.js:27:21",
     "message": "anjaiiiiii"
   },
   {
@@ -2996,6 +2978,24 @@
   {
     "type": "cmd:dc",
     "date": "2025-05-11 / 01:33",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:afkfish",
+    "date": "2025-05-11 / 02:01",
+    "location": "messageHandler.js:47:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:inventory",
+    "date": "2025-05-11 / 02:01",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-11 / 02:01",
     "location": "messageHandler.js:47:25",
     "message": ""
   }

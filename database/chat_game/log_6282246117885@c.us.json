@@ -1,14 +1,3002 @@
 [
   {
     "type": "ingame",
-    "date": "2025-05-10 / 01:26",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"You failed the premium challenge. Please rejoin the server.\"}],\"text\":\"\"}"
+    "date": "2025-05-11 / 10:45",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999408 seconds to register."
   },
   {
     "type": "ingame",
-    "date": "2025-05-10 / 15:35",
-    "location": "kicked.js:11:25",
-    "message": "Kicked: {\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"You failed the premium challenge. Please rejoin the server.\"}],\"text\":\"\"}"
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   _Jazz6088 ⮕ oi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999407 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999406 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999405 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999404 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ trap jing"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999403 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999402 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999401 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999400 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999399 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999398 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999397 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999396 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999395 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999394 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999393 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   _Angga_ao_aj1212 ⮕ ap ap"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999392 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999391 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999390 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999389 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999388 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999387 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999386 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999385 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999384 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   _Jazz6088 ⮕ gw off dlu mo makan sma mandi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999383 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999382 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999381 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999380 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999379 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999378 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999377 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999376 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999375 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999374 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999373 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999372 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ   _Angga_ao_aj1212 ⮕ y"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999371 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999370 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999369 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999368 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999367 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999366 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ʀɪᴄʜ $ _AbynnX ⮕ afk bentar mo keluar"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999365 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999364 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999363 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999362 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999361 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999360 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ kok gakkk accc riski"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999359 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999358 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999357 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999356 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999355 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ takutt kahh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999354 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999353 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999352 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999351 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999350 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999349 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:46",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999348 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ᴘᴇʀɪɴɢᴀᴛᴀɴ ᴘᴇɴᴛɪɴɢ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛʀᴀɴsᴀᴋsɪ ʜᴀɴʏᴀ ᴅᴇɴɢᴀɴ xɪʟᴜᴀsᴇᴢ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ʀᴇғᴜɴᴅ, ʜᴜʙᴜɴɢɪ ᴀᴅᴍɪɴ ʏᴀɴɢ ᴏɴʟɪɴᴇ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "ᴅᴀɴ ᴛᴜɴᴊᴜᴋᴋᴀɴ ʙᴜᴋᴛɪ ʟᴇɴɢᴋᴀᴘ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999347 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999346 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999345 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999344 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999343 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "Omega _Danzoo6211 has made the advancement [We Need to Go Deeper]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ ilang woiii anj"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999342 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999341 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999340 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999339 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999338 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999337 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999336 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999335 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999334 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999333 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999332 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999331 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ʀᴀɪɴʙᴏᴡ NaniGodXd ⮕ wkwkwk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999330 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999329 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999328 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999327 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999326 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999325 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999324 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999323 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999322 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999321 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999320 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999319 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999318 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999317 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999316 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999315 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999314 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999313 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999312 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999311 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999310 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999309 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999308 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999307 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999306 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999305 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999304 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999303 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999302 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999301 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999300 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999299 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999298 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999297 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999296 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999295 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999294 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999293 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999292 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999291 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999290 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999289 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:47",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999288 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999287 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999286 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999285 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999284 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "Combat minentigers was slain by Combat rshelleyy using [𝙰𝚛𝚌 𝚂𝚒𝚌𝚎𝚊𝚌𝚑]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999283 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999282 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ ezxzzzzzzzz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999281 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999280 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999279 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999278 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ gatau"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999277 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ ABISSS TOTEM"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999276 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999275 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999274 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999273 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999272 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "death.attack.mob.player"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "Player ᴍᴇᴍʙᴇ just won Enchanted Gapple from Blast Crate!\n \nDo you wanna too? Purchase keys now: [OPEN STORE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999271 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999270 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ  ᴅᴀɴɢᴇʀ ☣ CobianItsback ⮕ wtf ngekill lu cok"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999269 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999268 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999267 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999266 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999265 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ soul gua rshleey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999264 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999263 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999262 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999261 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999260 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999259 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ modal trap dia jir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999258 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999257 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999256 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999255 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999254 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999253 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ lh lu udh mati adz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999252 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999251 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999250 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999249 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999248 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999247 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999246 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999245 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999244 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ curang tai"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999243 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999242 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999241 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ lagi repair"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999240 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999239 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ mana mode serius nya woi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ bagi chaos cobia"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999238 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999237 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999236 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999235 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999234 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999233 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ repair nge soul bangsatr"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999232 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999231 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999230 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999229 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:48",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999228 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴛᴇʟᴀʜ ʙᴇʀɢᴀʙᴜɴɢ ᴅɪ ʙʟᴀsᴛ sᴍᴘ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴀʙᴜɴɢ ɢʀᴏᴜᴘ ᴡʜᴀᴛsᴀᴘᴘ ʟᴇᴡᴀᴛ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "https://chat.whatsapp.com/HyODWroAWHAIGLhg0d1hs5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999227 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999226 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999225 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999224 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999223 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ nge pur kocak itu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999222 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999221 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999220 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999219 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999218 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999217 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ daritadi ngepur mulu luuu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999216 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999215 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999214 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999213 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999212 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999211 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999210 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999209 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999208 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ gw udah no katana no mati lampu no soul ini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999207 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999206 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999205 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999204 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999203 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ rematch"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999202 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999201 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999200 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ iye sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999199 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999198 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999197 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999196 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999195 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ gw no cronus kocak itu tadi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999194 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ minen sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999193 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999192 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999191 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999190 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999189 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999188 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999187 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999186 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999185 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999184 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999183 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999182 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999181 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ yaudah sini pakeeee"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999180 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999179 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999178 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999177 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999176 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999175 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999174 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999173 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999172 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999171 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999170 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999169 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:49",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999168 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 60 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999167 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999166 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999165 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ too ezzzz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999164 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999163 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999162 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999161 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999160 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ cler leg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999159 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999158 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999157 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999156 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999155 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999154 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999153 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999152 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999151 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999150 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999149 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999148 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999147 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999146 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999145 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999144 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999143 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999142 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999141 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999140 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999139 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ minen sjni"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999138 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999137 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999136 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999135 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999134 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999133 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "Fajar111 just claim Kill Level 4 (/levels)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ mana luu minen botttt"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999132 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999131 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ Jan envy Evo kontrak rshleey leg"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ cobian"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999130 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999129 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999128 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴘᴇʀɪɴɢᴀᴛᴀɴ ɪᴛᴇᴍ ʏᴀɴɢ ʙᴇʀᴀᴅᴀ ᴅɪ ᴛᴀɴᴀʜ ᴀᴋᴀɴ ʜɪʟᴀɴɢ ᴅᴀʟᴀᴍ 20 ᴅᴇᴛɪᴋ!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999127 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ  ᴅᴀɴɢᴇʀ ☣ CobianItsback ⮕ apa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999126 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999125 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ ye"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999124 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999123 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ ad chaos Non gak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999122 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999121 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999120 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999119 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ  ᴅᴀɴɢᴇʀ ☣ CobianItsback ⮕ ada"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999118 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999117 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "MYTHICAL  ᴀᴘᴏꜱᴛʟᴇ lynx ⮕ a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999116 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ minen"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999115 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999114 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ bagi satu"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999113 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999112 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999111 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999110 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999109 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:50",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999108 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ lynx sini lawan rshleey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "[ᴘᴇᴍʙᴇʀsɪʜ] ᴛᴇʟᴀʜ ᴅɪ ʜᴀᴘᴜs 323 ᴇɴᴛɪᴛɪᴇs!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "🔈 ʙʟᴀsᴛ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛ 🔈"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ /ʀᴀɴᴋ"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴜɴᴛᴜᴋ ɪɴғᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ʙᴇʀʙᴀɢᴀɪ ʀᴀɴᴋ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ ᴅɪ sᴇʀᴠᴇʀ ɪɴɪ, ᴊɪᴋᴀ ᴛᴇʀᴛᴀʀɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʟɪ ʜᴜʙᴜɴɢɪ xɪʟᴜᴀsᴇᴢ."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999107 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999106 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999105 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ  ᴅᴀɴɢᴇʀ ☣ CobianItsback ⮕ cuma ada 1 emang"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999104 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999103 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ʀᴀɪɴʙᴏᴡ NaniGodXd ⮕ ke farm."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999102 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ lynxx lawan rshleey sinii"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999101 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "engel _HeavyIRONX has reached the goal [Sky's the Limit]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999100 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999099 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999098 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "MYTHICAL  ᴀᴘᴏꜱᴛʟᴇ lynx ⮕ malaz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999097 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999096 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999095 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ nani sini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999094 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999093 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ bot"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999092 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999091 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ lawan rsh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999090 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999089 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999088 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999087 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "MYTHICAL  ᴀᴘᴏꜱᴛʟᴇ lynx ⮕ emg gw bot"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999086 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ Nani sini lawan rshleey"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴍᴇᴍʙᴇʀ  ᴅᴀɴɢᴇʀ ☣ CobianItsback ⮕ tuh gw lagi ga make"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999085 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999084 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999083 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "Combat _Cleopas02 has reached the goal [Postmortal]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "Combat _Cleopas02 was slain by Combat _Danzoo6211 using [sᴡᴏʀᴅ ᴏғ ʀᴇssᴜʀᴇᴄᴛɪᴏɴ (sᴛᴀɢᴇ 2/4)]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999082 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999081 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999080 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "Combat SauzyPoke was slain by Combat 0Kadal using [sᴡᴏʀᴅ ᴏғ ʀᴇssᴜʀᴇᴄᴛɪᴏɴ (sᴛᴀɢᴇ 1/4)]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999079 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999078 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴀᴘʜʀᴏᴅɪᴛᴇ ❤ zaimsx ⮕ tqqq"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ʀᴀɪɴʙᴏᴡ NaniGodXd ⮕ sini gw aja"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999077 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999076 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999075 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999074 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999073 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999072 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999071 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999070 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999069 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999068 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999067 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ mau ikut ga nani"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999066 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ   Khalildz ⮕ matiin mic"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999065 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999064 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999063 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999062 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999061 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999060 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999059 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ   Khalildz ⮕ nah"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴍᴇʟᴏɴ Adzzz10 ⮕ lag minen"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999058 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999057 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999056 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999055 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999054 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999053 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999052 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999051 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999050 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999049 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:51",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999048 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999047 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999046 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "[PvPManager] 0Kadal tried to escape combat and died!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "Combat 0Kadal died"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999045 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999044 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999043 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999042 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999041 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999040 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999039 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999038 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999037 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999036 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999035 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999034 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999033 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999032 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999031 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999030 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999029 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "Combat Lutfyy was slain by Combat Fajar111"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999028 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999027 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999026 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999025 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999024 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999023 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999022 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999021 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999020 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999019 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999018 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "MYTHICAL  ᴀᴘᴏꜱᴛʟᴇ lynx ⮕ sini gw ikut da"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999017 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999016 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999015 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999014 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ꜱᴇɴᴘᴀɪ rshelleyy ⮕ gasssssssssssssss"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "ᴠɪᴄᴛᴏʀɪᴜᴍ  ᴅᴀɴɢᴇʀ ☣ minentigers ⮕ adz mana woi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999013 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999012 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999011 seconds to register."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-05-11 / 10:52",
+    "location": "messagestr.js:27:21",
+    "message": "You have 5999010 seconds to register."
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-05-11 / 10:52",
+    "location": "messageHandler.js:47:25",
+    "message": ""
   }
 ]

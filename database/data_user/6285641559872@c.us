@@ -11,9 +11,7 @@
     "afkfish": false,
     "statusRepeat": false,
     "reconnectTime": 0,
-    "autoReconnect": true,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "autoReconnect": false
   },
   {
     "blastsmp.xyz": {

@@ -10,9 +10,7 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "reconnectTime": 0,
-    "intervalIds": {},
-    "timeoutIds": {}
+    "reconnectTime": 0
   },
   {
     "<node3.gsicloudid.biz.id>": {

@@ -3,15 +3,15 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "blastsmp.xyz",
-    "username": "royalti",
+    "ip": "play.leviroz.xyz",
+    "username": "groxx",
     "statusRepeat": false,
     "reconnectTime": 0,
     "autorightclick": false,
     "autoleftclick": false,
     "afkfarm": false,
     "afkfish": false,
-    "autoReconnect": true,
+    "autoReconnect": false,
     "autocmd": [
       "/login ray123",
       "/server survivalrpg",
@@ -77,6 +77,19 @@
       "version": "1.20",
       "alt": [
         "royalti"
+      ],
+      "realUser": "groxx"
+    },
+    "mc.zenyland.com": {
+      "version": "1.20",
+      "alt": [
+        "groxx"
+      ]
+    },
+    "play.leviroz.xyz": {
+      "version": "1.20",
+      "alt": [
+        "groxx"
       ]
     }
   }
