@@ -37,6 +37,8 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
     if(!dataUser[1][ip].version) return chat.sendMessage(`Atur versi minecraft yang ingin kamu mainkan di server ${ dataUser[0].ip }. Kirim */setver <version>* untuk mengatur versi.\nContoh: /setver 1.20\n\nList Version:\n${ config.versions.join(', ') }`, { linkPreview: false })
     cekAlt(sender);
     
+    const filePathMap = `database/map/${ sender }`;
+    
     const bot = mineflayer.createBot({
         host: ip, 
         username: dataUser[0].username, 
@@ -45,7 +47,6 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
         "mapDownloader-outputDir": filePathMap
     })
 
-    const filePathMap = `database/map/${ sender }`;
 
     watcherDirMap = fs.watch(filePathMap, (eventType, filename) => {
             if (eventType === 'change') {
