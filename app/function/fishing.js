@@ -41,6 +41,8 @@ async function fishing(bot, msg, sender, arg) {
     async function startFishing () {
         clearTimeout(timer);
 
+        dataUser = readJSONFileSync(`./database/data_user/${ sender }`);
+
         if(!dataUser[0].afkfish) return
     
         try {
