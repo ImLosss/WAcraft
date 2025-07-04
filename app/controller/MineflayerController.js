@@ -51,6 +51,7 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
         "mapDownloader-outputDir": filePathMap
     })
 
+    bot.loadPlugin(mapDownloader)
 
     watcherDirMap = fs.watch(filePathMap, (eventType, filename) => {
             if (eventType === 'change') {
