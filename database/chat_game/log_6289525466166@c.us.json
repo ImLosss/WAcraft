@@ -166,5 +166,755 @@
     "date": "2025-03-09 / 14:23",
     "location": "messagestr.js:27:21",
     "message": "+                                +"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to AcidIsland-S3 now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "������ nowezki"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 20:27",
+    "location": "messagestr.js:27:21",
+    "message": "[۞] Flying is disabled in this world."
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-05 / 20:27",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd:inventory",
+    "date": "2025-07-05 / 20:42",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:inventory",
+    "date": "2025-07-05 / 23:00",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:afkfish",
+    "date": "2025-07-06 / 00:16",
+    "location": "messageHandler.js:47:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 00:17",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to AcidIsland-S3 now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "������ nowezki"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 03:14",
+    "location": "messagestr.js:27:21",
+    "message": "[۞] Flying is disabled in this world."
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 03:14",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 03:15",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:inventory",
+    "date": "2025-07-06 / 06:39",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 14:34",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 14:34",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 14:34",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 14:35",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 14:35",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:39",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:39",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:40",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:40",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:43",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:43",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:43",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:43",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:43",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:43",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to AcidIsland-S3 now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:44",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:44",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:44",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:44",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to AcidIsland-S3 now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are already logged!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to AcidIsland-S3 now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "You are in position 1 of 1. Estimated time: 5 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "🌑 nowezki"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:45",
+    "location": "messagestr.js:27:21",
+    "message": "[۞] Flying is disabled in this world."
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:45",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:45",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:afkfish",
+    "date": "2025-07-07 / 05:47",
+    "location": "messageHandler.js:47:25",
+    "message": "of"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-07 / 05:56",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 06:03",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 06:03",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 06:03",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 06:03",
+    "location": "messagestr.js:27:21",
+    "message": "You are now queued for AcidIsland-S3! You are in position 8 of 8.\nType /leavequeue or"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 06:03",
+    "location": "messagestr.js:27:21",
+    "message": "You are in position 8 of 9. Estimated time: 40 seconds"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-07 / 06:09",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "Sending you to AcidIsland-S3 now.."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "You are in position 1 of 1. Estimated time: 5 seconds"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:23",
+    "location": "messagestr.js:27:21",
+    "message": "[۞] Flying is disabled in this world."
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-08 / 20:23",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-08 / 20:23",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 04:53",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 04:53",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-09 / 16:58",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-09 / 16:58",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 03:07",
+    "location": "messagestr.js:27:21",
+    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 03:07",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 03:07",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 03:07",
+    "location": "messagestr.js:27:21",
+    "message": "You are now queued for AcidIsland-S3! You are in position 4 of 4.\nType /leavequeue or"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 03:07",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Unknown] Console » Saat Ini Lagi Dijual Exclusive Rank Dengan Diskon Besar-Besaran Sebesar 50% Untuk BuyRank, UpgradeRank, BuyKeys dan BuyTags Sampai Tanggal 6 Agustus 2025 Buat Yang Ingin Membelinya Silahkan Dm Ke Bot Donate WhatsApp : 0895352729100"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 03:07",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 03:07",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:53",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"Maintenance\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"Maintenance\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"Maintenance\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"Maintenance\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 14:52",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 14:52",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 06:02",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:14",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"color\":\"red\",\"text\":\"An internal error occurred in your connection.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:15",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:15",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:15",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:37",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:37",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:48",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"maintenance bentar\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"maintenance bentar\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"maintenance bentar\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"maintenance bentar\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:53",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:53",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:40",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:40",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:56",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:56",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:57",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:57",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:57",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:57",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 16:59",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"XetaGuard\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 16:59",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"XetaGuard\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-12 / 02:01",
+    "location": "messagestr.js:27:21",
+    "message": "XetaGuard » You are being verified. Please do not move; this is an automatic process."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-12 / 02:01",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"XetaGuard\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
   }
 ]

@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "username": "Xonezka",
-    "ip": "clarity-id.net",
+    "username": "nowezki",
+    "ip": "xetapixel.net",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
@@ -33,11 +33,10 @@
     "autoReconnect": false,
     "autocmd": [
       "/login pras2009",
+      "/acidisland",
       "/chat off",
-      "/server smp",
-      "/automsg 15",
-      "/afkarchery on",
-      "/server survival"
+      "/sit",
+      "/afkfish on"
     ],
     "reconnectTime": 0,
     "autoleftclick": false,
@@ -108,6 +107,13 @@
         "Klvv",
         "Xonezka"
       ]
+    },
+    "xetapixel.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "nowezki"
+      ],
+      "version": "1.20"
     }
   }
 ]

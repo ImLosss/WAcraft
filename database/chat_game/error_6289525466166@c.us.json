@@ -5,5 +5,152 @@
     "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
     "errorMessage": "getaddrinfo ENOTFOUND Tarvisuummc.mc-play.xyz",
     "error": "getaddrinfo ENOTFOUND Tarvisuummc.mc-play.xyz\nError: getaddrinfo ENOTFOUND Tarvisuummc.mc-play.xyz\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:39",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:40",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:41",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:42",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:42",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:42",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:43",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 05:44",
+    "errorLocation": "    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20",
+    "error": "Deserialization error for play.toClient : Read error for undefined : Invalid tag: 100 > 20\nError: Read error for undefined : Invalid tag: 100 > 20\n    at Object.compound (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:16:21)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4310:47)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1866:34)\n    at Object.packet_window_items (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1871:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4125:64)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)\n    at tryCatch (/root/hest/node_modules/protodef/src/utils.js:50:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 04:52",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 06:02",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 06:02",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-10 / 06:01",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-10 / 06:01",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-10 / 14:51",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 06:02",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 06:02",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:36",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:47",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 14:38",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 14:39",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 14:39",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
   }
 ]

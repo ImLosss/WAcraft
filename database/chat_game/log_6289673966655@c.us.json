@@ -1,230 +1,3002 @@
 [
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:52",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] Hi on Minecraft Server Network! Here you have useful commands:\n\n  » /unregister <password>\n  » /changepassword <current-password> <new-password>\n  » /createpassword <password>\n  » /premium <password>\n  » /cracked <password>\n  » /startsession\n  » /destroysession\n  » /changeemailaddress <password> <email-address>\n  » /recoverypassword <email-address>"
+    "message": "Server Total: $28,835,975.04"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:52",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You are already logged!"
+    "message": "1. Unknown_911, $2,320,773.50"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:53",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+    "message": "3. PyroBlaze27, $1,536,321"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:53",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+    "message": "4. rino, $1,385,715.90"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:54",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+    "message": "5. Lofaz, $1,276,173.50"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:54",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+    "message": "6. BestFract9020, $978,628.99"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:54",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You are already logged!"
+    "message": "7. SacRL, $798,397.50"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:55",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "Usage: /island coop <player-name>"
+    "message": "8. good_guyv3, $798,240"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:55",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "You don't have an island."
+    "message": "Type /balancetop 2 to read the next page."
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:55",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "+ Aseppp1 is connected. (Java)"
+    "message": "������ .Galaxy_Star8675"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:55",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "You don't have an island."
+    "message": "Top balances (7/5/25, 2:34 PM)"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:55",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "+ Algip is connected. (Java)"
+    "message": "9. Zinxxz, $781,400"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 06:55",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "You've been connected to lobby"
+    "message": "10. Hanzzz, $757,120"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 07:58",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "AlwiNation » You are not allowed to pvp here."
+    "message": "11. agziz, $713,952.50"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 07:58",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+    "message": "12. Rexxy, $712,480"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 07:58",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+    "message": "13. Arunika, $658,219.99"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 07:58",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+    "message": "14. Keniaaa, $623,995"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 08:02",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+    "message": "15. Vwzxo, $510,000"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 08:02",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+    "message": "16. Z0NK, $497,970"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 08:02",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+    "message": "17. .Onigiri2227, $497,205"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 08:02",
+    "date": "2025-07-05 / 22:34",
     "location": "messagestr.js:27:21",
-    "message": "AlwiNation » You are not allowed to pvp here."
+    "message": "Type /balancetop 3 to read the next page."
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 15:50",
+    "date": "2025-07-05 / 22:35",
     "location": "messagestr.js:27:21",
-    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+    "message": "[GC] [Unknown] Console » Saat Ini Lagi Ada Diskon Besar-Besaran Sebesar 50% Untuk BuyRank, UpgradeRank, BuyKeys dan BuyTags Sampai Tanggal 30 Juni 2025 Buat Yang Ingin Membelinya Silahkan Dm Ke Bot Donate WhatsApp : 0895352729100"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 15:50",
+    "date": "2025-07-05 / 22:35",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+    "message": "⚔ Trainee ⚔ London_ > Acc Skuys1"
   },
   {
     "type": "ingame",
-    "date": "2025-02-09 / 15:50",
+    "date": "2025-07-05 / 22:35",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+    "message": "⚔ Trainee ⚔ Byrtan > Acece Dmnzzz :v."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:35",
     "location": "messagestr.js:27:21",
-    "message": "[+] Zinxx"
+    "message": "⚔ Trainee ⚔ London_ > coop"
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "+                                +"
+    "message": "⚔ Trainee ⚔ Byrtan > Mana ketua yu yang ubin ubin gitu."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "Welcome, Zinxx to the server"
+    "message": "������ itakotnyeee"
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "WEBSITE www.claritynetwork.net"
+    "message": "⚔ Seneschal ⚔ Skuys1 > apa"
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "IP SERVER claritynetwork.net"
+    "message": "⚔ Trainee ⚔ London_ > ,/is coop biar bisa drop."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "DISCORD discord.gg/dVRd7mndQa"
+    "message": "⚔ Trainee ⚔ Byrtan > Dorong dia."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "+                                +"
+    "message": "⚔ Trainee ⚔ Byrtan > Pake air."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "[»] If you do not want to login next time, please execute:\n\n  » /premium <password> - if you have a premium launcher.\n  » /startsession - if you have a cracked launcher."
+    "message": "������ .Tegar1124Q"
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have an email address assigned to your account. Please assign it now using /changemailaddress <password> <email-address>!"
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Dia afk jir."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:51",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "[»] You still do not have second factor enabled on your account. Please enable it now using /requestsecondfactor!"
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Maksudnya apa ya Byrtan."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:53",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "Teleport request accepted."
+    "message": "⚔ Trainee ⚔ Byrtan > Biar yu mau jawab 1tzM3Anubiz :v."
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:53",
+    "date": "2025-07-05 / 22:36",
     "location": "messagestr.js:27:21",
-    "message": "Error: You do not have a pending request."
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Gitu ya ;-;"
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:53",
+    "date": "2025-07-05 / 22:37",
     "location": "messagestr.js:27:21",
-    "message": "To cancel this request, type /tpacancel."
+    "message": "������ anam23"
   },
   {
     "type": "ingame",
-    "date": "2025-02-22 / 14:53",
+    "date": "2025-07-05 / 22:37",
     "location": "messagestr.js:27:21",
-    "message": "lupa lagi cmd lands akwakw"
+    "message": "⚔ Trainee ⚔ liricaif > Ada yang open mic kah."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Ratnaa > a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Makanyahhh inpit akuh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ abidzargg > DirgaMC opmem?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "������ .Shakilll0405999"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ D > Engga."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Kalo lu join ga ancur kan island :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "liricaif died"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Apa lu mana32"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Lu ngeremehin kang builder 1tzM3Anubiz? :V."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ liricaif > Aku opm."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Santayy gwa buat cantik islandnya 1tzM3Anubiz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "������ cikaku"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "������ Kenwann"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:37",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Kirain gua :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "������ kocengkayang23"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": ".Shakilll0405999 died"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Gini aja."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Dmnzzz tengelamin lagi dung gamau dia."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Lu rajin mining aja Byrtan."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Gw dipecat nanti."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "adamrakaa has made the advancement [Suit Up]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > [Diamond Pickaxe] siap amanah."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": ".vndhkaa died"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Kagak akann bespren gwah itu Dmnzzz :V."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "cikaku burned to death"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Walau di irl gw lebih tua dri dia, tpi disini dia bos nya :-:"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "������ .Shakilll0405999"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Oh iya lupa, kan leader akun ItzMeAnubiz ������"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:38",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Emang yu umur berapah?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "������ Firzzazzaa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Tengelamin ajah Dmnzzz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > 19"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > 5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Tuaan abang gwah Dmnzzz :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Bntr gw make zalith dlu Byrtan."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Jgn pak bos marah besar."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "������ Arunika"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "3/71 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "KillerPit has made the advancement [Sweet Dreams]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "3/71 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Anak keknya butuh chest banyak kita :-:"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Minimal online 23 jam sih, kalo kurang 1 detik di kick Byrtan."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Ape lu."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:39",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > anam"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Auto correct bejir jadi anak."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "Zhilan1234plg has made the advancement [Acquire Hardware]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > apa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Ratnaa > Ikan bisa di jual ngga."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ abidzargg > Melody open member?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Butuh chest banyak, buat ore."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > bisa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Gwa tengelamin luh 1tzM3Anubiz luh aja kaga 23 jam apalagi team mu :V."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > [/ds qsell]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Kan 23 jam khusus lu doang Byrtan :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Ckp tw."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Bntr gw loginin ItzMeAnubiz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ abidzargg > [/is leave]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Opmeme yg mau masuk donatur 1m."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:40",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > ☺"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Dah lah, sebagai karyawan saya gk ikut campur masalah Byrtan sama icibos."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ abidzargg > :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "������ FrinzzOfficial"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "3/72 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Ratnaa > Ngga bisa ds sell."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Ds qsell."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ BestFract9020 > a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Geceh etdah beb 1tzM3Anubiz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ abidzargg > Damdam."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "4/72 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Jangan ds sell."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Ratnaa > ty"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "������ .Shakilll0405999"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Oh gini aja, lu login mole, terus gendong gw minimal kda ratingnya 7.0 Byrtan."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Justiciar ⚔ Z > 2x sell."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "Type: 2x Sell Multiplier"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "Duration: 2m"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "The value of every Generator drop"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:41",
+    "location": "messagestr.js:27:21",
+    "message": "has been increased by 2x (( /sell ))"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Wahahah bisa bisa gila aku 1tzM3Anubiz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Gimana, lebih gampang kan birtan :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "������ CasTosaL"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Anj 2x sell pas udh gw sell semua eek."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Justiciar ⚔ Z > Waduh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "������ XynZhura"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "������ liricaif"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > :V"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "Zhilan1234plg has made the advancement [Suit Up]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "Zhilan1234plg has made the advancement [Isn't It Iron Pick]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ 1tzM3Anubiz > Mati dah di mute dmnz, mana ada si itu ������"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Unknown] Console » Saat Ini Lagi Ada Diskon Besar-Besaran Sebesar 50% Untuk BuyRank, UpgradeRank, BuyKeys dan BuyTags Sampai Tanggal 30 Juni 2025 Buat Yang Ingin Membelinya Silahkan Dm Ke Bot Donate WhatsApp : 0895352729100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Ini gen siaap."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "������ SyafiqDiSini"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome SyafiqDiSini to the server!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Kesal kali loh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "London_ has made the advancement [Stone Age]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Udh jual baru mulai event 2x."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "4/72 players sleeping"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:42",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Mna kau."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "������ 1tzM3Anubiz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ XynZhura > Info yg opm."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > gua"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ abidzargg > Ada yang open member?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Saya opm."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "You are now AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "You are no longer AFK."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > 1 hari 1m ya."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ XynZhura > Invit wak."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > ☺"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Opm organisasi Papua mer."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ Layz_ > Oakwoawkokaw opm jir aokwoakw."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Perasaan kith ga opmem yah Dmnzzz mana23"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ XynZhura > Kebiasaan heheh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "Type: 2x Sell Multiplier"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:43",
+    "location": "messagestr.js:27:21",
+    "message": "The value of all drops are back to normal."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Mana 23 siapa woii."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Lah emng elu 1 is ama gw?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Lah lu kan mana23"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Anam23 coooo."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Ya 1 is lah meh main kita Dmnzzz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Mana belum join gt."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Sakit hati gua."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "������ ItzMeBarzz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome ItzMeBarzz to the server!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Nih gwa tag mana23"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ XynZhura > BLH gabung ga :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > -_-"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Ga boleh bebz XynZhura :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > kaga"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ XynZhura > Oky ☺"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Caranya gimana."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Ga bole nolak yang kasarr."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:44",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ rapz_yure > Byrtan punya cantelan nggak?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "������ TanayaBearReal"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ ItzalinaCans > Hansy."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Rapz_yure ngotak yahh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > gmn"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "������ ItzMeAnubiz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Nginvite."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "������ BestFract9020"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Pancingna gwa aja masi ini [Village > Rod] rapz_yure."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Hanzzz > apa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "������ liricaif"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > Ah gw ae lah."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > ItzMeAnubiz hasil gen lu gua jual ya."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > ohh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "ItzMeBarzz has made the advancement [Hot Stuff]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzMeAnubiz > I'm bak."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ rapz_yure > Sorry."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Sayang ga di jual x2"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Cara nolak yang bener tuh gini mana23"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzMeAnubiz > Pay gasi anam23 :v."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "������ liricaif"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > Udh gw invite CasTosaL."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > ItzMeAnubiz bebzz."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Ga buat hoper."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ rapz_yure > ItzMeAnubiz ada cantelan nggak?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Kgk bisa Error."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Kurang 500k lagi."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:45",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > coba"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzMeAnubiz > Engga ada, udh di trade rapz_yure."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzMeAnubiz > Welkam."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Yey Byrtan 1 is."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Kgk bisa."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Ada 500k ga lu pada."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "������ Firzzazzaa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Jadikan saya kaki kiri muh ItzMeUbin."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ rapz_yure > Ohh oke thanks y udah sempetin waktu buat jawab."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "������ Kanzut"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome Kanzut to the server!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Sorih yah yang namanya suka di jadiin yang lain soalnya akuh memang ginihh ahihihihi."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "������ marSTRONG"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome marSTRONG to the server!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "������ BestFract9020"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Xixixixi."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:46",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > ☠☠"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Betewe lu bantu dapatin adam pick kan soalnya kan ku yang mining ItzMeUbin."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ BestFract9020 > a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": ".vndhkaa died"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "XetaPixel > XynZhura Terima Kasih Telah Melakukan /vote Jangan Lupa Ambil /reward Untuk Fly Gratis Selama 30 Menit"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "Kanzut has made the advancement [Hot Stuff]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ BestFract9020 > Ada yg mau bli kait?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "marSTRONG has made the advancement [Hot Stuff]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > ohhh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Trainee ⚔ XenovForce ⚔ -XetaPixel- ⚔ > tes"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ London_ > Ada brp BestFract9020"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [AcidIsland-S3] ⚔ Seneschal ⚔ anam23 > ga masuk"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Awal mula ngapain."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ BestFract9020 > 1s"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Cara chat guild gmn ken."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > Sabar."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Ah buat guild dolo."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > udh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [EcoPvP] ⚔ Trainee ⚔ .Kingofvillage1 ⚔ -Ramadan- ⚔ > @.Frituaja: enak bet dieco ya bebas jarang ad admin"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ PyroBlaze27 > [/guild gc]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > Namanya apa."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ CasTosaL > a"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "������ .Shakilll0405999"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Bapakkau ⚔ KimBakSoo > bersama hysenet membangun jembatan"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:48",
+    "location": "messagestr.js:27:21",
+    "message": "������ .Shakilll0405999"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Trainee ⚔ XenovForce ⚔ -XetaPixel- ⚔ > kumat :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Woe bagi sign danzem."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Anubis Byrtan masukin guild."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Bapakkau ⚔ KimBakSoo > dikit lagi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Trainee ⚔ XenovForce ⚔ -XetaPixel- ⚔ > bjir :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ DmnzzzLgiGrinding > Bejir nama gw jadi danzem."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Bagi sign dimnom."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Unknown] Console » Saat Ini Lagi Ada Diskon Besar-Besaran Sebesar 50% Untuk BuyRank, UpgradeRank, BuyKeys dan BuyTags Sampai Tanggal 30 Juni 2025 Buat Yang Ingin Membelinya Silahkan Dm Ke Bot Donate WhatsApp : 0895352729100"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Bapakkau ⚔ KimBakSoo > enak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Ato dimnoz yah ndak tau deh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "Kanzut tried to swim in lava"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:49",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Trainee ⚔ XenovForce ⚔ -XetaPixel- ⚔ > aowkaowk mendalami jir"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [SkyBlock-S3] ⚔ Bapakkau ⚔ KimBakSoo > makasih xenov"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "Kanzut tried to swim in lava"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [AcidIsland-S3] ⚔ Seneschal ⚔ anam23 > sam sam"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [Hub-1] ⚔ Trainee ⚔ XenovForce ⚔ -XetaPixel- ⚔ > agak laen but yow :v"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [EcoPvP] ⚔ Trainee ⚔ .Kingofvillage1 ⚔ -Ramadan- ⚔ > kim gk boleh 18++"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "������ Kanzut"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [EcoPvP] ⚔ Trainee ⚔ .Kingofvillage1 ⚔ -Ramadan- ⚔ > kan kata lu enak"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [SkyBlock-S3] ⚔ Bapakkau ⚔ KimBakSoo > iya alfa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "Top balances (7/5/25, 2:50 PM)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "Server Total: $39,185,200.04"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "1. PyroBlaze27, $4,032,261"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "2. Unknown_911, $3,352,213.50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "3. Lofaz, $2,092,213.50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "5. rino, $1,385,715.90"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "6. Melody, $1,141,810"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "7. dhitra, $1,089,840"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "8. Furina, $1,054,710.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "Type /balancetop 2 to read the next page."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [SkyBlock-S3] ⚔ Bapakkau ⚔ KimBakSoo > enak bisa ketemu xenov lagi"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:50",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [SkyBlock-S3] ⚔ Bapakkau ⚔ KimBakSoo > walau bkn aku orang pertama buatnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "[GC] [SkyBlock-S3] ⚔ Bapakkau ⚔ KimBakSoo > setidaknya pengalaman ini adalah yang pertama buatnya"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Mau tau cara ampuh manggil ItzMeAnubiz ga dimsum."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "������ s2z_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "Welcome s2z_ to the server!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ NamKw > Yo s2z_"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": ".Shakilll0405999 has made the advancement [Suit Up]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": ".Shakilll0405999 has made the advancement [Isn't It Iron Pick]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "ItzMeBarzz has made the advancement [A Seedy Place]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "������ Kenwann"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "������ marSTRONG"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Byrtan > Tengelam lah kau bersama lautann."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "adamrakaa has made the advancement [Diamonds!]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-05 / 22:51",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzBuaya > We seleb semua."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "Top balances (7/5/25, 4:05 PM)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "Server Total: $40,610,080.57"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "1. Unknown_911, $3,348,733.50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "2. Lofaz, $3,047,713.50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "3. LoydMagenta, $2,276,862.49"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "5. Octagram, $1,617,990"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "6. BestFract9020, $1,488,378.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "7. rino, $1,260,715.90"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "8. agziz, $1,244,712.50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "Type /balancetop 2 to read the next page."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzBuaya > rapz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:06",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ Karochi > rapz"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ .Zeyy3288 > Yang punya pancingan minta dong yang normal ada gak?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "cikaku died"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzBuaya > Karochi."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "������ .Ryzonthunder"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:07",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "Top balances (7/5/25, 4:45 PM)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "Server Total: $42,463,148.07"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "1. Lofaz, $5,304,621"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "3. Unknown_911, $2,605,941"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "4. LoydMagenta, $1,862,962.49"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "5. Octagram, $1,787,699.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "6. SacRL, $1,632,315"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "7. BestFract9020, $1,488,378.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "8. agziz, $1,244,712.50"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "Type /balancetop 2 to read the next page."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ItzBuaya > Cuma 2"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 00:47",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 03:13",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 03:13",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 03:13",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 06:02",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 09:53",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 09:54",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 09:54",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 10:41",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 10:41",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 10:41",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 10:41",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 10:42",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 10:42",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 13:15",
+    "location": "messagestr.js:27:21",
+    "message": "Luminous is Shinoa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 13:15",
+    "location": "messagestr.js:27:21",
+    "message": "������ Loyd"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 13:15",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 14:04",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 14:05",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 14:05",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-06 / 15:38",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 15:38",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 15:38",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 15:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-06 / 15:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 15:43",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-06 / 15:43",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-07 / 05:51",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:52",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:52",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:52",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 05:52",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:58",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 05:58",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 09:45",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 09:46",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 09:46",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 09:47",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-07 / 15:22",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 15:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 15:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 15:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-07 / 15:23",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 15:26",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-07 / 15:26",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-08 / 06:01",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-08 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 11:23",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ PearlGate > Owh Oke🤣"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 11:23",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Zinxxz > Afk dia."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 11:23",
+    "location": "messagestr.js:27:21",
+    "message": "XetaGens > Tidak ada item yang bisa dijual!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 11:23",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:15",
+    "location": "messagestr.js:27:21",
+    "message": "Dimaspp hit the ground too hard whilst trying to escape Dimaspp"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:16",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Zinxxz > Bentar ya xders ku relog dulu."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:16",
+    "location": "messagestr.js:27:21",
+    "message": "Wolfky_gaming has made the advancement [Into Fire]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:16",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ IMREZZA > apa"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-08 / 20:16",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-09 / 06:02",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 06:03",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-09 / 12:23",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 12:23",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 12:24",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-09 / 12:27",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 12:27",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 12:28",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 12:46",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 12:47",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 18:48",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 18:48",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-09 / 21:30",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-09 / 21:30",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-09 / 21:31",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-09 / 21:31",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-09 / 21:31",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 21:34",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-09 / 21:34",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-10 / 01:29",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 01:29",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 01:29",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 01:30",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 01:30",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"[\"},{\"bold\":true,\"color\":\"red\",\"text\":\"»\"},{\"color\":\"dark_gray\",\"text\":\"] \"},{\"color\":\"gray\",\"text\":\"You are already online!\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 01:34",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 01:34",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 06:02",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "Don't forget to vote for us! You currently have 0 votes."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > Masih pagi atuh .TIMO7620"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Castellan ⚔ PearlGate > Ngpain Tuh Lead Dust 20s."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ .TIMO7620 > ooo"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ Zinxxz > Bentar kenwann mo login pake laptop."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ .TIMO7620 > Tpi yg on aj 99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:47",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > ha"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > oh"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Liege ⚔ Kenwann > Apa Hekkosajh."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "XetaGens > Tidak ada item yang bisa dijual!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Player rvg just won -Magistra- Crossbow from -Magistra- Crates!"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Event Ended"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Type: 1.5x Sell Multiplier"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Next Event In: 15m"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Now the value of sellable items go back to normal."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 07:48",
+    "location": "messagestr.js:27:21",
+    "message": ".shadowsolo163 has made the advancement [Hidden in the Depths]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:53",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"Maintenance\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"Maintenance\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-10 / 13:54",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 14:51",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-10 / 14:51",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 06:02",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "Top balances (7/10/25, 11:07 PM)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "Server Total: $3,635,027,268.59"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "1. Shinoa, $597,690,886.05"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "2. Unknown_911, $288,553,593.80"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "3. Zinxxz, $253,863,799.90"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "4. CantBother, $237,753,479.84"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "5. PixmenLeonard, $212,446,001.79"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "6. xders123, $206,688,641"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "7. Cacings, $109,463,274.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "8. Mancing, $98,074,369.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:07",
+    "location": "messagestr.js:27:21",
+    "message": "Type /balancetop 2 to read the next page."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:08",
+    "location": "messagestr.js:27:21",
+    "message": "Event Started"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:08",
+    "location": "messagestr.js:27:21",
+    "message": "Type: 2x Generator Upgrade"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:08",
+    "location": "messagestr.js:27:21",
+    "message": "Duration: 1m"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:08",
+    "location": "messagestr.js:27:21",
+    "message": "Now every generator will generate drop"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:08",
+    "location": "messagestr.js:27:21",
+    "message": "two tier above the current tier."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 07:08",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:15",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:15",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:37",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:37",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:48",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:48",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:49",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"color\":\"dark_gray\",\"text\":\"●▬▬▬▬\"},{\"bold\":true,\"color\":\"#BC1CFF\",\"text\":\"X\"},{\"bold\":true,\"color\":\"#A538FF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#8D54FF\",\"text\":\"t\"},{\"bold\":true,\"color\":\"#7670FF\",\"text\":\"a\"},{\"bold\":true,\"color\":\"#5E8BFF\",\"text\":\"P\"},{\"bold\":true,\"color\":\"#47A7FF\",\"text\":\"i\"},{\"bold\":true,\"color\":\"#2FC3FF\",\"text\":\"x\"},{\"bold\":true,\"color\":\"#18DFFF\",\"text\":\"e\"},{\"bold\":true,\"color\":\"#00FBFF\",\"text\":\"l\"},{\"color\":\"dark_gray\",\"text\":\"▬▬▬▬●\\n\\n\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\"maintenance bentar\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:53",
+    "location": "autocmd.js:84:25",
+    "message": "off"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-11 / 09:53",
+    "location": "autocmd.js:84:25",
+    "message": "5"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:53",
+    "location": "messagestr.js:27:21",
+    "message": "You do not have access to that command."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:53",
+    "location": "messagestr.js:27:21",
+    "message": "You are in position 30 of 34. Estimated time: 2m 30s"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 09:53",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown or incomplete command, see below for error\nchat off<--[HERE]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "Ordering balances of 8,825 users, please wait..."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "Top balances (7/11/25, 2:33 AM)"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "Server Total: $3,910,005,486.29"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "1. Shinoa, $597,690,886.05"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "2. Unknown_911, $288,548,593.80"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "3. PixmenLeonard, $268,688,491.79"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "4. Zinxxz, $253,863,799.90"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "5. CantBother, $237,753,479.84"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "6. xders123, $206,688,641"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "7. Mancing, $125,853,889.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "8. Cacings, $109,677,914.99"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:33",
+    "location": "messagestr.js:27:21",
+    "message": "Type /balancetop 2 to read the next page."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ FireV2 > Gtw .YanzV1 si Jackv2 yang tahu."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ Gojo_Satorou255 > @ilovemoney0484"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ .YanzV1 > Coop aku coba @FireV2"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ajojinggggg > Bg hek."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "Dfaalk has made the advancement [Acquire Hardware]"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ ajojinggggg > Minta ini dong."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ FireV2 > Gmn .YanzV1 tulis nya."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:34",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ Instagram > Ada didc xeta Gojo_Satorou255 ?"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:35",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ Gojo_Satorou255 > kaga"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:35",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Seneschal ⚔ Instagram > Masuk dc xeta dl ;;"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:35",
+    "location": "messagestr.js:27:21",
+    "message": "⚔ Trainee ⚔ .YanzV1 > @FireV2 /is coop .yanzv1"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 10:35",
+    "location": "messagestr.js:27:21",
+    "message": "Unknown command. Type \"/help\" for help."
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"text\":\"You are logging in too fast, try again later.\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:39",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:40",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:40",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:40",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:44",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:44",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:45",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 14:45",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"Sonar\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"False positive? \"}],\"text\":\"You are currently denied from entering the server.\\nPlease wait a few minutes to be able to join the server again.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 20:26",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"XetaGuard\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-11 / 20:27",
+    "location": "kicked.js:11:25",
+    "message": "Kicked: {\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"text\":\"XetaGuard\"},\"\\n\\n\",{\"color\":\"red\",\"extra\":[{\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\"https://jonesdev.xyz/discord/\\nIf you believe that this is an error, contact an administrator.\"}],\"text\":\"Need help logging in? \"}],\"text\":\"Please wait a few seconds before trying to verify again.\\n\"}],\"text\":\"You have failed the bot verification.\\n\"}],\"text\":\"\"}"
   }
 ]

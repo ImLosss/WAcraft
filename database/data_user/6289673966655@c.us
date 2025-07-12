@@ -3,43 +3,27 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "clarity-id.net",
-    "username": "Zinxx",
+    "ip": "xetapixel.net",
+    "username": "Zinxxz",
     "autorightclick": false,
     "afkfarm": false,
     "afkfish": false,
     "autocmd": [
       "/login pras2009",
       "/chat off",
-      "/server smp",
       "/acidisland",
-      "/automsg 5",
-      "/autoleftclick 1",
-      "/server skyblock"
+      "/automsg 5"
     ],
     "autoReconnect": false,
     "except": [
-      "xon",
-      "SHI",
       "Xonezka",
+      "vodkaz",
+      "2x sell",
       "Balance",
-      "PKI",
-      "sated",
-      "[XPBottle]",
-      "Your",
-      "W4R",
-      "added",
-      "EOD",
-      "WTB",
-      "sold",
-      "[TempFly]",
-      "received",
-      "[me",
-      "me]",
-      "[island]"
+      "2x Sell"
     ],
     "automsg": {
-      "message": "/xpbottle",
+      "message": "/sell",
       "status": false
     },
     "statusRepeat": false,
@@ -109,6 +93,13 @@
       "realUser": "Xonezka",
       "alt": [
         "Zinxx"
+      ],
+      "version": "1.20"
+    },
+    "xetapixel.net": {
+      "realUser": "Xonezka",
+      "alt": [
+        "Zinxxz"
       ],
       "version": "1.20"
     }

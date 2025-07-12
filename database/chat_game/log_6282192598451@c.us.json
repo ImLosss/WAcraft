@@ -2260,5 +2260,59 @@
     "date": "2025-07-04 / 08:25",
     "location": "messageHandler.js:47:25",
     "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-04 / 08:43",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are not registered!"
+  },
+  {
+    "type": "cmd",
+    "date": "2025-07-04 / 08:43",
+    "location": "autocmd.js:84:25",
+    "message": "on"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-04 / 08:45",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-04 / 08:46",
+    "location": "messagestr.js:27:21",
+    "message": "[»] A wrong password!"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-04 / 08:46",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-04 / 09:13",
+    "location": "messagestr.js:27:21",
+    "message": "[»] A wrong password!"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-04 / 09:13",
+    "location": "messageHandler.js:47:25",
+    "message": ""
+  },
+  {
+    "type": "ingame",
+    "date": "2025-07-04 / 09:13",
+    "location": "messagestr.js:27:21",
+    "message": "[»] You are not registered!"
+  },
+  {
+    "type": "cmd:dc",
+    "date": "2025-07-04 / 09:13",
+    "location": "messageHandler.js:47:25",
+    "message": ""
   }
 ]

@@ -1,37 +1,352 @@
 [
   {
     "type": "Error",
-    "date": "2025-02-15 / 20:27",
-    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
-    "errorMessage": "getaddrinfo ENOTFOUND 80.88.90.202:7000",
-    "error": "getaddrinfo ENOTFOUND 80.88.90.202:7000\nError: getaddrinfo ENOTFOUND 80.88.90.202:7000\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+    "date": "2025-07-04 / 16:25",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
   },
   {
     "type": "Error",
-    "date": "2025-02-15 / 20:31",
-    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
-    "errorMessage": "connect ETIMEDOUT 80.88.90.202:25565",
-    "error": "connect ETIMEDOUT 80.88.90.202:25565\nError: connect ETIMEDOUT 80.88.90.202:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+    "date": "2025-07-04 / 16:25",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
   },
   {
     "type": "Error",
-    "date": "2025-02-15 / 20:31",
-    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
-    "errorMessage": "connect ETIMEDOUT 80.88.90.202:25565",
-    "error": "connect ETIMEDOUT 80.88.90.202:25565\nError: connect ETIMEDOUT 80.88.90.202:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+    "date": "2025-07-04 / 16:26",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
   },
   {
     "type": "Error",
-    "date": "2025-02-15 / 20:32",
-    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)",
-    "errorMessage": "connect ETIMEDOUT 80.88.90.202:25565",
-    "error": "connect ETIMEDOUT 80.88.90.202:25565\nError: connect ETIMEDOUT 80.88.90.202:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)"
+    "date": "2025-07-04 / 16:27",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
   },
   {
     "type": "Error",
-    "date": "2025-02-15 / 20:48",
-    "errorLocation": "    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
-    "errorMessage": "getaddrinfo ENOTFOUND 80.88.90.202:7000",
-    "error": "getaddrinfo ENOTFOUND 80.88.90.202:7000\nError: getaddrinfo ENOTFOUND 80.88.90.202:7000\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)"
+    "date": "2025-07-04 / 16:27",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 16:30",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 16:31",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 16:35",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 16:35",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 16:37",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 16:48",
+    "errorLocation": "    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 1885696609\nError: Read error for undefined : array size is abnormally large, not reading: 1885696609\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4258:37)\n    at Object.list (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4267:9)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4309:39)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 17:39",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 19:20",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 20:23",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 21:06",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 21:37",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 21:45",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 22:26",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 22:45",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 22:48",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 22:56",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 23:38",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-04 / 23:43",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-05 / 00:54",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-05 / 01:28",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-05 / 01:58",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-05 / 13:51",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-05 / 20:13",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 09:45",
+    "errorLocation": "    at Object.byteArray (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4244:35)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 17434624",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 17434624\nError: Read error for undefined : array size is abnormally large, not reading: 17434624\n    at Object.byteArray (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4244:35)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4307:49)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3413:61)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3415:11)\n    at Object.packet_entity_equipment (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3420:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4197:72)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)\n    at e.message (/root/hest/node_modules/protodef/src/compiler.js:111:49)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 09:45",
+    "errorLocation": "    at Object.byteArray (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4244:35)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 17434624",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 17434624\nError: Read error for undefined : array size is abnormally large, not reading: 17434624\n    at Object.byteArray (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4244:35)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4307:49)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1082:47)\n    at Object.entityMetadataEntry (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1185:9)\n    at Object.entityMetadata (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1193:47)\n    at Object.packet_entity_metadata (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3388:73)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4194:70)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-07 / 09:46",
+    "errorLocation": "    at Object.byteArray (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4244:35)",
+    "errorMessage": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 17434624",
+    "error": "Deserialization error for play.toClient : Read error for undefined : array size is abnormally large, not reading: 17434624\nError: Read error for undefined : array size is abnormally large, not reading: 17434624\n    at Object.byteArray (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4244:35)\n    at Object.nbtSwitch (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4307:49)\n    at Object.anonymousNbt (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:77:64)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:136:56)\n    at Object.SlotComponent (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:729:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:748:49)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:753:15)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:771:13)\n    at Object.Slot (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:773:9)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1082:47)\n    at Object.entityMetadataEntry (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1185:9)\n    at Object.entityMetadata (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1193:47)\n    at Object.packet_entity_metadata (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:3388:73)\n    at eval (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4194:70)\n    at packet (eval at compile (/root/hest/node_modules/protodef/src/compiler.js:262:12), <anonymous>:4229:9)\n    at CompiledProtodef.read (/root/hest/node_modules/protodef/src/compiler.js:70:12)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-08 / 06:01",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 06:02",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 06:02",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)",
+    "errorMessage": "connect ECONNRESET 185.207.164.1:25565",
+    "error": "connect ECONNRESET 185.207.164.1:25565\nError: connect ECONNRESET 185.207.164.1:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 12:23",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 12:46",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-09 / 18:47",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-10 / 06:01",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-10 / 06:01",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)",
+    "errorMessage": "connect ECONNRESET 185.207.164.1:25565",
+    "error": "connect ECONNRESET 185.207.164.1:25565\nError: connect ECONNRESET 185.207.164.1:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-10 / 13:53",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)",
+    "errorMessage": "connect ECONNRESET 185.207.164.1:25565",
+    "error": "connect ECONNRESET 185.207.164.1:25565\nError: connect ECONNRESET 185.207.164.1:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 06:02",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 06:02",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:14",
+    "errorLocation": "    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)",
+    "errorMessage": "client timed out after 30000 milliseconds",
+    "error": "client timed out after 30000 milliseconds\nError: client timed out after 30000 milliseconds\n    at Timeout._onTimeout (/root/hest/node_modules/minecraft-protocol/src/client/keepalive.js:18:28)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:36",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:37",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:47",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 09:48",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 14:38",
+    "errorLocation": "    at afterWriteDispatched (node:internal/stream_base_commons:159:15)",
+    "errorMessage": "write ECONNRESET",
+    "error": "write ECONNRESET\nError: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:957:11)\n    at Socket._write (node:net:969:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Framer.ondata (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:705:22)\n    at Framer.emit (node:events:518:28)\n    at addChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:321:12)\n    at readableAddChunk (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:298:9)\n    at Readable.push (/root/hest/node_modules/readable-stream/lib/internal/streams/readable.js:244:10)\n    at Framer._transform (/root/hest/node_modules/minecraft-protocol/src/transforms/framing.js:20:10)\n    at Transform._write (/root/hest/node_modules/readable-stream/lib/internal/streams/transform.js:153:8)\n    at writeOrBuffer (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:334:12)\n    at _write (/root/hest/node_modules/readable-stream/lib/internal/streams/writable.js:283:10)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 14:39",
+    "errorLocation": "    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)",
+    "errorMessage": "connect ECONNRESET 185.207.164.1:25565",
+    "error": "connect ECONNRESET 185.207.164.1:25565\nError: connect ECONNRESET 185.207.164.1:25565\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)"
+  },
+  {
+    "type": "Error",
+    "date": "2025-07-11 / 14:44",
+    "errorLocation": "    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)",
+    "errorMessage": "read ECONNRESET",
+    "error": "read ECONNRESET\nError: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)"
   }
 ]

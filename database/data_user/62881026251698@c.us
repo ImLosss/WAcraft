@@ -3,8 +3,8 @@
     "chatPublic": true,
     "chatPrivate": true,
     "status": "offline",
-    "ip": "play.leviroz.xyz",
-    "username": "groxx",
+    "ip": "voltraz.xyz",
+    "username": "rayfanzzz",
     "statusRepeat": false,
     "reconnectTime": 0,
     "autorightclick": false,
@@ -91,6 +91,13 @@
       "alt": [
         "groxx"
       ]
+    },
+    "voltraz.xyz": {
+      "version": "1.20",
+      "alt": [
+        "groxx"
+      ],
+      "realUser": "rayfanzzz"
     }
   }
 ]

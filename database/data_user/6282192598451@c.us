@@ -41,13 +41,7 @@
     "afkfarm": false,
     "afkfish": false,
     "statusRepeat": false,
-    "autocmd": [
-      "/login 040103",
-      "/server survival",
-      "/dp",
-      "/dd",
-      "/afkfish on"
-    ],
+    "autocmd": [],
     "autoReconnect": false,
     "reconnectTime": 0,
     "autoleftclick": false,
@@ -172,7 +166,8 @@
     "play.xetapixel.net": {
       "realUser": "shenxxx",
       "alt": [
-        "Ned"
+        "Ned",
+        "London_"
       ],
       "version": "1.20"
     }
