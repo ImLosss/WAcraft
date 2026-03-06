@@ -48,7 +48,8 @@ const joinServer = withErrorHandling(async (msg, sender, client) => {
         username: dataUser[0].username, 
         auth: 'offline',
         version: dataUser[1][ip].version,
-        "mapDownloader-outputDir": filePathMap
+        "mapDownloader-outputDir": filePathMap,
+        physicsEnabled: false
     })
 
     bot.loadPlugin(mapDownloader)
