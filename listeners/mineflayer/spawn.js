@@ -6,7 +6,7 @@ const { startTimeoutDc, stopTimeoutDc } = require('function/timeout');
 
 module.exports = (function() {
     return function(bot, dirUser, msg, chat, sender, config) {
-        bot.once("spawn", () => {
+        bot.on("spawn", () => {
             console.log("Bot spawned, physics enabled");
             bot.physicsEnabled = true
         })
