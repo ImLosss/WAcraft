@@ -168,6 +168,8 @@ async function cekMember(client, sender) {
 
     for (let participant of chat.participants) {
         const contact = participant.id._serialized;
+        console.log(`contact: ${ contact }`);
+        console.log(`sender: ${ sender }`);
         if(contact == sender) return true;
     }
 

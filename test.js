@@ -8,14 +8,14 @@ const bot = mf.createBot({
 })
 
 bot._client.on("packet", (data, meta) => {
-  // console.log("Packet received:", JSON.stringify(data), "Meta:", meta);
+  if (meta.name === 'world_particles') return
 })
 bot.once("login", () => {
   console.log("Logged in as", bot.username);
   bot.chat(`/login 280112`)
   setTimeout(() => {
     console.log('sending command /server survival');
-    bot.chat('/server survival')
+    // bot.chat('/server survival')
   }, 3000);
 })
 
