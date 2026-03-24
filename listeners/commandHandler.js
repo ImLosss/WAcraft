@@ -50,6 +50,8 @@ module.exports = (function() {
 
             const chat = await msg.getChat();
 
+            console.log(chat);
+
             chat.sendSeen();
             client.sendPresenceAvailable();
 
