@@ -55,6 +55,8 @@ module.exports = (function() {
 
             const text = msg.body.toLowerCase() || '';
 
+            console.log(msg);
+
             let sender = msg.from;
 
             const dir_data_user = `./database/data_user/${ sender }`
