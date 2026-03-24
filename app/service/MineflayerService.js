@@ -167,6 +167,7 @@ async function cekMember(client, sender) {
     const chat = await client.getChatById("120363355816098681@g.us");
 
     for (let participant of chat.participants) {
+        console.log(participant);
         const contact = participant.id._serialized;
         // console.log(`contact: ${ contact }`);
         // console.log(`sender: ${ sender }`);
