@@ -55,9 +55,7 @@ module.exports = (function() {
 
             const text = msg.body.toLowerCase() || '';
 
-            console.log(chat);
-
-            let sender = msg.from;
+            let sender = chat._serialized;
 
             const dir_data_user = `./database/data_user/${ sender }`
 
