@@ -55,7 +55,7 @@ module.exports = (function() {
 
             const text = msg.body.toLowerCase() || '';
 
-            console.log(msg);
+            console.log(chat);
 
             let sender = msg.from;
 
